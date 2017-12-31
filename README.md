@@ -6,12 +6,11 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 
 # Unreal
 * master.oldunreal.com:27900
-master.hlkclan.net:27900
-master2.oldunreal.com:27900
-master.hypercoop.tk:27900
-master.newbiesplayground.net:27900
-master.errorist.tk:27900
-master.qtracker.com:27900
+* master.hlkclan.net:27900
+* master2.oldunreal.com:27900
+* master.hypercoop.tk:27900
+* master.newbiesplayground.net:27900
+* master.errorist.tk:27900
 
 # Unreal Tournament 99
 * unreal.epicgames.com:27900
