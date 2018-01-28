@@ -60,8 +60,12 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Hexon 2
-* thyrion.hexenworld.org:27900
+# HeXen II
+http://hexenworld.org/hexen2
+
+# HeXenWorld
+thyrion.hexenworld.org:27900
+
 
 # Rune
 * master.333networks.com:27900
