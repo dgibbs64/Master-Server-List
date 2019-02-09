@@ -41,6 +41,12 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * dpmaster.deathmask.net:27950
 * master.maverickservers.com:27950
 
+# Return to Castle Wolfenstien
+* wolfmaster.idsoftware.com
+* dpmaster.deathmask.net
+* wolfmaster.s4ndmod.com
+* wolfmaster.rtcwmp.com 
+
 # Wolfenstien: Enemy Territory
 * master.idsoftware.com
 * master0.etmaster.net
