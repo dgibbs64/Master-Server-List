@@ -113,3 +113,8 @@ thyrion.hexenworld.org:27900
 # Star Trek: Elite Force II
 * ef2master.activision.com
 * ef2master.sfu-server.de
+
+# Iron Storm
+* gsm.qtracker.com
+* master.333networks.com
+* master.errorist.tk
