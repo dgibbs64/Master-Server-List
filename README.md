@@ -1,8 +1,8 @@
 # Master Server List
 
-Since gamespy servers went offline May 2014 there have been many master servers popping up to ensure that multiplayer games still run. Some being a complete replacement and others supplementing official master servers. I have created a simple repo to just these master servers to allow you to update server and client configs allowing your server to be listed and clients to see the list.
+Since gamespy servers went offline May 2014 there have been many master servers popping up to ensure that multiplayer games still run. Some being a complete replacement and others supplementing official master servers. I have created a simple repo to list these master servers to allow you to update server and client configs allowing your server to be listed and clients to see the list.
 
-> Note this repo is new and missing content. If you have anything to add or change to this repo please create a pull request.
+> If you have anything to add or change to this repo please create a pull request.
 
 # Unreal
 * master.oldunreal.com:27900
