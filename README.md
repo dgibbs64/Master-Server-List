@@ -4,7 +4,7 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 
 > If you have anything to add or change to this repo please create a pull request.
 
-# Unreal
+## Unreal
 * master.oldunreal.com:27900
 * master.hlkclan.net:27900
 * master2.oldunreal.com:27900
@@ -12,7 +12,7 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * master.newbiesplayground.net:27900
 * master.errorist.tk:27900
 
-# Unreal Tournament 99
+## Unreal Tournament 99
 * unreal.epicgames.com:27900
 * master.333networks.com:27900
 * master.errorist.tk:27900
@@ -22,99 +22,92 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * master.mplayer.com:27900
 * master.noccer.de:27900
 
-# Unreal Tournament 2004
+## Unreal Tournament 2004
 * ut2004master1.epicgames.com:28902
 * ut2004master2.epicgames.com:28902
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net: 27900
 
-# Quake 2
+## Quake 2
 * master.q2servers.com:27900
 * master.quakeservers.net:27900
 * netdome.biz:27900
 
-# Quake 3
+## Quake 3
 * master3.idsoftware.com
 * master.ioquake3.org:27950
 * master0.excessiveplus.net:27950
 * dpmaster.deathmask.net:27950
 * master.maverickservers.com:27950
 
-# Return to Castle Wolfenstien
+## Return to Castle Wolfenstien
 * wolfmaster.idsoftware.com
 * dpmaster.deathmask.net
 * wolfmaster.s4ndmod.com
 * wolfmaster.rtcwmp.com 
 
-# Wolfenstien: Enemy Territory
+## Wolfenstien: Enemy Territory
 * master.idsoftware.com
 * master0.etmaster.net
 * master3.idsoftware.com
 * wolfmaster.idsoftware.com
 * master3.idsoftware.com:27900
 
-# Deus Ex
+## Deus Ex
 * master.deusexnetwork.com
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Heretic II
+## Heretic II
 * thyrion.hexenworld.org:27900
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# HeXen II
+## HeXen II
 http://hexenworld.org/hexen2
 
-# HeXenWorld
+## HeXenWorld
 thyrion.hexenworld.org:27900
 
-
-# Rune
+## Rune
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Soldier of Fortune
+## Soldier of Fortune
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Soldier of Fortune II
+## Soldier of Fortune II
 * master.1fxmod.org
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Battlefield 1942
-* master.bf1942.sk
+## Serious Sam
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Serious Sam
+## Serious Sam: Second Encounter
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Serious Sam: Second Encounter
+## Wheel of Time
 * master.333networks.com:27900
 * master.errorist.tk:27900
 * master.newbiesplayground.net:27900
 
-# Wheel of Time
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.newbiesplayground.net:27900
-
-# Star Trek: Elite Force II
+## Star Trek: Elite Force II
 * ef2master.activision.com
 * ef2master.sfu-server.de
 
-# Iron Storm
+## Iron Storm
 * gsm.qtracker.com
 * master.333networks.com
 * master.errorist.tk
