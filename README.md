@@ -11,11 +11,13 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * master.hypercoop.tk:27900
 * master.newbiesplayground.net:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 
 ## Unreal Tournament 99
 * unreal.epicgames.com:27900
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 * master.oldunreal.com:27900
 * master2.oldunreal.com:27900
@@ -27,6 +29,7 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * ut2004master2.epicgames.com:28902
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net: 27900
 
 ## Quake 2
@@ -58,12 +61,14 @@ Since gamespy servers went offline May 2014 there have been many master servers 
 * master.deusexnetwork.com
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Heretic II
 * thyrion.hexenworld.org:27900
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## HeXen II
@@ -75,32 +80,38 @@ thyrion.hexenworld.org:27900
 ## Rune
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Soldier of Fortune
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Soldier of Fortune II
 * master.1fxmod.org
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Serious Sam
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Serious Sam: Second Encounter
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Wheel of Time
 * master.333networks.com:27900
 * master.errorist.tk:27900
+* master.gonespy.com:27900
 * master.newbiesplayground.net:27900
 
 ## Star Trek: Elite Force II
@@ -111,3 +122,4 @@ thyrion.hexenworld.org:27900
 * gsm.qtracker.com
 * master.333networks.com
 * master.errorist.tk
+* master.gonespy.com:27900
