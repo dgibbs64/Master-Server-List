@@ -16,7 +16,7 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked daily. Live status is at https://dgibbs64.github.io/Master-Server-List/. This README is updated when a status changes.
+Every master server is checked daily. Live status is at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes.
 
 | Status | Meaning |
 |---|---|
