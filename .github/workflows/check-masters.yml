@@ -27,9 +27,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Install netcat
+      - name: Install netcat and gawk
         if: github.event_name != 'push'
-        run: sudo apt-get install -y netcat-openbsd
+        run: sudo apt-get install -y netcat-openbsd gawk
 
       - name: Check master servers
         if: github.event_name != 'push'
@@ -39,7 +39,7 @@ jobs:
         if: github.event_name != 'push'
         run: |
           statuses() {
-            jq -S 'del(.checked) | .games[].masters[] |= del(.last_seen)' "$1"
+            jq -S 'del(.checked) | .games[].masters[] |= del(.last_seen, .servers)' "$1"
           }
           if diff -q <(git show HEAD:servers.json | statuses /dev/stdin) <(statuses servers.json) >/dev/null; then
             echo "No status changes"

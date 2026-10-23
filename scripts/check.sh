@@ -3,6 +3,9 @@ set -euo pipefail
 
 file="${1:-servers.json}"
 today="$(date -u +%F)"
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+reply="$(mktemp)"
+trap 'rm -f "${reply}"' EXIT
 
 resolves() {
 	local addr
@@ -10,52 +13,132 @@ resolves() {
 	[[ -n "${addr}" && "${addr}" != "0.0.0.0" ]]
 }
 
-udp_responds() {
-	local host="$1" port="$2" payload="$3" bytes
-	bytes="$(printf '%b' "${payload}" | timeout 6 nc -u -w 4 "${host}" "${port}" 2>/dev/null | wc -c)" || true
-	((bytes > 0))
+udp_query() {
+	printf '%b' "$3" | timeout 8 nc -u -w 3 "$1" "$2" >"${reply}" 2>/dev/null || true
+	[[ -s "${reply}" ]]
+}
+
+reply_bytes() {
+	od -An -v -tu1 "${reply}" | tr -s ' \n' '\n' | sed '/^$/d'
+}
+
+int32le() {
+	printf '\\x%02x\\x%02x\\x%02x\\x%02x' $(($1 & 255)) $((($1 >> 8) & 255)) $((($1 >> 16) & 255)) $((($1 >> 24) & 255))
+}
+
+count_getservers() {
+	reply_bytes | awk '{ b[NR] = $1 } END {
+		c = 0
+		for (i = 1; i <= NR; i++) {
+			if (b[i] != 92) continue
+			if (b[i + 1] == 69 && b[i + 2] == 79 && (b[i + 3] == 84 || b[i + 3] == 70)) { i += 3; continue }
+			if (i + 6 <= NR) { c++; i += 6 }
+		}
+		print c
+	}'
+}
+
+count_packed() {
+	reply_bytes | awk -v hlen="$1" '{ b[NR] = $1 } END {
+		headers = 0
+		for (i = 1; i + 3 <= NR; i++) if (b[i] == 255 && b[i + 1] == 255 && b[i + 2] == 255 && b[i + 3] == 255) { headers++; i += 3 }
+		if (headers == 0) headers = 1
+		print int((NR - headers * hlen) / 6)
+	}'
+}
+
+count_zandronum() {
+	reply_bytes | awk '{ b[NR] = $1 } END {
+		c = 0; i = 1
+		while (i <= NR) {
+			if (b[i] == 255 && b[i + 1] == 6 && b[i + 2] == 0 && b[i + 3] == 0 && b[i + 4] == 0 && b[i + 6] == 8) {
+				i += 7
+				while (i <= NR && b[i] != 0) { n = b[i]; c += n; i += 1 + 4 + n * 2 }
+			}
+			i++
+		}
+		print c
+	}'
+}
+
+count_odamex() {
+	reply_bytes | awk 'NR == 5 { lo = $1 } NR == 6 { hi = $1 } END { print lo + hi * 256 }'
+}
+
+count_chocolatedoom() {
+	reply_bytes | awk 'NR > 2 && $1 == 0 { c++ } END { print c + 0 }'
+}
+
+probe_once() {
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" count
+	case "${type}" in
+		tcp)
+			timeout 5 bash -c "exec 3<>/dev/tcp/${host}/${port}" 2>/dev/null && echo "online|"
+			;;
+		gamespy)
+			if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" 2>/dev/null)"; then
+				echo "online|${count}"
+			fi
+			;;
+		getservers)
+			udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && echo "online|$(count_getservers)"
+			;;
+		q2query)
+			udp_query "${host}" "${port}" "query" && echo "online|$(count_packed 12)"
+			;;
+		qwquery)
+			udp_query "${host}" "${port}" "c\n" && echo "online|$(count_packed 6)"
+			;;
+		idtech4)
+			udp_query "${host}" "${port}" "\xff\xffgetServers\x00$(int32le "${protocol}")\x00\x00\x00\x00" && echo "online|$(count_packed 10)"
+			;;
+		zandronum)
+			udp_query "${host}" "${port}" "\xff\x7c\x5d\x56\x00\x02\x00" && echo "online|$(count_zandronum)"
+			;;
+		odamex)
+			udp_query "${host}" "${port}" "\xa3\xdb\x0b\x00" && echo "online|$(count_odamex)"
+			;;
+		chocolatedoom)
+			udp_query "${host}" "${port}" "\x00\x02" && echo "online|$(count_chocolatedoom)"
+			;;
+	esac
+	return 0
 }
 
 probe() {
-	local host="$1" type="$2" port="$3" game="$4" protocol="$5"
+	local host="$1" type="$2" result attempt
 	if ! resolves "${host}"; then
-		echo "no-dns"
+		echo "no-dns|"
 		return
 	fi
 	if [[ "${type}" == "dns" ]]; then
-		echo "dns-only"
+		echo "dns-only|"
 		return
 	fi
-	for _ in 1 2; do
-		case "${type}" in
-			tcp)
-				timeout 5 bash -c "exec 3<>/dev/tcp/${host}/${port}" 2>/dev/null && echo "online" && return
-				;;
-			getservers)
-				udp_responds "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} empty full" && echo "online" && return
-				;;
-			q2query)
-				udp_responds "${host}" "${port}" "query" && echo "online" && return
-				;;
-			qwquery)
-				udp_responds "${host}" "${port}" "c\n" && echo "online" && return
-				;;
-		esac
+	for attempt in 1 2 3; do
+		result="$(probe_once "$@")"
+		if [[ -n "${result}" ]]; then
+			echo "${result}"
+			return
+		fi
+		[[ "${attempt}" -lt 3 ]] && sleep $((attempt * 3))
 	done
-	echo "no-response"
+	echo "no-response|"
 }
 
 results='{}'
-while IFS='|' read -r host type port game protocol; do
-	status="$(probe "${host}" "${type}" "${port}" "${game}" "${protocol}")"
-	printf '%-12s %s\n' "${status}" "${host} ${type} ${port} ${game} ${protocol}" >&2
-	results="$(jq --arg k "${host}|${type}|${port}|${game}|${protocol}" --arg s "${status}" '. + {($k): $s}' <<<"${results}")"
-done < <(jq -r '[.games[].masters[] | [.host, .probe.type, (.probe.port // ""), (.probe.game // ""), (.probe.protocol // "")] | map(tostring) | join("|")] | unique[]' "${file}")
+while IFS='|' read -r host type port game protocol gamename key; do
+	IFS='|' read -r status servers < <(probe "${host}" "${type}" "${port}" "${game}" "${protocol}" "${gamename}" "${key}")
+	printf '%-12s %6s  %s\n' "${status}" "${servers}" "${host} ${type} ${port} ${game}${gamename} ${protocol}" >&2
+	results="$(jq --arg k "${host}|${type}|${port}|${game}|${protocol}|${gamename}|${key}" --arg s "${status}" --arg n "${servers}" '. + {($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end)}}' <<<"${results}")"
+done < <(jq -r '[.games[].masters[] | [.host, .probe.type, (.probe.port // ""), (.probe.game // ""), (.probe.protocol // ""), (.probe.gamename // ""), (.probe.key // "")] | map(tostring) | join("|")] | unique[]' "${file}")
 
 jq --argjson results "${results}" --arg today "${today}" '
 	.checked = $today
 	| .games[].masters[] |= (
-		.status = $results["\(.host)|\(.probe.type)|\(.probe.port // "")|\(.probe.game // "")|\(.probe.protocol // "")"]
+		$results["\(.host)|\(.probe.type)|\(.probe.port // "")|\(.probe.game // "")|\(.probe.protocol // "")|\(.probe.gamename // "")|\(.probe.key // "")"] as $r
+		| .status = $r.status
+		| .servers = $r.servers
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)
 	)' "${file}" >"${file}.tmp"
 mv "${file}.tmp" "${file}"
