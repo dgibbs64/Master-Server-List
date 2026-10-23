@@ -16,7 +16,7 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked daily. Live status is at https://dgibbs64.github.io/Master-Server-List/. This README is updated when a status changes.
+Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://dgibbs64.github.io/Master-Server-List/. This README is updated when a status changes, so its server counts are from that day.
 
 | Status | Meaning |
 |---|---|
@@ -38,9 +38,9 @@ EOF
 			| "## \(.name)\n",
 			(if .notes then "\(.notes)\n" else empty end),
 			(if (.masters | length) > 0 then
-				"| Master server | Status | Last seen |",
-				"|---|---|---|",
-				(.masters | sort_by(.status | status_rank)[] | "| `\(.host)\(if .port then ":\(.port)" else "" end)` | \(.status | status_label) | \(.last_seen // "Never") |"),
+				"| Master server | Status | Servers | Last seen |",
+				"|---|---|---|---|",
+				(.masters | sort_by([(.status | status_rank), -(.servers // -1)])[] | "| `\(.host)\(if .port then ":\(.port)" else "" end)` | \(.status | status_label) | \(.servers // "-") | \(.last_seen // "Never") |"),
 				""
 			else empty end))
 	' "${file}" | sed '$ { /^$/d }'

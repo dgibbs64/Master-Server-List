@@ -17,7 +17,7 @@ jobs:
         run: shellcheck scripts/*.sh
 
       - name: Validate servers.json
-        run: jq -e '.games | type == "array" and all(.[]; (.name | type == "string") and all(.masters[]; (.host | type == "string") and (.probe.type | IN("tcp", "getservers", "q2query", "qwquery", "dns"))))' servers.json
+        run: jq -e '.games | type == "array" and all(.[]; (.name | type == "string") and all(.masters[]; (.host | type == "string") and (.probe.type | IN("tcp", "gamespy", "getservers", "q2query", "qwquery", "idtech4", "zandronum", "odamex", "chocolatedoom", "dns"))))' servers.json
 
       - name: Check README is up to date
         run: |
