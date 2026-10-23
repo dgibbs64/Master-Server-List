@@ -16,7 +16,7 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked monthly by a scheduled workflow.
+Every master server is checked daily. Live status is at https://dgibbs64.github.io/Master-Server-List/. This README is updated when a status changes.
 
 | Status | Meaning |
 |---|---|
@@ -30,7 +30,7 @@ EOF
 		def status_label: {"online": "✅ Online", "dns-only": "❔ DNS only", "no-response": "⚠️ No response", "no-dns": "❌ No DNS"}[. // ""] // "Unchecked";
 		def status_rank: {"online": 0, "dns-only": 1, "no-response": 2, "no-dns": 3}[. // ""] // 4;
 		def anchor: ascii_downcase | gsub("[^a-z0-9 -]"; "") | gsub(" "; "-");
-		"Last checked: \(.checked // "never")\n",
+		"Status as of: \(.checked // "never")\n",
 		"## Games\n",
 		(.games[] | "- [\(.name)](#\(.name | anchor))"),
 		"",
