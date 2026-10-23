@@ -4,209 +4,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Master Server List</title>
-<meta name="description" content="Community master servers for classic multiplayer games, checked daily.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://ismygameserver.online/masters">
+<script>
+	(function () {
+		var slug = location.hash.replace(/^#/, "").replace(/[^a-z0-9-]/g, "");
+		location.replace("https://ismygameserver.online/masters" + (slug ? "/" + slug : ""));
+	})();
+</script>
+<meta http-equiv="refresh" content="0; url=https://ismygameserver.online/masters">
 <style>
 :root {
 	--bg: #f7f7f5;
-	--surface: #ffffff;
 	--text: #1c1c1a;
-	--muted: #66665f;
-	--border: #e2e1dc;
 	--accent: #2456c7;
-	--online: #1f5fbf;
-	--online-bg: #e6eefb;
-	--dns: #5c5c56;
-	--dns-bg: #ececea;
-	--warn: #9a5800;
-	--warn-bg: #fdf0dc;
-	--dead: #7a2e8c;
-	--dead-bg: #f4e8f7;
 	color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
 		--bg: #141413;
-		--surface: #1d1d1b;
 		--text: #ecebe6;
-		--muted: #a3a29b;
-		--border: #33332f;
 		--accent: #7fa6ff;
-		--online: #8fb4ff;
-		--online-bg: #1c2a44;
-		--dns: #b9b8b0;
-		--dns-bg: #2a2a27;
-		--warn: #f2b45c;
-		--warn-bg: #3a2a12;
-		--dead: #d79ce6;
-		--dead-bg: #33213a;
 		color-scheme: dark;
 	}
 }
-* { box-sizing: border-box; }
 body {
 	margin: 0;
+	padding: 48px 16px;
 	background: var(--bg);
 	color: var(--text);
 	font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-main { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
-header h1 { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.01em; }
-header p { margin: 0; color: var(--muted); max-width: 680px; }
-header p.cta { margin-top: 8px; color: var(--text); }
 a { color: var(--accent); }
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin: 24px 0; }
-.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
-.stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
-.stat span { color: var(--muted); font-size: 13px; }
-.controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 16px; }
-.controls input[type=search] {
-	flex: 1 1 260px; padding: 9px 12px; font: inherit; color: var(--text);
-	background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
-}
-.controls label { color: var(--muted); font-size: 14px; display: flex; gap: 6px; align-items: center; }
-.meta { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
-.game { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 12px; overflow: hidden; }
-.game h2 { margin: 0; padding: 12px 16px; font-size: 16px; display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--border); }
-.game h2 a { color: inherit; text-decoration: none; }
-.game h2 small { color: var(--muted); font-weight: normal; font-size: 13px; white-space: nowrap; }
-.notes { margin: 0; padding: 10px 16px 0; color: var(--muted); font-size: 14px; }
-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
-col.c-status { width: 150px; }
-col.c-seen { width: 150px; }
-td { padding: 8px 16px; border-top: 1px solid var(--border); vertical-align: middle; }
-tr:first-child td { border-top: 0; }
-td.addr { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; word-break: break-all; }
-td.seen { color: var(--muted); font-size: 13px; white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
-.pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 13px; white-space: nowrap; }
-.s-online { color: var(--online); background: var(--online-bg); }
-.s-dns-only, .s-unchecked { color: var(--dns); background: var(--dns-bg); }
-.s-no-response { color: var(--warn); background: var(--warn-bg); }
-.s-no-dns { color: var(--dead); background: var(--dead-bg); }
-button.copy {
-	margin-left: 8px; padding: 1px 8px; font: inherit; font-size: 12px; cursor: pointer;
-	color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 6px;
-}
-button.copy:hover { color: var(--text); }
-.empty { color: var(--muted); text-align: center; padding: 32px 0; }
-footer { margin-top: 32px; color: var(--muted); font-size: 13px; }
-@media (max-width: 560px) {
-	table, tbody, tr, td { display: block; }
-	tr { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 10px 12px; border-top: 1px solid var(--border); }
-	tr:first-child { border-top: 0; }
-	td { padding: 0; border-top: 0; }
-	td.addr { flex: 1 1 100%; word-break: normal; overflow-wrap: anywhere; }
-	td.seen { text-align: left; }
-	.notes { padding: 10px 12px 0; }
-	.game h2 { padding: 12px; }
-}
 </style>
 </head>
 <body>
-<main>
-	<header>
-		<h1>Master Server List</h1>
-		<p>Community master servers that keep classic multiplayer games listed after GameSpy and the original publisher masters went offline. Every master is probed daily with its own protocol.</p>
-		<p class="cta">Is your server up and listed? Check it on <a href="https://ismygameserver.online">ismygameserver.online</a>.</p>
-	</header>
-
-	<section class="stats" id="stats" aria-label="Summary"></section>
-
-	<div class="controls">
-		<input type="search" id="q" placeholder="Search games or hostnames" aria-label="Search games or hostnames">
-		<label><input type="checkbox" id="online"> Online only</label>
-	</div>
-	<p class="meta" id="meta">Loading…</p>
-
-	<div id="games"></div>
-
-	<footer>
-		Status meanings: ✅ Online answered a master server query. ❔ DNS only resolves, but there is no query check for its protocol yet. ⚠️ No response resolves but did not answer. ❌ No DNS no longer resolves.
-		<br>Data: <a href="servers.json">servers.json</a>. To add or fix a master, open a pull request on <a href="https://github.com/dgibbs64/Master-Server-List">GitHub</a>.
-	</footer>
-</main>
-<script>
-const LABELS = {
-	"online": "✅ Online",
-	"dns-only": "❔ DNS only",
-	"no-response": "⚠️ No response",
-	"no-dns": "❌ No DNS"
-};
-const RANK = { "online": 0, "dns-only": 1, "no-response": 2, "no-dns": 3 };
-
-const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const slug = (s) => s.toLowerCase().replace(/[^a-z0-9 -]/g, "").replace(/ /g, "-");
-const addr = (m) => m.port ? `${m.host}:${m.port}` : m.host;
-
-let data = null;
-
-function render() {
-	const q = document.getElementById("q").value.trim().toLowerCase();
-	const onlineOnly = document.getElementById("online").checked;
-	const out = [];
-	for (const game of data.games) {
-		const gameHit = game.name.toLowerCase().includes(q);
-		const masters = game.masters
-			.filter((m) => !onlineOnly || m.status === "online")
-			.filter((m) => !q || gameHit || m.host.toLowerCase().includes(q))
-			.sort((a, b) => (RANK[a.status] ?? 4) - (RANK[b.status] ?? 4));
-		if (!masters.length && !(game.notes && !onlineOnly && gameHit)) continue;
-		const up = game.masters.filter((m) => m.status === "online").length;
-		const rows = masters.map((m) => {
-			const s = m.status || "unchecked";
-			return `<tr>
-				<td class="addr">${esc(addr(m))}<button class="copy" data-copy="${esc(addr(m))}" aria-label="Copy ${esc(addr(m))}">Copy</button></td>
-				<td><span class="pill s-${esc(s)}">${LABELS[s] || "Unchecked"}</span></td>
-				<td class="seen">${m.last_seen ? "Seen " + esc(m.last_seen) : "Never seen"}</td>
-			</tr>`;
-		}).join("");
-		out.push(`<section class="game" id="${slug(game.name)}">
-			<h2><a href="#${slug(game.name)}">${esc(game.name)}</a><small>${up} of ${game.masters.length} online</small></h2>
-			${game.notes ? `<p class="notes">${esc(game.notes)}</p>` : ""}
-			${rows ? `<table><colgroup><col><col class="c-status"><col class="c-seen"></colgroup>${rows}</table>` : ""}
-		</section>`);
-	}
-	document.getElementById("games").innerHTML = out.join("") || `<p class="empty">No matches.</p>`;
-}
-
-function stats() {
-	const all = data.games.flatMap((g) => g.masters);
-	const unique = new Map(all.map((m) => [m.host, m.status]));
-	const count = (s) => [...unique.values()].filter((v) => v === s).length;
-	const tiles = [
-		[data.games.length, "games"],
-		[unique.size, "master hostnames"],
-		[count("online"), "✅ online"],
-		[count("no-response") + count("no-dns"), "⚠️ / ❌ down"]
-	];
-	document.getElementById("stats").innerHTML = tiles.map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
-	document.getElementById("meta").textContent = `Last checked ${data.checked || "never"} (UTC).`;
-}
-
-document.addEventListener("click", async (e) => {
-	const btn = e.target.closest("button.copy");
-	if (!btn) return;
-	try {
-		await navigator.clipboard.writeText(btn.dataset.copy);
-		btn.textContent = "Copied";
-	} catch {
-		btn.textContent = "Copy failed";
-	}
-	setTimeout(() => { btn.textContent = "Copy"; }, 1500);
-});
-
-fetch("servers.json", { cache: "no-cache" })
-	.then((r) => r.json())
-	.then((json) => {
-		data = json;
-		stats();
-		render();
-		document.getElementById("q").addEventListener("input", render);
-		document.getElementById("online").addEventListener("change", render);
-		if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
-	})
-	.catch(() => {
-		document.getElementById("meta").textContent = "Could not load servers.json.";
-	});
-</script>
+	<p>The Master Server List has moved to <a href="https://ismygameserver.online/masters">ismygameserver.online/masters</a>.</p>
+	<p>The data is still published here as <a href="servers.json">servers.json</a>.</p>
 </body>
 </html>
