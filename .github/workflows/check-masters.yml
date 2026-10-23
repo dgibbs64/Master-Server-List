@@ -2,11 +2,24 @@ name: Check master servers
 
 on:
   schedule:
-    - cron: "0 6 1 * *"
+    - cron: "0 6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - servers.json
+      - site/**
+      - .github/workflows/check-masters.yml
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: check-masters
+  cancel-in-progress: false
 
 jobs:
   check:
@@ -15,20 +28,47 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Install netcat
+        if: github.event_name != 'push'
         run: sudo apt-get install -y netcat-openbsd
 
       - name: Check master servers
+        if: github.event_name != 'push'
         run: ./scripts/check.sh
 
-      - name: Generate README
-        run: ./scripts/generate-readme.sh
-
-      - name: Commit changes
+      - name: Commit status changes
+        if: github.event_name != 'push'
         run: |
-          if git diff --quiet; then
+          statuses() {
+            jq -S 'del(.checked) | .games[].masters[] |= del(.last_seen)' "$1"
+          }
+          if diff -q <(git show HEAD:servers.json | statuses /dev/stdin) <(statuses servers.json) >/dev/null; then
+            echo "No status changes"
             exit 0
           fi
+          ./scripts/generate-readme.sh
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -am "Update master server status"
+          git pull --rebase
           git push
+
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp site/* servers.json _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

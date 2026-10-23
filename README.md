@@ -8,7 +8,7 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked monthly by a scheduled workflow.
+Every master server is checked daily. Live status is at https://dgibbs64.github.io/Master-Server-List/. This README is updated when a status changes.
 
 | Status | Meaning |
 |---|---|
@@ -17,7 +17,7 @@ Every master server is checked monthly by a scheduled workflow.
 | ⚠️ No response | Hostname resolves, but the server did not answer |
 | ❌ No DNS | Hostname no longer resolves |
 
-Last checked: 2026-10-23
+Status as of: 2026-10-23
 
 ## Games
 
