@@ -17,7 +17,7 @@ udp_responds() {
 }
 
 probe() {
-	local host="$1" type="$2" port="$3" protocol="$4"
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5"
 	if ! resolves "${host}"; then
 		echo "no-dns"
 		return
@@ -32,10 +32,13 @@ probe() {
 				timeout 5 bash -c "exec 3<>/dev/tcp/${host}/${port}" 2>/dev/null && echo "online" && return
 				;;
 			getservers)
-				udp_responds "${host}" "${port}" "\xff\xff\xff\xffgetservers ${protocol} empty full" && echo "online" && return
+				udp_responds "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} empty full" && echo "online" && return
 				;;
 			q2query)
 				udp_responds "${host}" "${port}" "query" && echo "online" && return
+				;;
+			qwquery)
+				udp_responds "${host}" "${port}" "c\n" && echo "online" && return
 				;;
 		esac
 	done
@@ -43,16 +46,16 @@ probe() {
 }
 
 results='{}'
-while IFS='|' read -r host type port protocol; do
-	status="$(probe "${host}" "${type}" "${port}" "${protocol}")"
-	printf '%-12s %s\n' "${status}" "${host} ${type} ${port} ${protocol}" >&2
-	results="$(jq --arg k "${host}|${type}|${port}|${protocol}" --arg s "${status}" '. + {($k): $s}' <<<"${results}")"
-done < <(jq -r '[.games[].masters[] | [.host, .probe.type, (.probe.port // ""), (.probe.protocol // "")] | map(tostring) | join("|")] | unique[]' "${file}")
+while IFS='|' read -r host type port game protocol; do
+	status="$(probe "${host}" "${type}" "${port}" "${game}" "${protocol}")"
+	printf '%-12s %s\n' "${status}" "${host} ${type} ${port} ${game} ${protocol}" >&2
+	results="$(jq --arg k "${host}|${type}|${port}|${game}|${protocol}" --arg s "${status}" '. + {($k): $s}' <<<"${results}")"
+done < <(jq -r '[.games[].masters[] | [.host, .probe.type, (.probe.port // ""), (.probe.game // ""), (.probe.protocol // "")] | map(tostring) | join("|")] | unique[]' "${file}")
 
 jq --argjson results "${results}" --arg today "${today}" '
 	.checked = $today
 	| .games[].masters[] |= (
-		.status = $results["\(.host)|\(.probe.type)|\(.probe.port // "")|\(.probe.protocol // "")"]
+		.status = $results["\(.host)|\(.probe.type)|\(.probe.port // "")|\(.probe.game // "")|\(.probe.protocol // "")"]
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)
 	)' "${file}" >"${file}.tmp"
 mv "${file}.tmp" "${file}"
