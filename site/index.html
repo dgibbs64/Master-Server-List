@@ -52,6 +52,7 @@ body {
 main { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
 header h1 { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.01em; }
 header p { margin: 0; color: var(--muted); max-width: 680px; }
+header p.cta { margin-top: 8px; color: var(--text); }
 a { color: var(--accent); }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin: 24px 0; }
 .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
@@ -105,6 +106,7 @@ footer { margin-top: 32px; color: var(--muted); font-size: 13px; }
 	<header>
 		<h1>Master Server List</h1>
 		<p>Community master servers that keep classic multiplayer games listed after GameSpy and the original publisher masters went offline. Every master is probed daily with its own protocol.</p>
+		<p class="cta">Is your server up and listed? Check it on <a href="https://ismygameserver.online">ismygameserver.online</a>.</p>
 	</header>
 
 	<section class="stats" id="stats" aria-label="Summary"></section>
