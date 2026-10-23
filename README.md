@@ -1,125 +1,195 @@
 # Master Server List
 
-Since gamespy servers went offline May 2014 there have been many master servers popping up to ensure that multiplayer games still run. Some being a complete replacement and others supplementing official master servers. I have created a simple repo to list these master servers to allow you to update server and client configs allowing your server to be listed and clients to see the list.
+<!-- Generated from servers.json by scripts/generate-readme.sh. Edit servers.json, not this file. -->
 
-> If you have anything to add or change to this repo please create a pull request.
+Since GameSpy servers went offline in May 2014 there have been many master servers popping up to ensure that multiplayer games still run. Some are a complete replacement and others supplement official master servers. This repo lists these master servers so you can update server and client configs, allowing your server to be listed and clients to see the list.
+
+> To add or change a master server, edit `servers.json`, run `./scripts/generate-readme.sh` and open a pull request.
+
+## Status
+
+Every master server is checked monthly by a scheduled workflow.
+
+| Status | Meaning |
+|---|---|
+| ✅ Online | Answered a master server query |
+| ❔ DNS only | Hostname resolves, but there is no query check for this protocol yet |
+| ⚠️ No response | Hostname resolves, but the server did not answer |
+| ❌ No DNS | Hostname no longer resolves |
+
+Last checked: 2026-10-23
 
 ## Unreal
-* master.oldunreal.com:27900
-* master.hlkclan.net:27900
-* master2.oldunreal.com:27900
-* master.hypercoop.tk:27900
-* master.newbiesplayground.net:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.oldunreal.com:27900` | ✅ Online | 2026-10-23 |
+| `master.hypercoop.tk:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master2.oldunreal.com:27900` | ⚠️ No response | Never |
+| `master.hlkclan.net:27900` | ❌ No DNS | Never |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Unreal Tournament 99
-* unreal.epicgames.com:27900
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
-* master.oldunreal.com:27900
-* master2.oldunreal.com:27900
-* master.mplayer.com:27900
-* master.noccer.de:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.oldunreal.com:27900` | ✅ Online | 2026-10-23 |
+| `master.noccer.de:27900` | ✅ Online | 2026-10-23 |
+| `master2.oldunreal.com:27900` | ⚠️ No response | Never |
+| `master.mplayer.com:27900` | ⚠️ No response | Never |
+| `unreal.epicgames.com:27900` | ❌ No DNS | Never |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Unreal Tournament 2004
-* ut2004master1.epicgames.com:28902
-* ut2004master2.epicgames.com:28902
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net: 27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `ut2004master1.epicgames.com:28902` | ❌ No DNS | Never |
+| `ut2004master2.epicgames.com:28902` | ❌ No DNS | Never |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Quake 2
-* master.q2servers.com:27900
-* master.quakeservers.net:27900
-* netdome.biz:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.quakeservers.net:27900` | ✅ Online | 2026-10-23 |
+| `master.q2servers.com:27900` | ⚠️ No response | Never |
+| `netdome.biz:27900` | ⚠️ No response | Never |
 
 ## Quake 3
-* master3.idsoftware.com
-* master.ioquake3.org:27950
-* master0.excessiveplus.net:27950
-* dpmaster.deathmask.net:27950
-* master.maverickservers.com:27950
 
-## Return to Castle Wolfenstien
-* wolfmaster.idsoftware.com
-* dpmaster.deathmask.net
-* wolfmaster.s4ndmod.com
-* wolfmaster.rtcwmp.com 
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.ioquake3.org:27950` | ✅ Online | 2026-10-23 |
+| `master0.excessiveplus.net:27950` | ✅ Online | 2026-10-23 |
+| `dpmaster.deathmask.net:27950` | ✅ Online | 2026-10-23 |
+| `master.maverickservers.com:27950` | ✅ Online | 2026-10-23 |
+| `master3.idsoftware.com:27950` | ❌ No DNS | Never |
 
-## Wolfenstien: Enemy Territory
-* master.idsoftware.com
-* master0.etmaster.net
-* master3.idsoftware.com
-* wolfmaster.idsoftware.com
-* master3.idsoftware.com:27900
+## Return to Castle Wolfenstein
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `wolfmaster.idsoftware.com:27950` | ✅ Online | 2026-10-23 |
+| `dpmaster.deathmask.net:27950` | ✅ Online | 2026-10-23 |
+| `wolfmaster.s4ndmod.com:27950` | ✅ Online | 2026-10-23 |
+| `wolfmaster.rtcwmp.com:27950` | ⚠️ No response | Never |
+
+## Wolfenstein: Enemy Territory
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `etmaster.idsoftware.com:27950` | ✅ Online | 2026-10-23 |
+| `wolfmaster.idsoftware.com:27950` | ✅ Online | 2026-10-23 |
+| `master0.etmaster.net:27950` | ⚠️ No response | Never |
+| `master.idsoftware.com:27950` | ❌ No DNS | Never |
+| `master3.idsoftware.com:27950` | ❌ No DNS | Never |
 
 ## Deus Ex
-* master.deusexnetwork.com
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.deusexnetwork.com:27900` | ✅ Online | 2026-10-23 |
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Heretic II
-* thyrion.hexenworld.org:27900
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `thyrion.hexenworld.org:27900` | ❌ No DNS | Never |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## HeXen II
-http://hexenworld.org/hexen2
+
+See http://hexenworld.org/hexen2
 
 ## HeXenWorld
-thyrion.hexenworld.org:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `thyrion.hexenworld.org:27900` | ❌ No DNS | Never |
 
 ## Rune
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Soldier of Fortune
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Soldier of Fortune II
-* master.1fxmod.org
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.1fxmod.org:20110` | ✅ Online | 2026-10-23 |
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Serious Sam
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Serious Sam: Second Encounter
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Wheel of Time
-* master.333networks.com:27900
-* master.errorist.tk:27900
-* master.gonespy.com:27900
-* master.newbiesplayground.net:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | ✅ Online | 2026-10-23 |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |
 
 ## Star Trek: Elite Force II
-* ef2master.activision.com
-* ef2master.sfu-server.de
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `ef2master.activision.com` | ❔ DNS only | Never |
+| `ef2master.sfu-server.de` | ❔ DNS only | Never |
 
 ## Iron Storm
-* gsm.qtracker.com
-* master.333networks.com
-* master.errorist.tk
-* master.gonespy.com:27900
+
+| Master server | Status | Last seen |
+|---|---|---|
+| `master.333networks.com:27900` | ✅ Online | 2026-10-23 |
+| `master.gonespy.com:27900` | ✅ Online | 2026-10-23 |
+| `gsm.qtracker.com` | ❔ DNS only | Never |
+| `master.errorist.tk:27900` | ❌ No DNS | Never |

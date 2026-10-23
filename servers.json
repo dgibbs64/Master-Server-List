@@ -1,0 +1,920 @@
+{
+  "checked": "2026-10-23",
+  "games": [
+    {
+      "name": "Unreal",
+      "masters": [
+        {
+          "host": "master.oldunreal.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.hlkclan.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master2.oldunreal.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-response",
+          "last_seen": null
+        },
+        {
+          "host": "master.hypercoop.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Unreal Tournament 99",
+      "masters": [
+        {
+          "host": "unreal.epicgames.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.oldunreal.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master2.oldunreal.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-response",
+          "last_seen": null
+        },
+        {
+          "host": "master.mplayer.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-response",
+          "last_seen": null
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Unreal Tournament 2004",
+      "masters": [
+        {
+          "host": "ut2004master1.epicgames.com",
+          "port": 28902,
+          "probe": {
+            "type": "tcp",
+            "port": 28902
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "ut2004master2.epicgames.com",
+          "port": 28902,
+          "probe": {
+            "type": "tcp",
+            "port": 28902
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Quake 2",
+      "masters": [
+        {
+          "host": "master.q2servers.com",
+          "port": 27900,
+          "probe": {
+            "type": "q2query",
+            "port": 27900
+          },
+          "status": "no-response",
+          "last_seen": null
+        },
+        {
+          "host": "master.quakeservers.net",
+          "port": 27900,
+          "probe": {
+            "type": "q2query",
+            "port": 27900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "netdome.biz",
+          "port": 27900,
+          "probe": {
+            "type": "q2query",
+            "port": 27900
+          },
+          "status": "no-response",
+          "last_seen": null
+        }
+      ]
+    },
+    {
+      "name": "Quake 3",
+      "masters": [
+        {
+          "host": "master3.idsoftware.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 68
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.ioquake3.org",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 68
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master0.excessiveplus.net",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 68
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "dpmaster.deathmask.net",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 68
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.maverickservers.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 68
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Return to Castle Wolfenstein",
+      "masters": [
+        {
+          "host": "wolfmaster.idsoftware.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 60
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "dpmaster.deathmask.net",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 60
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "wolfmaster.s4ndmod.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 60
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "wolfmaster.rtcwmp.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 60
+          },
+          "status": "no-response",
+          "last_seen": null
+        }
+      ]
+    },
+    {
+      "name": "Wolfenstein: Enemy Territory",
+      "masters": [
+        {
+          "host": "etmaster.idsoftware.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 84
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.idsoftware.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 84
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master0.etmaster.net",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 84
+          },
+          "status": "no-response",
+          "last_seen": null
+        },
+        {
+          "host": "master3.idsoftware.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 84
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "wolfmaster.idsoftware.com",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 84
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Deus Ex",
+      "masters": [
+        {
+          "host": "master.deusexnetwork.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Heretic II",
+      "masters": [
+        {
+          "host": "thyrion.hexenworld.org",
+          "port": 27900,
+          "probe": {
+            "type": "dns"
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "HeXen II",
+      "notes": "See http://hexenworld.org/hexen2",
+      "masters": []
+    },
+    {
+      "name": "HeXenWorld",
+      "masters": [
+        {
+          "host": "thyrion.hexenworld.org",
+          "port": 27900,
+          "probe": {
+            "type": "dns"
+          },
+          "status": "no-dns",
+          "last_seen": null
+        }
+      ]
+    },
+    {
+      "name": "Rune",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Soldier of Fortune",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Soldier of Fortune II",
+      "masters": [
+        {
+          "host": "master.1fxmod.org",
+          "port": 20110,
+          "probe": {
+            "type": "getservers",
+            "port": 20110,
+            "protocol": 2004
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Serious Sam",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Serious Sam: Second Encounter",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Wheel of Time",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Star Trek: Elite Force II",
+      "masters": [
+        {
+          "host": "ef2master.activision.com",
+          "port": null,
+          "probe": {
+            "type": "dns"
+          },
+          "status": "dns-only",
+          "last_seen": null
+        },
+        {
+          "host": "ef2master.sfu-server.de",
+          "port": null,
+          "probe": {
+            "type": "dns"
+          },
+          "status": "dns-only",
+          "last_seen": null
+        }
+      ]
+    },
+    {
+      "name": "Iron Storm",
+      "masters": [
+        {
+          "host": "gsm.qtracker.com",
+          "port": null,
+          "probe": {
+            "type": "dns"
+          },
+          "status": "dns-only",
+          "last_seen": null
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "no-dns",
+          "last_seen": null
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "status": "online",
+          "last_seen": "2026-10-23"
+        }
+      ]
+    }
+  ]
+}

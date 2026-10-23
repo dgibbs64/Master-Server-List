@@ -1,0 +1,25 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Lint scripts
+        run: shellcheck scripts/*.sh
+
+      - name: Validate servers.json
+        run: jq -e '.games | type == "array" and all(.[]; (.name | type == "string") and all(.masters[]; (.host | type == "string") and (.probe.type | IN("tcp", "getservers", "q2query", "dns"))))' servers.json
+
+      - name: Check README is up to date
+        run: |
+          ./scripts/generate-readme.sh
+          git diff --exit-code README.md
