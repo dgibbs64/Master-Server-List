@@ -208,19 +208,6 @@
           "servers": 10
         },
         {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "deusex",
-            "key": "Av3M99"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
@@ -356,16 +343,6 @@
       "name": "Heretic II",
       "masters": [
         {
-          "host": "thyrion.hexenworld.org",
-          "port": 27900,
-          "probe": {
-            "type": "dns"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.333networks.com",
           "port": 27900,
           "probe": {
@@ -377,19 +354,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 4
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "heretic2",
-            "key": "2iuCAS"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.errorist.eu",
@@ -434,23 +398,13 @@
     },
     {
       "name": "HeXen II",
-      "notes": "See http://hexenworld.org/hexen2",
+      "notes": "No working master server is known. The hexenworld.org site that documented one no longer resolves.",
       "masters": []
     },
     {
       "name": "HeXenWorld",
-      "masters": [
-        {
-          "host": "thyrion.hexenworld.org",
-          "port": 27900,
-          "probe": {
-            "type": "dns"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        }
-      ]
+      "masters": [],
+      "notes": "No working master server is known. The last listed master (thyrion.hexenworld.org) stopped answering and was removed in October 2026."
     },
     {
       "name": "Iron Storm",
@@ -478,19 +432,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 0
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "ironstorm",
-            "key": "y5Ei7C"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.errorist.eu",
@@ -916,17 +857,6 @@
       "name": "Quake 2",
       "masters": [
         {
-          "host": "master.q2servers.com",
-          "port": 27900,
-          "probe": {
-            "type": "q2query",
-            "port": 27900
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.quakeservers.net",
           "port": 27900,
           "probe": {
@@ -936,35 +866,12 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 116
-        },
-        {
-          "host": "netdome.biz",
-          "port": 27900,
-          "probe": {
-            "type": "q2query",
-            "port": 27900
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
         }
       ]
     },
     {
       "name": "Quake 3",
       "masters": [
-        {
-          "host": "master3.idsoftware.com",
-          "port": 27950,
-          "probe": {
-            "type": "getservers",
-            "port": 27950,
-            "protocol": 68
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
         {
           "host": "master.ioquake3.org",
           "port": 27950,
@@ -1068,17 +975,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 646
-        },
-        {
-          "host": "master.quakeworld.nu",
-          "port": 27000,
-          "probe": {
-            "type": "qwquery",
-            "port": 27000
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
         }
       ]
     },
@@ -1120,18 +1016,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 113
-        },
-        {
-          "host": "wolfmaster.rtcwmp.com",
-          "port": 27950,
-          "probe": {
-            "type": "getservers",
-            "port": 27950,
-            "protocol": 60
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
         }
       ]
     },
@@ -1150,19 +1034,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 59
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "rune",
-            "key": "BnA4a3"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.errorist.eu",
@@ -1222,19 +1093,6 @@
           "servers": 71
         },
         {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "serioussam",
-            "key": "AKbna4"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
@@ -1290,19 +1148,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 111
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "serioussamse",
-            "key": "AKbna4"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.errorist.eu",
@@ -1379,19 +1224,6 @@
           "servers": 45
         },
         {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "sofretail",
-            "key": "iVn3a3"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
@@ -1459,17 +1291,6 @@
           "servers": null
         },
         {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "tcp",
-            "port": 28900
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
@@ -1506,45 +1327,13 @@
     },
     {
       "name": "Star Trek: Elite Force II",
-      "masters": [
-        {
-          "host": "ef2master.activision.com",
-          "port": null,
-          "probe": {
-            "type": "dns"
-          },
-          "status": "dns-only",
-          "last_seen": null,
-          "servers": null
-        },
-        {
-          "host": "ef2master.sfu-server.de",
-          "port": null,
-          "probe": {
-            "type": "dns"
-          },
-          "status": "dns-only",
-          "last_seen": null,
-          "servers": null
-        }
-      ]
+      "masters": [],
+      "notes": "No working master server is known. The last listed masters (ef2master.activision.com, ef2master.sfu-server.de) stopped answering and were removed in October 2026."
     },
     {
       "name": "Star Trek: Voyager Elite Force",
-      "masters": [
-        {
-          "host": "master.stef1.ravensoft.com",
-          "port": 27953,
-          "probe": {
-            "type": "getservers",
-            "port": 27953,
-            "protocol": 24
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
-        }
-      ]
+      "masters": [],
+      "notes": "No working master server is known. The last listed master (master.stef1.ravensoft.com) stopped answering and was removed in October 2026."
     },
     {
       "name": "Star Wars Jedi Knight II: Jedi Outcast",
@@ -1560,18 +1349,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 36
-        },
-        {
-          "host": "masterjk2.ravensoft.com",
-          "port": 28060,
-          "probe": {
-            "type": "getservers",
-            "port": 28060,
-            "protocol": 16
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
         }
       ]
     },
@@ -1589,18 +1366,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 256
-        },
-        {
-          "host": "masterjk3.ravensoft.com",
-          "port": 29060,
-          "probe": {
-            "type": "getservers",
-            "port": 29060,
-            "protocol": 26
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
         }
       ]
     },
@@ -1695,32 +1460,6 @@
           "servers": 89
         },
         {
-          "host": "master.hlkclan.net",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "unreal",
-            "key": "DAncRK"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
-          "host": "master2.oldunreal.com",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "unreal",
-            "key": "DAncRK"
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.hypercoop.tk",
           "port": 27900,
           "probe": {
@@ -1745,19 +1484,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 89
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "unreal",
-            "key": "DAncRK"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.gonespy.com",
@@ -1843,28 +1569,6 @@
       "name": "Unreal Tournament 2004",
       "masters": [
         {
-          "host": "ut2004master1.epicgames.com",
-          "port": 28902,
-          "probe": {
-            "type": "tcp",
-            "port": 28902
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
-          "host": "ut2004master2.epicgames.com",
-          "port": 28902,
-          "probe": {
-            "type": "tcp",
-            "port": 28902
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.333networks.com",
           "port": 27900,
           "probe": {
@@ -1873,17 +1577,6 @@
           },
           "status": "online",
           "last_seen": "2026-10-23",
-          "servers": null
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "tcp",
-            "port": 28900
-          },
-          "status": "no-dns",
-          "last_seen": null,
           "servers": null
         },
         {
@@ -1947,19 +1640,6 @@
       "name": "Unreal Tournament 99",
       "masters": [
         {
-          "host": "unreal.epicgames.com",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "ut",
-            "key": "Z5Nfb0"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.333networks.com",
           "port": 27900,
           "probe": {
@@ -1971,19 +1651,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 1763
-        },
-        {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "ut",
-            "key": "Z5Nfb0"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.gonespy.com",
@@ -2023,32 +1690,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 914
-        },
-        {
-          "host": "master2.oldunreal.com",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "ut",
-            "key": "Z5Nfb0"
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
-        },
-        {
-          "host": "master.mplayer.com",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "ut",
-            "key": "Z5Nfb0"
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "master.noccer.de",
@@ -2225,19 +1866,6 @@
           "servers": 17
         },
         {
-          "host": "master.errorist.tk",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "wot",
-            "key": "RSSSpA"
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
@@ -2292,42 +1920,6 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 444
-        },
-        {
-          "host": "master.idsoftware.com",
-          "port": 27950,
-          "probe": {
-            "type": "getservers",
-            "port": 27950,
-            "protocol": 84
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
-        },
-        {
-          "host": "master0.etmaster.net",
-          "port": 27950,
-          "probe": {
-            "type": "getservers",
-            "port": 27950,
-            "protocol": 84
-          },
-          "status": "no-response",
-          "last_seen": null,
-          "servers": null
-        },
-        {
-          "host": "master3.idsoftware.com",
-          "port": 27950,
-          "probe": {
-            "type": "getservers",
-            "port": 27950,
-            "protocol": 84
-          },
-          "status": "no-dns",
-          "last_seen": null,
-          "servers": null
         },
         {
           "host": "wolfmaster.idsoftware.com",
