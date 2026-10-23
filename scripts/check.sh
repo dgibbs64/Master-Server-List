@@ -138,7 +138,7 @@ jq --argjson results "${results}" --arg today "${today}" '
 	| .games[].masters[] |= (
 		$results["\(.host)|\(.probe.type)|\(.probe.port // "")|\(.probe.game // "")|\(.probe.protocol // "")|\(.probe.gamename // "")|\(.probe.key // "")"] as $r
 		| .status = $r.status
-		| .servers = $r.servers
+		| .servers = (if .probe.count == false then null else $r.servers end)
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)
 	)' "${file}" >"${file}.tmp"
 mv "${file}.tmp" "${file}"

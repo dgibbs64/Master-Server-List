@@ -173,11 +173,11 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 
 ## HeXen II
 
-No working master server is known. The hexenworld.org site that documented one no longer resolves.
+Hexen II itself has no master server: multiplayer uses direct IP. Internet play with a server browser uses HeXenWorld.
 
 ## HeXenWorld
 
-No working master server is known. The last listed master (thyrion.hexenworld.org) stopped answering and was removed in October 2026.
+No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900.
 
 ## Iron Storm
 
@@ -353,11 +353,20 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 
 ## Star Trek: Elite Force II
 
-No working master server is known. The last listed masters (ef2master.activision.com, ef2master.sfu-server.de) stopped answering and were removed in October 2026.
+The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown.
+
+| Master server | Status | Servers | Last seen |
+|---|---|---|---|
+| `master.hazardmodding.com:27900` | ✅ Online | - | 2026-10-23 |
+| `master.stef2.daggolin.de:27900` | ✅ Online | - | 2026-10-23 |
 
 ## Star Trek: Voyager Elite Force
 
-No working master server is known. The last listed master (master.stef1.ravensoft.com) stopped answering and was removed in October 2026.
+| Master server | Status | Servers | Last seen |
+|---|---|---|---|
+| `master.stef1.daggolin.de:27953` | ✅ Online | 29 | 2026-10-23 |
+| `master.stvef.org:27953` | ✅ Online | 26 | 2026-10-23 |
+| `efmaster.tjps.eu:27953` | ✅ Online | 18 | 2026-10-23 |
 
 ## Star Wars Jedi Knight II: Jedi Outcast
 
