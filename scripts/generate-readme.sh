@@ -29,7 +29,11 @@ EOF
 	jq -r '
 		def status_label: {"online": "✅ Online", "dns-only": "❔ DNS only", "no-response": "⚠️ No response", "no-dns": "❌ No DNS"}[. // ""] // "Unchecked";
 		def status_rank: {"online": 0, "dns-only": 1, "no-response": 2, "no-dns": 3}[. // ""] // 4;
+		def anchor: ascii_downcase | gsub("[^a-z0-9 -]"; "") | gsub(" "; "-");
 		"Last checked: \(.checked // "never")\n",
+		"## Games\n",
+		(.games[] | "- [\(.name)](#\(.name | anchor))"),
+		"",
 		(.games[]
 			| "## \(.name)\n",
 			(if .notes then "\(.notes)\n" else empty end),
