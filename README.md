@@ -138,7 +138,6 @@ Needs the multiplayer patch from bf1942.org, which points the game at this maste
 | `master.errorist.eu:27900` | ✅ Online | 7 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 7 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 7 | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Doom 3
 
@@ -171,18 +170,14 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 | `master.errorist.eu:27900` | ✅ Online | 3 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 3 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 3 | 2026-10-23 |
-| `thyrion.hexenworld.org:27900` | ❌ No DNS | - | Never |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## HeXen II
 
-See http://hexenworld.org/hexen2
+No working master server is known. The hexenworld.org site that documented one no longer resolves.
 
 ## HeXenWorld
 
-| Master server | Status | Servers | Last seen |
-|---|---|---|---|
-| `thyrion.hexenworld.org:27900` | ❌ No DNS | - | Never |
+No working master server is known. The last listed master (thyrion.hexenworld.org) stopped answering and was removed in October 2026.
 
 ## Iron Storm
 
@@ -192,7 +187,6 @@ See http://hexenworld.org/hexen2
 | `master.errorist.eu:27900` | ✅ Online | 0 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 0 | 2026-10-23 |
 | `gsm.qtracker.com` | ✅ Online | - | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Kingpin
 
@@ -273,8 +267,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | Master server | Status | Servers | Last seen |
 |---|---|---|---|
 | `master.quakeservers.net:27900` | ✅ Online | 116 | 2026-10-23 |
-| `master.q2servers.com:27900` | ⚠️ No response | - | Never |
-| `netdome.biz:27900` | ⚠️ No response | - | Never |
 
 ## Quake 3
 
@@ -285,7 +277,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.maverickservers.com:27950` | ✅ Online | 440 | 2026-10-23 |
 | `master0.excessiveplus.net:27950` | ✅ Online | 211 | 2026-10-23 |
 | `dpmaster.deathmask.net:27950` | ✅ Online | 173 | 2026-10-23 |
-| `master3.idsoftware.com:27950` | ❌ No DNS | - | Never |
 
 ## Quake 4
 
@@ -299,7 +290,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 |---|---|---|---|
 | `master.quakeservers.net:27000` | ✅ Online | 680 | 2026-10-23 |
 | `qwmaster.fodquake.net:27000` | ✅ Online | 646 | 2026-10-23 |
-| `master.quakeworld.nu:27000` | ⚠️ No response | - | Never |
 
 ## Return to Castle Wolfenstein
 
@@ -308,7 +298,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `wolfmaster.s4ndmod.com:27950` | ✅ Online | 113 | 2026-10-23 |
 | `wolfmaster.idsoftware.com:27950` | ✅ Online | 86 | 2026-10-23 |
 | `dpmaster.deathmask.net:27950` | ✅ Online | 51 | 2026-10-23 |
-| `wolfmaster.rtcwmp.com:27950` | ⚠️ No response | - | Never |
 
 ## Rune
 
@@ -318,7 +307,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.errorist.eu:27900` | ✅ Online | 39 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 33 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 32 | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Serious Sam
 
@@ -328,7 +316,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.errorist.eu:27900` | ✅ Online | 41 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 41 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 41 | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Serious Sam: Second Encounter
 
@@ -338,7 +325,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.gonespy.com:27900` | ✅ Online | 78 | 2026-10-23 |
 | `master.errorist.eu:27900` | ✅ Online | 75 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 71 | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Smokin' Guns
 
@@ -354,7 +340,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.errorist.eu:27900` | ✅ Online | 32 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 30 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 30 | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Soldier of Fortune II
 
@@ -365,34 +350,26 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.errorist.eu:27900` | ✅ Online | - | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | - | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | - | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Star Trek: Elite Force II
 
-| Master server | Status | Servers | Last seen |
-|---|---|---|---|
-| `ef2master.activision.com` | ❔ DNS only | - | Never |
-| `ef2master.sfu-server.de` | ❔ DNS only | - | Never |
+No working master server is known. The last listed masters (ef2master.activision.com, ef2master.sfu-server.de) stopped answering and were removed in October 2026.
 
 ## Star Trek: Voyager Elite Force
 
-| Master server | Status | Servers | Last seen |
-|---|---|---|---|
-| `master.stef1.ravensoft.com:27953` | ⚠️ No response | - | Never |
+No working master server is known. The last listed master (master.stef1.ravensoft.com) stopped answering and was removed in October 2026.
 
 ## Star Wars Jedi Knight II: Jedi Outcast
 
 | Master server | Status | Servers | Last seen |
 |---|---|---|---|
 | `master.jk2mv.org:28060` | ✅ Online | 36 | 2026-10-23 |
-| `masterjk2.ravensoft.com:28060` | ⚠️ No response | - | Never |
 
 ## Star Wars Jedi Knight: Jedi Academy
 
 | Master server | Status | Servers | Last seen |
 |---|---|---|---|
 | `master.jkhub.org:29060` | ✅ Online | 256 | 2026-10-23 |
-| `masterjk3.ravensoft.com:29060` | ⚠️ No response | - | Never |
 
 ## Tremulous
 
@@ -422,9 +399,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.frag-net.com:27900` | ✅ Online | 88 | 2026-10-23 |
 | `master.hypercoop.tk:27900` | ✅ Online | 75 | 2026-10-23 |
 | `master.exsurge.net:27900` | ✅ Online | 0 | 2026-10-23 |
-| `master2.oldunreal.com:27900` | ⚠️ No response | - | Never |
-| `master.hlkclan.net:27900` | ❌ No DNS | - | Never |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Unreal Tournament 2004
 
@@ -436,9 +410,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `ut2004master.333networks.com:28902` | ✅ Online | - | 2026-10-23 |
 | `ut2004master.errorist.eu:28902` | ✅ Online | - | 2026-10-23 |
 | `ut2004master.gonespy.com:28902` | ✅ Online | - | 2026-10-23 |
-| `ut2004master1.epicgames.com:28902` | ❌ No DNS | - | Never |
-| `ut2004master2.epicgames.com:28902` | ❌ No DNS | - | Never |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Unreal Tournament 99
 
@@ -454,10 +425,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.oldunreal.com:27900` | ✅ Online | 914 | 2026-10-23 |
 | `master.eatsleeput.com:27900` | ✅ Online | 912 | 2026-10-23 |
 | `master.exsurge.net:27900` | ✅ Online | 0 | 2026-10-23 |
-| `master2.oldunreal.com:27900` | ⚠️ No response | - | Never |
-| `master.mplayer.com:27900` | ⚠️ No response | - | Never |
-| `unreal.epicgames.com:27900` | ❌ No DNS | - | Never |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Urban Terror
 
@@ -487,7 +454,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `master.errorist.eu:27900` | ✅ Online | 7 | 2026-10-23 |
 | `master.gonespy.com:27900` | ✅ Online | 7 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 7 | 2026-10-23 |
-| `master.errorist.tk:27900` | ❌ No DNS | - | Never |
 
 ## Wolfenstein: Enemy Territory
 
@@ -496,9 +462,6 @@ Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networ
 | `etmaster.idsoftware.com:27950` | ✅ Online | 444 | 2026-10-23 |
 | `master.etlegacy.com:27950` | ✅ Online | 424 | 2026-10-23 |
 | `wolfmaster.idsoftware.com:27950` | ✅ Online | 66 | 2026-10-23 |
-| `master0.etmaster.net:27950` | ⚠️ No response | - | Never |
-| `master.idsoftware.com:27950` | ❌ No DNS | - | Never |
-| `master3.idsoftware.com:27950` | ❌ No DNS | - | Never |
 
 ## World of Padman
 
