@@ -398,13 +398,13 @@
     },
     {
       "name": "HeXen II",
-      "notes": "No working master server is known. The hexenworld.org site that documented one no longer resolves.",
+      "notes": "Hexen II itself has no master server: multiplayer uses direct IP. Internet play with a server browser uses HeXenWorld.",
       "masters": []
     },
     {
       "name": "HeXenWorld",
       "masters": [],
-      "notes": "No working master server is known. The last listed master (thyrion.hexenworld.org) stopped answering and was removed in October 2026."
+      "notes": "No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900."
     },
     {
       "name": "Iron Storm",
@@ -1327,13 +1327,76 @@
     },
     {
       "name": "Star Trek: Elite Force II",
-      "masters": [],
-      "notes": "No working master server is known. The last listed masters (ef2master.activision.com, ef2master.sfu-server.de) stopped answering and were removed in October 2026."
+      "masters": [
+        {
+          "host": "master.hazardmodding.com",
+          "port": 27900,
+          "probe": {
+            "type": "getservers",
+            "port": 27900,
+            "protocol": 17,
+            "count": false
+          },
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-23"
+        },
+        {
+          "host": "master.stef2.daggolin.de",
+          "port": 27900,
+          "probe": {
+            "type": "getservers",
+            "port": 27900,
+            "protocol": 17,
+            "count": false
+          },
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-23"
+        }
+      ],
+      "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown."
     },
     {
       "name": "Star Trek: Voyager Elite Force",
-      "masters": [],
-      "notes": "No working master server is known. The last listed master (master.stef1.ravensoft.com) stopped answering and was removed in October 2026."
+      "masters": [
+        {
+          "host": "master.stef1.daggolin.de",
+          "port": 27953,
+          "probe": {
+            "type": "getservers",
+            "port": 27953,
+            "protocol": 24
+          },
+          "status": "online",
+          "last_seen": "2026-10-23",
+          "servers": 29
+        },
+        {
+          "host": "master.stvef.org",
+          "port": 27953,
+          "probe": {
+            "type": "getservers",
+            "port": 27953,
+            "protocol": 24
+          },
+          "status": "online",
+          "last_seen": "2026-10-23",
+          "servers": 26
+        },
+        {
+          "host": "efmaster.tjps.eu",
+          "port": 27953,
+          "probe": {
+            "type": "getservers",
+            "port": 27953,
+            "protocol": 24
+          },
+          "status": "online",
+          "last_seen": "2026-10-23",
+          "servers": 18
+        }
+      ]
     },
     {
       "name": "Star Wars Jedi Knight II: Jedi Outcast",
