@@ -10,9 +10,11 @@ here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 exec 3<>"/dev/tcp/${host}/${port}"
 banner="$(timeout 5 head -c 21 <&3)" || true
-secure="$(printf '%s' "${banner}" | sed -n 's/.*\\secure\\\([A-Za-z0-9]\{6\}\).*/\1/p')"
-[[ -n "${secure}" ]] || exit 1
-validate="$(LC_ALL=C gawk -v secure="${secure}" -v key="${key}" -f "${here}/gsmsalg.awk")"
+[[ "${banner}" == *"\\secure\\"* ]] || exit 1
+secure="${banner#*\\secure\\}"
+secure="${secure:0:6}"
+[[ "${#secure}" -eq 6 ]] || exit 1
+validate="$(GS_SECURE="${secure}" GS_KEY="${key}" LC_ALL=C gawk -f "${here}/gsmsalg.awk" </dev/null)"
 printf '%s' "\\gamename\\${gamename}\\location\\0\\validate\\${validate}\\final\\\\list\\\\gamename\\${gamename}\\final\\" >&3
 response="$(timeout 10 cat <&3 | tr -d '\0')" || true
 exec 3>&-

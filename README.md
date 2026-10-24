@@ -135,6 +135,12 @@ Status as of: 2026-10-24
 - [SiN](#sin)
 - [Starsiege: Tribes](#starsiege-tribes)
 - [Unreal Tournament 4 (pre-alpha)](#unreal-tournament-4-pre-alpha)
+- [Half-Life (WON)](#half-life-won)
+- [Mount & Blade: Warband](#mount--blade-warband)
+- [Space Station 14](#space-station-14)
+- [Skyrim Together Reborn](#skyrim-together-reborn)
+- [Renegade X](#renegade-x)
+- [Brickadia](#brickadia)
 
 ## Alien Arena
 
@@ -1464,3 +1470,60 @@ UT4MasterServer (https://github.com/timiimit/UT4MasterServer) is an open-source 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master-ut4.timiimit.com` | Community | Unchecked | - | Never |
+
+## Half-Life (WON)
+
+WON2, started by SteamlessProject.nl and NoWon, replaces Valve's WON service (shut down 31 July 2004) for the pre-Steam Half-Life and its mods, such as Counter-Strike 1.5. Players install the WON2 patch, which sets these masters in woncomm.lst. master and master2 share one machine, and master3 and master4 another.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.won2.steamlessproject.nl:27010` | Community | Unchecked | - | Never |
+| `master2.won2.steamlessproject.nl:27010` | Community | Unchecked | - | Never |
+| `master3.won2.steamlessproject.nl:27010` | Community | Unchecked | - | Never |
+| `master4.won2.steamlessproject.nl:27010` | Community | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `209.173.38.9:27010` | Community | Not answering since 2026-10-24 | Listed in the 2013 WON2 woncomm.lst. It no longer answers master queries. |
+
+## Mount & Blade: Warband
+
+TaleWorlds still runs Warband's master server. The count comes from its public list.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `warbandmain.taleworlds.com` | Official | Unchecked | - | Never |
+
+## Space Station 14
+
+The Space Station 14 hub lists public servers. The count comes from its API.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `hub.spacestation14.com` | Official | Unchecked | - | Never |
+
+## Skyrim Together Reborn
+
+Servers with bAnnounceServer on report to the mod's own list server, which its source code names. The count comes from its public list.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `skyrim-reborn-list.skyrim-together.com` | Official | Unchecked | - | Never |
+
+## Renegade X
+
+Totem Arts, Renegade X's developer, publishes the server list. The count comes from it.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `serverlist-rx.totemarts.services` | Official | Unchecked | - | Never |
+
+## Brickadia
+
+Brickadia's own API lists public servers. Servers connect through Epic Online Services, so the list has no addresses and only the count is kept.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `brickadia.com` | Official | Unchecked | - | Never |
