@@ -848,19 +848,19 @@ This game has no classic master server. Its public server list is a web API, che
 
 ## Star Trek: Elite Force II
 
-The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown.
+The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. EF2 masters listen on UDP 29250 and answer getservers with protocol 66. master.hazardmodding.com and master.stef2.daggolin.de are the same master at 51.75.78.236; ef2master.sfu-server.de is the SFU clan's master.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.hazardmodding.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.stef2.daggolin.de:27900` | Community | ✅ Online | - | 2026-10-24 |
+| `master.hazardmodding.com:29250` | Community | ✅ Online | 6 | 2026-10-24 |
+| `master.stef2.daggolin.de:29250` | Community | ✅ Online | 6 | 2026-10-24 |
+| `ef2master.sfu-server.de:29250` | Community | ✅ Online | 6 | 2026-10-24 |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
-| `ef2master.activision.com` | Official | Not answering since 2026-10-23 | Official Activision master. The hostname resolves, but no server is known to use it and it cannot be queried. |
-| `ef2master.sfu-server.de` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves, but no server is known to use it and it cannot be queried. |
+| `ef2master.activision.com` | Official | Not answering since 2026-10-23 | Official Activision master. The hostname resolves, but it does not answer getservers on UDP 29250. |
 
 ## Star Trek: Voyager Elite Force
 

@@ -3914,48 +3914,54 @@
       "masters": [
         {
           "host": "master.hazardmodding.com",
-          "port": 27900,
+          "port": 29250,
           "probe": {
             "type": "getservers",
-            "port": 27900,
-            "protocol": 17,
-            "count": false,
+            "port": 29250,
+            "protocol": 66,
             "label": "Star Trek: Elite Force II"
           },
           "status": "online",
-          "servers": null,
+          "servers": 6,
           "last_seen": "2026-10-24",
           "official": false
         },
         {
           "host": "master.stef2.daggolin.de",
-          "port": 27900,
+          "port": 29250,
           "probe": {
             "type": "getservers",
-            "port": 27900,
-            "protocol": 17,
-            "count": false,
+            "port": 29250,
+            "protocol": 66,
             "label": "Star Trek: Elite Force II"
           },
           "status": "online",
-          "servers": null,
+          "servers": 6,
+          "last_seen": "2026-10-24",
+          "official": false
+        },
+        {
+          "host": "ef2master.sfu-server.de",
+          "port": 29250,
+          "probe": {
+            "type": "getservers",
+            "port": 29250,
+            "protocol": 66,
+            "label": "Star Trek: Elite Force II"
+          },
+          "status": "online",
+          "servers": 6,
           "last_seen": "2026-10-24",
           "official": false
         }
       ],
-      "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown.",
+      "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. EF2 masters listen on UDP 29250 and answer getservers with protocol 66. master.hazardmodding.com and master.stef2.daggolin.de are the same master at 51.75.78.236; ef2master.sfu-server.de is the SFU clan's master.",
       "retired": [
         {
           "host": "ef2master.activision.com",
           "official": true,
           "down_since": "2026-10-23",
-          "reason": "Official Activision master. The hostname resolves, but no server is known to use it and it cannot be queried."
-        },
-        {
-          "host": "ef2master.sfu-server.de",
-          "official": false,
-          "down_since": "2026-10-23",
-          "reason": "Community master. The hostname resolves, but no server is known to use it and it cannot be queried."
+          "reason": "Official Activision master. The hostname resolves, but it does not answer getservers on UDP 29250."
         }
       ]
     },
