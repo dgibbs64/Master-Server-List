@@ -153,6 +153,21 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "callofduty",
+            "key": "K3dV7n",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 130,
+          "last_seen": "2026-10-25"
         }
       ]
     },
@@ -191,6 +206,21 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "callofduty2",
+            "key": "DSpIxw",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 524,
+          "last_seen": "2026-10-25"
         }
       ]
     },
@@ -632,6 +662,21 @@
           "status": "online",
           "servers": 7,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "deusex",
+            "key": "Av3M99",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -808,6 +853,21 @@
           "status": "online",
           "servers": 1,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "drakan",
+            "key": "zCt4De",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -1097,6 +1157,21 @@
           "status": "online",
           "servers": 3,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "globalops",
+            "key": "AdN3L9",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -1817,6 +1892,21 @@
           "status": "online",
           "servers": 208,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "mohaa",
+            "key": "M5Fdwc",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -3605,6 +3695,21 @@
           "status": "online",
           "servers": 73,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "serioussamse",
+            "key": "AKbna4",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -3793,6 +3898,21 @@
           "status": "online",
           "servers": 29,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "sofretail",
+            "key": "iVn3a3",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 28,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -4388,6 +4508,21 @@
           "status": "online",
           "servers": 4,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "turok2",
+            "key": "RWd3BG",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 4,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -4586,6 +4721,21 @@
           "status": "online",
           "servers": 84,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "unreal",
+            "key": "DAncRK",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 8,
+          "last_seen": "2026-10-25"
         }
       ],
       "retired": [
@@ -4795,6 +4945,21 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "ut2",
+            "key": "Lw7x0R",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-25"
         }
       ]
     },
@@ -6181,7 +6346,7 @@
     },
     {
       "name": "No One Lives Forever 2",
-      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "notes": "Clients and servers need OpenSpy's patch or a hosts file change to use OpenSpy; the game's guide is linked from https://openspy.net/supported-games. qtracker's gsm.qtracker.com also lists the game.",
       "masters": [
         {
           "host": "master.openspy.net",
@@ -6197,6 +6362,21 @@
           "status": "online",
           "servers": 5,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "nolf2",
+            "key": "g3Fo6x",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-25"
         }
       ]
     },
@@ -6610,7 +6790,7 @@
     },
     {
       "name": "Daikatana",
-      "notes": "Only master.maraakate.org is known to list Daikatana servers. master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.",
+      "notes": "master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where its count comes from. qtracker's gsm.qtracker.com also lists Daikatana.",
       "masters": [
         {
           "host": "master.maraakate.org",
@@ -6625,6 +6805,21 @@
           "status": "online",
           "servers": 13,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "daikatana",
+            "key": "fl8aY7",
+            "label": "GameSpy"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-25"
         }
       ]
     },
