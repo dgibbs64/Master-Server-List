@@ -107,6 +107,33 @@ class SteamHandler(http.server.BaseHTTPRequestHandler):
         pass
 
 
+class QuakeMaster(socketserver.ThreadingUDPServer):
+    daemon_threads = True
+
+    def __init__(self, lists):
+        self.lists = lists
+        self.versions = []
+        super().__init__(("127.0.0.1", 0), QuakeHandler)
+        threading.Thread(target=self.serve_forever, daemon=True).start()
+
+    def close(self):
+        self.shutdown()
+        self.server_close()
+
+
+class QuakeHandler(socketserver.BaseRequestHandler):
+    def handle(self):
+        data, sock = self.request
+        version = int(data.split(b" ")[1])
+        self.server.versions.append(version)
+        records = b"".join(b"\\" + bytes(int(part) for part in ip.split(".")) + port.to_bytes(2, "big") for ip, port in self.server.lists.get(version, []))
+        sock.sendto(b"\xff\xff\xff\xffgetserversResponse" + records + b"\\EOF", self.client_address)
+
+
+def quake_entry(port, protocol):
+    return {"host": "127.0.0.1", "port": port, "probe": {"type": "getservers", "port": port, "protocol": protocol}, "status": "no-response", "last_seen": "2020-01-01"}
+
+
 def steam_entry(appid=730):
     return {"host": "127.0.0.1", "port": None, "probe": {"type": "steam", "appid": appid}, "status": "online", "last_seen": "2020-01-01", "servers": 5}
 
@@ -281,6 +308,22 @@ class CheckTests(unittest.TestCase):
         result, log, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="bad-key", STEAM_API_URL=api.url)
         self.assertEqual((result[0]["status"], result[0]["check_error"]), ("no-response", "query-failed"))
         self.assertNotIn("bad-key", log)
+
+    def test_protocol_list_counts_unique_servers_across_versions(self):
+        master = QuakeMaster({68: [("192.0.2.1", 27960), ("192.0.2.2", 27960)], 43: [("192.0.2.3", 27960), ("192.0.2.1", 27960)]})
+        self.addCleanup(master.close)
+        result, _, _, addresses = self.run_check([quake_entry(master.server_address[1], [68, 67, 43])])
+        self.assertEqual(sorted(master.versions), [43, 67, 68])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 3))
+        self.assertEqual(next(iter(addresses.values())), "192.0.2.1:27960\n192.0.2.2:27960\n192.0.2.3:27960\n")
+        self.assertEqual(result[0]["probe"]["protocol"], [68, 67, 43])
+
+    def test_single_protocol_number_still_works(self):
+        master = QuakeMaster({68: [("192.0.2.1", 27960)]})
+        self.addCleanup(master.close)
+        result, _, _, _ = self.run_check([quake_entry(master.server_address[1], 68)])
+        self.assertEqual(master.versions, [68])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 1))
 
     def test_empty_catalogue(self):
         result, _, index, addresses = self.run_check([])
