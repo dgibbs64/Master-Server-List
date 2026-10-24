@@ -157,6 +157,20 @@ Status as of: 2026-10-24
 - [Brickadia](#brickadia)
 - [Halo: Custom Edition](#halo-custom-edition)
 - [Battlefield 2](#battlefield-2)
+- [7 Days to Die](#7-days-to-die)
+- [ARK: Survival Evolved](#ark-survival-evolved)
+- [Arma 3](#arma-3)
+- [Counter-Strike](#counter-strike)
+- [Counter-Strike 2](#counter-strike-2)
+- [Counter-Strike: Source](#counter-strike-source)
+- [DayZ](#dayz)
+- [Garry's Mod](#garrys-mod)
+- [Left 4 Dead 2](#left-4-dead-2)
+- [Project Zomboid](#project-zomboid)
+- [Rust](#rust)
+- [Team Fortress 2](#team-fortress-2)
+- [Unturned](#unturned)
+- [Valheim](#valheim)
 
 </details>
 
@@ -1570,3 +1584,115 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 121 | 2026-10-24 |
+
+## 7 Days to Die
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 251570).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## ARK: Survival Evolved
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 346110).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Arma 3
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 107410).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Counter-Strike
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 10).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Counter-Strike 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 730).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Counter-Strike: Source
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 240).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## DayZ
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 221100).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Garry's Mod
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4000).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Left 4 Dead 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 550).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Project Zomboid
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 108600).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Rust
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 252490).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Team Fortress 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Unturned
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 304930).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |
+
+## Valheim
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 892970).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | Unchecked | - | Never |

@@ -1,4 +1,5 @@
 import datetime
+import http.server
 import json
 import os
 from pathlib import Path
@@ -9,6 +10,7 @@ import tempfile
 import threading
 import time
 import unittest
+import urllib.parse
 
 ROOT = Path(__file__).resolve().parents[1]
 BASH = shutil.which("bash")
@@ -70,6 +72,43 @@ class Handler(socketserver.BaseRequestHandler):
             self.request.sendall(b"\\final\\")
         else:
             self.request.sendall(b"\\ip\\192.0.2.1:27960\\final\\")
+
+
+class SteamApi(http.server.ThreadingHTTPServer):
+    daemon_threads = True
+
+    def __init__(self, status=200, body=None):
+        self.status = status
+        self.body = body
+        self.queries = []
+        super().__init__(("127.0.0.1", 0), SteamHandler)
+        threading.Thread(target=self.serve_forever, daemon=True).start()
+
+    def close(self):
+        self.shutdown()
+        self.server_close()
+
+    @property
+    def url(self):
+        return "http://127.0.0.1:%d/IGameServersService/GetServerList/v1/" % self.server_address[1]
+
+
+class SteamHandler(http.server.BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.server.queries.append(urllib.parse.parse_qs(urllib.parse.urlsplit(self.path).query))
+        body = json.dumps(self.server.body).encode()
+        self.send_response(self.server.status)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def log_message(self, *args):
+        pass
+
+
+def steam_entry(appid=730):
+    return {"host": "127.0.0.1", "port": None, "probe": {"type": "steam", "appid": appid}, "status": "online", "last_seen": "2020-01-01", "servers": 5}
 
 
 def entry(host, port, game):
@@ -212,6 +251,36 @@ class CheckTests(unittest.TestCase):
         result, _, _, addresses = self.run_check([entry("127.0.0.1", server.port, "undying")])
         self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 1))
         self.assertEqual(next(iter(addresses.values())), "192.0.2.1:27960\n")
+
+    def test_steam_list_is_counted_by_unique_address(self):
+        api = SteamApi(body={"response": {"servers": [{"addr": "192.0.2.1:27015"}, {"addr": "192.0.2.2:27016"}, {"addr": "192.0.2.1:27015"}]}})
+        self.addCleanup(api.close)
+        result, _, _, addresses = self.run_check([steam_entry(730)], STEAM_API_KEY="test-key", STEAM_API_URL=api.url)
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 2))
+        self.assertEqual(next(iter(addresses.values())), "192.0.2.1:27015\n192.0.2.2:27016\n")
+        self.assertEqual(api.queries[0]["filter"], ["\\appid\\730"])
+        self.assertEqual(api.queries[0]["key"], ["test-key"])
+
+    def test_steam_empty_response_is_online_with_zero(self):
+        api = SteamApi(body={"response": {}})
+        self.addCleanup(api.close)
+        result, _, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url)
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 0))
+
+    def test_steam_without_key_keeps_previous_status(self):
+        api = SteamApi(body={"response": {}})
+        self.addCleanup(api.close)
+        result, log, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="", STEAM_API_URL=api.url)
+        self.assertEqual(result[0], steam_entry())
+        self.assertEqual(api.queries, [])
+        self.assertIn("no-api-key", log)
+
+    def test_steam_rejected_key_is_no_response(self):
+        api = SteamApi(status=403, body={})
+        self.addCleanup(api.close)
+        result, log, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="bad-key", STEAM_API_URL=api.url)
+        self.assertEqual((result[0]["status"], result[0]["check_error"]), ("no-response", "query-failed"))
+        self.assertNotIn("bad-key", log)
 
     def test_empty_catalogue(self):
         result, _, index, addresses = self.run_check([])
