@@ -450,8 +450,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "deusex",
+            "key": "Av3M99"
           },
           "official": false,
           "status": "online",
@@ -567,8 +569,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
           },
           "official": false,
           "status": "online",
@@ -651,8 +655,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
           },
           "official": false,
           "status": "online",
@@ -738,8 +744,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "globalops",
+            "key": "AdN3L9"
           },
           "official": false,
           "status": "online",
@@ -868,8 +876,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
           },
           "official": false,
           "status": "online",
@@ -1068,8 +1078,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
           },
           "official": false,
           "status": "online",
@@ -1185,8 +1197,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
           },
           "official": false,
           "status": "online",
@@ -1275,8 +1289,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
           },
           "official": false,
           "status": "online",
@@ -1359,8 +1375,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
           },
           "official": false,
           "status": "online",
@@ -1442,8 +1460,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mobileforces",
+            "key": "g3H6eR"
           },
           "official": false,
           "status": "online",
@@ -1533,8 +1553,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "nerfarena",
+            "key": "zEh7ir"
           },
           "official": false,
           "status": "online",
@@ -1717,8 +1739,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "postal2",
+            "key": "yw3R9c"
           },
           "official": false,
           "status": "online",
@@ -2099,8 +2123,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "rune",
+            "key": "BnA4a3"
           },
           "official": false,
           "status": "online",
@@ -2246,8 +2272,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussam",
+            "key": "AKbna4"
           },
           "official": false,
           "status": "online",
@@ -2351,8 +2379,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussamse",
+            "key": "AKbna4"
           },
           "official": false,
           "status": "online",
@@ -2479,8 +2509,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "sofretail",
+            "key": "iVn3a3"
           },
           "official": false,
           "status": "online",
@@ -2913,8 +2945,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "turok2",
+            "key": "RWd3BG"
           },
           "official": false,
           "status": "online",
@@ -3080,8 +3114,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "unreal",
+            "key": "DAncRK"
           },
           "official": false,
           "status": "online",
@@ -3223,8 +3259,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
           },
           "official": false,
           "status": "online",
@@ -3524,8 +3562,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut",
+            "key": "Z5Nfb0"
           },
           "official": false,
           "status": "online",
@@ -3784,8 +3824,10 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "wot",
+            "key": "RSSSpA"
           },
           "official": false,
           "status": "online",
