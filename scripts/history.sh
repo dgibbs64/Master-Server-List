@@ -12,8 +12,8 @@ keep="${HISTORY_DAYS:-180}"
 
 jq --slurpfile cur "${servers}" --slurpfile list "${list}" --arg today "${today}" --argjson keep "${keep}" '
 	def point: [(if .status == "online" then 1 elif .status == "no-response" or .status == "no-dns" then 0 else null end), (.servers // null)] | if . == [null, null] then null else . end;
-	($cur[0] | [.games[] | .name as $g | .masters[] | {key: "\($g)|\(if .port then "\(.host):\(.port)" else .host end)", value: point}] | from_entries)
-	+ (($list[0].games // {}) | with_entries({key: "\(.key)|unique", value: [null, .value.unique]})) as $now
+	(($cur[0] | [.games[] | .name as $g | .masters[] | {key: "\($g)|\(if .port then "\(.host):\(.port)" else .host end)", value: point}] | from_entries)
+	+ (($list[0].games // {}) | with_entries({key: "\(.key)|unique", value: [null, .value.unique]}))) as $now
 	| (.days // []) as $old_days
 	| ($old_days | length) as $old_n
 	| (($old_days | last) == $today) as $replace
