@@ -1127,10 +1127,12 @@ This game has no classic master server. Its public server list is a web API, che
 
 ## World of Padman
 
+Servers on World of Padman 1.7 report protocol 72, which is what these masters are checked with. https://worldofpadman.net/en/servers/ shows the same servers.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.worldofpadman.net:27955` | Official | ✅ Online | 1 | 2026-10-24 |
-| `master.worldofpadman.com:27955` | Official | ✅ Online | 1 | 2026-10-24 |
+| `master.worldofpadman.net:27955` | Official | ✅ Online | 6 | 2026-10-24 |
+| `master.worldofpadman.com:27955` | Official | ✅ Online | 6 | 2026-10-24 |
 
 ## Xonotic
 

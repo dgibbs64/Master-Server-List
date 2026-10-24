@@ -5566,12 +5566,12 @@
             "type": "getservers",
             "port": 27955,
             "game": "WorldofPadman",
-            "protocol": 71,
+            "protocol": 72,
             "label": "World of Padman"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1,
+          "servers": 6,
           "official": true
         },
         {
@@ -5581,15 +5581,16 @@
             "type": "getservers",
             "port": 27955,
             "game": "WorldofPadman",
-            "protocol": 71,
+            "protocol": 72,
             "label": "World of Padman"
           },
           "official": true,
           "status": "online",
-          "servers": 1,
+          "servers": 6,
           "last_seen": "2026-10-24"
         }
-      ]
+      ],
+      "notes": "Servers on World of Padman 1.7 report protocol 72, which is what these masters are checked with. https://worldofpadman.net/en/servers/ shows the same servers."
     },
     {
       "name": "Xonotic",
