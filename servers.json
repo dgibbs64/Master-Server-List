@@ -9,7 +9,8 @@
           "port": 27900,
           "probe": {
             "type": "q2query",
-            "port": 27900
+            "port": 27900,
+            "label": "Alien Arena"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -21,7 +22,8 @@
           "port": 27900,
           "probe": {
             "type": "q2query",
-            "port": 27900
+            "port": 27900,
+            "label": "Alien Arena"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -119,7 +121,8 @@
           "probe": {
             "type": "getservers",
             "port": 20510,
-            "protocol": 6
+            "protocol": 6,
+            "label": "Call of Duty"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -152,7 +155,8 @@
           "probe": {
             "type": "getservers",
             "port": 20710,
-            "protocol": 118
+            "protocol": 118,
+            "label": "Call of Duty 2"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -185,7 +189,8 @@
           "probe": {
             "type": "getservers",
             "port": 20810,
-            "protocol": 6
+            "protocol": 6,
+            "label": "Call of Duty 4: Modern Warfare"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -198,7 +203,8 @@
           "probe": {
             "type": "getservers",
             "port": 20810,
-            "protocol": 6
+            "protocol": 6,
+            "label": "Call of Duty 4: Modern Warfare"
           },
           "official": false,
           "status": "online",
@@ -225,7 +231,8 @@
           "probe": {
             "type": "getservers",
             "port": 20610,
-            "protocol": 22
+            "protocol": 22,
+            "label": "Call of Duty: United Offensive"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -1569,7 +1576,8 @@
           "probe": {
             "type": "q2query",
             "port": 27900,
-            "addresses": false
+            "addresses": false,
+            "label": "Kingpin"
           },
           "official": false,
           "status": "online",
@@ -2362,7 +2370,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Nexuiz",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Nexuiz"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2376,7 +2385,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Nexuiz",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Nexuiz"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2390,7 +2400,8 @@
             "type": "getservers",
             "port": 27777,
             "game": "Nexuiz",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Nexuiz"
           },
           "official": false,
           "status": "online",
@@ -2438,7 +2449,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 71
+            "protocol": 71,
+            "label": "OpenArena"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2451,7 +2463,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 71
+            "protocol": 71,
+            "label": "OpenArena"
           },
           "status": "online",
           "servers": 66,
@@ -2612,7 +2625,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Q3Rally",
-            "protocol": 71
+            "protocol": 71,
+            "label": "Q3Rally"
           },
           "status": "online",
           "servers": 2,
@@ -2631,7 +2645,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "DarkPlaces-Quake",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Quake (DarkPlaces)"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2645,7 +2660,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "DarkPlaces-Quake",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Quake (DarkPlaces)"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2659,7 +2675,8 @@
             "type": "getservers",
             "port": 27777,
             "game": "DarkPlaces-Quake",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Quake (DarkPlaces)"
           },
           "official": false,
           "status": "online",
@@ -2915,7 +2932,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 60
+            "protocol": 60,
+            "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2928,7 +2946,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 60
+            "protocol": 60,
+            "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2941,7 +2960,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 60
+            "protocol": 60,
+            "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3499,7 +3519,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": 68,
+            "label": "Smokin' Guns"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3685,7 +3706,8 @@
           "probe": {
             "type": "getservers",
             "port": 20110,
-            "protocol": 2004
+            "protocol": 2004,
+            "label": "Soldier of Fortune II"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3845,7 +3867,8 @@
             "type": "getservers",
             "port": 27900,
             "protocol": 17,
-            "count": false
+            "count": false,
+            "label": "Star Trek: Elite Force II"
           },
           "status": "online",
           "servers": null,
@@ -3859,7 +3882,8 @@
             "type": "getservers",
             "port": 27900,
             "protocol": 17,
-            "count": false
+            "count": false,
+            "label": "Star Trek: Elite Force II"
           },
           "status": "online",
           "servers": null,
@@ -3892,7 +3916,8 @@
           "probe": {
             "type": "getservers",
             "port": 27953,
-            "protocol": 24
+            "protocol": 24,
+            "label": "Star Trek: Voyager Elite Force"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3905,7 +3930,8 @@
           "probe": {
             "type": "getservers",
             "port": 27953,
-            "protocol": 24
+            "protocol": 24,
+            "label": "Star Trek: Voyager Elite Force"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3918,7 +3944,8 @@
           "probe": {
             "type": "getservers",
             "port": 27953,
-            "protocol": 24
+            "protocol": 24,
+            "label": "Star Trek: Voyager Elite Force"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3945,7 +3972,8 @@
           "probe": {
             "type": "getservers",
             "port": 28060,
-            "protocol": 16
+            "protocol": 16,
+            "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -3958,7 +3986,8 @@
           "probe": {
             "type": "getservers",
             "port": 28060,
-            "protocol": 16
+            "protocol": 16,
+            "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
           "servers": 41,
@@ -3971,7 +4000,8 @@
           "probe": {
             "type": "getservers",
             "port": 28060,
-            "protocol": 16
+            "protocol": 16,
+            "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "official": false,
           "status": "online",
@@ -3998,7 +4028,8 @@
           "probe": {
             "type": "getservers",
             "port": 29060,
-            "protocol": 26
+            "protocol": 26,
+            "label": "Star Wars Jedi Knight: Jedi Academy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -4011,7 +4042,8 @@
           "probe": {
             "type": "getservers",
             "port": 29060,
-            "protocol": 26
+            "protocol": 26,
+            "label": "Star Wars Jedi Knight: Jedi Academy"
           },
           "status": "no-response",
           "servers": null,
@@ -4055,7 +4087,8 @@
           "probe": {
             "type": "getservers",
             "port": 30710,
-            "protocol": 69
+            "protocol": 69,
+            "label": "Tremulous"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5105,7 +5138,8 @@
           "probe": {
             "type": "getservers",
             "port": 27900,
-            "protocol": 68
+            "protocol": 68,
+            "label": "Urban Terror"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5118,7 +5152,8 @@
           "probe": {
             "type": "getservers",
             "port": 27900,
-            "protocol": 68
+            "protocol": 68,
+            "label": "Urban Terror"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5156,7 +5191,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warfork",
-            "protocol": 26
+            "protocol": 26,
+            "label": "Warfork"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5170,7 +5206,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warfork",
-            "protocol": 26
+            "protocol": 26,
+            "label": "Warfork"
           },
           "status": "online",
           "servers": 87,
@@ -5197,7 +5234,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warsow",
-            "protocol": 22
+            "protocol": 22,
+            "label": "Warsow"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5211,7 +5249,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warsow",
-            "protocol": 22
+            "protocol": 22,
+            "label": "Warsow"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5386,7 +5425,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 84
+            "protocol": 84,
+            "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5399,7 +5439,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 84
+            "protocol": 84,
+            "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5412,7 +5453,8 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 84
+            "protocol": 84,
+            "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5454,7 +5496,8 @@
             "type": "getservers",
             "port": 27955,
             "game": "WorldofPadman",
-            "protocol": 71
+            "protocol": 71,
+            "label": "World of Padman"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5468,7 +5511,8 @@
             "type": "getservers",
             "port": 27955,
             "game": "WorldofPadman",
-            "protocol": 71
+            "protocol": 71,
+            "label": "World of Padman"
           },
           "official": true,
           "status": "online",
@@ -5487,7 +5531,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Xonotic",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Xonotic"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5501,7 +5546,8 @@
             "type": "getservers",
             "port": 27950,
             "game": "Xonotic",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Xonotic"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -5515,7 +5561,8 @@
             "type": "getservers",
             "port": 27777,
             "game": "Xonotic",
-            "protocol": 3
+            "protocol": 3,
+            "label": "Xonotic"
           },
           "official": false,
           "status": "online",
