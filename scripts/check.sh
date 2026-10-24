@@ -47,6 +47,56 @@ count_packed() {
 	}'
 }
 
+addresses_getservers() {
+	reply_bytes | awk '
+		function hex(c) { return (c >= 48 && c <= 57) || (c >= 65 && c <= 70) || (c >= 97 && c <= 102) }
+		function val(c) { return c <= 57 ? c - 48 : (c <= 70 ? c - 55 : c - 87) }
+		{ b[NR] = $1 }
+		END {
+			for (i = 1; i <= NR; i++) {
+				if (b[i] != 92) continue
+				if (b[i + 1] == 69 && b[i + 2] == 79 && (b[i + 3] == 84 || b[i + 3] == 70)) { i += 3; continue }
+				ishex = i + 12 <= NR && b[i + 7] != 92
+				for (j = 1; ishex && j <= 12; j++) if (!hex(b[i + j])) ishex = 0
+				if (ishex) {
+					printf "%d.%d.%d.%d:%d\n", val(b[i+1]) * 16 + val(b[i+2]), val(b[i+3]) * 16 + val(b[i+4]), val(b[i+5]) * 16 + val(b[i+6]), val(b[i+7]) * 16 + val(b[i+8]), ((val(b[i+9]) * 16 + val(b[i+10])) * 256) + val(b[i+11]) * 16 + val(b[i+12])
+					i += 12
+				} else if (i + 6 <= NR) {
+					printf "%d.%d.%d.%d:%d\n", b[i+1], b[i+2], b[i+3], b[i+4], b[i+5] * 256 + b[i+6]
+					i += 6
+				}
+			}
+		}'
+}
+
+addresses_packed() {
+	reply_bytes | awk -v hlen="$1" '{ b[NR] = $1 } END {
+		i = 1 + hlen
+		while (i + 5 <= NR) {
+			if (b[i] == 255 && b[i + 1] == 255 && b[i + 2] == 255 && b[i + 3] == 255) { i += hlen; continue }
+			printf "%d.%d.%d.%d:%d\n", b[i], b[i+1], b[i+2], b[i+3], b[i+4] * 256 + b[i+5]
+			i += 6
+		}
+	}'
+}
+
+addresses_cube2() {
+	awk '/^addserver/ { print $2 ":" $3 }' "${reply}"
+}
+
+addresses_http() {
+	if jq -e . "${reply}" >/dev/null 2>&1; then
+		jq -r -f "${here}/addresses.jq" "${reply}"
+	else
+		{ grep -aoE '[0-9]{1,3}(\.[0-9]{1,3}){3}(:|[[:blank:]]+)[0-9]{1,5}' "${reply}" || true; } | sed -E 's/[[:blank:]]+/:/'
+	fi
+}
+
+save_addresses() {
+	[[ -n "${addrfile:-}" ]] || return 0
+	"$@" | sort -u >"${addrfile}" || true
+}
+
 count_zandronum() {
 	reply_bytes | awk '{ b[NR] = $1 } END {
 		c = 0; i = 1
@@ -80,7 +130,10 @@ probe_once() {
 				printf 'list\n'
 				sleep 3
 			} | timeout 8 nc "${host}" "${port}" >"${reply}" 2>/dev/null || true
-			[[ -s "${reply}" ]] && echo "online|$(grep -c '^addserver' "${reply}" || true)"
+			if [[ -s "${reply}" ]]; then
+				save_addresses addresses_cube2
+				echo "online|$(grep -c '^addserver' "${reply}" || true)"
+			fi
 			;;
 		http)
 			if curl -fsSL --max-time 25 -A "Master-Server-List checker" -o "${reply}" "${url}" 2>/dev/null; then
@@ -91,25 +144,26 @@ probe_once() {
 					count="$({ grep -aoE "${pattern}" "${reply}" || true; } | wc -l)"
 				fi
 				[[ "${count}" =~ ^[0-9]+$ ]] || count=""
+				save_addresses addresses_http
 				echo "online|${count}"
 			fi
 			;;
 		gamespy)
-			if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" 2>/dev/null)"; then
+			if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}" 2>/dev/null)"; then
 				echo "online|${count}"
 			fi
 			;;
 		getservers)
-			udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && echo "online|$(count_getservers)"
+			udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && save_addresses addresses_getservers && echo "online|$(count_getservers)"
 			;;
 		q2query)
-			udp_query "${host}" "${port}" "query" && echo "online|$(count_packed 12)"
+			udp_query "${host}" "${port}" "query" && save_addresses addresses_packed 12 && echo "online|$(count_packed 12)"
 			;;
 		qwquery)
-			udp_query "${host}" "${port}" "c\n" && echo "online|$(count_packed 6)"
+			udp_query "${host}" "${port}" "c\n" && save_addresses addresses_packed 6 && echo "online|$(count_packed 6)"
 			;;
 		idtech4)
-			udp_query "${host}" "${port}" "\xff\xffgetServers\x00$(int32le "${protocol}")\x00\x00\x00\x00" && echo "online|$(count_packed 10)"
+			udp_query "${host}" "${port}" "\xff\xffgetServers\x00$(int32le "${protocol}")\x00\x00\x00\x00" && save_addresses addresses_packed 10 && echo "online|$(count_packed 10)"
 			;;
 		zandronum)
 			udp_query "${host}" "${port}" "\xff\x7c\x5d\x56\x00\x02\x00" && echo "online|$(count_zandronum)"
@@ -146,7 +200,17 @@ probe() {
 }
 
 results='{}'
+if [[ -n "${ADDRESS_DIR:-}" ]]; then
+	mkdir -p "${ADDRESS_DIR}"
+	: >"${ADDRESS_DIR}/index.tsv"
+fi
 while IFS= read -r entry; do
+	addrfile=""
+	if [[ -n "${ADDRESS_DIR:-}" ]]; then
+		addrfile="${ADDRESS_DIR}/$(printf '%s' "${entry}" | sha1sum | cut -c1-16).txt"
+		rm -f "${addrfile}"
+		printf '%s\t%s\n' "${entry}" "${addrfile}" >>"${ADDRESS_DIR}/index.tsv"
+	fi
 	mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern) | . // "" | tostring' <<<"${entry}")
 	IFS='|' read -r status servers < <(probe "${fields[@]}")
 	printf '%-12s %6s  %s\n' "${status}" "${servers}" "${fields[0]} ${fields[1]} ${fields[2]} ${fields[3]}${fields[5]} ${fields[4]}" >&2

@@ -34,7 +34,14 @@ jobs:
 
       - name: Check master servers
         if: github.event_name != 'push'
+        env:
+          ADDRESS_DIR: ${{ runner.temp }}/addresses
         run: ./scripts/check.sh
+
+      - name: Build server list
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: ./scripts/server-list.sh servers.json "$RUNNER_TEMP/addresses" servers-list.json
 
       - name: Open or close master-down issues
         if: github.event_name != 'push'
@@ -74,7 +81,7 @@ jobs:
           else
             git worktree add -q --orphan -b history "$dir"
           fi
-          ./scripts/history.sh servers.json "$dir/history.json"
+          ./scripts/history.sh servers.json "$dir/history.json" "$(date -u +%F)" servers-list.json
           cd "$dir"
           git add history.json
           git commit -qm "Record master status for $(date -u +%F)"
@@ -86,6 +93,11 @@ jobs:
           cp site/* servers.json _site/
           if git fetch -q origin history; then
             git show FETCH_HEAD:history.json > _site/history.json
+          fi
+          if [ -s servers-list.json ]; then
+            cp servers-list.json _site/
+          else
+            curl -fsSL -o _site/servers-list.json https://dgibbs64.github.io/Master-Server-List/servers-list.json || rm -f _site/servers-list.json
           fi
 
       - uses: actions/configure-pages@v6

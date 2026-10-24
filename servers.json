@@ -436,11 +436,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"deusex\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "deusex",
+            "key": "Av3M99"
           },
           "official": false,
           "status": "online",
@@ -725,11 +724,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"globalops\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "globalops",
+            "key": "AdN3L9"
           },
           "official": false,
           "status": "online",
@@ -856,11 +854,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"heretic2\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
           },
           "official": false,
           "status": "online",
@@ -1174,11 +1171,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"mohaa\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
           },
           "official": false,
           "status": "online",
@@ -2089,11 +2085,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"rune\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "rune",
+            "key": "BnA4a3"
           },
           "official": false,
           "status": "online",
@@ -2342,11 +2337,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"serioussamse\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussamse",
+            "key": "AKbna4"
           },
           "official": false,
           "status": "online",
@@ -3072,11 +3066,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"unreal\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "unreal",
+            "key": "DAncRK"
           },
           "official": false,
           "status": "online",
@@ -3517,11 +3510,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"ut\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut",
+            "key": "Z5Nfb0"
           },
           "official": false,
           "status": "online",
