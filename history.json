@@ -3,6 +3,30 @@
     "2026-10-24"
   ],
   "entries": {
+    "7 Days to Die|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "7 Days to Die|unique": [
+      [
+        null,
+        10000
+      ]
+    ],
+    "ARK: Survival Evolved|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "ARK: Survival Evolved|unique": [
+      [
+        null,
+        10000
+      ]
+    ],
     "Alien Arena|master.alienarena.org:27900": [
       [
         1,
@@ -11,8 +35,8 @@
     ],
     "Alien Arena|master2.alienarena.org:27900": [
       [
-        1,
-        20
+        0,
+        null
       ]
     ],
     "Alien Arena|unique": [
@@ -21,22 +45,34 @@
         20
       ]
     ],
+    "Arma 3|api.steampowered.com": [
+      [
+        1,
+        4048
+      ]
+    ],
+    "Arma 3|unique": [
+      [
+        null,
+        4048
+      ]
+    ],
     "AssaultCube|ms.cubers.net": [
       [
         1,
-        45
+        43
       ]
     ],
     "AssaultCube|unique": [
       [
         null,
-        45
+        43
       ]
     ],
     "Battlefield 1942|master.bf1942.org": [
       [
         1,
-        null
+        80
       ]
     ],
     "Battlefield 1942|master.openspy.net:27900": [
@@ -54,55 +90,55 @@
     "Battlefield 2142|master.openspy.net:27900": [
       [
         1,
-        8
+        9
       ]
     ],
     "Battlefield 2|master.openspy.net:27900": [
       [
         1,
-        121
+        124
       ]
     ],
     "Battlefield 2|unique": [
       [
         null,
-        121
+        124
       ]
     ],
     "Battlefield Vietnam|master.openspy.net:27900": [
       [
         1,
-        13
+        12
       ]
     ],
     "Battlefield Vietnam|unique": [
       [
         null,
-        13
+        12
       ]
     ],
     "BeamMP|backend.beammp.com": [
       [
         1,
-        3084
+        3141
       ]
     ],
     "BeamMP|unique": [
       [
         null,
-        3084
+        3141
       ]
     ],
     "Brickadia|brickadia.com": [
       [
         1,
-        52
+        50
       ]
     ],
     "Call of Duty 2|cod2master.activision.com:20710": [
       [
         1,
-        381
+        376
       ]
     ],
     "Call of Duty 2|master.openspy.net:27900": [
@@ -114,13 +150,13 @@
     "Call of Duty 2|unique": [
       [
         null,
-        381
+        376
       ]
     ],
     "Call of Duty 4: Modern Warfare|cod4master.activision.com:20810": [
       [
         1,
-        1337
+        1340
       ]
     ],
     "Call of Duty 4: Modern Warfare|master.cod.pm:20810": [
@@ -132,25 +168,25 @@
     "Call of Duty 4: Modern Warfare|unique": [
       [
         null,
-        1352
+        1355
       ]
     ],
     "Call of Duty: United Offensive|coduomaster.activision.com:20610": [
       [
         1,
-        156
+        160
       ]
     ],
     "Call of Duty: United Offensive|unique": [
       [
         null,
-        156
+        160
       ]
     ],
     "Call of Duty|codmaster.activision.com:20510": [
       [
         1,
-        119
+        65
       ]
     ],
     "Call of Duty|master.openspy.net:27900": [
@@ -162,13 +198,13 @@
     "Call of Duty|unique": [
       [
         null,
-        119
+        65
       ]
     ],
     "Call of Juarez: Bound in Blood|master.openspy.net:27900": [
       [
         1,
-        4
+        5
       ]
     ],
     "Chaser|master.openspy.net:27900": [
@@ -191,38 +227,38 @@
     ],
     "Clive Barker's Undying|master-au.unrealarchive.org:27900": [
       [
-        1,
+        0,
         null
       ]
     ],
     "Clive Barker's Undying|master.333networks.com:27900": [
       [
         1,
-        null
+        2
       ]
     ],
     "Clive Barker's Undying|master.eatsleeput.com:27900": [
       [
-        1,
+        0,
         null
       ]
     ],
     "Clive Barker's Undying|master.errorist.eu:27900": [
       [
         1,
-        null
+        2
       ]
     ],
     "Clive Barker's Undying|master.frag-net.com:27900": [
       [
-        1,
+        0,
         null
       ]
     ],
     "Clive Barker's Undying|master.fragaholic.com:27900": [
       [
         1,
-        null
+        2
       ]
     ],
     "Clive Barker's Undying|master.gonespy.com:27900": [
@@ -233,19 +269,25 @@
     ],
     "Clive Barker's Undying|master.newbiesplayground.net:27900": [
       [
-        1,
+        0,
         null
       ]
     ],
     "Clive Barker's Undying|master.noccer.de:27900": [
       [
-        1,
+        0,
         null
       ]
     ],
     "Clive Barker's Undying|master.openspy.net:27900": [
       [
         1,
+        2
+      ]
+    ],
+    "Clive Barker's Undying|unique": [
+      [
+        null,
         2
       ]
     ],
@@ -259,6 +301,42 @@
       [
         null,
         2
+      ]
+    ],
+    "Counter-Strike 2|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Counter-Strike 2|unique": [
+      [
+        null,
+        10000
+      ]
+    ],
+    "Counter-Strike: Source|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Counter-Strike: Source|unique": [
+      [
+        null,
+        10000
+      ]
+    ],
+    "Counter-Strike|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Counter-Strike|unique": [
+      [
+        null,
+        10000
       ]
     ],
     "Crysis 2|master.openspy.net:27900": [
@@ -276,7 +354,7 @@
     "Crysis Wars|master.g.jedi95.us:28910": [
       [
         1,
-        20
+        18
       ]
     ],
     "Crysis Wars|master.openspy.net:27900": [
@@ -288,7 +366,7 @@
     "Crysis Wars|unique": [
       [
         null,
-        20
+        18
       ]
     ],
     "Crysis|m.crymp.org:27900": [
@@ -312,25 +390,31 @@
     "DDNet / Teeworlds|master1.ddnet.org": [
       [
         1,
-        1475
+        1488
       ]
     ],
     "DDNet / Teeworlds|unique": [
       [
         null,
-        1474
+        1487
       ]
     ],
     "Daikatana|master.maraakate.org:27900": [
       [
-        1,
-        13
+        0,
+        null
       ]
     ],
-    "Daikatana|unique": [
+    "DayZ|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "DayZ|unique": [
       [
         null,
-        13
+        10000
       ]
     ],
     "Deer Hunter 2004|master.openspy.net:27900": [
@@ -360,43 +444,43 @@
     "Deus Ex|master-au.unrealarchive.org:27900": [
       [
         1,
-        8
+        7
       ]
     ],
     "Deus Ex|master.333networks.com:27900": [
       [
         1,
-        11
+        7
       ]
     ],
     "Deus Ex|master.deusexnetwork.com:27900": [
       [
         1,
-        11
+        7
       ]
     ],
     "Deus Ex|master.eatsleeput.com:27900": [
       [
         1,
-        8
+        7
       ]
     ],
     "Deus Ex|master.errorist.eu:27900": [
       [
         1,
-        8
+        7
       ]
     ],
     "Deus Ex|master.frag-net.com:27900": [
       [
         1,
-        9
+        7
       ]
     ],
     "Deus Ex|master.fragaholic.com:27900": [
       [
         1,
-        11
+        7
       ]
     ],
     "Deus Ex|master.gonespy.com:27900": [
@@ -408,13 +492,13 @@
     "Deus Ex|master.newbiesplayground.net:27900": [
       [
         1,
-        9
+        7
       ]
     ],
     "Deus Ex|master.noccer.de:27900": [
       [
         1,
-        8
+        7
       ]
     ],
     "Deus Ex|master.openspy.net:27900": [
@@ -426,7 +510,7 @@
     "Deus Ex|unique": [
       [
         null,
-        9
+        7
       ]
     ],
     "Dirt Track Racing 2|master.openspy.net:27900": [
@@ -522,7 +606,7 @@
     "Duke Nukem Forever (2001)|master.333networks.com:27900": [
       [
         1,
-        9
+        4
       ]
     ],
     "Duke Nukem Forever (2001)|master.eatsleeput.com:27900": [
@@ -546,7 +630,7 @@
     "Duke Nukem Forever (2001)|master.fragaholic.com:27900": [
       [
         1,
-        9
+        4
       ]
     ],
     "Duke Nukem Forever (2001)|master.gonespy.com:27900": [
@@ -612,7 +696,19 @@
     "FlatOut 2|master.openspy.net:27900": [
       [
         1,
-        30
+        25
+      ]
+    ],
+    "Garry's Mod|api.steampowered.com": [
+      [
+        1,
+        5815
+      ]
+    ],
+    "Garry's Mod|unique": [
+      [
+        null,
+        5815
       ]
     ],
     "Global Operations|master-au.unrealarchive.org:27900": [
@@ -624,7 +720,7 @@
     "Global Operations|master.333networks.com:27900": [
       [
         1,
-        4
+        3
       ]
     ],
     "Global Operations|master.eatsleeput.com:27900": [
@@ -636,7 +732,7 @@
     "Global Operations|master.errorist.eu:27900": [
       [
         1,
-        6
+        3
       ]
     ],
     "Global Operations|master.frag-net.com:27900": [
@@ -648,7 +744,7 @@
     "Global Operations|master.fragaholic.com:27900": [
       [
         1,
-        4
+        3
       ]
     ],
     "Global Operations|master.gonespy.com:27900": [
@@ -690,31 +786,31 @@
     "Half-Life (WON)|master.won2.steamlessproject.nl:27010": [
       [
         1,
-        63
+        66
       ]
     ],
     "Half-Life (WON)|master2.won2.steamlessproject.nl:27010": [
       [
         1,
-        63
+        65
       ]
     ],
     "Half-Life (WON)|master3.won2.steamlessproject.nl:27010": [
       [
         1,
-        64
+        66
       ]
     ],
     "Half-Life (WON)|master4.won2.steamlessproject.nl:27010": [
       [
         1,
-        64
+        66
       ]
     ],
     "Half-Life (WON)|unique": [
       [
         null,
-        70
+        77
       ]
     ],
     "Halo: Combat Evolved|master.openspy.net:27900": [
@@ -738,37 +834,25 @@
     "Halo: Custom Edition|s1.master.hosthpc.com": [
       [
         1,
-        265
+        263
       ]
     ],
     "Halo: Custom Edition|unique": [
       [
         null,
-        265
+        263
       ]
     ],
     "HeXen II|master.maraakate.org:27900": [
       [
-        1,
-        1
-      ]
-    ],
-    "HeXen II|unique": [
-      [
-        null,
-        1
+        0,
+        null
       ]
     ],
     "HeXenWorld|master.maraakate.org:27900": [
       [
-        1,
-        3
-      ]
-    ],
-    "HeXenWorld|unique": [
-      [
-        null,
-        3
+        0,
+        null
       ]
     ],
     "Heretic II|master-au.unrealarchive.org:27900": [
@@ -780,7 +864,7 @@
     "Heretic II|master.333networks.com:27900": [
       [
         1,
-        4
+        3
       ]
     ],
     "Heretic II|master.eatsleeput.com:27900": [
@@ -804,7 +888,7 @@
     "Heretic II|master.fragaholic.com:27900": [
       [
         1,
-        4
+        3
       ]
     ],
     "Heretic II|master.gonespy.com:27900": [
@@ -815,8 +899,8 @@
     ],
     "Heretic II|master.maraakate.org:27900": [
       [
-        1,
-        3
+        0,
+        null
       ]
     ],
     "Heretic II|master.newbiesplayground.net:27900": [
@@ -894,7 +978,7 @@
     "Kingpin|gsm.qtracker.com:27900": [
       [
         1,
-        3
+        2
       ]
     ],
     "Kingpin|master-au.unrealarchive.org:27900": [
@@ -906,7 +990,7 @@
     "Kingpin|master.333networks.com:27900": [
       [
         1,
-        40
+        30
       ]
     ],
     "Kingpin|master.eatsleeput.com:27900": [
@@ -930,7 +1014,7 @@
     "Kingpin|master.fragaholic.com:27900": [
       [
         1,
-        40
+        30
       ]
     ],
     "Kingpin|master.gonespy.com:27900": [
@@ -947,8 +1031,8 @@
     ],
     "Kingpin|master.maraakate.org:27900": [
       [
-        1,
-        41
+        0,
+        null
       ]
     ],
     "Kingpin|master.newbiesplayground.net:27900": [
@@ -966,7 +1050,19 @@
     "Kingpin|unique": [
       [
         null,
-        42
+        31
+      ]
+    ],
+    "Left 4 Dead 2|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Left 4 Dead 2|unique": [
+      [
+        null,
+        10000
       ]
     ],
     "Legends of Might and Magic|master.openspy.net:27900": [
@@ -996,25 +1092,25 @@
     "Luanti (Minetest)|servers.luanti.org": [
       [
         1,
-        449
+        446
       ]
     ],
     "Luanti (Minetest)|unique": [
       [
         null,
-        442
+        439
       ]
     ],
     "Medal of Honor: Allied Assault Breakthrough|master-au.unrealarchive.org:27900": [
       [
         1,
-        35
+        34
       ]
     ],
     "Medal of Honor: Allied Assault Breakthrough|master.333networks.com:27900": [
       [
         1,
-        47
+        36
       ]
     ],
     "Medal of Honor: Allied Assault Breakthrough|master.eatsleeput.com:27900": [
@@ -1026,7 +1122,7 @@
     "Medal of Honor: Allied Assault Breakthrough|master.errorist.eu:27900": [
       [
         1,
-        40
+        38
       ]
     ],
     "Medal of Honor: Allied Assault Breakthrough|master.frag-net.com:27900": [
@@ -1038,7 +1134,7 @@
     "Medal of Honor: Allied Assault Breakthrough|master.fragaholic.com:27900": [
       [
         1,
-        46
+        36
       ]
     ],
     "Medal of Honor: Allied Assault Breakthrough|master.gonespy.com:27900": [
@@ -1056,49 +1152,49 @@
     "Medal of Honor: Allied Assault Breakthrough|master.noccer.de:27900": [
       [
         1,
-        34
+        36
       ]
     ],
     "Medal of Honor: Allied Assault Breakthrough|unique": [
       [
         null,
-        44
+        45
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master-au.unrealarchive.org:27900": [
       [
         1,
-        81
+        77
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.333networks.com:27900": [
       [
         1,
-        83
+        69
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.eatsleeput.com:27900": [
       [
         1,
-        69
+        68
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.errorist.eu:27900": [
       [
         1,
-        74
+        71
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.frag-net.com:27900": [
       [
         1,
-        71
+        69
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.fragaholic.com:27900": [
       [
         1,
-        83
+        69
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.gonespy.com:27900": [
@@ -1110,7 +1206,7 @@
     "Medal of Honor: Allied Assault Spearhead|master.newbiesplayground.net:27900": [
       [
         1,
-        70
+        67
       ]
     ],
     "Medal of Honor: Allied Assault Spearhead|master.noccer.de:27900": [
@@ -1122,43 +1218,43 @@
     "Medal of Honor: Allied Assault Spearhead|unique": [
       [
         null,
-        83
+        81
       ]
     ],
     "Medal of Honor: Allied Assault|master-au.unrealarchive.org:27900": [
       [
         1,
-        200
+        239
       ]
     ],
     "Medal of Honor: Allied Assault|master.333networks.com:27900": [
       [
         1,
-        245
+        243
       ]
     ],
     "Medal of Honor: Allied Assault|master.eatsleeput.com:27900": [
       [
         1,
-        198
+        244
       ]
     ],
     "Medal of Honor: Allied Assault|master.errorist.eu:27900": [
       [
         1,
-        209
+        241
       ]
     ],
     "Medal of Honor: Allied Assault|master.frag-net.com:27900": [
       [
         1,
-        198
+        237
       ]
     ],
     "Medal of Honor: Allied Assault|master.fragaholic.com:27900": [
       [
         1,
-        243
+        245
       ]
     ],
     "Medal of Honor: Allied Assault|master.gonespy.com:27900": [
@@ -1170,25 +1266,25 @@
     "Medal of Honor: Allied Assault|master.newbiesplayground.net:27900": [
       [
         1,
-        199
+        221
       ]
     ],
     "Medal of Honor: Allied Assault|master.noccer.de:27900": [
       [
         1,
-        202
+        246
       ]
     ],
     "Medal of Honor: Allied Assault|master.openspy.net:27900": [
       [
         1,
-        136
+        147
       ]
     ],
     "Medal of Honor: Allied Assault|unique": [
       [
         null,
-        225
+        262
       ]
     ],
     "Mobile Forces|master-au.unrealarchive.org:27900": [
@@ -1200,7 +1296,7 @@
     "Mobile Forces|master.333networks.com:27900": [
       [
         1,
-        2
+        1
       ]
     ],
     "Mobile Forces|master.eatsleeput.com:27900": [
@@ -1224,7 +1320,7 @@
     "Mobile Forces|master.fragaholic.com:27900": [
       [
         1,
-        2
+        1
       ]
     ],
     "Mobile Forces|master.gonespy.com:27900": [
@@ -1254,13 +1350,13 @@
     "Mount & Blade: Warband|unique": [
       [
         null,
-        244
+        246
       ]
     ],
     "Mount & Blade: Warband|warbandmain.taleworlds.com": [
       [
         1,
-        294
+        297
       ]
     ],
     "Need for Speed: Hot Pursuit 2|master.openspy.net:27900": [
@@ -1324,6 +1420,12 @@
       ]
     ],
     "Nerf Arena Blast|master.noccer.de:27900": [
+      [
+        1,
+        0
+      ]
+    ],
+    "Nerf Arena Blast|master.oldunreal.com:27900": [
       [
         1,
         0
@@ -1410,49 +1512,49 @@
     "Painkiller|master.openspy.net:27900": [
       [
         1,
-        14
+        13
       ]
     ],
     "Painkiller|unique": [
       [
         null,
-        14
+        13
       ]
     ],
     "Postal 2|master-au.unrealarchive.org:27900": [
       [
         1,
-        57
+        32
       ]
     ],
     "Postal 2|master.333networks.com:27900": [
       [
         1,
-        63
+        32
       ]
     ],
     "Postal 2|master.eatsleeput.com:27900": [
       [
         1,
-        57
+        29
       ]
     ],
     "Postal 2|master.errorist.eu:27900": [
       [
         1,
-        59
+        33
       ]
     ],
     "Postal 2|master.frag-net.com:27900": [
       [
         1,
-        54
+        27
       ]
     ],
     "Postal 2|master.fragaholic.com:27900": [
       [
         1,
-        63
+        33
       ]
     ],
     "Postal 2|master.gonespy.com:27900": [
@@ -1464,19 +1566,31 @@
     "Postal 2|master.newbiesplayground.net:27900": [
       [
         1,
-        54
+        31
       ]
     ],
     "Postal 2|master.noccer.de:27900": [
       [
         1,
-        59
+        33
       ]
     ],
     "Postal 2|unique": [
       [
         null,
-        70
+        44
+      ]
+    ],
+    "Project Zomboid|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Project Zomboid|unique": [
+      [
+        null,
+        10000
       ]
     ],
     "Q3Rally|dpmaster.deathmask.net:27950": [
@@ -1500,19 +1614,19 @@
     "Quake (DarkPlaces)|dpmaster.deathmask.net:27950": [
       [
         1,
-        42
+        41
       ]
     ],
     "Quake (DarkPlaces)|dpmaster.tchr.no:27950": [
       [
         1,
-        55
+        53
       ]
     ],
     "Quake (DarkPlaces)|unique": [
       [
         null,
-        75
+        72
       ]
     ],
     "Quake 2|master.itbacon.com:27900": [
@@ -1523,20 +1637,20 @@
     ],
     "Quake 2|master.maraakate.org:27900": [
       [
-        1,
-        440
+        0,
+        null
       ]
     ],
     "Quake 2|master.quakeservers.net:27900": [
       [
         1,
-        109
+        113
       ]
     ],
     "Quake 2|unique": [
       [
         null,
-        462
+        130
       ]
     ],
     "Quake 3|dpmaster.deathmask.net:27950": [
@@ -1554,31 +1668,31 @@
     "Quake 3|master.ioquake3.org:27950": [
       [
         1,
-        945
+        947
       ]
     ],
     "Quake 3|master.maverickservers.com:27950": [
       [
-        1,
-        440
+        0,
+        null
       ]
     ],
     "Quake 3|master.quake3arena.com:27950": [
       [
         1,
-        995
+        1017
       ]
     ],
     "Quake 3|master0.excessiveplus.net:27950": [
       [
         1,
-        210
+        209
       ]
     ],
     "Quake 3|unique": [
       [
         null,
-        1535
+        1475
       ]
     ],
     "Quake 4|master.quakehub.net:27650": [
@@ -1596,13 +1710,13 @@
     "Quake 4|unique": [
       [
         null,
-        24
+        25
       ]
     ],
     "QuakeWorld|master.maraakate.org:27900": [
       [
-        1,
-        645
+        0,
+        null
       ]
     ],
     "QuakeWorld|master.quakeservers.net:27000": [
@@ -1615,12 +1729,6 @@
       [
         0,
         null
-      ]
-    ],
-    "QuakeWorld|unique": [
-      [
-        null,
-        645
       ]
     ],
     "Red Eclipse|play.redeclipse.net:28800": [
@@ -1650,25 +1758,25 @@
     "Return to Castle Wolfenstein|dpmaster.deathmask.net:27950": [
       [
         1,
-        58
+        65
       ]
     ],
     "Return to Castle Wolfenstein|unique": [
       [
         null,
-        156
+        181
       ]
     ],
     "Return to Castle Wolfenstein|wolfmaster.idsoftware.com:27950": [
       [
         1,
-        89
+        93
       ]
     ],
     "Return to Castle Wolfenstein|wolfmaster.s4ndmod.com:27950": [
       [
         1,
-        131
+        149
       ]
     ],
     "Rune|master-au.unrealarchive.org:27900": [
@@ -1680,7 +1788,7 @@
     "Rune|master.333networks.com:27900": [
       [
         1,
-        59
+        32
       ]
     ],
     "Rune|master.eatsleeput.com:27900": [
@@ -1692,7 +1800,7 @@
     "Rune|master.errorist.eu:27900": [
       [
         1,
-        40
+        33
       ]
     ],
     "Rune|master.frag-net.com:27900": [
@@ -1704,7 +1812,7 @@
     "Rune|master.fragaholic.com:27900": [
       [
         1,
-        59
+        32
       ]
     ],
     "Rune|master.gonespy.com:27900": [
@@ -1734,7 +1842,19 @@
     "Rune|unique": [
       [
         null,
-        33
+        34
+      ]
+    ],
+    "Rust|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Rust|unique": [
+      [
+        null,
+        10000
       ]
     ],
     "SWAT 4|master.openspy.net:27900": [
@@ -1746,73 +1866,73 @@
     "SWAT 4|master.swat4stats.com:27900": [
       [
         1,
-        52
+        51
       ]
     ],
     "SWAT 4|unique": [
       [
         null,
-        100
+        99
       ]
     ],
     "Saints Row 2|master.openspy.net:27900": [
       [
         1,
-        8
+        7
       ]
     ],
     "Saints Row 2|unique": [
       [
         null,
-        8
+        7
       ]
     ],
     "San Andreas Multiplayer (SA:MP / open.mp)|api.open.mp": [
       [
         1,
-        1282
+        1283
       ]
     ],
     "San Andreas Multiplayer (SA:MP / open.mp)|unique": [
       [
         null,
-        1282
+        1283
       ]
     ],
     "Sauerbraten|master.sauerbraten.org:28787": [
       [
         1,
-        69
+        68
       ]
     ],
     "Sauerbraten|unique": [
       [
         null,
-        69
+        68
       ]
     ],
     "Serious Sam: Second Encounter|master-au.unrealarchive.org:27900": [
       [
         1,
-        72
+        75
       ]
     ],
     "Serious Sam: Second Encounter|master.333networks.com:27900": [
       [
         1,
-        113
+        74
       ]
     ],
     "Serious Sam: Second Encounter|master.eatsleeput.com:27900": [
       [
         1,
-        72
+        75
       ]
     ],
     "Serious Sam: Second Encounter|master.errorist.eu:27900": [
       [
         1,
-        74
+        75
       ]
     ],
     "Serious Sam: Second Encounter|master.frag-net.com:27900": [
@@ -1824,7 +1944,7 @@
     "Serious Sam: Second Encounter|master.fragaholic.com:27900": [
       [
         1,
-        113
+        74
       ]
     ],
     "Serious Sam: Second Encounter|master.gonespy.com:27900": [
@@ -1836,13 +1956,13 @@
     "Serious Sam: Second Encounter|master.newbiesplayground.net:27900": [
       [
         1,
-        73
+        74
       ]
     ],
     "Serious Sam: Second Encounter|master.noccer.de:27900": [
       [
         1,
-        71
+        74
       ]
     ],
     "Serious Sam: Second Encounter|master.openspy.net:27900": [
@@ -1860,37 +1980,37 @@
     "Serious Sam|master-au.unrealarchive.org:27900": [
       [
         1,
-        45
+        41
       ]
     ],
     "Serious Sam|master.333networks.com:27900": [
       [
         1,
-        70
+        41
       ]
     ],
     "Serious Sam|master.eatsleeput.com:27900": [
       [
         1,
-        44
+        41
       ]
     ],
     "Serious Sam|master.errorist.eu:27900": [
       [
         1,
-        44
+        41
       ]
     ],
     "Serious Sam|master.frag-net.com:27900": [
       [
         1,
-        44
+        42
       ]
     ],
     "Serious Sam|master.fragaholic.com:27900": [
       [
         1,
-        70
+        41
       ]
     ],
     "Serious Sam|master.gonespy.com:27900": [
@@ -1902,31 +2022,25 @@
     "Serious Sam|master.newbiesplayground.net:27900": [
       [
         1,
-        44
+        41
       ]
     ],
     "Serious Sam|master.noccer.de:27900": [
       [
         1,
-        44
+        41
       ]
     ],
     "Serious Sam|unique": [
       [
         null,
-        44
+        42
       ]
     ],
     "SiN|master.maraakate.org:27900": [
       [
-        1,
-        3
-      ]
-    ],
-    "SiN|unique": [
-      [
-        null,
-        3
+        0,
+        null
       ]
     ],
     "Skyrim Together Reborn|skyrim-reborn-list.skyrim-together.com": [
@@ -1938,7 +2052,7 @@
     "Skyrim Together Reborn|unique": [
       [
         null,
-        91
+        92
       ]
     ],
     "Smokin' Guns|master.smokin-guns.org:27950": [
@@ -1980,7 +2094,7 @@
     "Soldier of Fortune II|master.1fxmod.org:20110": [
       [
         1,
-        51
+        50
       ]
     ],
     "Soldier of Fortune II|master.333networks.com:27900": [
@@ -2022,7 +2136,7 @@
     "Soldier of Fortune II|master.newbiesplayground.net:27900": [
       [
         1,
-        null
+        0
       ]
     ],
     "Soldier of Fortune II|master.noccer.de:27900": [
@@ -2034,19 +2148,19 @@
     "Soldier of Fortune II|unique": [
       [
         null,
-        51
+        50
       ]
     ],
     "Soldier of Fortune|master-au.unrealarchive.org:27900": [
       [
         1,
-        30
+        29
       ]
     ],
     "Soldier of Fortune|master.333networks.com:27900": [
       [
         1,
-        44
+        29
       ]
     ],
     "Soldier of Fortune|master.eatsleeput.com:27900": [
@@ -2058,7 +2172,7 @@
     "Soldier of Fortune|master.errorist.eu:27900": [
       [
         1,
-        32
+        29
       ]
     ],
     "Soldier of Fortune|master.frag-net.com:27900": [
@@ -2070,7 +2184,7 @@
     "Soldier of Fortune|master.fragaholic.com:27900": [
       [
         1,
-        44
+        29
       ]
     ],
     "Soldier of Fortune|master.gonespy.com:27900": [
@@ -2100,37 +2214,49 @@
     "Space Station 14|hub.spacestation14.com": [
       [
         1,
-        187
+        184
       ]
     ],
     "Space Station 14|unique": [
       [
         null,
-        103
+        101
       ]
     ],
     "Star Trek: Bridge Commander|master.openspy.net:27900": [
       [
         1,
-        1
+        2
       ]
     ],
     "Star Trek: Bridge Commander|unique": [
       [
         null,
-        1
+        2
       ]
     ],
-    "Star Trek: Elite Force II|master.hazardmodding.com:27900": [
+    "Star Trek: Elite Force II|ef2master.sfu-server.de:29250": [
       [
         1,
-        null
+        6
       ]
     ],
-    "Star Trek: Elite Force II|master.stef2.daggolin.de:27900": [
+    "Star Trek: Elite Force II|master.hazardmodding.com:29250": [
       [
         1,
-        null
+        6
+      ]
+    ],
+    "Star Trek: Elite Force II|master.stef2.daggolin.de:29250": [
+      [
+        1,
+        6
+      ]
+    ],
+    "Star Trek: Elite Force II|unique": [
+      [
+        null,
+        6
       ]
     ],
     "Star Trek: Voyager Elite Force|efmaster.tjps.eu:27953": [
@@ -2160,25 +2286,25 @@
     "Star Wars Jedi Knight II: Jedi Outcast|master.jk2mv.org:28060": [
       [
         1,
-        37
+        36
       ]
     ],
     "Star Wars Jedi Knight II: Jedi Outcast|master.jkhub.org:28060": [
       [
         1,
-        43
+        42
       ]
     ],
     "Star Wars Jedi Knight II: Jedi Outcast|master.ouned.de:28060": [
       [
         1,
-        37
+        36
       ]
     ],
     "Star Wars Jedi Knight II: Jedi Outcast|unique": [
       [
         null,
-        46
+        45
       ]
     ],
     "Star Wars Jedi Knight: Jedi Academy|master.jk2mv.org:29060": [
@@ -2190,13 +2316,13 @@
     "Star Wars Jedi Knight: Jedi Academy|master.jkhub.org:29060": [
       [
         1,
-        263
+        258
       ]
     ],
     "Star Wars Jedi Knight: Jedi Academy|unique": [
       [
         null,
-        263
+        258
       ]
     ],
     "Star Wars: Republic Commando|master.openspy.net:27900": [
@@ -2220,7 +2346,7 @@
     "Starsiege: Tribes|t1m1.pu.net:28000": [
       [
         1,
-        30
+        31
       ]
     ],
     "Starsiege: Tribes|t1m1.tribes0.com:28000": [
@@ -2232,13 +2358,25 @@
     "Starsiege: Tribes|unique": [
       [
         null,
-        30
+        31
       ]
     ],
     "THUG Pro|master.openspy.net:27900": [
       [
         1,
-        10
+        11
+      ]
+    ],
+    "Team Fortress 2|api.steampowered.com": [
+      [
+        1,
+        2218
+      ]
+    ],
+    "Team Fortress 2|unique": [
+      [
+        null,
+        2218
       ]
     ],
     "Tesseract|master.tesseract.gg:41999": [
@@ -2256,7 +2394,7 @@
     "Tony Hawk's American Wasteland|master.openspy.net:27900": [
       [
         1,
-        4
+        5
       ]
     ],
     "Tony Hawk's Pro Skater 4|master.openspy.net:27900": [
@@ -2274,13 +2412,13 @@
     "Tremulous|master.tremulous.net:30710": [
       [
         1,
-        11
+        15
       ]
     ],
     "Tremulous|unique": [
       [
         null,
-        11
+        15
       ]
     ],
     "Tribes 2|master.tribesnext.com": [
@@ -2436,7 +2574,7 @@
     "Unreal Tournament 2004|master.333networks.com:27900": [
       [
         1,
-        4
+        3
       ]
     ],
     "Unreal Tournament 2004|master.eatsleeput.com:27900": [
@@ -2454,7 +2592,7 @@
     "Unreal Tournament 2004|master.fragaholic.com:27900": [
       [
         1,
-        4
+        3
       ]
     ],
     "Unreal Tournament 2004|master.gonespy.com:27900": [
@@ -2466,7 +2604,7 @@
     "Unreal Tournament 2004|master.newbiesplayground.net:27900": [
       [
         1,
-        null
+        3
       ]
     ],
     "Unreal Tournament 2004|master.noccer.de:27900": [
@@ -2502,7 +2640,7 @@
     "Unreal Tournament 2004|utmaster.openspy.net:28902": [
       [
         1,
-        502
+        503
       ]
     ],
     "Unreal Tournament 3|master.openspy.net:27900": [
@@ -2526,31 +2664,31 @@
     "Unreal Tournament 99|lists.gameserverlister.com:80": [
       [
         1,
-        754
+        765
       ]
     ],
     "Unreal Tournament 99|master-au.unrealarchive.org:27900": [
       [
         1,
-        940
+        901
       ]
     ],
     "Unreal Tournament 99|master.333networks.com:27900": [
       [
         1,
-        1778
+        908
       ]
     ],
     "Unreal Tournament 99|master.eatsleeput.com:27900": [
       [
         1,
-        911
+        902
       ]
     ],
     "Unreal Tournament 99|master.errorist.eu:27900": [
       [
         1,
-        1260
+        902
       ]
     ],
     "Unreal Tournament 99|master.exsurge.net:27900": [
@@ -2562,13 +2700,13 @@
     "Unreal Tournament 99|master.frag-net.com:27900": [
       [
         1,
-        915
+        904
       ]
     ],
     "Unreal Tournament 99|master.fragaholic.com:27900": [
       [
         1,
-        1778
+        908
       ]
     ],
     "Unreal Tournament 99|master.gonespy.com:27900": [
@@ -2580,55 +2718,55 @@
     "Unreal Tournament 99|master.newbiesplayground.net:27900": [
       [
         1,
-        919
+        907
       ]
     ],
     "Unreal Tournament 99|master.noccer.de:27900": [
       [
         1,
-        913
+        902
       ]
     ],
     "Unreal Tournament 99|master.oldunreal.com:27900": [
       [
         1,
-        919
+        907
       ]
     ],
     "Unreal Tournament 99|master.openspy.net:27900": [
       [
         1,
-        516
+        513
       ]
     ],
     "Unreal Tournament 99|unique": [
       [
         null,
-        932
+        924
       ]
     ],
     "Unreal|master-au.unrealarchive.org:27900": [
       [
         1,
-        94
+        87
       ]
     ],
     "Unreal|master.333networks.com:27900": [
       [
         1,
-        162
+        85
       ]
     ],
     "Unreal|master.eatsleeput.com:27900": [
       [
         1,
-        87
+        86
       ]
     ],
     "Unreal|master.errorist.eu:27900": [
       [
         1,
-        144
+        86
       ]
     ],
     "Unreal|master.exsurge.net:27900": [
@@ -2646,7 +2784,7 @@
     "Unreal|master.fragaholic.com:27900": [
       [
         1,
-        162
+        85
       ]
     ],
     "Unreal|master.gonespy.com:27900": [
@@ -2658,7 +2796,7 @@
     "Unreal|master.hypercoop.tk:27900": [
       [
         1,
-        82
+        74
       ]
     ],
     "Unreal|master.newbiesplayground.net:27900": [
@@ -2670,7 +2808,7 @@
     "Unreal|master.noccer.de:27900": [
       [
         1,
-        87
+        86
       ]
     ],
     "Unreal|master.oldunreal.com:27900": [
@@ -2682,31 +2820,55 @@
     "Unreal|master.openspy.net:27900": [
       [
         1,
-        60
+        63
       ]
     ],
     "Unreal|unique": [
       [
         null,
-        97
+        89
+      ]
+    ],
+    "Unturned|api.steampowered.com": [
+      [
+        1,
+        1669
+      ]
+    ],
+    "Unturned|unique": [
+      [
+        null,
+        1669
       ]
     ],
     "Urban Terror|master.urbanterror.info:27900": [
       [
         1,
-        250
+        271
       ]
     ],
     "Urban Terror|master2.urbanterror.info:27900": [
       [
         1,
-        250
+        271
       ]
     ],
     "Urban Terror|unique": [
       [
         null,
-        253
+        274
+      ]
+    ],
+    "Valheim|api.steampowered.com": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "Valheim|unique": [
+      [
+        null,
+        10000
       ]
     ],
     "Vietcong 2|master.openspy.net:27900": [
@@ -2724,19 +2886,19 @@
     "Vietcong|46.28.109.117:28900": [
       [
         1,
-        null
+        54
       ]
     ],
     "Vietcong|51.68.46.73:28900": [
       [
         1,
-        null
+        55
       ]
     ],
     "Vietcong|master.openspy.net:27900": [
       [
         1,
-        55
+        54
       ]
     ],
     "Vietcong|unique": [
@@ -2748,31 +2910,31 @@
     "Vintage Story|masterserver.vintagestory.at": [
       [
         1,
-        2508
+        2506
       ]
     ],
     "Vintage Story|unique": [
       [
         null,
-        2507
+        2505
       ]
     ],
     "Warfork|dpmaster.deathmask.net:27950": [
       [
         1,
-        87
+        86
       ]
     ],
     "Warfork|master1.forbidden.gg:27950": [
       [
         1,
-        87
+        86
       ]
     ],
     "Warfork|unique": [
       [
         null,
-        88
+        86
       ]
     ],
     "Warsow|dpmaster.deathmask.net:27950": [
@@ -2802,7 +2964,7 @@
     "Wheel of Time|master.333networks.com:27900": [
       [
         1,
-        17
+        7
       ]
     ],
     "Wheel of Time|master.eatsleeput.com:27900": [
@@ -2826,7 +2988,7 @@
     "Wheel of Time|master.fragaholic.com:27900": [
       [
         1,
-        17
+        7
       ]
     ],
     "Wheel of Time|master.gonespy.com:27900": [
@@ -2856,19 +3018,19 @@
     "Wolfenstein: Enemy Territory|etmaster.idsoftware.com:27950": [
       [
         1,
-        448
+        443
       ]
     ],
     "Wolfenstein: Enemy Territory|master.etlegacy.com:27950": [
       [
         1,
-        446
+        431
       ]
     ],
     "Wolfenstein: Enemy Territory|unique": [
       [
         null,
-        536
+        516
       ]
     ],
     "Wolfenstein: Enemy Territory|wolfmaster.idsoftware.com:27950": [
@@ -2880,49 +3042,49 @@
     "World of Padman|master.worldofpadman.com:27955": [
       [
         1,
-        1
+        6
       ]
     ],
     "World of Padman|master.worldofpadman.net:27955": [
       [
         1,
-        1
+        6
       ]
     ],
     "World of Padman|unique": [
       [
         null,
-        1
+        6
       ]
     ],
     "Xonotic|dpm.dpmaster.org:27777": [
       [
         1,
-        242
+        239
       ]
     ],
     "Xonotic|dpmaster.deathmask.net:27950": [
       [
         1,
-        297
+        303
       ]
     ],
     "Xonotic|dpmaster.tchr.no:27950": [
       [
         1,
-        32
+        37
       ]
     ],
     "Xonotic|unique": [
       [
         null,
-        369
+        381
       ]
     ],
     "Zandronum|master.zandronum.com:15300": [
       [
         1,
-        779
+        778
       ]
     ]
   }
