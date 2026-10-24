@@ -239,7 +239,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 ## Clive Barker's Undying
 
-Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal). Masters are checked with an Undying GameSpy server-list request.
+Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal). Masters are checked with an Undying GameSpy server-list request. Masters showing no response reject Undying's registered key, so the game cannot fetch a list from them.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -247,8 +247,8 @@ Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal
 | `master.errorist.eu:27900` | Community | ✅ Online | 2 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 2 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.newbiesplayground.net:27900` | Community | ⚠️ No response | - | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ⚠️ No response | - | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ⚠️ No response | - | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ⚠️ No response | - | 2026-10-24 |
@@ -831,12 +831,12 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.1fxmod.org:20110` | Community | ✅ Online | 51 | 2026-10-24 |
 | `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -998,11 +998,11 @@ Port 28900 is GameSpy; port 28902 is the native UT2004 master service. TCP-only 
 | `utmaster.openspy.net:28902` | Community | ✅ Online | 502 | 2026-10-24 |
 | `master.333networks.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 3 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `ut2004master.333networks.com:28902` | Community | ✅ Online | - | 2026-10-24 |
 | `ut2004master.errorist.eu:28902` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |

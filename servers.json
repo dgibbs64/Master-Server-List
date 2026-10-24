@@ -314,14 +314,17 @@
           "host": "master.newbiesplayground.net",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-24",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "incomplete-response"
         },
         {
           "host": "master.openspy.net",
@@ -428,7 +431,7 @@
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ],
-      "notes": "Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal). Masters are checked with an Undying GameSpy server-list request."
+      "notes": "Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal). Masters are checked with an Undying GameSpy server-list request. Masters showing no response reject Undying's registered key, so the game cannot fetch a list from them."
     },
     {
       "name": "DDNet / Teeworlds",
@@ -3790,9 +3793,11 @@
           "host": "master.gonespy.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "sof2",
+            "key": "F8vZed",
+            "label": "GameSpy"
           },
           "status": "no-response",
           "last_seen": "2026-10-23",
@@ -3804,13 +3809,15 @@
           "host": "master.newbiesplayground.net",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "sof2",
+            "key": "F8vZed",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 0,
           "official": false
         },
         {
@@ -4722,9 +4729,11 @@
           "host": "master.gonespy.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "ut2004",
+            "key": "y5rP9m",
+            "label": "GameSpy"
           },
           "status": "no-response",
           "last_seen": "2026-10-23",
@@ -4736,13 +4745,15 @@
           "host": "master.newbiesplayground.net",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "ut2004",
+            "key": "y5rP9m",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 3,
           "official": false
         },
         {
