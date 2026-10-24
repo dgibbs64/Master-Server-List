@@ -15,7 +15,8 @@ done
 min_interval=$((10#${min_interval}))
 retry_delay=$((10#${retry_delay}))
 reply="$(mktemp)"
-trap 'rm -f "${reply}"' EXIT
+collected="$(mktemp)"
+trap 'rm -f "${reply}" "${collected}"' EXIT
 
 resolves() {
 	local addr
@@ -34,18 +35,6 @@ reply_bytes() {
 
 int32le() {
 	printf '\\x%02x\\x%02x\\x%02x\\x%02x' $(($1 & 255)) $((($1 >> 8) & 255)) $((($1 >> 16) & 255)) $((($1 >> 24) & 255))
-}
-
-count_getservers() {
-	reply_bytes | awk '{ b[NR] = $1 } END {
-		c = 0
-		for (i = 1; i <= NR; i++) {
-			if (b[i] != 92) continue
-			if (b[i + 1] == 69 && b[i + 2] == 79 && (b[i + 3] == 84 || b[i + 3] == 70)) { i += 3; continue }
-			if (i + 6 <= NR) { c++; i += 6 }
-		}
-		print c
-	}'
 }
 
 count_packed() {
@@ -164,7 +153,8 @@ addresses_tribes1() {
 }
 
 probe_once() {
-	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc format="${11:-text}" push="${12:-false}" appid="${13:-}"
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc format="${11:-text}" push="${12:-false}" appid="${13:-}" replied version
+	local -a versions
 	case "${type}" in
 	tcp)
 		# shellcheck disable=SC2016 # Positional arguments expand in the child shell.
@@ -221,7 +211,18 @@ probe_once() {
 		fi
 		;;
 	getservers)
-		udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && save_addresses addresses_getservers && echo "online|$(count_getservers)"
+		replied=false
+		: >"${collected}"
+		read -ra versions <<<"${protocol}"
+		for version in "${versions[@]}"; do
+			udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${version} full empty" || continue
+			replied=true
+			addresses_getservers >>"${collected}"
+		done
+		if [[ "${replied}" == true ]]; then
+			save_addresses cat "${collected}"
+			echo "online|$(sort -u "${collected}" | grep -c . || true)"
+		fi
 		;;
 	q2query)
 		udp_query "${host}" "${port}" "query" && save_addresses addresses_packed 12 && echo "online|$(count_packed 12)"
@@ -293,7 +294,7 @@ for attempt in 1 2 3; do
 		waiting=()
 		earliest=0
 		for entry in "${queue[@]}"; do
-			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern, .format, .push, .appid) | . // "" | tostring' <<<"${entry}")
+			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, (.protocol | if type == "array" then map(tostring) | join(" ") else . end), .gamename, .key, .url, .jq, .pattern, .format, .push, .appid) | . // "" | tostring' <<<"${entry}")
 			host="${fields[0]}"
 			endpoint="${host}:${fields[2]}"
 			if [[ -z "${rate_keys[${host}]:-}" ]]; then

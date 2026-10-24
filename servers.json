@@ -124,7 +124,14 @@
           "probe": {
             "type": "getservers",
             "port": 20510,
-            "protocol": 6,
+            "protocol": [
+              6,
+              5,
+              4,
+              2,
+              1,
+              23
+            ],
             "label": "Call of Duty"
           },
           "status": "online",
@@ -158,7 +165,11 @@
           "probe": {
             "type": "getservers",
             "port": 20710,
-            "protocol": 118,
+            "protocol": [
+              118,
+              117,
+              115
+            ],
             "label": "Call of Duty 2"
           },
           "status": "online",
@@ -192,7 +203,11 @@
           "probe": {
             "type": "getservers",
             "port": 20810,
-            "protocol": 6,
+            "protocol": [
+              6,
+              5,
+              1
+            ],
             "label": "Call of Duty 4: Modern Warfare"
           },
           "status": "online",
@@ -206,7 +221,11 @@
           "probe": {
             "type": "getservers",
             "port": 20810,
-            "protocol": 6,
+            "protocol": [
+              6,
+              5,
+              1
+            ],
             "label": "Call of Duty 4: Modern Warfare"
           },
           "official": false,
@@ -234,7 +253,10 @@
           "probe": {
             "type": "getservers",
             "port": 20610,
-            "protocol": 22,
+            "protocol": [
+              22,
+              21
+            ],
             "label": "Call of Duty: United Offensive"
           },
           "status": "online",
@@ -2811,7 +2833,11 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": [
+              68,
+              67,
+              43
+            ]
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2824,7 +2850,11 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": [
+              68,
+              67,
+              43
+            ]
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2837,7 +2867,11 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": [
+              68,
+              67,
+              43
+            ]
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2850,7 +2884,11 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": [
+              68,
+              67,
+              43
+            ]
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2863,7 +2901,11 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": [
+              68,
+              67,
+              43
+            ]
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -2876,7 +2918,11 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 68
+            "protocol": [
+              68,
+              67,
+              43
+            ]
           },
           "official": false,
           "status": "online",
@@ -2990,7 +3036,10 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 60,
+            "protocol": [
+              60,
+              57
+            ],
             "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
@@ -3004,7 +3053,10 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 60,
+            "protocol": [
+              60,
+              57
+            ],
             "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
@@ -3018,7 +3070,10 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 60,
+            "protocol": [
+              60,
+              57
+            ],
             "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
@@ -4045,7 +4100,10 @@
           "probe": {
             "type": "getservers",
             "port": 28060,
-            "protocol": 16,
+            "protocol": [
+              16,
+              15
+            ],
             "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
@@ -4059,7 +4117,10 @@
           "probe": {
             "type": "getservers",
             "port": 28060,
-            "protocol": 16,
+            "protocol": [
+              16,
+              15
+            ],
             "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
@@ -4073,7 +4134,10 @@
           "probe": {
             "type": "getservers",
             "port": 28060,
-            "protocol": 16,
+            "protocol": [
+              16,
+              15
+            ],
             "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "official": false,
@@ -4101,7 +4165,10 @@
           "probe": {
             "type": "getservers",
             "port": 29060,
-            "protocol": 26,
+            "protocol": [
+              26,
+              25
+            ],
             "label": "Star Wars Jedi Knight: Jedi Academy"
           },
           "status": "online",
@@ -4115,7 +4182,10 @@
           "probe": {
             "type": "getservers",
             "port": 29060,
-            "protocol": 26,
+            "protocol": [
+              26,
+              25
+            ],
             "label": "Star Wars Jedi Knight: Jedi Academy"
           },
           "status": "no-response",
@@ -5275,7 +5345,10 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warfork",
-            "protocol": 26,
+            "protocol": [
+              26,
+              27
+            ],
             "label": "Warfork"
           },
           "status": "online",
@@ -5290,7 +5363,10 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warfork",
-            "protocol": 26,
+            "protocol": [
+              26,
+              27
+            ],
             "label": "Warfork"
           },
           "status": "online",
@@ -5510,7 +5586,10 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 84,
+            "protocol": [
+              84,
+              82
+            ],
             "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
@@ -5524,7 +5603,10 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 84,
+            "protocol": [
+              84,
+              82
+            ],
             "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
@@ -5538,7 +5620,10 @@
           "probe": {
             "type": "getservers",
             "port": 27950,
-            "protocol": 84,
+            "protocol": [
+              84,
+              82
+            ],
             "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
