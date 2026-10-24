@@ -1,4 +1,3 @@
-"""Recorded binary replies from the three public masters, captured 2026-10-24."""
 from pathlib import Path
 import subprocess  # nosec B404 - Execute only the repository's compiled decoder.
 import tempfile

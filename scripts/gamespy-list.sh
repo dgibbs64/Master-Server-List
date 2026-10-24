@@ -17,8 +17,6 @@ fail() {
 
 { exec 3<>"/dev/tcp/${host}/${port}"; } 2>/dev/null || fail 2 "TCP connection failed"
 if [[ "${push}" == true && "${format}" == enctype2 ]]; then
-	# These masters stream the encrypted list immediately after this prefix,
-	# without a challenge. Reading six challenge bytes would truncate the list.
 	banner="$(timeout 5 head -c 15 <&3)" || true
 	[[ "${banner}" == "\\basic\\\\secure\\" ]] || fail 3 "Invalid pushed-list banner"
 else
