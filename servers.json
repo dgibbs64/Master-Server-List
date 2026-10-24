@@ -268,35 +268,41 @@
           "host": "master.333networks.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 2,
           "official": false
         },
         {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 2,
           "official": false
         },
         {
           "host": "master.gonespy.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "status": "no-response",
           "last_seen": "2026-10-23",
@@ -308,23 +314,26 @@
           "host": "master.newbiesplayground.net",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-24",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "incomplete-response"
         },
         {
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"undying\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "undying",
+            "key": "      ",
             "label": "GameSpy"
           },
           "official": false,
@@ -336,66 +345,80 @@
           "host": "master.fragaholic.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 2,
           "last_seen": "2026-10-24"
         },
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
+          "status": "no-response",
           "servers": null,
-          "last_seen": "2026-10-24"
+          "last_seen": "2026-10-24",
+          "check_error": "incomplete-response"
         },
         {
           "host": "master.noccer.de",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
+          "status": "no-response",
           "servers": null,
-          "last_seen": "2026-10-24"
+          "last_seen": "2026-10-24",
+          "check_error": "incomplete-response"
         },
         {
           "host": "master.eatsleeput.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
+          "status": "no-response",
           "servers": null,
-          "last_seen": "2026-10-24"
+          "last_seen": "2026-10-24",
+          "check_error": "incomplete-response"
         },
         {
           "host": "master.frag-net.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "undying",
+            "key": "      ",
+            "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
+          "status": "no-response",
           "servers": null,
-          "last_seen": "2026-10-24"
+          "last_seen": "2026-10-24",
+          "check_error": "incomplete-response"
         }
       ],
       "retired": [
@@ -408,7 +431,7 @@
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ],
-      "notes": "These are GameSpy services. Entries labelled TCP check only confirm connectivity; they do not validate an Undying server-list request."
+      "notes": "Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal). Masters are checked with an Undying GameSpy server-list request. Masters showing no response reject Undying's registered key, so the game cannot fetch a list from them."
     },
     {
       "name": "DDNet / Teeworlds",
@@ -3770,9 +3793,11 @@
           "host": "master.gonespy.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "sof2",
+            "key": "F8vZed",
+            "label": "GameSpy"
           },
           "status": "no-response",
           "last_seen": "2026-10-23",
@@ -3784,13 +3809,15 @@
           "host": "master.newbiesplayground.net",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "sof2",
+            "key": "F8vZed",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 0,
           "official": false
         },
         {
@@ -4702,9 +4729,11 @@
           "host": "master.gonespy.com",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "ut2004",
+            "key": "y5rP9m",
+            "label": "GameSpy"
           },
           "status": "no-response",
           "last_seen": "2026-10-23",
@@ -4716,13 +4745,15 @@
           "host": "master.newbiesplayground.net",
           "port": 27900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "ut2004",
+            "key": "y5rP9m",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 3,
           "official": false
         },
         {
