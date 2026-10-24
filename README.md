@@ -8,7 +8,7 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes, so its server counts are from that day.
+Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes, so its server counts are from that day. Each check's status and count is also kept for 180 days in `history.json` on the `history` branch, published at https://dgibbs64.github.io/Master-Server-List/history.json.
 
 | Status | Meaning |
 |---|---|
