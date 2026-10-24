@@ -75,7 +75,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -92,7 +95,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 2991,
+          "servers": 3012,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -111,7 +114,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 65,
+          "servers": 123,
           "official": true
         },
         {
@@ -124,7 +127,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -141,7 +147,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 371,
+          "servers": 381,
           "official": true
         },
         {
@@ -154,7 +160,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -171,7 +180,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1297,
+          "servers": 1285,
           "official": true
         }
       ]
@@ -189,7 +198,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 158,
+          "servers": 157,
           "official": true
         }
       ]
@@ -206,7 +215,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 24,
+          "servers": 25,
           "official": true
         }
       ]
@@ -245,7 +254,7 @@
             "type": "tcp",
             "port": 28900
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
           "official": false
@@ -272,7 +281,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -289,7 +301,7 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1432,
+          "servers": 1442,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -349,9 +361,9 @@
             "gamename": "deusex",
             "key": "Av3M99"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 7,
+          "servers": null,
           "official": false
         },
         {
@@ -378,7 +390,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -413,7 +428,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 21,
+          "servers": 22,
           "official": true
         }
       ]
@@ -458,7 +473,7 @@
             "gamename": "drakan",
             "key": "zCt4De"
           },
-          "status": null,
+          "status": "no-response",
           "servers": null,
           "last_seen": null,
           "official": false
@@ -517,7 +532,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 4,
+          "servers": 3,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -530,7 +545,7 @@
             "gamename": "dnf",
             "key": "      "
           },
-          "status": null,
+          "status": "no-response",
           "servers": null,
           "last_seen": null,
           "official": false
@@ -591,9 +606,9 @@
             "gamename": "globalops",
             "key": "AdN3L9"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 3,
+          "servers": null,
           "official": false
         },
         {
@@ -620,7 +635,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -660,7 +678,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -704,9 +725,9 @@
             "gamename": "heretic2",
             "key": "2iuCAS"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 3,
+          "servers": null,
           "official": false
         },
         {
@@ -733,7 +754,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -791,7 +815,7 @@
             "type": "tcp",
             "port": 28900
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-24",
           "servers": null,
           "official": false
@@ -833,9 +857,9 @@
             "gamename": "ironstorm",
             "key": "y5Ei7C"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 0,
+          "servers": null,
           "official": false
         }
       ],
@@ -898,9 +922,9 @@
             "gamename": "kingpin",
             "key": "QFWxY2"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 31,
+          "servers": null,
           "official": false
         },
         {
@@ -942,7 +966,7 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 438,
+          "servers": 445,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -963,7 +987,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 208,
+          "servers": 236,
           "official": false
         },
         {
@@ -977,7 +1001,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 184,
+          "servers": 196,
           "official": false
         },
         {
@@ -989,9 +1013,9 @@
             "gamename": "mohaa",
             "key": "M5Fdwc"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 225,
+          "servers": null,
           "official": false
         },
         {
@@ -1005,7 +1029,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 163,
+          "servers": 184,
           "official": false
         },
         {
@@ -1018,7 +1042,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1046,7 +1073,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 49,
+          "servers": 46,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1060,7 +1087,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 37,
+          "servers": 36,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1073,7 +1100,7 @@
             "gamename": "mohaab",
             "key": "y32FDc"
           },
-          "status": null,
+          "status": "no-response",
           "servers": null,
           "last_seen": null,
           "official": false
@@ -1088,7 +1115,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 30,
+          "servers": 32,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -1118,7 +1145,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 73,
+          "servers": 71,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1132,7 +1159,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 66,
+          "servers": 64,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1145,7 +1172,7 @@
             "gamename": "mohaas",
             "key": "h2P1c9"
           },
-          "status": null,
+          "status": "no-response",
           "servers": null,
           "last_seen": null,
           "official": false
@@ -1160,7 +1187,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 57,
+          "servers": 61,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -1216,9 +1243,9 @@
             "gamename": "mobileforces",
             "key": "g3H6eR"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 1,
+          "servers": null,
           "official": false
         },
         {
@@ -1287,9 +1314,9 @@
             "gamename": "nerfarena",
             "key": "zEh7ir"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 0,
+          "servers": null,
           "official": false
         },
         {
@@ -1363,7 +1390,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 141,
+          "servers": 142,
           "official": true
         },
         {
@@ -1375,7 +1402,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 141,
+          "servers": 142,
           "official": true
         }
       ]
@@ -1405,7 +1432,7 @@
             "protocol": 71
           },
           "status": "online",
-          "servers": 66,
+          "servers": 68,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -1425,7 +1452,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 21,
+          "servers": 33,
           "official": false
         },
         {
@@ -1439,7 +1466,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 18,
+          "servers": 27,
           "official": false
         },
         {
@@ -1451,9 +1478,9 @@
             "gamename": "postal2",
             "key": "yw3R9c"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 27,
+          "servers": null,
           "official": false
         },
         {
@@ -1467,7 +1494,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 6,
+          "servers": 25,
           "official": false
         }
       ],
@@ -1528,7 +1555,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 58,
+          "servers": 54,
           "official": true
         }
       ]
@@ -1545,7 +1572,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 102,
+          "servers": 99,
           "official": false
         }
       ],
@@ -1579,7 +1606,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 943,
+          "servers": 936,
           "official": false
         },
         {
@@ -1605,7 +1632,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 174,
+          "servers": 187,
           "official": false
         },
         {
@@ -1618,7 +1645,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 445,
+          "servers": 443,
           "official": false
         },
         {
@@ -1631,7 +1658,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 980,
+          "servers": 982,
           "official": true
         }
       ],
@@ -1658,7 +1685,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 23,
+          "servers": 25,
           "official": true
         }
       ]
@@ -1673,9 +1700,9 @@
             "type": "qwquery",
             "port": 27000
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-24",
-          "servers": 688,
+          "servers": null,
           "official": false
         },
         {
@@ -1685,9 +1712,9 @@
             "type": "qwquery",
             "port": 27000
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 646,
+          "servers": null,
           "official": false
         }
       ],
@@ -1714,7 +1741,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 83,
+          "servers": 99,
           "official": true
         },
         {
@@ -1727,7 +1754,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 53,
+          "servers": 65,
           "official": false
         },
         {
@@ -1740,7 +1767,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 104,
+          "servers": 156,
           "official": false
         }
       ],
@@ -1794,9 +1821,9 @@
             "gamename": "rune",
             "key": "BnA4a3"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 32,
+          "servers": null,
           "official": false
         },
         {
@@ -1823,7 +1850,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1858,7 +1888,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 1236,
+          "servers": 1231,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -1875,7 +1905,7 @@
             "port": 28787
           },
           "status": "online",
-          "servers": 70,
+          "servers": 69,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -1921,9 +1951,9 @@
             "gamename": "serioussam",
             "key": "AKbna4"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 41,
+          "servers": null,
           "official": false
         },
         {
@@ -1974,7 +2004,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 111,
+          "servers": 118,
           "official": false
         },
         {
@@ -1988,7 +2018,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 76,
+          "servers": 80,
           "official": false
         },
         {
@@ -2000,9 +2030,9 @@
             "gamename": "serioussamse",
             "key": "AKbna4"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 78,
+          "servers": null,
           "official": false
         },
         {
@@ -2016,7 +2046,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 72,
+          "servers": 80,
           "official": false
         },
         {
@@ -2029,7 +2059,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2082,7 +2115,7 @@
             "jq": ".Servers | length"
           },
           "status": "online",
-          "servers": 60,
+          "servers": 61,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -2128,9 +2161,9 @@
             "gamename": "sofretail",
             "key": "iVn3a3"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 30,
+          "servers": null,
           "official": false
         },
         {
@@ -2214,7 +2247,7 @@
             "type": "tcp",
             "port": 28900
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
           "official": false
@@ -2304,7 +2337,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 29,
+          "servers": 30,
           "official": false
         },
         {
@@ -2357,7 +2390,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 36,
+          "servers": 37,
           "official": false
         },
         {
@@ -2369,7 +2402,7 @@
             "protocol": 16
           },
           "status": "online",
-          "servers": 42,
+          "servers": 43,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -2397,7 +2430,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 263,
+          "servers": 261,
           "official": false
         },
         {
@@ -2408,8 +2441,8 @@
             "port": 29060,
             "protocol": 26
           },
-          "status": "online",
-          "servers": 224,
+          "status": "no-response",
+          "servers": null,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -2492,7 +2525,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 0,
+          "servers": 4,
           "official": false
         },
         {
@@ -2506,7 +2539,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 0,
+          "servers": 4,
           "official": false
         },
         {
@@ -2518,9 +2551,9 @@
             "gamename": "turok2",
             "key": "RWd3BG"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 4,
+          "servers": null,
           "official": false
         },
         {
@@ -2534,7 +2567,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 0,
+          "servers": 4,
           "official": false
         }
       ],
@@ -2563,7 +2596,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 88,
+          "servers": 87,
           "official": false
         },
         {
@@ -2591,7 +2624,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 88,
+          "servers": 87,
           "official": false
         },
         {
@@ -2603,9 +2636,9 @@
             "gamename": "unreal",
             "key": "DAncRK"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 93,
+          "servers": null,
           "official": false
         },
         {
@@ -2619,7 +2652,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 147,
+          "servers": 146,
           "official": false
         },
         {
@@ -2633,7 +2666,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 95,
+          "servers": 94,
           "official": false
         },
         {
@@ -2647,7 +2680,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 87,
+          "servers": 86,
           "official": false
         },
         {
@@ -2660,8 +2693,8 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 88,
+          "last_seen": "2026-10-24",
+          "servers": 86,
           "official": false
         },
         {
@@ -2688,7 +2721,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 23,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2765,7 +2801,7 @@
             "gamename": "ut2",
             "key": "Lw7x0R"
           },
-          "status": null,
+          "status": "no-response",
           "servers": null,
           "last_seen": null,
           "official": false
@@ -2794,7 +2830,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -2820,7 +2859,7 @@
             "type": "tcp",
             "port": 28900
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
           "official": false
@@ -2868,7 +2907,7 @@
             "type": "tcp",
             "port": 28902
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
           "official": false
@@ -2883,7 +2922,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 503,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2927,7 +2969,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1766,
+          "servers": 1764,
           "official": false
         },
         {
@@ -2939,9 +2981,9 @@
             "gamename": "ut",
             "key": "Z5Nfb0"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 995,
+          "servers": null,
           "official": false
         },
         {
@@ -2955,7 +2997,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 896,
+          "servers": 897,
           "official": false
         },
         {
@@ -2969,7 +3011,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 896,
+          "servers": 898,
           "official": false
         },
         {
@@ -2983,7 +3025,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 899,
+          "servers": 895,
           "official": false
         },
         {
@@ -2997,7 +3039,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1248,
+          "servers": 1245,
           "official": false
         },
         {
@@ -3011,7 +3053,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 927,
+          "servers": 922,
           "official": false
         },
         {
@@ -3025,7 +3067,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 899,
+          "servers": 895,
           "official": false
         },
         {
@@ -3039,7 +3081,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 901,
+          "servers": 894,
           "official": false
         },
         {
@@ -3066,7 +3108,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 355,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3125,7 +3170,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 238,
+          "servers": 240,
           "official": true
         },
         {
@@ -3138,7 +3183,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 238,
+          "servers": 240,
           "official": true
         }
       ]
@@ -3156,7 +3201,7 @@
             "jq": ".data | length"
           },
           "status": "online",
-          "servers": 2485,
+          "servers": 2486,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -3253,9 +3298,9 @@
             "gamename": "wot",
             "key": "RSSSpA"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-23",
-          "servers": 7,
+          "servers": null,
           "official": false
         },
         {
@@ -3305,7 +3350,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 430,
+          "servers": 432,
           "official": true
         },
         {
@@ -3318,7 +3363,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 62,
+          "servers": 61,
           "official": true
         },
         {
@@ -3331,7 +3376,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 418,
+          "servers": 423,
           "official": false
         }
       ],
@@ -3392,7 +3437,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 292,
+          "servers": 290,
           "official": true
         },
         {
@@ -3423,7 +3468,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 757,
+          "servers": 759,
           "official": true
         }
       ]
@@ -3442,7 +3487,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 8,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3460,7 +3508,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 13,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3478,7 +3529,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3496,7 +3550,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3514,7 +3571,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3532,7 +3592,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 6,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3550,7 +3613,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3568,7 +3634,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3586,7 +3655,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 6,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3604,7 +3676,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3622,7 +3697,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3640,7 +3718,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3658,7 +3739,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 7,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3676,7 +3760,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3694,7 +3781,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 9,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3712,7 +3802,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 12,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3730,7 +3823,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3748,7 +3844,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3766,7 +3865,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3784,7 +3886,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3802,7 +3907,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3820,7 +3928,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 13,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3838,7 +3949,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3856,7 +3970,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3874,7 +3991,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3892,7 +4012,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 11,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3910,7 +4033,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3928,7 +4054,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3946,7 +4075,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3964,7 +4096,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 7,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3982,7 +4117,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 41,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -4000,7 +4138,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     }
