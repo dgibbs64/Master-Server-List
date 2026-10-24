@@ -195,6 +195,24 @@ class CheckTests(unittest.TestCase):
         self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 57))
         self.assertEqual(len(next(iter(addresses.values())).splitlines()), 57)
 
+    def test_space_only_undying_key_is_preserved(self):
+        server = Master()
+        self.addCleanup(server.close)
+        master = entry("127.0.0.1", server.port, "undying")
+        master["probe"]["key"] = "      "
+        result, _, _, addresses = self.run_check([master])
+        self.assertEqual(result[0]["probe"]["key"], "      ")
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 1))
+        self.assertIn(b"\\validate\\OdMXTIoM\\final\\", server.raw_requests[0])
+        self.assertEqual(next(iter(addresses.values())), "192.0.2.1:27960\n")
+
+    def test_duplicate_game_addresses_are_counted_once(self):
+        server = Master(mode=b"\\ip\\192.0.2.1:27960\\ip\\192.0.2.1:27960\\final\\")
+        self.addCleanup(server.close)
+        result, _, _, addresses = self.run_check([entry("127.0.0.1", server.port, "undying")])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 1))
+        self.assertEqual(next(iter(addresses.values())), "192.0.2.1:27960\n")
+
     def test_empty_catalogue(self):
         result, _, index, addresses = self.run_check([])
         self.assertEqual((result, index, addresses), ([], "", {}))

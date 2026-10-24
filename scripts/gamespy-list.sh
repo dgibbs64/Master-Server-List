@@ -44,7 +44,9 @@ if [[ "${response}" == *"\\error\\"* ]]; then
 	fail 4 "Query rejected: ${message:0:160}"
 fi
 [[ "${response}" == *$'\\final\\'* ]] || fail 5 "Incomplete GameSpy list response"
+ips="$({ grep -oE '\\ip\\[0-9]{1,3}(\.[0-9]{1,3}){3}:[0-9]{1,5}' <<<"${response}" || true; } | sed 's/^\\ip\\//' | sort -u)"
 if [[ -n "${addresses}" ]]; then
-	{ grep -oE '\\ip\\[0-9]{1,3}(\.[0-9]{1,3}){3}:[0-9]{1,5}' <<<"${response}" || true; } | sed 's/^\\ip\\//' >"${addresses}"
+	: >"${addresses}"
+	if [[ -n "${ips}" ]]; then printf '%s\n' "${ips}" >"${addresses}"; fi
 fi
-{ grep -oF $'\\ip\\' <<<"${response}" || true; } | wc -l
+{ grep -c . <<<"${ips}" || true; }
