@@ -1358,7 +1358,7 @@ CryMP replaces the GameSpy master. Its client points the game at m.crymp.org.
 
 ## Crysis Wars
 
-master.g.jedi95.us is the community master used by crysiswarsmp.com.
+crysiswarsmp.com runs the replacement GameSpy service for Crysis Wars, with master.g.jedi95.us as its master. Get the game working with the installer from crysiswarsmp.com. The count comes from the service's public server list at api.crysiswarsmp.com.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
