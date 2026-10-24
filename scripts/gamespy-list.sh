@@ -6,6 +6,8 @@ port="$2"
 gamename="$3"
 key="$4"
 addresses="${5:-}"
+format="${6:-text}"
+push="${7:-false}"
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 fail() {
@@ -14,14 +16,30 @@ fail() {
 }
 
 { exec 3<>"/dev/tcp/${host}/${port}"; } 2>/dev/null || fail 2 "TCP connection failed"
-banner="$(timeout 5 head -c 21 <&3)" || true
-[[ "${banner}" == *"\\secure\\"* ]] || fail 3 "No GameSpy challenge received"
-secure="${banner#*\\secure\\}"
-secure="${secure:0:6}"
-[[ "${#secure}" -eq 6 ]] || fail 3 "Incomplete GameSpy challenge"
-validate="$(GS_SECURE="${secure}" GS_KEY="${key}" LC_ALL=C gawk -f "${here}/gsmsalg.awk" </dev/null)"
-printf '%s' "\\gamename\\${gamename}\\location\\0\\validate\\${validate}\\final\\\\list\\\\gamename\\${gamename}\\final\\" >&3
-response="$(timeout 10 cat <&3 | tr -d '\0')" || true
+if [[ "${push}" == true && "${format}" == enctype2 ]]; then
+	# These masters stream the encrypted list immediately after this prefix,
+	# without a challenge. Reading six challenge bytes would truncate the list.
+	banner="$(timeout 5 head -c 15 <&3)" || true
+	[[ "${banner}" == "\\basic\\\\secure\\" ]] || fail 3 "Invalid pushed-list banner"
+else
+	banner="$(timeout 5 head -c 21 <&3)" || true
+	[[ "${banner}" == *"\\secure\\"* ]] || fail 3 "No GameSpy challenge received"
+	secure="${banner#*\\secure\\}"
+	secure="${secure:0:6}"
+	[[ "${#secure}" -eq 6 ]] || fail 3 "Incomplete GameSpy challenge"
+	validate="$(GS_SECURE="${secure}" GS_KEY="${key}" LC_ALL=C gawk -f "${here}/gsmsalg.awk" </dev/null)"
+	listmode=""
+	[[ "${format}" == enctype2 ]] && listmode="cmp"
+	printf '%s' "\\gamename\\${gamename}\\location\\0\\validate\\${validate}\\final\\\\list\\${listmode}\\gamename\\${gamename}\\final\\" >&3
+fi
+if [[ "${format}" == enctype2 ]]; then
+	encrypted="$(mktemp)"
+	trap 'rm -f "${encrypted}"' EXIT
+	timeout 10 head -c 4194305 <&3 >"${encrypted}" || true
+	response="$("${GAMESPY_ENCTYPE2:-${here}/gamespy-enctype2}" "${key}" "${encrypted}")" || fail 5 "Invalid or incomplete Enctype 2 list response"
+else
+	response="$(timeout 10 cat <&3 | tr -d '\0')" || true
+fi
 exec 3>&-
 if [[ "${response}" == *"\\error\\"* ]]; then
 	message="${response#*\\error\\}"

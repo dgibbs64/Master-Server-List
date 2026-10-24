@@ -57,13 +57,16 @@
           "host": "master.bf1942.org",
           "port": null,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "bfield1942",
+            "key": "HpWx9z",
+            "format": "enctype2",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 80,
           "official": false
         },
         {
@@ -6321,32 +6324,40 @@
     },
     {
       "name": "Vietcong",
-      "notes": "Two community masters replace GameSpy for Vietcong. Players point master.gamespy.com at one in the Windows hosts file: vietcong1.de (https://www.vietcong1.de/en/alternative-server-list/) uses 46.28.109.117, and vietcong.tk runs 51.68.46.73. Both answer with GameSpy's encrypted list format, so only their port is checked and there is no count yet.",
+      "notes": "Two community masters replace GameSpy for Vietcong. Players point master.gamespy.com at one in the Windows hosts file: vietcong1.de (https://www.vietcong1.de/en/alternative-server-list/) uses 46.28.109.117, and vietcong.tk runs 51.68.46.73. Both stream a GameSpy Enctype 2 server list on connection; checks decrypt and validate the complete list.",
       "masters": [
         {
           "host": "51.68.46.73",
           "port": 28900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "vietcong",
+            "key": "bq98mE",
+            "format": "enctype2",
+            "label": "GameSpy",
+            "push": true
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 57,
           "last_seen": "2026-10-24"
         },
         {
           "host": "46.28.109.117",
           "port": 28900,
           "probe": {
-            "type": "tcp",
+            "type": "gamespy",
             "port": 28900,
-            "label": "GameSpy (TCP check only)"
+            "gamename": "vietcong",
+            "key": "bq98mE",
+            "format": "enctype2",
+            "label": "GameSpy",
+            "push": true
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 55,
           "last_seen": "2026-10-24"
         },
         {
