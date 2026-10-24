@@ -119,6 +119,36 @@ count_chocolatedoom() {
 	reply_bytes | awk 'NR > 2 && $1 == 0 { c++ } END { print c + 0 }'
 }
 
+addresses_tribes1() {
+	reply_bytes | awk '{ b[NR] = $1 } END {
+		for (i = 1; i + 7 <= NR; i++) {
+			if (b[i] == 16 && b[i + 1] == 6 && b[i + 4] == 1 && b[i + 5] == 2 && b[i + 6] == 0 && b[i + 7] == 102) starts[++n] = i
+		}
+		for (k = 1; k <= n; k++) {
+			end = (k < n ? starts[k + 1] : NR + 1)
+			num = b[starts[k] + 2]
+			part[num] = ""
+			for (j = starts[k] + 8; j < end; j++) part[num] = part[num] " " b[j]
+			if (num > total) total = num
+		}
+		data = ""
+		for (k = 1; k <= total; k++) data = data part[k]
+		m = split(data, d, " ")
+		p = 1
+		p += 1 + d[p]
+		p += 1 + d[p]
+		while (p <= m) {
+			p++
+			count = d[p++]
+			for (c = 0; c < count && p + 6 <= m; c++) {
+				if (d[p] != 6) exit
+				printf "%d.%d.%d.%d:%d\n", d[p + 1], d[p + 2], d[p + 3], d[p + 4], d[p + 5] + d[p + 6] * 256
+				p += 7
+			}
+		}
+	}'
+}
+
 probe_once() {
 	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count
 	case "${type}" in
@@ -173,6 +203,9 @@ probe_once() {
 			;;
 		chocolatedoom)
 			udp_query "${host}" "${port}" "\x00\x02" && echo "online|$(count_chocolatedoom)"
+			;;
+		tribes1)
+			udp_query "${host}" "${port}" "\x10\x03\xff\x00\x01\x02" && save_addresses addresses_tribes1 && echo "online|$(addresses_tribes1 | sort -u | wc -l)"
 			;;
 	esac
 	return 0

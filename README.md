@@ -133,6 +133,8 @@ Status as of: 2026-10-24
 - [Red Eclipse](#red-eclipse)
 - [Daikatana](#daikatana)
 - [SiN](#sin)
+- [Starsiege: Tribes](#starsiege-tribes)
+- [Unreal Tournament 4 (pre-alpha)](#unreal-tournament-4-pre-alpha)
 
 ## Alien Arena
 
@@ -931,6 +933,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.333networks.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -942,6 +945,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master-uk.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 | `master.hlkclan.net:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname no longer resolves. |
+| `master.qtracker.com:27900` | Community | Not answering since 2026-10-24 | qtracker's original master. The hostname resolves but no longer answers; gsm.qtracker.com still does. |
 | `master2.oldunreal.com:27900` | Community | Not answering since 2026-10-23 | Secondary OldUnreal master. The hostname resolves but has not answered a check. |
 
 ## Unreal Tournament 2003
@@ -986,6 +990,8 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 
 ## Unreal Tournament 99
 
+OldUnreal's masterserver guide (https://www.oldunreal.com/wiki/index.php?title=Masterserver_Guide) gives the ListFactories and ServerActors lines for these masters. lists.gameserverlister.com is a plain HTTP list for the UBrowserHTTPFact browser; it gives game and query ports, so its addresses are not merged with the GameSpy masters'.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.fragaholic.com:27900` | Community | ✅ Online | 1773 | 2026-10-24 |
@@ -1001,6 +1007,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `gsm.qtracker.com:27900` | Community | Unchecked | - | Never |
+| `lists.gameserverlister.com:80` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -1013,6 +1020,8 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master-de.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
 | `master-uk.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+| `master.qtracker.com:27900` | Community | Not answering since 2026-10-24 | qtracker's original master. The hostname resolves but no longer answers; gsm.qtracker.com still does. |
+| `master.telefragged.com:27900` | Community | Not answering since 2026-10-24 | Community master. The hostname resolves but did not answer a check. |
 | `master2.oldunreal.com:27900` | Community | Not answering since 2026-10-23 | Secondary OldUnreal master. The hostname resolves but has not answered a check. |
 
 ## Urban Terror
@@ -1424,3 +1433,33 @@ Only master.maraakate.org is known to list SiN servers. master.maraakate.org is 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.maraakate.org:27900` | Community | Unchecked | - | Never |
+
+## Starsiege: Tribes
+
+Point the game at the community masters by pasting $Server::MasterAddressN0 into the console, as tribesmasterserver.com explains. Dynamix's own masters are gone.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `t1m1.pu.net:28000` | Community | Unchecked | - | Never |
+| `t1m1.masters.tribesmasterserver.com:28000` | Community | Unchecked | - | Never |
+| `t1m1.tribes0.com:28000` | Community | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `t1m1.masters.dynamix.com:28000` | Official | Not answering since 2026-10-24 | Official Dynamix master. The hostname no longer resolves. |
+| `t1m2.masters.dynamix.com:28000` | Official | Not answering since 2026-10-24 | Official Dynamix master. The hostname no longer resolves. |
+| `t1aum1.masters.dynamix.com:28000` | Official | Not answering since 2026-10-24 | Official Dynamix Australian master. The hostname no longer resolves. |
+| `t1m1.masters.dynamix1.com:28000` | Official | Not answering since 2026-10-24 | Dynamix backup master. The hostname no longer resolves. |
+| `t1m2.masters.dynamix1.com:28000` | Official | Not answering since 2026-10-24 | Dynamix backup master. The hostname no longer resolves. |
+| `skbmaster.ath.cx:28000` | Community | Not answering since 2026-10-24 | Community master. The hostname resolves to 0.0.0.0. |
+| `kigen.ath.cx:28000` | Community | Not answering since 2026-10-24 | Community master. The hostname resolves to 0.0.0.0. |
+
+## Unreal Tournament 4 (pre-alpha)
+
+UT4MasterServer (https://github.com/timiimit/UT4MasterServer) is an open-source replacement for Epic's backend, with accounts at https://ut4.timiimit.com. The count comes from its public matchmaking list.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master-ut4.timiimit.com` | Community | Unchecked | - | Never |

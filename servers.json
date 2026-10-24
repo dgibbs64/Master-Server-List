@@ -4101,6 +4101,17 @@
             "key": "DAncRK"
           },
           "official": false
+        },
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "unreal",
+            "key": "DAncRK"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -4148,6 +4159,13 @@
           "official": false,
           "down_since": "2026-10-23",
           "reason": "Community master. The hostname no longer resolves."
+        },
+        {
+          "host": "master.qtracker.com",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "qtracker's original master. The hostname resolves but no longer answers; gsm.qtracker.com still does."
         },
         {
           "host": "master2.oldunreal.com",
@@ -4640,6 +4658,17 @@
             "key": "Z5Nfb0"
           },
           "official": false
+        },
+        {
+          "host": "lists.gameserverlister.com",
+          "port": 80,
+          "probe": {
+            "type": "http",
+            "url": "http://lists.gameserverlister.com/ut-servers-pc.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}[[:blank:]]+[0-9]{1,5}",
+            "addresses": false
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -4698,6 +4727,20 @@
           "replaced_by": "master.errorist.eu"
         },
         {
+          "host": "master.qtracker.com",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "qtracker's original master. The hostname resolves but no longer answers; gsm.qtracker.com still does."
+        },
+        {
+          "host": "master.telefragged.com",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master. The hostname resolves but did not answer a check."
+        },
+        {
           "host": "master2.oldunreal.com",
           "port": 27900,
           "official": false,
@@ -4705,7 +4748,8 @@
           "reason": "Secondary OldUnreal master. The hostname resolves but has not answered a check.",
           "replaced_by": "master.oldunreal.com"
         }
-      ]
+      ],
+      "notes": "OldUnreal's masterserver guide (https://www.oldunreal.com/wiki/index.php?title=Masterserver_Guide) gives the ListFactories and ServerActors lines for these masters. lists.gameserverlister.com is a plain HTTP list for the UBrowserHTTPFact browser; it gives game and query ports, so its addresses are not merged with the GameSpy masters'."
     },
     {
       "name": "Urban Terror",
@@ -5997,6 +6041,105 @@
             "url": "http://maraakate.org/gamespy/sin.txt",
             "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
             "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Starsiege: Tribes",
+      "notes": "Point the game at the community masters by pasting $Server::MasterAddressN0 into the console, as tribesmasterserver.com explains. Dynamix's own masters are gone.",
+      "masters": [
+        {
+          "host": "t1m1.pu.net",
+          "port": 28000,
+          "probe": {
+            "type": "tribes1",
+            "port": 28000
+          },
+          "official": false
+        },
+        {
+          "host": "t1m1.masters.tribesmasterserver.com",
+          "port": 28000,
+          "probe": {
+            "type": "tribes1",
+            "port": 28000
+          },
+          "official": false
+        },
+        {
+          "host": "t1m1.tribes0.com",
+          "port": 28000,
+          "probe": {
+            "type": "tribes1",
+            "port": 28000
+          },
+          "official": false
+        }
+      ],
+      "retired": [
+        {
+          "host": "t1m1.masters.dynamix.com",
+          "port": 28000,
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Official Dynamix master. The hostname no longer resolves."
+        },
+        {
+          "host": "t1m2.masters.dynamix.com",
+          "port": 28000,
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Official Dynamix master. The hostname no longer resolves."
+        },
+        {
+          "host": "t1aum1.masters.dynamix.com",
+          "port": 28000,
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Official Dynamix Australian master. The hostname no longer resolves."
+        },
+        {
+          "host": "t1m1.masters.dynamix1.com",
+          "port": 28000,
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Dynamix backup master. The hostname no longer resolves."
+        },
+        {
+          "host": "t1m2.masters.dynamix1.com",
+          "port": 28000,
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Dynamix backup master. The hostname no longer resolves."
+        },
+        {
+          "host": "skbmaster.ath.cx",
+          "port": 28000,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master. The hostname resolves to 0.0.0.0."
+        },
+        {
+          "host": "kigen.ath.cx",
+          "port": 28000,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master. The hostname resolves to 0.0.0.0."
+        }
+      ]
+    },
+    {
+      "name": "Unreal Tournament 4 (pre-alpha)",
+      "notes": "UT4MasterServer (https://github.com/timiimit/UT4MasterServer) is an open-source replacement for Epic's backend, with accounts at https://ut4.timiimit.com. The count comes from its public matchmaking list.",
+      "masters": [
+        {
+          "host": "master-ut4.timiimit.com",
+          "probe": {
+            "type": "http",
+            "url": "https://master-ut4.timiimit.com/ut/api/matchmaking/session/matchMakingRequest",
+            "jq": "length"
           },
           "official": false
         }

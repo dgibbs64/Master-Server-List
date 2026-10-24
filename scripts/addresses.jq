@@ -1,9 +1,9 @@
 [
 	..
 	| objects
-	| ([to_entries[] | select(.key | test("^port$"; "i")) | .value | select(. != null and . != "")] | first) as $port
+	| ([to_entries[] | select(.key | test("^(server)?port$"; "i")) | .value | select(. != null and . != "")] | first) as $port
 	| to_entries[]
-	| select(.key | test("^(ip|address|addresses|serverip|host)$"; "i"))
+	| select(.key | test("^(ip|address|addresses|serverip|serveraddress|host)$"; "i"))
 	| .value
 	| if type == "array" then .[] else . end
 	| strings
