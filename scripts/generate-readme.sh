@@ -25,6 +25,8 @@ Every master server is checked daily, and where the protocol allows it the check
 | ⚠️ No response | Hostname resolves, but the server did not answer |
 | ❌ No DNS | Hostname no longer resolves |
 
+"Run by" is Official for a master run by the game's developer or publisher, or by the game's own project for open-source games and mods, and Community for one run by anyone else.
+
 Masters known to be gone, official or community, are listed under "Retired master servers" for each game so server admins can remove them from their configs. They are not checked. "Shut down" dates come from the linked source. "Not answering since" is the first check that found them dead, so they may have died earlier.
 
 EOF
@@ -40,9 +42,9 @@ EOF
 			| "## \(.name)\n",
 			(if .notes then "\(.notes)\n" else empty end),
 			(if (.masters | length) > 0 then
-				"| Master server | Status | Servers | Last seen |",
-				"|---|---|---|---|",
-				(.masters | sort_by([(.status | status_rank), -(.servers // -1)])[] | "| `\(.host)\(if .port then ":\(.port)" else "" end)` | \(.status | status_label) | \(.servers // "-") | \(.last_seen // "Never") |"),
+				"| Master server | Run by | Status | Servers | Last seen |",
+				"|---|---|---|---|---|",
+				(.masters | sort_by([(.status | status_rank), -(.servers // -1)])[] | "| `\(.host)\(if .port then ":\(.port)" else "" end)` | \(if .official == true then "Official" elif .official == false then "Community" else "-" end) | \(.status | status_label) | \(.servers // "-") | \(.last_seen // "Never") |"),
 				""
 			else empty end),
 			(if (.retired // [] | length) > 0 then
