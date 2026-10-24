@@ -45,7 +45,7 @@
             "pattern": "^addserver"
           },
           "status": "online",
-          "servers": 1,
+          "servers": 45,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -106,7 +106,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 3090,
+          "servers": 3084,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -126,7 +126,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 123,
+          "servers": 119,
           "official": true
         },
         {
@@ -160,7 +160,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 374,
+          "servers": 381,
           "official": true
         },
         {
@@ -194,7 +194,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1329,
+          "servers": 1337,
           "official": true
         },
         {
@@ -208,7 +208,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 975,
+          "servers": 973,
           "last_seen": "2026-10-24"
         }
       ],
@@ -236,7 +236,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 157,
+          "servers": 156,
           "official": true
         }
       ]
@@ -298,7 +298,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -419,7 +420,7 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1478,
+          "servers": 1475,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -482,7 +483,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -495,7 +497,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 8,
+          "servers": 9,
           "official": false
         },
         {
@@ -510,7 +512,8 @@
           "official": false,
           "status": "no-response",
           "servers": null,
-          "last_seen": "2026-10-24"
+          "last_seen": "2026-10-24",
+          "check_error": "validation-rejected"
         },
         {
           "host": "master.fragaholic.com",
@@ -579,7 +582,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
+          "servers": 9,
           "last_seen": "2026-10-24"
         }
       ],
@@ -671,7 +674,8 @@
           "status": "no-response",
           "servers": null,
           "last_seen": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -783,7 +787,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 10,
+          "servers": 9,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -813,7 +817,8 @@
           "status": "no-response",
           "servers": null,
           "last_seen": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -825,7 +830,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -840,7 +845,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 10,
+          "servers": 9,
           "last_seen": "2026-10-24"
         },
         {
@@ -854,7 +859,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-24"
         },
         {
@@ -882,7 +887,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-24"
         },
         {
@@ -944,7 +949,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1135,7 +1141,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1389,7 +1396,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         }
       ],
       "retired": [
@@ -1455,7 +1463,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1610,7 +1619,7 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 446,
+          "servers": 449,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -1631,7 +1640,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 244,
+          "servers": 245,
           "official": false
         },
         {
@@ -1645,7 +1654,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 210,
+          "servers": 209,
           "official": false
         },
         {
@@ -1660,7 +1669,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1673,7 +1683,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 173,
+          "servers": 199,
           "official": false
         },
         {
@@ -1687,7 +1697,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 137,
+          "servers": 136,
           "last_seen": "2026-10-24"
         },
         {
@@ -1701,7 +1711,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 245,
+          "servers": 243,
           "last_seen": "2026-10-24"
         },
         {
@@ -1715,7 +1725,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 206,
+          "servers": 200,
           "last_seen": "2026-10-24"
         },
         {
@@ -1743,7 +1753,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 206,
+          "servers": 198,
           "last_seen": "2026-10-24"
         },
         {
@@ -1757,7 +1767,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 199,
+          "servers": 198,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1792,7 +1802,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 48,
+          "servers": 47,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1822,7 +1832,8 @@
           "status": "no-response",
           "servers": null,
           "last_seen": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1834,7 +1845,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 32,
+          "servers": 36,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1849,7 +1860,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 48,
+          "servers": 46,
           "last_seen": "2026-10-24"
         },
         {
@@ -1877,7 +1888,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 35,
+          "servers": 34,
           "last_seen": "2026-10-24"
         },
         {
@@ -1934,7 +1945,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 80,
+          "servers": 83,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1948,7 +1959,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 72,
+          "servers": 74,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1964,7 +1975,8 @@
           "status": "no-response",
           "servers": null,
           "last_seen": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1976,7 +1988,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 61,
+          "servers": 70,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1991,7 +2003,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 80,
+          "servers": 83,
           "last_seen": "2026-10-24"
         },
         {
@@ -2047,7 +2059,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 70,
+          "servers": 71,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2105,7 +2117,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2254,7 +2267,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2454,7 +2468,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 112,
+          "servers": 113,
           "official": false
         },
         {
@@ -2467,7 +2481,7 @@
             "label": "OpenArena"
           },
           "status": "online",
-          "servers": 66,
+          "servers": 67,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -2488,7 +2502,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 60,
+          "servers": 63,
           "official": false
         },
         {
@@ -2502,7 +2516,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 53,
+          "servers": 59,
           "official": false
         },
         {
@@ -2517,7 +2531,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2530,7 +2545,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 16,
+          "servers": 54,
           "official": false
         },
         {
@@ -2544,7 +2559,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 60,
+          "servers": 63,
           "last_seen": "2026-10-24"
         },
         {
@@ -2558,7 +2573,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 51,
+          "servers": 57,
           "last_seen": "2026-10-24"
         },
         {
@@ -2572,7 +2587,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 53,
+          "servers": 59,
           "last_seen": "2026-10-24"
         },
         {
@@ -2586,7 +2601,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 49,
+          "servers": 57,
           "last_seen": "2026-10-24"
         },
         {
@@ -2600,7 +2615,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 38,
+          "servers": 54,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2650,7 +2665,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 43,
+          "servers": 42,
           "official": false
         },
         {
@@ -2665,7 +2680,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 53,
+          "servers": 55,
           "official": false
         },
         {
@@ -2698,7 +2713,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 107,
+          "servers": 109,
           "official": false
         },
         {
@@ -2712,7 +2727,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 433,
+          "servers": 440,
           "last_seen": "2026-10-24"
         },
         {
@@ -2759,7 +2774,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 948,
+          "servers": 945,
           "official": false
         },
         {
@@ -2772,7 +2787,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 209,
+          "servers": 210,
           "official": false
         },
         {
@@ -2785,7 +2800,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 178,
+          "servers": 174,
           "official": false
         },
         {
@@ -2811,7 +2826,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1001,
+          "servers": 995,
           "official": true
         },
         {
@@ -2883,7 +2898,8 @@
           "status": "no-response",
           "last_seen": "2026-10-24",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "no-reply"
         },
         {
           "host": "qwmaster.fodquake.net",
@@ -2895,7 +2911,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "no-reply"
         },
         {
           "host": "master.maraakate.org",
@@ -2908,7 +2925,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 646,
+          "servers": 645,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2951,7 +2968,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 59,
+          "servers": 58,
           "official": false
         },
         {
@@ -2965,7 +2982,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 132,
+          "servers": 131,
           "official": false
         }
       ],
@@ -2993,7 +3010,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 58,
+          "servers": 59,
           "official": false
         },
         {
@@ -3007,7 +3024,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 39,
+          "servers": 40,
           "official": false
         },
         {
@@ -3022,7 +3039,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3035,7 +3053,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 31,
+          "servers": 33,
           "official": false
         },
         {
@@ -3063,7 +3081,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 58,
+          "servers": 59,
           "last_seen": "2026-10-24"
         },
         {
@@ -3077,7 +3095,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 33,
           "last_seen": "2026-10-24"
         },
         {
@@ -3091,7 +3109,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 33,
           "last_seen": "2026-10-24"
         },
         {
@@ -3105,7 +3123,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 33,
           "last_seen": "2026-10-24"
         },
         {
@@ -3119,7 +3137,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 33,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3175,7 +3193,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 1281,
+          "servers": 1282,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -3212,7 +3230,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 73,
+          "servers": 70,
           "official": false
         },
         {
@@ -3241,7 +3259,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3254,7 +3273,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 43,
+          "servers": 44,
           "official": false
         },
         {
@@ -3268,7 +3287,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 73,
+          "servers": 70,
           "last_seen": "2026-10-24"
         },
         {
@@ -3282,7 +3301,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 46,
+          "servers": 45,
           "last_seen": "2026-10-24"
         },
         {
@@ -3324,7 +3343,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 43,
+          "servers": 44,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3361,7 +3380,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 116,
+          "servers": 113,
           "official": false
         },
         {
@@ -3375,7 +3394,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 76,
+          "servers": 74,
           "official": false
         },
         {
@@ -3390,7 +3409,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3403,7 +3423,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 71,
+          "servers": 73,
           "official": false
         },
         {
@@ -3431,7 +3451,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 116,
+          "servers": 113,
           "last_seen": "2026-10-24"
         },
         {
@@ -3445,7 +3465,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 75,
+          "servers": 72,
           "last_seen": "2026-10-24"
         },
         {
@@ -3459,7 +3479,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 73,
+          "servers": 71,
           "last_seen": "2026-10-24"
         },
         {
@@ -3473,7 +3493,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 75,
+          "servers": 72,
           "last_seen": "2026-10-24"
         },
         {
@@ -3487,7 +3507,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 73,
+          "servers": 72,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3591,7 +3611,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3711,7 +3732,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 49,
+          "servers": 51,
           "official": false
         },
         {
@@ -3753,7 +3774,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3990,7 +4012,7 @@
             "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
-          "servers": 41,
+          "servers": 43,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -4048,7 +4070,8 @@
           "status": "no-response",
           "servers": null,
           "last_seen": "2026-10-24",
-          "official": false
+          "official": false,
+          "check_error": "no-reply"
         }
       ],
       "retired": [
@@ -4159,7 +4182,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4172,7 +4196,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 0,
+          "servers": 4,
           "official": false
         },
         {
@@ -4314,7 +4338,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.errorist.eu",
@@ -4327,7 +4352,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 146,
+          "servers": 144,
           "official": false
         },
         {
@@ -4397,7 +4422,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
+          "servers": 60,
           "last_seen": "2026-10-24"
         },
         {
@@ -4549,7 +4574,8 @@
           "status": "no-response",
           "servers": null,
           "last_seen": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4680,7 +4706,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4732,7 +4759,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "utmaster.openspy.net",
@@ -4746,7 +4774,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 501,
+          "servers": 502,
           "last_seen": "2026-10-24"
         },
         {
@@ -4862,7 +4890,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1781,
+          "servers": 1778,
           "official": false
         },
         {
@@ -4877,7 +4905,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4890,7 +4919,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 916,
+          "servers": 919,
           "official": false
         },
         {
@@ -4904,7 +4933,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 916,
+          "servers": 919,
           "official": false
         },
         {
@@ -4918,7 +4947,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 911,
+          "servers": 913,
           "official": false
         },
         {
@@ -4932,7 +4961,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1262,
+          "servers": 1260,
           "official": false
         },
         {
@@ -4946,7 +4975,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 938,
+          "servers": 940,
           "official": false
         },
         {
@@ -4974,7 +5003,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 913,
+          "servers": 915,
           "official": false
         },
         {
@@ -5002,7 +5031,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 519,
+          "servers": 516,
           "last_seen": "2026-10-24"
         },
         {
@@ -5016,7 +5045,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1786,
+          "servers": 1778,
           "last_seen": "2026-10-24"
         },
         {
@@ -5031,7 +5060,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 391,
+          "servers": 390,
           "last_seen": "2026-10-24"
         },
         {
@@ -5045,7 +5074,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 758,
+          "servers": 754,
           "last_seen": "2026-10-24"
         }
       ],
@@ -5143,7 +5172,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 254,
+          "servers": 250,
           "official": true
         },
         {
@@ -5157,7 +5186,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 254,
+          "servers": 250,
           "official": true
         }
       ]
@@ -5175,7 +5204,7 @@
             "jq": ".data | length"
           },
           "status": "online",
-          "servers": 2505,
+          "servers": 2508,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -5302,7 +5331,8 @@
           "status": "no-response",
           "last_seen": "2026-10-23",
           "servers": null,
-          "official": false
+          "official": false,
+          "check_error": "connection-failed"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -5430,7 +5460,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 445,
+          "servers": 448,
           "official": true
         },
         {
@@ -5444,7 +5474,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 63,
+          "servers": 64,
           "official": true
         },
         {
@@ -5458,7 +5488,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 431,
+          "servers": 446,
           "official": false
         }
       ],
@@ -5566,7 +5596,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 239,
+          "servers": 242,
           "last_seen": "2026-10-24"
         }
       ],
@@ -5584,7 +5614,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 778,
+          "servers": 779,
           "official": true
         }
       ]
@@ -5647,7 +5677,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5857,7 +5887,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 27,
+          "servers": 30,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6046,7 +6076,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 13,
+          "servers": 14,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6067,7 +6097,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 7,
+          "servers": 8,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6151,7 +6181,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
+          "servers": 10,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6172,7 +6202,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6193,7 +6223,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 1,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6346,7 +6376,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 21,
+          "servers": 20,
           "last_seen": "2026-10-24"
         },
         {
@@ -6496,7 +6526,8 @@
           "official": false,
           "status": "no-response",
           "servers": null,
-          "last_seen": null
+          "last_seen": null,
+          "check_error": "no-reply"
         },
         {
           "host": "t1m1.tribes0.com",
@@ -6508,7 +6539,8 @@
           "official": false,
           "status": "no-response",
           "servers": null,
-          "last_seen": null
+          "last_seen": null,
+          "check_error": "no-reply"
         }
       ],
       "retired": [
@@ -6577,7 +6609,8 @@
           "official": false,
           "status": "no-response",
           "servers": null,
-          "last_seen": null
+          "last_seen": null,
+          "check_error": "no-reply"
         }
       ]
     },
@@ -6595,7 +6628,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
+          "servers": 63,
           "last_seen": "2026-10-24"
         },
         {
@@ -6621,7 +6654,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
+          "servers": 64,
           "last_seen": "2026-10-24"
         },
         {
@@ -6634,7 +6667,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
+          "servers": 64,
           "last_seen": "2026-10-24"
         }
       ],
@@ -6697,7 +6730,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 95,
+          "servers": 96,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6753,7 +6786,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 264,
+          "servers": 265,
           "last_seen": "2026-10-24"
         }
       ]

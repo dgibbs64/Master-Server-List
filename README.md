@@ -173,7 +173,7 @@ The master returns its list over HTTP.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `ms.cubers.net` | Official | ✅ Online | 1 | 2026-10-24 |
+| `ms.cubers.net` | Official | ✅ Online | 45 | 2026-10-24 |
 
 ## Battlefield 1942
 
@@ -196,28 +196,28 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `backend.beammp.com` | Official | ✅ Online | 3090 | 2026-10-24 |
+| `backend.beammp.com` | Official | ✅ Online | 3084 | 2026-10-24 |
 
 ## Call of Duty
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `codmaster.activision.com:20510` | Official | ✅ Online | 123 | 2026-10-24 |
+| `codmaster.activision.com:20510` | Official | ✅ Online | 119 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 
 ## Call of Duty 2
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `cod2master.activision.com:20710` | Official | ✅ Online | 374 | 2026-10-24 |
+| `cod2master.activision.com:20710` | Official | ✅ Online | 381 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 
 ## Call of Duty 4: Modern Warfare
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `cod4master.activision.com:20810` | Official | ✅ Online | 1329 | 2026-10-24 |
-| `master.cod.pm:20810` | Community | ✅ Online | 975 | 2026-10-24 |
+| `cod4master.activision.com:20810` | Official | ✅ Online | 1337 | 2026-10-24 |
+| `master.cod.pm:20810` | Community | ✅ Online | 973 | 2026-10-24 |
 
 ### Retired master servers
 
@@ -229,7 +229,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `coduomaster.activision.com:20610` | Official | ✅ Online | 157 | 2026-10-24 |
+| `coduomaster.activision.com:20610` | Official | ✅ Online | 156 | 2026-10-24 |
 
 ## Chocolate Doom
 
@@ -266,7 +266,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master1.ddnet.org` | Official | ✅ Online | 1478 | 2026-10-24 |
+| `master1.ddnet.org` | Official | ✅ Online | 1475 | 2026-10-24 |
 
 ## Deus Ex
 
@@ -275,12 +275,12 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.deusexnetwork.com:27900` | Community | ✅ Online | 11 | 2026-10-24 |
 | `master.333networks.com:27900` | Community | ✅ Online | 11 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 11 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 9 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 9 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 8 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 8 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 8 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 8 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 8 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 8 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `master.openspy.net:27900` | Community | ⚠️ No response | - | 2026-10-24 |
 
@@ -324,13 +324,13 @@ The leaked 2001 build, which still has a small multiplayer community.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.333networks.com:27900` | Community | ✅ Online | 10 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 10 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 5 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 5 | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | 5 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 9 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 9 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
 
@@ -460,7 +460,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `servers.luanti.org` | Official | ✅ Online | 446 | 2026-10-24 |
+| `servers.luanti.org` | Official | ✅ Online | 449 | 2026-10-24 |
 
 ## Medal of Honor: Allied Assault
 
@@ -468,15 +468,15 @@ Spearhead and Breakthrough have their own entries below.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.fragaholic.com:27900` | Community | ✅ Online | 245 | 2026-10-24 |
-| `master.333networks.com:27900` | Community | ✅ Online | 244 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 210 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 206 | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | 206 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 245 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 243 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 209 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 202 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 199 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 173 | 2026-10-24 |
-| `master.openspy.net:27900` | Community | ✅ Online | 137 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 200 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 199 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 198 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 198 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 136 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -492,14 +492,14 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.333networks.com:27900` | Community | ✅ Online | 48 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 48 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 47 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 46 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 40 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 36 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 36 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 35 | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | 35 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 35 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 32 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 34 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
 
 ### Retired master servers
@@ -514,14 +514,14 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `master.333networks.com:27900` | Community | ✅ Online | 83 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 83 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 81 | 2026-10-24 |
-| `master.333networks.com:27900` | Community | ✅ Online | 80 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 80 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 72 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 70 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 74 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 71 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 70 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 69 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 69 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 61 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
 
 ### Retired master servers
@@ -595,21 +595,21 @@ dpmaster.deathmask.net is OpenArena's built-in default master (sv_master1). It i
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 112 | 2026-10-24 |
-| `master.ioquake3.org:27950` | Community | ✅ Online | 66 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 113 | 2026-10-24 |
+| `master.ioquake3.org:27950` | Community | ✅ Online | 67 | 2026-10-24 |
 
 ## Postal 2
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.333networks.com:27900` | Community | ✅ Online | 60 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 60 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 53 | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | 53 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 51 | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | 49 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 38 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 16 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 63 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 63 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 59 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 59 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 57 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 57 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 54 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 54 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -630,8 +630,8 @@ dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.tchr.no:27950` | Community | ✅ Online | 53 | 2026-10-24 |
-| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 43 | 2026-10-24 |
+| `dpmaster.tchr.no:27950` | Community | ✅ Online | 55 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 42 | 2026-10-24 |
 | `dpm.dpmaster.org:27777` | Community | ✅ Online | 1 | 2026-10-24 |
 
 ## Quake 2
@@ -640,8 +640,8 @@ master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browser
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.maraakate.org:27900` | Community | ✅ Online | 433 | 2026-10-24 |
-| `master.quakeservers.net:27900` | Community | ✅ Online | 107 | 2026-10-24 |
+| `master.maraakate.org:27900` | Community | ✅ Online | 440 | 2026-10-24 |
+| `master.quakeservers.net:27900` | Community | ✅ Online | 109 | 2026-10-24 |
 | `master.itbacon.com:27900` | Community | ✅ Online | 26 | 2026-10-24 |
 
 ### Retired master servers
@@ -655,11 +655,11 @@ master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browser
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.quake3arena.com:27950` | Official | ✅ Online | 1001 | 2026-10-24 |
-| `master.ioquake3.org:27950` | Community | ✅ Online | 948 | 2026-10-24 |
+| `master.quake3arena.com:27950` | Official | ✅ Online | 995 | 2026-10-24 |
+| `master.ioquake3.org:27950` | Community | ✅ Online | 945 | 2026-10-24 |
 | `master.maverickservers.com:27950` | Community | ✅ Online | 440 | 2026-10-24 |
-| `master0.excessiveplus.net:27950` | Community | ✅ Online | 209 | 2026-10-24 |
-| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 178 | 2026-10-24 |
+| `master0.excessiveplus.net:27950` | Community | ✅ Online | 210 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 174 | 2026-10-24 |
 | `master.huxxer.de:27950` | Community | ✅ Online | 40 | 2026-10-24 |
 
 ### Retired master servers
@@ -683,7 +683,7 @@ master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browser
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.maraakate.org:27900` | Community | ✅ Online | 646 | 2026-10-24 |
+| `master.maraakate.org:27900` | Community | ✅ Online | 645 | 2026-10-24 |
 | `master.quakeservers.net:27000` | Community | ⚠️ No response | - | 2026-10-24 |
 | `qwmaster.fodquake.net:27000` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -697,9 +697,9 @@ master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browser
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `wolfmaster.s4ndmod.com:27950` | Community | ✅ Online | 132 | 2026-10-24 |
+| `wolfmaster.s4ndmod.com:27950` | Community | ✅ Online | 131 | 2026-10-24 |
 | `wolfmaster.idsoftware.com:27950` | Official | ✅ Online | 89 | 2026-10-24 |
-| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 59 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 58 | 2026-10-24 |
 
 ### Retired master servers
 
@@ -711,14 +711,14 @@ master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browser
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.333networks.com:27900` | Community | ✅ Online | 58 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 58 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 39 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 32 | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | 32 | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | 32 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 32 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 31 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 59 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 59 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 40 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 33 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 33 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 33 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 33 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 33 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 5 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -738,7 +738,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `api.open.mp` | Official | ✅ Online | 1281 | 2026-10-24 |
+| `api.open.mp` | Official | ✅ Online | 1282 | 2026-10-24 |
 
 ## Sauerbraten
 
@@ -750,14 +750,14 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.333networks.com:27900` | Community | ✅ Online | 73 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 73 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 46 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 70 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 70 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 45 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 44 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 44 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 44 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 44 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 43 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 43 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 44 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -771,14 +771,14 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.333networks.com:27900` | Community | ✅ Online | 116 | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | 116 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 76 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 75 | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | 75 | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | 73 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 73 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 71 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 113 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 113 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 74 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 73 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 72 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 72 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 72 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 71 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -828,7 +828,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.1fxmod.org:20110` | Community | ✅ Online | 49 | 2026-10-24 |
+| `master.1fxmod.org:20110` | Community | ✅ Online | 51 | 2026-10-24 |
 | `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
@@ -880,7 +880,7 @@ The game needs the community master server patch (or a hosts file entry for ef2m
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.jkhub.org:28060` | Community | ✅ Online | 41 | 2026-10-24 |
+| `master.jkhub.org:28060` | Community | ✅ Online | 43 | 2026-10-24 |
 | `master.jk2mv.org:28060` | Community | ✅ Online | 37 | 2026-10-24 |
 | `master.ouned.de:28060` | Community | ✅ Online | 37 | 2026-10-24 |
 
@@ -929,12 +929,12 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 |---|---|---|---|---|
 | `master.333networks.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -949,7 +949,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 |---|---|---|---|---|
 | `master.fragaholic.com:27900` | Community | ✅ Online | 162 | 2026-10-24 |
 | `master.333networks.com:27900` | Community | ✅ Online | 162 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 146 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 144 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 94 | 2026-10-24 |
 | `master.oldunreal.com:27900` | Community | ✅ Online | 87 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 87 | 2026-10-24 |
@@ -957,7 +957,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.frag-net.com:27900` | Community | ✅ Online | 87 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 87 | 2026-10-24 |
 | `master.hypercoop.tk:27900` | Community | ✅ Online | 82 | 2026-10-24 |
-| `master.openspy.net:27900` | Community | ✅ Online | 62 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 60 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -995,7 +995,7 @@ Port 28900 is GameSpy; port 28902 is the native UT2004 master service. TCP-only 
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `utmaster.openspy.net:28902` | Community | ✅ Online | 501 | 2026-10-24 |
+| `utmaster.openspy.net:28902` | Community | ✅ Online | 502 | 2026-10-24 |
 | `master.333networks.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 3 | 2026-10-24 |
@@ -1022,18 +1022,18 @@ OldUnreal's masterserver guide (https://www.oldunreal.com/wiki/index.php?title=M
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.fragaholic.com:27900` | Community | ✅ Online | 1786 | 2026-10-24 |
-| `master.333networks.com:27900` | Community | ✅ Online | 1781 | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | 1262 | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 938 | 2026-10-24 |
-| `master.newbiesplayground.net:27900` | Community | ✅ Online | 916 | 2026-10-24 |
-| `master.oldunreal.com:27900` | Community | ✅ Online | 916 | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | 913 | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | 911 | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 1778 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 1778 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 1260 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 940 | 2026-10-24 |
+| `master.newbiesplayground.net:27900` | Community | ✅ Online | 919 | 2026-10-24 |
+| `master.oldunreal.com:27900` | Community | ✅ Online | 919 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 915 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 913 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 911 | 2026-10-24 |
-| `lists.gameserverlister.com:80` | Community | ✅ Online | 758 | 2026-10-24 |
-| `master.openspy.net:27900` | Community | ✅ Online | 519 | 2026-10-24 |
-| `gsm.qtracker.com:27900` | Community | ✅ Online | 391 | 2026-10-24 |
+| `lists.gameserverlister.com:80` | Community | ✅ Online | 754 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 516 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 390 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -1056,8 +1056,8 @@ OldUnreal's masterserver guide (https://www.oldunreal.com/wiki/index.php?title=M
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.urbanterror.info:27900` | Official | ✅ Online | 254 | 2026-10-24 |
-| `master2.urbanterror.info:27900` | Official | ✅ Online | 254 | 2026-10-24 |
+| `master.urbanterror.info:27900` | Official | ✅ Online | 250 | 2026-10-24 |
+| `master2.urbanterror.info:27900` | Official | ✅ Online | 250 | 2026-10-24 |
 
 ## Vintage Story
 
@@ -1065,7 +1065,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `masterserver.vintagestory.at` | Official | ✅ Online | 2505 | 2026-10-24 |
+| `masterserver.vintagestory.at` | Official | ✅ Online | 2508 | 2026-10-24 |
 
 ## Warfork
 
@@ -1113,9 +1113,9 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `etmaster.idsoftware.com:27950` | Official | ✅ Online | 445 | 2026-10-24 |
-| `master.etlegacy.com:27950` | Community | ✅ Online | 431 | 2026-10-24 |
-| `wolfmaster.idsoftware.com:27950` | Official | ✅ Online | 63 | 2026-10-24 |
+| `etmaster.idsoftware.com:27950` | Official | ✅ Online | 448 | 2026-10-24 |
+| `master.etlegacy.com:27950` | Community | ✅ Online | 446 | 2026-10-24 |
+| `wolfmaster.idsoftware.com:27950` | Official | ✅ Online | 64 | 2026-10-24 |
 
 ### Retired master servers
 
@@ -1139,14 +1139,14 @@ dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `dpmaster.deathmask.net:27950` | Community | ✅ Online | 297 | 2026-10-24 |
-| `dpm.dpmaster.org:27777` | Community | ✅ Online | 239 | 2026-10-24 |
+| `dpm.dpmaster.org:27777` | Community | ✅ Online | 242 | 2026-10-24 |
 | `dpmaster.tchr.no:27950` | Community | ✅ Online | 32 | 2026-10-24 |
 
 ## Zandronum
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.zandronum.com:15300` | Official | ✅ Online | 778 | 2026-10-24 |
+| `master.zandronum.com:15300` | Official | ✅ Online | 779 | 2026-10-24 |
 
 ## Battlefield 2142
 
@@ -1170,7 +1170,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 5 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 
 ## Chaser
 
@@ -1250,7 +1250,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 27 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 30 | 2026-10-24 |
 
 ## Gore: Ultimate Soldier
 
@@ -1322,7 +1322,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 13 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 14 | 2026-10-24 |
 
 ## Saints Row 2
 
@@ -1330,7 +1330,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 7 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 8 | 2026-10-24 |
 
 ## Sniper Elite
 
@@ -1362,7 +1362,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 12 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 10 | 2026-10-24 |
 
 ## Tony Hawk's American Wasteland
 
@@ -1370,7 +1370,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 
 ## Tony Hawk's Pro Skater 4
 
@@ -1378,7 +1378,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 
 ## Tribes: Vengeance
 
@@ -1428,7 +1428,7 @@ crysiswarsmp.com runs the replacement GameSpy service for Crysis Wars, with mast
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `master.g.jedi95.us:28910` | Community | ✅ Online | 21 | 2026-10-24 |
+| `master.g.jedi95.us:28910` | Community | ✅ Online | 20 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 
 ## Vietcong
@@ -1499,10 +1499,10 @@ WON2, started by SteamlessProject.nl and NoWon, replaces Valve's WON service (sh
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `master3.won2.steamlessproject.nl:27010` | Community | ✅ Online | 64 | 2026-10-24 |
+| `master4.won2.steamlessproject.nl:27010` | Community | ✅ Online | 64 | 2026-10-24 |
+| `master.won2.steamlessproject.nl:27010` | Community | ✅ Online | 63 | 2026-10-24 |
 | `master2.won2.steamlessproject.nl:27010` | Community | ✅ Online | 63 | 2026-10-24 |
-| `master3.won2.steamlessproject.nl:27010` | Community | ✅ Online | 63 | 2026-10-24 |
-| `master4.won2.steamlessproject.nl:27010` | Community | ✅ Online | 63 | 2026-10-24 |
-| `master.won2.steamlessproject.nl:27010` | Community | ✅ Online | 62 | 2026-10-24 |
 
 ### Retired master servers
 
@@ -1532,7 +1532,7 @@ Servers with bAnnounceServer on report to the mod's own list server, which its s
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `skyrim-reborn-list.skyrim-together.com` | Official | ✅ Online | 95 | 2026-10-24 |
+| `skyrim-reborn-list.skyrim-together.com` | Official | ✅ Online | 96 | 2026-10-24 |
 
 ## Renegade X
 
@@ -1556,7 +1556,7 @@ The free multiplayer expansion for Halo PC lists under the GameSpy name halom on
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `s1.master.hosthpc.com` | Official | ✅ Online | 264 | 2026-10-24 |
+| `s1.master.hosthpc.com` | Official | ✅ Online | 265 | 2026-10-24 |
 
 ## Battlefield 2
 
