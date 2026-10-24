@@ -980,7 +980,7 @@
     },
     {
       "name": "Halo: Combat Evolved",
-      "notes": "Patch 1.0.10 points the game at this master, so no config change is needed.",
+      "notes": "Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to this master: the server list comes from s1.master.hosthpc.com, servers report to s1.ms01.hosthpc.com, and NAT negotiation uses natneg1 and natneg2.hosthpc.com. The Chimera client mod uses the same hosts by default. The list uses GameSpy's encrypted browsing protocol, so only its port is checked and there is no server count.",
       "masters": [
         {
           "host": "s1.master.hosthpc.com",
@@ -992,7 +992,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": null,
-          "official": false
+          "official": true
         },
         {
           "host": "master.openspy.net",
