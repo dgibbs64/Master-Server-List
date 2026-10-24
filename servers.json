@@ -80,6 +80,14 @@
           "servers": 0,
           "last_seen": "2026-10-24"
         }
+      ],
+      "retired": [
+        {
+          "host": "master.bf1942.eu",
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master from bf1942.eu. The hostname resolves but did not answer a check."
+        }
       ]
     },
     {
@@ -182,6 +190,25 @@
           "last_seen": "2026-10-24",
           "servers": 1285,
           "official": true
+        },
+        {
+          "host": "master.cod.pm",
+          "port": 20810,
+          "probe": {
+            "type": "getservers",
+            "port": 20810,
+            "protocol": 6
+          },
+          "official": false
+        }
+      ],
+      "retired": [
+        {
+          "host": "cod4master.cod4x.ovh",
+          "port": 20810,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "CoD4x community master. The hostname resolves to 0.0.0.0."
         }
       ]
     },
@@ -285,6 +312,25 @@
           "status": "online",
           "servers": 2,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        }
+      ],
+      "retired": [
+        {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
     },
@@ -394,6 +440,15 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -403,6 +458,14 @@
           "official": true,
           "shutdown": "2014-05-31",
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         },
         {
@@ -491,6 +554,15 @@
           "servers": 1,
           "last_seen": "2026-10-24",
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -562,6 +634,15 @@
           "status": "online",
           "servers": 4,
           "last_seen": "2026-10-24",
+          "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
           "official": false
         }
       ]
@@ -639,6 +720,15 @@
           "status": "online",
           "servers": 5,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -758,6 +848,15 @@
           "status": "online",
           "servers": 2,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -796,6 +895,12 @@
       "masters": [],
       "notes": "No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900.",
       "retired": [
+        {
+          "host": "master.hexenworld.org",
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master. The hostname no longer resolves."
+        },
         {
           "host": "thyrion.hexenworld.org",
           "port": 27900,
@@ -940,6 +1045,15 @@
           "last_seen": "2026-10-24",
           "servers": 30,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1046,6 +1160,15 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1056,6 +1179,12 @@
           "shutdown": "2014-05-31",
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "mohmaster.2015.com",
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Official master from developer 2015, Inc. The hostname no longer resolves."
         }
       ]
     },
@@ -1117,6 +1246,15 @@
           "status": "online",
           "servers": 32,
           "last_seen": "2026-10-24",
+          "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
           "official": false
         }
       ],
@@ -1190,6 +1328,15 @@
           "servers": 61,
           "last_seen": "2026-10-24",
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1261,6 +1408,15 @@
           "last_seen": "2026-10-24",
           "servers": 1,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1270,6 +1426,14 @@
           "official": true,
           "shutdown": "2014-05-31",
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
@@ -1332,6 +1496,15 @@
           "last_seen": "2026-10-24",
           "servers": 0,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1341,6 +1514,14 @@
           "official": true,
           "shutdown": "2014-05-31",
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
@@ -1495,6 +1676,15 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 25,
+          "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
           "official": false
         }
       ],
@@ -1660,6 +1850,16 @@
           "last_seen": "2026-10-24",
           "servers": 982,
           "official": true
+        },
+        {
+          "host": "master.huxxer.de",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 68
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1854,6 +2054,15 @@
           "status": "online",
           "servers": 5,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1866,12 +2075,32 @@
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         },
         {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "runemaster.humanhead.com",
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Official Human Head master. The hostname no longer resolves."
+        },
+        {
           "host": "master.errorist.tk",
           "port": 27900,
           "official": false,
           "down_since": "2026-10-23",
           "reason": "Moved to master.errorist.eu.",
           "replaced_by": "master.errorist.eu"
+        },
+        {
+          "host": "master.telefragged.com",
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master. The hostname resolves but did not answer a check."
         }
       ]
     },
@@ -1969,6 +2198,15 @@
           "last_seen": "2026-10-24",
           "servers": 41,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2063,6 +2301,15 @@
           "status": "online",
           "servers": 3,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2179,6 +2426,15 @@
           "last_seen": "2026-10-24",
           "servers": 29,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2263,9 +2519,25 @@
           "last_seen": "2026-10-24",
           "servers": null,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
+        {
+          "host": "master.sof2.ravensoft.com",
+          "port": 20110,
+          "official": true,
+          "down_since": "2026-10-24",
+          "reason": "Official Raven Software master. The hostname resolves but did not answer a check."
+        },
         {
           "host": "master.errorist.tk",
           "port": 27900,
@@ -2404,6 +2676,16 @@
           "status": "online",
           "servers": 43,
           "last_seen": "2026-10-24",
+          "official": false
+        },
+        {
+          "host": "master.ouned.de",
+          "port": 28060,
+          "probe": {
+            "type": "getservers",
+            "port": 28060,
+            "protocol": 16
+          },
           "official": false
         }
       ],
@@ -2569,6 +2851,15 @@
           "last_seen": "2026-10-24",
           "servers": 4,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2725,6 +3016,15 @@
           "status": "online",
           "servers": 23,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2735,6 +3035,28 @@
           "shutdown": "2014-05-31",
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master-de.unrealarchive.org",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online."
+        },
+        {
+          "host": "master-uk.unrealarchive.org",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online."
         },
         {
           "host": "master.errorist.tk",
@@ -2834,6 +3156,15 @@
           "status": "online",
           "servers": 5,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ]
     },
@@ -2926,6 +3257,15 @@
           "status": "online",
           "servers": 503,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -3112,6 +3452,15 @@
           "status": "online",
           "servers": 355,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -3132,12 +3481,34 @@
           "source": "https://en.wikipedia.org/wiki/Mplayer.com"
         },
         {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
           "host": "unreal.epicgames.com",
           "port": 27900,
           "official": true,
           "shutdown": "2023-01-24",
           "reason": "Epic switched off online services for its older Unreal games.",
           "source": "https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament"
+        },
+        {
+          "host": "master-de.unrealarchive.org",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online."
+        },
+        {
+          "host": "master-uk.unrealarchive.org",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online."
         },
         {
           "host": "master.errorist.tk",
@@ -3222,6 +3593,25 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 1
+        },
+        {
+          "host": "master1.forbidden.gg",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "game": "Warfork",
+            "protocol": 22
+          }
+        }
+      ],
+      "retired": [
+        {
+          "host": "master1.icy.gg",
+          "port": 27950,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Community master. The hostname no longer resolves."
         }
       ]
     },
@@ -3316,6 +3706,15 @@
           "last_seen": "2026-10-24",
           "servers": 7,
           "official": false
+        },
+        {
+          "host": "master.fragaholic.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -3325,6 +3724,14 @@
           "official": true,
           "shutdown": "2014-05-31",
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master0.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         },
         {
@@ -3419,6 +3826,17 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 1,
+          "official": true
+        },
+        {
+          "host": "master.worldofpadman.com",
+          "port": 27955,
+          "probe": {
+            "type": "getservers",
+            "port": 27955,
+            "game": "WorldofPadman",
+            "protocol": 71
+          },
           "official": true
         }
       ]
@@ -3790,7 +4208,7 @@
     },
     {
       "name": "James Bond 007: Nightfire",
-      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. master.nightfirepc.com, the Nightfire community domain, points at OpenSpy.",
       "masters": [
         {
           "host": "master.openspy.net",
@@ -4142,6 +4560,132 @@
           "status": "online",
           "servers": 2,
           "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "SWAT 4",
+      "notes": "Needs the swat4stats Engine.dll patch, which points the game at master.swat4stats.com.",
+      "masters": [
+        {
+          "host": "master.swat4stats.com",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://master.swat4stats.com/api/servers",
+            "jq": "length",
+            "label": "GameSpy"
+          },
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"swat4\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Crysis",
+      "notes": "CryMP replaces the GameSpy master. Its client points the game at m.crymp.org.",
+      "masters": [
+        {
+          "host": "m.crymp.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://crymp.org/api/servers",
+            "jq": "length",
+            "label": "GameSpy"
+          },
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"crysis\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Crysis Wars",
+      "notes": "master.g.jedi95.us is the community master used by crysiswarsmp.com.",
+      "masters": [
+        {
+          "host": "master.g.jedi95.us",
+          "port": 28910,
+          "probe": {
+            "type": "tcp",
+            "port": 28910
+          },
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"crysiswars\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Vietcong",
+      "notes": "The community master is run by vietcong.tk and has no hostname. Its GameSpy key is unconfirmed, so it is checked by port only.",
+      "masters": [
+        {
+          "host": "51.68.46.73",
+          "port": 28900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"vietcong\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Red Eclipse",
+      "masters": [
+        {
+          "host": "play.redeclipse.net",
+          "port": 28800,
+          "probe": {
+            "type": "cube2",
+            "port": 28800
+          },
+          "official": true
         }
       ]
     }
