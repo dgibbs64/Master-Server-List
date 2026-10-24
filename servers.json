@@ -43,7 +43,7 @@
             "pattern": "^addserver"
           },
           "status": "online",
-          "servers": 45,
+          "servers": 1,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -77,7 +77,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 0,
+          "servers": 81,
           "last_seen": "2026-10-24"
         }
       ],
@@ -103,7 +103,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 3072,
+          "servers": 3090,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -122,7 +122,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 119,
+          "servers": 123,
           "official": true
         },
         {
@@ -155,7 +155,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 372,
+          "servers": 374,
           "official": true
         },
         {
@@ -188,7 +188,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1345,
+          "servers": 1329,
           "official": true
         },
         {
@@ -201,7 +201,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 984,
+          "servers": 975,
           "last_seen": "2026-10-24"
         }
       ],
@@ -228,7 +228,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 160,
+          "servers": 157,
           "official": true
         }
       ]
@@ -401,7 +401,7 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1476,
+          "servers": 1478,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -421,7 +421,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 10,
+          "servers": 11,
           "official": false
         },
         {
@@ -435,7 +435,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 10,
+          "servers": 11,
           "official": false
         },
         {
@@ -449,7 +449,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 7,
+          "servers": 8,
           "official": false
         },
         {
@@ -477,7 +477,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 7,
+          "servers": 8,
           "official": false
         },
         {
@@ -505,7 +505,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 10,
+          "servers": 11,
           "last_seen": "2026-10-24"
         },
         {
@@ -519,7 +519,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 7,
+          "servers": 8,
           "last_seen": "2026-10-24"
         },
         {
@@ -532,9 +532,9 @@
             "key": "Av3M99"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 8,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.eatsleeput.com",
@@ -547,7 +547,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 7,
+          "servers": 8,
           "last_seen": "2026-10-24"
         },
         {
@@ -560,9 +560,9 @@
             "key": "Av3M99"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 8,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -735,9 +735,9 @@
             "key": "zCt4De"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -765,7 +765,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 9,
+          "servers": 10,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -807,7 +807,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 3,
+          "servers": 5,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -822,7 +822,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 9,
+          "servers": 10,
           "last_seen": "2026-10-24"
         },
         {
@@ -836,25 +836,11 @@
           },
           "official": false,
           "status": "online",
-          "servers": 4,
+          "servers": 5,
           "last_seen": "2026-10-24"
         },
         {
           "host": "master.noccer.de",
-          "port": 27900,
-          "probe": {
-            "type": "gamespy",
-            "port": 28900,
-            "gamename": "dnf",
-            "key": "      "
-          },
-          "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
-        },
-        {
-          "host": "master.eatsleeput.com",
           "port": 27900,
           "probe": {
             "type": "gamespy",
@@ -868,6 +854,20 @@
           "last_seen": "2026-10-24"
         },
         {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "official": false,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-10-24"
+        },
+        {
           "host": "master.frag-net.com",
           "port": 27900,
           "probe": {
@@ -877,9 +877,9 @@
             "key": "      "
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 4,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1022,9 +1022,9 @@
             "key": "AdN3L9"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1054,7 +1054,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": null,
+          "servers": 83,
           "official": true
         },
         {
@@ -1519,9 +1519,9 @@
             "key": "QFWxY2"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 30,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.maraakate.org",
@@ -1534,7 +1534,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
+          "servers": 41,
           "last_seen": "2026-10-24"
         },
         {
@@ -1548,9 +1548,9 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.kingpin.info",
@@ -1591,7 +1591,7 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 447,
+          "servers": 446,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -1612,7 +1612,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 239,
+          "servers": 244,
           "official": false
         },
         {
@@ -1626,7 +1626,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 213,
+          "servers": 210,
           "official": false
         },
         {
@@ -1654,7 +1654,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 172,
+          "servers": 173,
           "official": false
         },
         {
@@ -1682,7 +1682,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 237,
+          "servers": 245,
           "last_seen": "2026-10-24"
         },
         {
@@ -1696,7 +1696,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 202,
+          "servers": 206,
           "last_seen": "2026-10-24"
         },
         {
@@ -1710,7 +1710,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 201,
+          "servers": 202,
           "last_seen": "2026-10-24"
         },
         {
@@ -1724,7 +1724,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 200,
+          "servers": 206,
           "last_seen": "2026-10-24"
         },
         {
@@ -1737,9 +1737,9 @@
             "key": "M5Fdwc"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 199,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1773,7 +1773,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 50,
+          "servers": 48,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1787,7 +1787,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 39,
+          "servers": 40,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1815,7 +1815,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 31,
+          "servers": 32,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1830,7 +1830,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 50,
+          "servers": 48,
           "last_seen": "2026-10-24"
         },
         {
@@ -1844,7 +1844,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 36,
+          "servers": 35,
           "last_seen": "2026-10-24"
         },
         {
@@ -1858,7 +1858,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 37,
+          "servers": 35,
           "last_seen": "2026-10-24"
         },
         {
@@ -1872,7 +1872,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 35,
+          "servers": 36,
           "last_seen": "2026-10-24"
         },
         {
@@ -1885,9 +1885,9 @@
             "key": "y32FDc"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 35,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1915,7 +1915,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 79,
+          "servers": 80,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1929,7 +1929,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 71,
+          "servers": 72,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1957,7 +1957,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 62,
+          "servers": 61,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1972,7 +1972,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 79,
+          "servers": 80,
           "last_seen": "2026-10-24"
         },
         {
@@ -1986,7 +1986,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 79,
+          "servers": 81,
           "last_seen": "2026-10-24"
         },
         {
@@ -2000,7 +2000,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 67,
+          "servers": 69,
           "last_seen": "2026-10-24"
         },
         {
@@ -2014,7 +2014,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 65,
+          "servers": 69,
           "last_seen": "2026-10-24"
         },
         {
@@ -2027,9 +2027,9 @@
             "key": "h2P1c9"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 70,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2168,9 +2168,9 @@
             "key": "g3H6eR"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2317,9 +2317,9 @@
             "key": "zEh7ir"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2401,7 +2401,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 143,
+          "servers": 142,
           "official": true
         },
         {
@@ -2413,7 +2413,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 143,
+          "servers": 142,
           "official": true
         }
       ]
@@ -2464,7 +2464,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 28,
+          "servers": 60,
           "official": false
         },
         {
@@ -2478,7 +2478,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 26,
+          "servers": 53,
           "official": false
         },
         {
@@ -2506,7 +2506,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 9,
+          "servers": 16,
           "official": false
         },
         {
@@ -2520,7 +2520,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 29,
+          "servers": 60,
           "last_seen": "2026-10-24"
         },
         {
@@ -2534,7 +2534,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 26,
+          "servers": 51,
           "last_seen": "2026-10-24"
         },
         {
@@ -2548,7 +2548,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 26,
+          "servers": 53,
           "last_seen": "2026-10-24"
         },
         {
@@ -2562,7 +2562,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 26,
+          "servers": 49,
           "last_seen": "2026-10-24"
         },
         {
@@ -2575,9 +2575,9 @@
             "key": "yw3R9c"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 38,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2624,7 +2624,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 42,
+          "servers": 43,
           "official": false
         },
         {
@@ -2638,7 +2638,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 52,
+          "servers": 53,
           "official": false
         },
         {
@@ -2670,7 +2670,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 109,
+          "servers": 107,
           "official": false
         },
         {
@@ -2731,7 +2731,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 950,
+          "servers": 948,
           "official": false
         },
         {
@@ -2744,7 +2744,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 210,
+          "servers": 209,
           "official": false
         },
         {
@@ -2757,7 +2757,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 183,
+          "servers": 178,
           "official": false
         },
         {
@@ -2770,7 +2770,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 442,
+          "servers": 440,
           "official": false
         },
         {
@@ -2783,7 +2783,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1002,
+          "servers": 1001,
           "official": true
         },
         {
@@ -2796,7 +2796,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 39,
+          "servers": 40,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2823,7 +2823,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 24,
+          "servers": 23,
           "official": true
         },
         {
@@ -2908,7 +2908,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 94,
+          "servers": 89,
           "official": true
         },
         {
@@ -2921,7 +2921,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 63,
+          "servers": 59,
           "official": false
         },
         {
@@ -2934,7 +2934,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 144,
+          "servers": 132,
           "official": false
         }
       ],
@@ -2962,7 +2962,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 57,
+          "servers": 58,
           "official": false
         },
         {
@@ -3032,7 +3032,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 57,
+          "servers": 58,
           "last_seen": "2026-10-24"
         },
         {
@@ -3060,7 +3060,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 31,
+          "servers": 32,
           "last_seen": "2026-10-24"
         },
         {
@@ -3088,7 +3088,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 31,
+          "servers": 32,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3144,7 +3144,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 1285,
+          "servers": 1281,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -3181,7 +3181,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 72,
+          "servers": 73,
           "official": false
         },
         {
@@ -3195,7 +3195,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 43,
+          "servers": 44,
           "official": false
         },
         {
@@ -3223,7 +3223,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 41,
+          "servers": 43,
           "official": false
         },
         {
@@ -3237,7 +3237,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 71,
+          "servers": 73,
           "last_seen": "2026-10-24"
         },
         {
@@ -3251,7 +3251,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 44,
+          "servers": 46,
           "last_seen": "2026-10-24"
         },
         {
@@ -3265,7 +3265,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 45,
+          "servers": 44,
           "last_seen": "2026-10-24"
         },
         {
@@ -3279,7 +3279,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 43,
+          "servers": 44,
           "last_seen": "2026-10-24"
         },
         {
@@ -3293,7 +3293,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 44,
+          "servers": 43,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3330,7 +3330,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 120,
+          "servers": 116,
           "official": false
         },
         {
@@ -3344,7 +3344,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 79,
+          "servers": 76,
           "official": false
         },
         {
@@ -3400,7 +3400,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 120,
+          "servers": 116,
           "last_seen": "2026-10-24"
         },
         {
@@ -3414,7 +3414,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 77,
+          "servers": 75,
           "last_seen": "2026-10-24"
         },
         {
@@ -3428,7 +3428,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 78,
+          "servers": 73,
           "last_seen": "2026-10-24"
         },
         {
@@ -3442,7 +3442,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 77,
+          "servers": 75,
           "last_seen": "2026-10-24"
         },
         {
@@ -3456,7 +3456,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 80,
+          "servers": 73,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3510,7 +3510,7 @@
             "jq": ".Servers | length"
           },
           "status": "online",
-          "servers": 61,
+          "servers": 59,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -3678,7 +3678,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 50,
+          "servers": 49,
           "official": false
         },
         {
@@ -3934,7 +3934,7 @@
             "protocol": 16
           },
           "status": "online",
-          "servers": 42,
+          "servers": 41,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -4225,7 +4225,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 83,
+          "servers": 82,
           "official": false
         },
         {
@@ -4337,7 +4337,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 64,
+          "servers": 62,
           "last_seen": "2026-10-24"
         },
         {
@@ -4679,7 +4679,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 502,
+          "servers": 501,
           "last_seen": "2026-10-24"
         },
         {
@@ -4784,7 +4784,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1762,
+          "servers": 1781,
           "official": false
         },
         {
@@ -4812,7 +4812,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 907,
+          "servers": 916,
           "official": false
         },
         {
@@ -4826,7 +4826,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 907,
+          "servers": 916,
           "official": false
         },
         {
@@ -4840,7 +4840,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 908,
+          "servers": 911,
           "official": false
         },
         {
@@ -4854,7 +4854,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1255,
+          "servers": 1262,
           "official": false
         },
         {
@@ -4868,7 +4868,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 928,
+          "servers": 938,
           "official": false
         },
         {
@@ -4882,7 +4882,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 901,
+          "servers": 911,
           "official": false
         },
         {
@@ -4896,7 +4896,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 903,
+          "servers": 913,
           "official": false
         },
         {
@@ -4924,7 +4924,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 529,
+          "servers": 519,
           "last_seen": "2026-10-24"
         },
         {
@@ -4938,7 +4938,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1767,
+          "servers": 1786,
           "last_seen": "2026-10-24"
         },
         {
@@ -4952,9 +4952,9 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": null
+          "status": "online",
+          "servers": 391,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "lists.gameserverlister.com",
@@ -4967,7 +4967,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 754,
+          "servers": 758,
           "last_seen": "2026-10-24"
         }
       ],
@@ -5064,7 +5064,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 255,
+          "servers": 254,
           "official": true
         },
         {
@@ -5077,7 +5077,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 255,
+          "servers": 254,
           "official": true
         }
       ]
@@ -5095,7 +5095,7 @@
             "jq": ".data | length"
           },
           "status": "online",
-          "servers": 2512,
+          "servers": 2505,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -5128,7 +5128,7 @@
             "protocol": 26
           },
           "status": "online",
-          "servers": 85,
+          "servers": 87,
           "last_seen": "2026-10-24"
         }
       ],
@@ -5156,7 +5156,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 20,
+          "servers": 23,
           "official": false
         },
         {
@@ -5358,7 +5358,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 62,
+          "servers": 63,
           "official": true
         },
         {
@@ -5371,7 +5371,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 436,
+          "servers": 431,
           "official": false
         }
       ],
@@ -5446,7 +5446,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 296,
+          "servers": 297,
           "official": false
         },
         {
@@ -5460,7 +5460,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 35,
+          "servers": 32,
           "official": false
         },
         {
@@ -5474,7 +5474,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 235,
+          "servers": 239,
           "last_seen": "2026-10-24"
         }
       ],
@@ -5492,7 +5492,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 772,
+          "servers": 778,
           "official": true
         }
       ]
@@ -5513,7 +5513,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 7,
+          "servers": 8,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5534,7 +5534,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
+          "servers": 13,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5555,7 +5555,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 7,
+          "servers": 5,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5702,7 +5702,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 1,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5765,7 +5765,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 24,
+          "servers": 27,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5870,7 +5870,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 0,
+          "servers": 1,
           "last_seen": "2026-10-24"
         }
       ]
@@ -5975,7 +5975,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
+          "servers": 7,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6017,7 +6017,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 1,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6080,7 +6080,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
+          "servers": 2,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6101,7 +6101,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1,
+          "servers": 2,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6143,7 +6143,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
+          "servers": 41,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6184,7 +6184,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 50,
+          "servers": 52,
           "last_seen": "2026-10-24"
         },
         {
@@ -6199,7 +6199,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 0,
+          "servers": 48,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6219,7 +6219,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
+          "servers": 11,
           "last_seen": "2026-10-24"
         },
         {
@@ -6254,7 +6254,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 20,
+          "servers": 21,
           "last_seen": "2026-10-24"
         },
         {
@@ -6314,7 +6314,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 0,
+          "servers": 55,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6500,7 +6500,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
+          "servers": 62,
           "last_seen": "2026-10-24"
         },
         {
@@ -6524,7 +6524,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 64,
+          "servers": 63,
           "last_seen": "2026-10-24"
         },
         {
@@ -6536,7 +6536,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 64,
+          "servers": 63,
           "last_seen": "2026-10-24"
         }
       ],
@@ -6563,7 +6563,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 297,
+          "servers": 294,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6581,7 +6581,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 188,
+          "servers": 187,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6635,7 +6635,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 57,
+          "servers": 52,
           "last_seen": "2026-10-24"
         }
       ]
@@ -6653,7 +6653,10 @@
             "key": "e4Rd9J",
             "label": "GameSpy"
           },
-          "official": true
+          "official": true,
+          "status": "online",
+          "servers": 264,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -6671,7 +6674,10 @@
             "key": "hW6m9a",
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 121,
+          "last_seen": "2026-10-24"
         }
       ]
     }
