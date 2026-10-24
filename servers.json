@@ -64,6 +64,18 @@
           "last_seen": "2026-10-24",
           "servers": null,
           "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"bfield1942\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     },
@@ -101,6 +113,18 @@
           "last_seen": "2026-10-24",
           "servers": 65,
           "official": true
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"callofduty\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     },
@@ -119,6 +143,18 @@
           "last_seen": "2026-10-24",
           "servers": 371,
           "official": true
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"callofduty2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     },
@@ -225,6 +261,18 @@
           "last_seen": "2026-10-24",
           "servers": null,
           "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"undying\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     },
@@ -318,6 +366,18 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 6,
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"deusex\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ],
@@ -549,6 +609,18 @@
           "last_seen": "2026-10-24",
           "servers": 3,
           "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"globalops\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -576,6 +648,18 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": null,
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"halor\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ]
@@ -637,6 +721,18 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 3,
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"heretic2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ],
@@ -910,6 +1006,18 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 163,
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"mohaa\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ],
@@ -1704,6 +1812,18 @@
           "last_seen": "2026-10-24",
           "servers": 32,
           "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"rune\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1897,6 +2017,18 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 72,
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"serioussamse\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ],
@@ -2545,6 +2677,18 @@
           "last_seen": "2026-10-24",
           "servers": 0,
           "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"unreal\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2639,6 +2783,18 @@
           "servers": 0,
           "last_seen": "2026-10-24",
           "official": false
+        },
+        {
+          "host": "utmaster.openspy.net",
+          "port": 28902,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"ut2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     },
@@ -2715,6 +2871,18 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": null,
+          "official": false
+        },
+        {
+          "host": "utmaster.openspy.net",
+          "port": 28902,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"ut2004\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ],
@@ -2886,6 +3054,18 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 0,
+          "official": false
+        },
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"ut\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
           "official": false
         }
       ],
@@ -3245,6 +3425,582 @@
           "last_seen": "2026-10-24",
           "servers": 757,
           "official": true
+        }
+      ]
+    },
+    {
+      "name": "Battlefield 2142",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"stella\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Battlefield Vietnam",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"bfvietnam\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Call of Juarez: Bound in Blood",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"coj2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Chaser",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"chaser\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Contract J.A.C.K.",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"contractjack\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Crysis 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"capricorn\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Deer Hunter 2004",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"dh2004\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Deer Hunter 2005",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"dh2005\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Dirt Track Racing 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"dtr2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "F1 1999-2000 Compilation",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"f1comp\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "F.E.A.R.",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"fear\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "F.E.A.R. Perseus Mandate",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"fearxp2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "FlatOut 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. Covers the retail and Zoom Platform editions, which register under different GameSpy names.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"flatout2pc\", \"flatout2zp\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Gore: Ultimate Soldier",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. Covers the original and Special Edition.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"gore\", \"gorese\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "IGI 2: Covert Strike",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"projectigi2r\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "James Bond 007: Nightfire",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"jbnightfire\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Legends of Might and Magic",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"legendsmm\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Line of Sight: Vietnam",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"vietnamso\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Need for Speed: Hot Pursuit 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"nfs6\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "No One Lives Forever",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"nolf\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "No One Lives Forever 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"nolf2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Painkiller",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"painkiller\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Saints Row 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"srow2pc\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Sniper Elite",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"sniperelpc\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Star Trek: Bridge Commander",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"bcommander\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Star Wars: Republic Commando",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"swrcommando\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "THUG Pro",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. A community mod built on Tony Hawk's Underground 2.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"thugpro\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Tony Hawk's American Wasteland",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. Covers the retail game and the reTHAWed community mod.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"thawpc\", \"rethawed\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 4",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"thps4pc\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Tribes: Vengeance",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"tribesv\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Unreal Tournament 3",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"ut3\", \"ut3pc\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "Vietcong 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
+            "jq": "[.[] | select(.gamename | IN(\"vietcong2\")) | .servers] | add // 0",
+            "listing": false,
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     }
