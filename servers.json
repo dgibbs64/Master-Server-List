@@ -4811,7 +4811,7 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warfork",
-            "protocol": 22
+            "protocol": 26
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -4825,7 +4825,7 @@
             "type": "getservers",
             "port": 27950,
             "game": "Warfork",
-            "protocol": 22
+            "protocol": 26
           },
           "status": "online",
           "servers": 1,
