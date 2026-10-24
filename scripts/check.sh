@@ -160,7 +160,7 @@ addresses_tribes1() {
 }
 
 probe_once() {
-	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc format="${11:-text}" push="${12:-false}"
 	case "${type}" in
 	tcp)
 		# shellcheck disable=SC2016 # Positional arguments expand in the child shell.
@@ -194,7 +194,7 @@ probe_once() {
 		fi
 		;;
 	gamespy)
-		if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}")"; then
+		if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}" "${format}" "${push}")"; then
 			echo "online|${count}"
 		else
 			rc=$?
@@ -279,7 +279,7 @@ for attempt in 1 2 3; do
 		waiting=()
 		earliest=0
 		for entry in "${queue[@]}"; do
-			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern) | . // "" | tostring' <<<"${entry}")
+			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern, .format, .push) | . // "" | tostring' <<<"${entry}")
 			host="${fields[0]}"
 			endpoint="${host}:${fields[2]}"
 			if [[ -z "${rate_keys[${host}]:-}" ]]; then
