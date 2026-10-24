@@ -480,10 +480,13 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 ## Nexuiz
 
+dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.tchr.no:27950` | Official | ✅ Online | 29 | 2026-10-24 |
-| `dpmaster.deathmask.net:27950` | Official | ✅ Online | 18 | 2026-10-24 |
+| `dpmaster.tchr.no:27950` | Community | ✅ Online | 29 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 18 | 2026-10-24 |
+| `dpm.dpmaster.org:27777` | Community | Unchecked | - | Never |
 
 ## Odamex
 
@@ -494,9 +497,11 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 ## OpenArena
 
+dpmaster.deathmask.net is OpenArena's built-in default master (sv_master1). It is run by a community admin, not by the OpenArena project.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.deathmask.net:27950` | Official | ✅ Online | 112 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 112 | 2026-10-24 |
 | `master.ioquake3.org:27950` | Community | ✅ Online | 67 | 2026-10-24 |
 
 ## Postal 2
@@ -519,14 +524,17 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.deathmask.net:27950` | - | ✅ Online | 2 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 2 | 2026-10-24 |
 
 ## Quake (DarkPlaces)
 
+dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.tchr.no:27950` | Official | ✅ Online | 53 | 2026-10-24 |
-| `dpmaster.deathmask.net:27950` | Official | ✅ Online | 42 | 2026-10-24 |
+| `dpmaster.tchr.no:27950` | Community | ✅ Online | 53 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 42 | 2026-10-24 |
+| `dpm.dpmaster.org:27777` | Community | Unchecked | - | Never |
 
 ## Quake 2
 
@@ -912,7 +920,7 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.deathmask.net:27950` | - | ✅ Online | 1 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master1.forbidden.gg:27950` | - | ✅ Online | 1 | 2026-10-24 |
 
 ### Retired master servers
@@ -925,8 +933,8 @@ This game has no classic master server. Its public server list is a web API, che
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.tchr.no:27950` | Official | ✅ Online | 28 | 2026-10-24 |
-| `dpmaster.deathmask.net:27950` | Official | ✅ Online | 23 | 2026-10-24 |
+| `dpmaster.tchr.no:27950` | Community | ✅ Online | 28 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 23 | 2026-10-24 |
 
 ## Wheel of Time
 
@@ -971,10 +979,13 @@ This game has no classic master server. Its public server list is a web API, che
 
 ## Xonotic
 
+dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
-| `dpmaster.deathmask.net:27950` | Official | ✅ Online | 297 | 2026-10-24 |
-| `dpmaster.tchr.no:27950` | Official | ✅ Online | 33 | 2026-10-24 |
+| `dpmaster.deathmask.net:27950` | Community | ✅ Online | 297 | 2026-10-24 |
+| `dpmaster.tchr.no:27950` | Community | ✅ Online | 33 | 2026-10-24 |
+| `dpm.dpmaster.org:27777` | Community | Unchecked | - | Never |
 
 ## Zandronum
 

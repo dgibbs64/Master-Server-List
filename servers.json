@@ -1598,7 +1598,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 18,
-          "official": true
+          "official": false
         },
         {
           "host": "dpmaster.tchr.no",
@@ -1612,9 +1612,21 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 29,
-          "official": true
+          "official": false
+        },
+        {
+          "host": "dpm.dpmaster.org",
+          "port": 27777,
+          "probe": {
+            "type": "getservers",
+            "port": 27777,
+            "game": "Nexuiz",
+            "protocol": 3
+          },
+          "official": false
         }
-      ]
+      ],
+      "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
     },
     {
       "name": "Odamex",
@@ -1659,7 +1671,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 112,
-          "official": true
+          "official": false
         },
         {
           "host": "master.ioquake3.org",
@@ -1674,7 +1686,8 @@
           "last_seen": "2026-10-24",
           "official": false
         }
-      ]
+      ],
+      "notes": "dpmaster.deathmask.net is OpenArena's built-in default master (sv_master1). It is run by a community admin, not by the OpenArena project."
     },
     {
       "name": "Postal 2",
@@ -1775,7 +1788,8 @@
           },
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-24"
+          "last_seen": "2026-10-24",
+          "official": false
         }
       ]
     },
@@ -1794,7 +1808,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 42,
-          "official": true
+          "official": false
         },
         {
           "host": "dpmaster.tchr.no",
@@ -1808,9 +1822,21 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 53,
-          "official": true
+          "official": false
+        },
+        {
+          "host": "dpm.dpmaster.org",
+          "port": 27777,
+          "probe": {
+            "type": "getservers",
+            "port": 27777,
+            "game": "DarkPlaces-Quake",
+            "protocol": 3
+          },
+          "official": false
         }
-      ]
+      ],
+      "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
     },
     {
       "name": "Quake 2",
@@ -3702,7 +3728,8 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1
+          "servers": 1,
+          "official": false
         },
         {
           "host": "master1.forbidden.gg",
@@ -3743,7 +3770,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 23,
-          "official": true
+          "official": false
         },
         {
           "host": "dpmaster.tchr.no",
@@ -3757,7 +3784,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 28,
-          "official": true
+          "official": false
         }
       ]
     },
@@ -3977,7 +4004,7 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 297,
-          "official": true
+          "official": false
         },
         {
           "host": "dpmaster.tchr.no",
@@ -3991,9 +4018,21 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 33,
-          "official": true
+          "official": false
+        },
+        {
+          "host": "dpm.dpmaster.org",
+          "port": 27777,
+          "probe": {
+            "type": "getservers",
+            "port": 27777,
+            "game": "Xonotic",
+            "protocol": 3
+          },
+          "official": false
         }
-      ]
+      ],
+      "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
     },
     {
       "name": "Zandronum",
