@@ -34,5 +34,5 @@ function gsseckey(src, key,    t, i, a, b, x, y, z, ks, n, tmp, out, size) {
 
 BEGIN {
 	for (i = 0; i < 256; i++) ORD[sprintf("%c", i)] = i
-	print gsseckey(secure, key)
+	print gsseckey(ENVIRON["GS_SECURE"], ENVIRON["GS_KEY"])
 }

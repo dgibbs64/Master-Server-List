@@ -6153,6 +6153,132 @@
           "official": false
         }
       ]
+    },
+    {
+      "name": "Half-Life (WON)",
+      "notes": "WON2, started by SteamlessProject.nl and NoWon, replaces Valve's WON service (shut down 31 July 2004) for the pre-Steam Half-Life and its mods, such as Counter-Strike 1.5. Players install the WON2 patch, which sets these masters in woncomm.lst. master and master2 share one machine, and master3 and master4 another.",
+      "masters": [
+        {
+          "host": "master.won2.steamlessproject.nl",
+          "port": 27010,
+          "probe": {
+            "type": "qwquery",
+            "port": 27010
+          },
+          "official": false
+        },
+        {
+          "host": "master2.won2.steamlessproject.nl",
+          "port": 27010,
+          "probe": {
+            "type": "qwquery",
+            "port": 27010
+          },
+          "official": false
+        },
+        {
+          "host": "master3.won2.steamlessproject.nl",
+          "port": 27010,
+          "probe": {
+            "type": "qwquery",
+            "port": 27010
+          },
+          "official": false
+        },
+        {
+          "host": "master4.won2.steamlessproject.nl",
+          "port": 27010,
+          "probe": {
+            "type": "qwquery",
+            "port": 27010
+          },
+          "official": false
+        }
+      ],
+      "retired": [
+        {
+          "host": "209.173.38.9",
+          "port": 27010,
+          "official": false,
+          "down_since": "2026-10-24",
+          "reason": "Listed in the 2013 WON2 woncomm.lst. It no longer answers master queries."
+        }
+      ]
+    },
+    {
+      "name": "Mount & Blade: Warband",
+      "notes": "TaleWorlds still runs Warband's master server. The count comes from its public list.",
+      "masters": [
+        {
+          "host": "warbandmain.taleworlds.com",
+          "probe": {
+            "type": "http",
+            "url": "http://warbandmain.taleworlds.com/handlerservers.ashx?type=list",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}(:[0-9]{1,5})?"
+          },
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Space Station 14",
+      "notes": "The Space Station 14 hub lists public servers. The count comes from its API.",
+      "masters": [
+        {
+          "host": "hub.spacestation14.com",
+          "probe": {
+            "type": "http",
+            "url": "https://hub.spacestation14.com/api/servers",
+            "jq": "length"
+          },
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Skyrim Together Reborn",
+      "notes": "Servers with bAnnounceServer on report to the mod's own list server, which its source code names. The count comes from its public list.",
+      "masters": [
+        {
+          "host": "skyrim-reborn-list.skyrim-together.com",
+          "probe": {
+            "type": "http",
+            "url": "https://skyrim-reborn-list.skyrim-together.com/list",
+            "jq": ".servers | length"
+          },
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Renegade X",
+      "notes": "Totem Arts, Renegade X's developer, publishes the server list. The count comes from it.",
+      "masters": [
+        {
+          "host": "serverlist-rx.totemarts.services",
+          "probe": {
+            "type": "http",
+            "url": "https://serverlist-rx.totemarts.services/servers.jsp",
+            "jq": "length"
+          },
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Brickadia",
+      "notes": "Brickadia's own API lists public servers. Servers connect through Epic Online Services, so the list has no addresses and only the count is kept.",
+      "masters": [
+        {
+          "host": "brickadia.com",
+          "probe": {
+            "type": "http",
+            "url": "https://brickadia.com/api/v1/servers",
+            "jq": ".servers | length"
+          },
+          "official": true
+        }
+      ]
     }
   ]
 }
