@@ -385,11 +385,13 @@ Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-c
 
 ## Iron Storm
 
+qtracker's website is gone, but gsm.qtracker.com still answers GameSpy list requests, if not every time.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
-| `gsm.qtracker.com` | Community | ✅ Online | - | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -400,6 +402,8 @@ Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-c
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## Kingpin
+
+master.kingpin.info answers Quake II style queries and lists each server's query port, which is the game port plus 10, so its addresses are not merged with the other masters'.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -413,6 +417,8 @@ Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-c
 | `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
 | `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 | `master.maraakate.org:27900` | Community | Unchecked | - | Never |
+| `gsm.qtracker.com:27900` | Community | Unchecked | - | Never |
+| `master.kingpin.info:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -608,6 +614,7 @@ master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browser
 |---|---|---|---|---|
 | `master.quakeservers.net:27900` | Community | ✅ Online | 104 | 2026-10-24 |
 | `master.maraakate.org:27900` | Community | Unchecked | - | Never |
+| `master.itbacon.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -993,6 +1000,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.openspy.net:27900` | Community | ✅ Online | 512 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `gsm.qtracker.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
