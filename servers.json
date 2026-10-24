@@ -103,7 +103,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 3012,
+          "servers": 3009,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -122,7 +122,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 123,
+          "servers": 121,
           "official": true
         },
         {
@@ -155,7 +155,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 381,
+          "servers": 377,
           "official": true
         },
         {
@@ -199,7 +199,10 @@
             "port": 20810,
             "protocol": 6
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 961,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -225,7 +228,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 157,
+          "servers": 159,
           "official": true
         }
       ]
@@ -320,7 +323,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -347,7 +353,7 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1442,
+          "servers": 1455,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -448,7 +454,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -491,7 +500,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 22,
+          "servers": 21,
           "official": true
         }
       ]
@@ -562,7 +571,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -604,7 +616,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 3,
+          "servers": 4,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -643,7 +655,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -728,7 +743,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -856,7 +874,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1053,7 +1074,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1080,7 +1104,7 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 445,
+          "servers": 438,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -1101,7 +1125,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 236,
+          "servers": 237,
           "official": false
         },
         {
@@ -1115,7 +1139,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 196,
+          "servers": 207,
           "official": false
         },
         {
@@ -1143,7 +1167,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 184,
+          "servers": 173,
           "official": false
         },
         {
@@ -1168,7 +1192,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1202,7 +1229,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 46,
+          "servers": 47,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1216,7 +1243,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 36,
+          "servers": 38,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1255,7 +1282,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1283,7 +1313,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 71,
+          "servers": 80,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1297,7 +1327,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 64,
+          "servers": 72,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1325,7 +1355,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 61,
+          "servers": 60,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1336,7 +1366,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1416,7 +1449,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1504,7 +1540,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1601,7 +1640,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 114,
+          "servers": 112,
           "official": true
         },
         {
@@ -1613,7 +1652,7 @@
             "protocol": 71
           },
           "status": "online",
-          "servers": 68,
+          "servers": 67,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -1633,7 +1672,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 33,
+          "servers": 34,
           "official": false
         },
         {
@@ -1647,7 +1686,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 27,
+          "servers": 30,
           "official": false
         },
         {
@@ -1675,7 +1714,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 25,
+          "servers": 10,
           "official": false
         },
         {
@@ -1685,7 +1724,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1731,7 +1773,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 43,
+          "servers": 42,
           "official": true
         },
         {
@@ -1745,7 +1787,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 54,
+          "servers": 53,
           "official": true
         }
       ]
@@ -1762,7 +1804,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 99,
+          "servers": 98,
           "official": false
         }
       ],
@@ -1796,7 +1838,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 936,
+          "servers": 935,
           "official": false
         },
         {
@@ -1809,7 +1851,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 213,
+          "servers": 212,
           "official": false
         },
         {
@@ -1822,7 +1864,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 187,
+          "servers": 173,
           "official": false
         },
         {
@@ -1835,7 +1877,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 443,
+          "servers": 441,
           "official": false
         },
         {
@@ -1848,7 +1890,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 982,
+          "servers": 979,
           "official": true
         },
         {
@@ -1859,7 +1901,10 @@
             "port": 27950,
             "protocol": 68
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 40,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -1885,7 +1930,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 25,
+          "servers": 24,
           "official": true
         }
       ]
@@ -1941,7 +1986,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 99,
+          "servers": 96,
           "official": true
         },
         {
@@ -1954,7 +1999,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 65,
+          "servers": 72,
           "official": false
         },
         {
@@ -1967,7 +2012,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 156,
+          "servers": 194,
           "official": false
         }
       ],
@@ -2062,7 +2107,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2117,7 +2165,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 1231,
+          "servers": 1234,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -2206,7 +2254,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2242,7 +2293,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 118,
+          "servers": 114,
           "official": false
         },
         {
@@ -2256,7 +2307,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 80,
+          "servers": 75,
           "official": false
         },
         {
@@ -2284,7 +2335,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 80,
+          "servers": 75,
           "official": false
         },
         {
@@ -2309,7 +2360,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2362,7 +2416,7 @@
             "jq": ".Servers | length"
           },
           "status": "online",
-          "servers": 61,
+          "servers": 60,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -2434,7 +2488,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2469,7 +2526,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 50,
+          "servers": 51,
           "official": false
         },
         {
@@ -2527,7 +2584,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2686,7 +2746,10 @@
             "port": 28060,
             "protocol": 16
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 37,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -2712,7 +2775,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 261,
+          "servers": 263,
           "official": false
         },
         {
@@ -2849,7 +2912,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 4,
+          "servers": 0,
           "official": false
         },
         {
@@ -2859,7 +2922,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3024,7 +3090,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3164,7 +3233,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3255,7 +3327,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 503,
+          "servers": 504,
           "last_seen": "2026-10-24"
         },
         {
@@ -3265,7 +3337,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3309,7 +3384,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1764,
+          "servers": 1770,
           "official": false
         },
         {
@@ -3337,7 +3412,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 897,
+          "servers": 901,
           "official": false
         },
         {
@@ -3351,7 +3426,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 898,
+          "servers": 901,
           "official": false
         },
         {
@@ -3365,7 +3440,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 895,
+          "servers": 899,
           "official": false
         },
         {
@@ -3379,7 +3454,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1245,
+          "servers": 1249,
           "official": false
         },
         {
@@ -3393,7 +3468,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 922,
+          "servers": 927,
           "official": false
         },
         {
@@ -3407,7 +3482,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 895,
+          "servers": 899,
           "official": false
         },
         {
@@ -3421,7 +3496,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 894,
+          "servers": 903,
           "official": false
         },
         {
@@ -3450,7 +3525,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 355,
+          "servers": 354,
           "last_seen": "2026-10-24"
         },
         {
@@ -3460,7 +3535,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3541,7 +3619,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 240,
+          "servers": 239,
           "official": true
         },
         {
@@ -3554,7 +3632,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 240,
+          "servers": 239,
           "official": true
         }
       ]
@@ -3572,7 +3650,7 @@
             "jq": ".data | length"
           },
           "status": "online",
-          "servers": 2486,
+          "servers": 2489,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -3602,7 +3680,10 @@
             "port": 27950,
             "game": "Warfork",
             "protocol": 22
-          }
+          },
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3714,7 +3795,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         }
       ],
       "retired": [
@@ -3757,7 +3841,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 432,
+          "servers": 436,
           "official": true
         },
         {
@@ -3770,7 +3854,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 61,
+          "servers": 60,
           "official": true
         },
         {
@@ -3783,7 +3867,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 423,
+          "servers": 432,
           "official": false
         }
       ],
@@ -3837,7 +3921,10 @@
             "game": "WorldofPadman",
             "protocol": 71
           },
-          "official": true
+          "official": true,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -3855,7 +3942,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 290,
+          "servers": 297,
           "official": true
         },
         {
@@ -3869,7 +3956,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 32,
+          "servers": 33,
           "official": true
         }
       ]
@@ -3928,7 +4015,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 13,
+          "servers": 12,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4159,7 +4246,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 7,
+          "servers": 10,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4369,7 +4456,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 3,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4453,7 +4540,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 8,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4474,7 +4561,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1,
+          "servers": 2,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4576,7 +4663,10 @@
             "jq": "length",
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 50,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.openspy.net",
@@ -4588,7 +4678,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -4605,7 +4698,10 @@
             "jq": "length",
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 11,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.openspy.net",
@@ -4617,7 +4713,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -4632,7 +4731,10 @@
             "type": "tcp",
             "port": 28910
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.openspy.net",
@@ -4644,7 +4746,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -4659,7 +4764,10 @@
             "type": "tcp",
             "port": 28900
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": null,
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.openspy.net",
@@ -4671,7 +4779,10 @@
             "listing": false,
             "label": "GameSpy"
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -4685,7 +4796,10 @@
             "type": "cube2",
             "port": 28800
           },
-          "official": true
+          "official": true,
+          "status": "online",
+          "servers": 13,
+          "last_seen": "2026-10-24"
         }
       ]
     }
