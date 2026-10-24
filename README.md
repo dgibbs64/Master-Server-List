@@ -239,20 +239,20 @@ This game has no classic master server. Its public server list is a web API, che
 
 ## Clive Barker's Undying
 
-These are GameSpy services. Entries labelled TCP check only confirm connectivity; they do not validate an Undying server-list request.
+Multiplayer requires Undying Renewal (https://www.moddb.com/mods/undying-renewal). Masters are checked with an Undying GameSpy server-list request.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `master.333networks.com:27900` | Community | ✅ Online | 2 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 2 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
-| `master.333networks.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | - | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 2 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | ⚠️ No response | - | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ⚠️ No response | - | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ⚠️ No response | - | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ⚠️ No response | - | 2026-10-24 |
 
 ### Retired master servers
 
