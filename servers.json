@@ -327,6 +327,42 @@
           "status": "online",
           "servers": null,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -459,6 +495,50 @@
           "status": "online",
           "servers": 10,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "deusex",
+            "key": "Av3M99"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "deusex",
+            "key": "Av3M99"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "deusex",
+            "key": "Av3M99"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "deusex",
+            "key": "Av3M99"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -578,6 +658,50 @@
           "status": "online",
           "servers": 1,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -664,6 +788,50 @@
           "status": "online",
           "servers": 9,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "official": false
         }
       ]
     },
@@ -753,6 +921,50 @@
           "status": "online",
           "servers": 4,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "globalops",
+            "key": "AdN3L9"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "globalops",
+            "key": "AdN3L9"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "globalops",
+            "key": "AdN3L9"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "globalops",
+            "key": "AdN3L9"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -885,6 +1097,50 @@
           "status": "online",
           "servers": 4,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1087,6 +1343,50 @@
           "status": "online",
           "servers": 40,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1206,6 +1506,50 @@
           "status": "online",
           "servers": 245,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1298,6 +1642,50 @@
           "status": "online",
           "servers": 49,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1384,6 +1772,50 @@
           "status": "online",
           "servers": 74,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1469,6 +1901,50 @@
           "status": "online",
           "servers": 2,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mobileforces",
+            "key": "g3H6eR"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mobileforces",
+            "key": "g3H6eR"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mobileforces",
+            "key": "g3H6eR"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mobileforces",
+            "key": "g3H6eR"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1562,6 +2038,50 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "nerfarena",
+            "key": "zEh7ir"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "nerfarena",
+            "key": "zEh7ir"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "nerfarena",
+            "key": "zEh7ir"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "nerfarena",
+            "key": "zEh7ir"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1764,6 +2284,50 @@
           "status": "online",
           "servers": 46,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "postal2",
+            "key": "yw3R9c"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "postal2",
+            "key": "yw3R9c"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "postal2",
+            "key": "yw3R9c"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "postal2",
+            "key": "yw3R9c"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2164,6 +2728,50 @@
           "status": "online",
           "servers": 59,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "rune",
+            "key": "BnA4a3"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "rune",
+            "key": "BnA4a3"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "rune",
+            "key": "BnA4a3"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "rune",
+            "key": "BnA4a3"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2313,6 +2921,50 @@
           "status": "online",
           "servers": 73,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussam",
+            "key": "AKbna4"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussam",
+            "key": "AKbna4"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussam",
+            "key": "AKbna4"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussam",
+            "key": "AKbna4"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2420,6 +3072,50 @@
           "status": "online",
           "servers": 124,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussamse",
+            "key": "AKbna4"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussamse",
+            "key": "AKbna4"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussamse",
+            "key": "AKbna4"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "serioussamse",
+            "key": "AKbna4"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2550,6 +3246,50 @@
           "status": "online",
           "servers": 44,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "sofretail",
+            "key": "iVn3a3"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "sofretail",
+            "key": "iVn3a3"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "sofretail",
+            "key": "iVn3a3"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "sofretail",
+            "key": "iVn3a3"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2646,6 +3386,42 @@
           "status": "online",
           "servers": null,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2986,6 +3762,50 @@
           "status": "online",
           "servers": 4,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "turok2",
+            "key": "RWd3BG"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "turok2",
+            "key": "RWd3BG"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "turok2",
+            "key": "RWd3BG"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "turok2",
+            "key": "RWd3BG"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -3155,6 +3975,17 @@
           "status": "online",
           "servers": 166,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "unreal",
+            "key": "DAncRK"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -3300,6 +4131,50 @@
           "status": "online",
           "servers": 0,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "official": false
         }
       ]
     },
@@ -3404,6 +4279,42 @@
           "status": "online",
           "servers": null,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -3866,6 +4777,50 @@
           "status": "online",
           "servers": 17,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master-au.unrealarchive.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "wot",
+            "key": "RSSSpA"
+          },
+          "official": false
+        },
+        {
+          "host": "master.noccer.de",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "wot",
+            "key": "RSSSpA"
+          },
+          "official": false
+        },
+        {
+          "host": "master.eatsleeput.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "wot",
+            "key": "RSSSpA"
+          },
+          "official": false
+        },
+        {
+          "host": "master.frag-net.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "wot",
+            "key": "RSSSpA"
+          },
+          "official": false
         }
       ],
       "retired": [

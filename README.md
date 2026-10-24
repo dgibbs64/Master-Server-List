@@ -219,6 +219,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -245,6 +249,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 7 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `master.openspy.net:27900` | Community | ⚠️ No response | - | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -269,6 +277,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -287,6 +299,10 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.errorist.eu:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ## Global Operations
 
@@ -298,6 +314,10 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.fragaholic.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -324,6 +344,10 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -373,6 +397,10 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 | `master.errorist.eu:27900` | Community | ✅ Online | 30 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 30 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -400,6 +428,10 @@ Spearhead and Breakthrough have their own entries below.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 197 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 137 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -419,6 +451,10 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 42 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 33 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -437,6 +473,10 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 65 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 63 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -453,6 +493,10 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -470,6 +514,10 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -513,6 +561,10 @@ dpmaster.deathmask.net is OpenArena's built-in default master (sv_master1). It i
 | `master.errorist.eu:27900` | Community | ✅ Online | 45 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 33 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -609,6 +661,10 @@ dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 33 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 5 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -643,6 +699,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 44 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 43 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -661,6 +721,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 83 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -692,6 +756,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 32 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 29 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -710,6 +778,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -804,6 +876,10 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -826,6 +902,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.openspy.net:27900` | Community | ✅ Online | 62 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -849,6 +926,10 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ## Unreal Tournament 2004
 
@@ -862,6 +943,10 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.fragaholic.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `ut2004master.gonespy.com:28902` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -945,6 +1030,10 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 7 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 7 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master-au.unrealarchive.org:27900` | Community | Unchecked | - | Never |
+| `master.noccer.de:27900` | Community | Unchecked | - | Never |
+| `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
+| `master.frag-net.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
