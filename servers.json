@@ -43,7 +43,7 @@
             "pattern": "^addserver"
           },
           "status": "online",
-          "servers": 45,
+          "servers": 44,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -103,7 +103,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 3009,
+          "servers": 3056,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -122,7 +122,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 121,
+          "servers": 64,
           "official": true
         },
         {
@@ -155,7 +155,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 377,
+          "servers": 379,
           "official": true
         },
         {
@@ -188,7 +188,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1285,
+          "servers": 1352,
           "official": true
         },
         {
@@ -201,7 +201,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 961,
+          "servers": 978,
           "last_seen": "2026-10-24"
         }
       ],
@@ -228,7 +228,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 159,
+          "servers": 168,
           "official": true
         }
       ]
@@ -313,7 +313,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 3,
           "last_seen": "2026-10-24"
         },
         {
@@ -353,7 +353,7 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1455,
+          "servers": 1473,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -373,7 +373,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 7,
+          "servers": 10,
           "official": false
         },
         {
@@ -387,7 +387,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 7,
+          "servers": 10,
           "official": false
         },
         {
@@ -401,7 +401,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 6,
+          "servers": 7,
           "official": false
         },
         {
@@ -429,7 +429,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 6,
+          "servers": 7,
           "official": false
         },
         {
@@ -442,8 +442,8 @@
             "key": "Av3M99"
           },
           "official": false,
-          "status": "online",
-          "servers": 0,
+          "status": "no-response",
+          "servers": null,
           "last_seen": "2026-10-24"
         },
         {
@@ -457,7 +457,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 10,
           "last_seen": "2026-10-24"
         }
       ],
@@ -501,7 +501,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 21,
+          "servers": 19,
           "official": true
         }
       ]
@@ -576,7 +576,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 1,
           "last_seen": "2026-10-24"
         }
       ],
@@ -605,7 +605,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 8,
+          "servers": 9,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -647,7 +647,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 4,
+          "servers": 3,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -662,7 +662,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 9,
           "last_seen": "2026-10-24"
         }
       ]
@@ -751,7 +751,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ],
@@ -883,7 +883,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ],
@@ -948,7 +948,7 @@
             "type": "tcp",
             "port": 28900
           },
-          "status": "no-response",
+          "status": "online",
           "last_seen": "2026-10-24",
           "servers": null,
           "official": false
@@ -1085,7 +1085,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 40,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1113,7 +1113,7 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 438,
+          "servers": 444,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -1134,7 +1134,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 237,
+          "servers": 244,
           "official": false
         },
         {
@@ -1148,7 +1148,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 207,
+          "servers": 212,
           "official": false
         },
         {
@@ -1176,7 +1176,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 173,
+          "servers": 197,
           "official": false
         },
         {
@@ -1190,7 +1190,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 0,
+          "servers": 137,
           "last_seen": "2026-10-24"
         },
         {
@@ -1204,7 +1204,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 245,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1239,7 +1239,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 47,
+          "servers": 50,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1253,7 +1253,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 38,
+          "servers": 42,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1281,7 +1281,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 32,
+          "servers": 33,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1296,7 +1296,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 49,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1325,7 +1325,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 80,
+          "servers": 73,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1339,7 +1339,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 72,
+          "servers": 65,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1367,7 +1367,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 60,
+          "servers": 63,
           "last_seen": "2026-10-24",
           "official": false
         },
@@ -1382,7 +1382,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 74,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1467,7 +1467,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 2,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1560,7 +1560,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 0,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1623,7 +1623,10 @@
             "game": "Nexuiz",
             "protocol": 3
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ],
       "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
@@ -1670,7 +1673,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 112,
+          "servers": 114,
           "official": false
         },
         {
@@ -1682,7 +1685,7 @@
             "protocol": 71
           },
           "status": "online",
-          "servers": 67,
+          "servers": 68,
           "last_seen": "2026-10-24",
           "official": false
         }
@@ -1703,7 +1706,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 34,
+          "servers": 47,
           "official": false
         },
         {
@@ -1717,7 +1720,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 30,
+          "servers": 45,
           "official": false
         },
         {
@@ -1745,7 +1748,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 10,
+          "servers": 33,
           "official": false
         },
         {
@@ -1759,7 +1762,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 46,
           "last_seen": "2026-10-24"
         }
       ],
@@ -1807,7 +1810,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 42,
+          "servers": 43,
           "official": false
         },
         {
@@ -1821,7 +1824,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 53,
+          "servers": 57,
           "official": false
         },
         {
@@ -1833,7 +1836,10 @@
             "game": "DarkPlaces-Quake",
             "protocol": 3
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
         }
       ],
       "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
@@ -1850,7 +1856,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 98,
+          "servers": 107,
           "official": false
         }
       ],
@@ -1884,7 +1890,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 935,
+          "servers": 959,
           "official": false
         },
         {
@@ -1897,7 +1903,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 212,
+          "servers": 220,
           "official": false
         },
         {
@@ -1910,7 +1916,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 173,
+          "servers": 179,
           "official": false
         },
         {
@@ -1923,7 +1929,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 441,
+          "servers": 454,
           "official": false
         },
         {
@@ -1936,7 +1942,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 979,
+          "servers": 991,
           "official": true
         },
         {
@@ -2032,7 +2038,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 96,
+          "servers": 87,
           "official": true
         },
         {
@@ -2045,7 +2051,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 72,
+          "servers": 56,
           "official": false
         },
         {
@@ -2058,7 +2064,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 194,
+          "servers": 117,
           "official": false
         }
       ],
@@ -2086,7 +2092,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 58,
+          "servers": 59,
           "official": false
         },
         {
@@ -2100,7 +2106,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 39,
+          "servers": 40,
           "official": false
         },
         {
@@ -2128,7 +2134,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 32,
+          "servers": 33,
           "official": false
         },
         {
@@ -2156,7 +2162,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 59,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2212,7 +2218,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 1234,
+          "servers": 1246,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -2229,7 +2235,7 @@
             "port": 28787
           },
           "status": "online",
-          "servers": 69,
+          "servers": 70,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -2249,7 +2255,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 70,
+          "servers": 73,
           "official": false
         },
         {
@@ -2263,7 +2269,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 41,
+          "servers": 44,
           "official": false
         },
         {
@@ -2291,7 +2297,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 41,
+          "servers": 43,
           "official": false
         },
         {
@@ -2305,7 +2311,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 73,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2342,7 +2348,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 114,
+          "servers": 124,
           "official": false
         },
         {
@@ -2356,7 +2362,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 75,
+          "servers": 83,
           "official": false
         },
         {
@@ -2384,7 +2390,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 75,
+          "servers": 85,
           "official": false
         },
         {
@@ -2398,7 +2404,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
+          "servers": 1,
           "last_seen": "2026-10-24"
         },
         {
@@ -2412,7 +2418,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 124,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2466,7 +2472,7 @@
             "jq": ".Servers | length"
           },
           "status": "online",
-          "servers": 60,
+          "servers": 62,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -2542,7 +2548,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 44,
           "last_seen": "2026-10-24"
         }
       ],
@@ -2578,7 +2584,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 51,
+          "servers": 50,
           "official": false
         },
         {
@@ -2827,7 +2833,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 263,
+          "servers": 262,
           "official": false
         },
         {
@@ -2884,7 +2890,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 15,
+          "servers": 11,
           "official": true
         }
       ]
@@ -2964,7 +2970,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 0,
+          "servers": 4,
           "official": false
         },
         {
@@ -2978,7 +2984,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3007,7 +3013,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 87,
+          "servers": 88,
           "official": false
         },
         {
@@ -3035,7 +3041,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 87,
+          "servers": 88,
           "official": false
         },
         {
@@ -3063,7 +3069,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 146,
+          "servers": 147,
           "official": false
         },
         {
@@ -3077,7 +3083,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 94,
+          "servers": 96,
           "official": false
         },
         {
@@ -3091,7 +3097,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 86,
+          "servers": 88,
           "official": false
         },
         {
@@ -3105,7 +3111,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 86,
+          "servers": 88,
           "official": false
         },
         {
@@ -3133,7 +3139,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 23,
+          "servers": 62,
           "last_seen": "2026-10-24"
         },
         {
@@ -3147,7 +3153,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 166,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3278,7 +3284,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 6,
           "last_seen": "2026-10-24"
         },
         {
@@ -3292,7 +3298,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 0,
           "last_seen": "2026-10-24"
         }
       ]
@@ -3384,7 +3390,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 504,
+          "servers": 501,
           "last_seen": "2026-10-24"
         },
         {
@@ -3441,7 +3447,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1770,
+          "servers": 1774,
           "official": false
         },
         {
@@ -3469,7 +3475,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 901,
+          "servers": 911,
           "official": false
         },
         {
@@ -3483,7 +3489,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 901,
+          "servers": 911,
           "official": false
         },
         {
@@ -3497,7 +3503,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 899,
+          "servers": 907,
           "official": false
         },
         {
@@ -3511,7 +3517,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 1249,
+          "servers": 1258,
           "official": false
         },
         {
@@ -3525,7 +3531,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 927,
+          "servers": 933,
           "official": false
         },
         {
@@ -3539,7 +3545,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 899,
+          "servers": 906,
           "official": false
         },
         {
@@ -3553,7 +3559,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 903,
+          "servers": 910,
           "official": false
         },
         {
@@ -3581,7 +3587,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 354,
+          "servers": 519,
           "last_seen": "2026-10-24"
         },
         {
@@ -3595,7 +3601,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 1774,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3677,7 +3683,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 239,
+          "servers": 242,
           "official": true
         },
         {
@@ -3690,7 +3696,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 239,
+          "servers": 242,
           "official": true
         }
       ]
@@ -3708,7 +3714,7 @@
             "jq": ".data | length"
           },
           "status": "online",
-          "servers": 2489,
+          "servers": 2492,
           "last_seen": "2026-10-24",
           "official": true
         }
@@ -3858,7 +3864,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": null,
+          "servers": 17,
           "last_seen": "2026-10-24"
         }
       ],
@@ -3902,7 +3908,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 436,
+          "servers": 437,
           "official": true
         },
         {
@@ -3915,7 +3921,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 60,
+          "servers": 63,
           "official": true
         },
         {
@@ -3928,7 +3934,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 432,
+          "servers": 436,
           "official": false
         }
       ],
@@ -4003,7 +4009,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 297,
+          "servers": 290,
           "official": false
         },
         {
@@ -4017,7 +4023,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 33,
+          "servers": 32,
           "official": false
         },
         {
@@ -4029,7 +4035,10 @@
             "game": "Xonotic",
             "protocol": 3
           },
-          "official": false
+          "official": false,
+          "status": "online",
+          "servers": 237,
+          "last_seen": "2026-10-24"
         }
       ],
       "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
@@ -4046,7 +4055,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-24",
-          "servers": 759,
+          "servers": 773,
           "official": true
         }
       ]
@@ -4088,7 +4097,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
+          "servers": 14,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4109,7 +4118,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4319,7 +4328,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 10,
+          "servers": 21,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4529,7 +4538,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
+          "servers": 4,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4613,7 +4622,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
+          "servers": 13,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4634,7 +4643,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 1,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4655,7 +4664,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1,
+          "servers": 2,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4697,7 +4706,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 41,
+          "servers": 42,
           "last_seen": "2026-10-24"
         }
       ]
@@ -4738,7 +4747,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 50,
+          "servers": 51,
           "last_seen": "2026-10-24"
         },
         {
