@@ -31,7 +31,7 @@ jobs:
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: |
-          for appid in 892970 252490 10 730 440; do
+          for appid in 251570 346110 107410 10 730 240 221100 4000 550 108600 252490 440 304930 892970; do
             start=$SECONDS rc=0
             n="$(./scripts/steam-list.sh "$appid")" || rc=$?
             echo "appid $appid: $n servers, exit $rc, $((SECONDS - start))s"
