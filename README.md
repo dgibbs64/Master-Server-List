@@ -1405,12 +1405,13 @@ crysiswarsmp.com runs the replacement GameSpy service for Crysis Wars, with mast
 
 ## Vietcong
 
-The community master is run by vietcong.tk and has no hostname. Its GameSpy key is unconfirmed, so it is checked by port only.
+Two community masters replace GameSpy for Vietcong. Players point master.gamespy.com at one in the Windows hosts file: vietcong1.de (https://www.vietcong1.de/en/alternative-server-list/) uses 46.28.109.117, and vietcong.tk runs 51.68.46.73. Both answer with GameSpy's encrypted list format, so only their port is checked and there is no count yet.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `51.68.46.73:28900` | Community | ✅ Online | - | 2026-10-24 |
+| `46.28.109.117:28900` | Community | Unchecked | - | Never |
 
 ## Red Eclipse
 
