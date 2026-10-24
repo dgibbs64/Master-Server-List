@@ -70,10 +70,29 @@ count_chocolatedoom() {
 }
 
 probe_once() {
-	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" count
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count
 	case "${type}" in
 		tcp)
 			timeout 5 bash -c "exec 3<>/dev/tcp/${host}/${port}" 2>/dev/null && echo "online|"
+			;;
+		cube2)
+			{
+				printf 'list\n'
+				sleep 3
+			} | timeout 8 nc "${host}" "${port}" >"${reply}" 2>/dev/null || true
+			[[ -s "${reply}" ]] && echo "online|$(grep -c '^addserver' "${reply}" || true)"
+			;;
+		http)
+			if curl -fsSL --max-time 25 -A "Master-Server-List checker" -o "${reply}" "${url}" 2>/dev/null; then
+				count=""
+				if [[ -n "${jqexpr}" ]]; then
+					count="$(jq -r "${jqexpr}" "${reply}" 2>/dev/null)" || count=""
+				elif [[ -n "${pattern}" ]]; then
+					count="$({ grep -aoE "${pattern}" "${reply}" || true; } | wc -l)"
+				fi
+				[[ "${count}" =~ ^[0-9]+$ ]] || count=""
+				echo "online|${count}"
+			fi
 			;;
 		gamespy)
 			if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" 2>/dev/null)"; then
@@ -127,16 +146,17 @@ probe() {
 }
 
 results='{}'
-while IFS='|' read -r host type port game protocol gamename key; do
-	IFS='|' read -r status servers < <(probe "${host}" "${type}" "${port}" "${game}" "${protocol}" "${gamename}" "${key}")
-	printf '%-12s %6s  %s\n' "${status}" "${servers}" "${host} ${type} ${port} ${game}${gamename} ${protocol}" >&2
-	results="$(jq --arg k "${host}|${type}|${port}|${game}|${protocol}|${gamename}|${key}" --arg s "${status}" --arg n "${servers}" '. + {($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end)}}' <<<"${results}")"
-done < <(jq -r '[.games[].masters[] | [.host, .probe.type, (.probe.port // ""), (.probe.game // ""), (.probe.protocol // ""), (.probe.gamename // ""), (.probe.key // "")] | map(tostring) | join("|")] | unique[]' "${file}")
+while IFS= read -r entry; do
+	mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern) | . // "" | tostring' <<<"${entry}")
+	IFS='|' read -r status servers < <(probe "${fields[@]}")
+	printf '%-12s %6s  %s\n' "${status}" "${servers}" "${fields[0]} ${fields[1]} ${fields[2]} ${fields[3]}${fields[5]} ${fields[4]}" >&2
+	results="$(jq --arg k "${entry}" --arg s "${status}" --arg n "${servers}" '. + {($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end)}}' <<<"${results}")"
+done < <(jq -c '[.games[].masters[] | [.host, .probe]] | unique[]' "${file}")
 
 jq --argjson results "${results}" --arg today "${today}" '
 	.checked = $today
 	| .games[].masters[] |= (
-		$results["\(.host)|\(.probe.type)|\(.probe.port // "")|\(.probe.game // "")|\(.probe.protocol // "")|\(.probe.gamename // "")|\(.probe.key // "")"] as $r
+		$results[[.host, .probe] | tojson] as $r
 		| .status = $r.status
 		| .servers = (if .probe.count == false then null else $r.servers end)
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)

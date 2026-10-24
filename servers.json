@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-23",
+  "checked": "2026-10-24",
   "games": [
     {
       "name": "Alien Arena",
@@ -12,7 +12,7 @@
             "port": 27900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 20
         },
         {
@@ -23,8 +23,26 @@
             "port": 27900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 20
+        }
+      ]
+    },
+    {
+      "name": "AssaultCube",
+      "notes": "The master returns its list over HTTP.",
+      "masters": [
+        {
+          "host": "ms.cubers.net",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "http://ms.cubers.net/retrieve.do?action=list&name=none",
+            "pattern": "^addserver"
+          },
+          "status": "online",
+          "servers": 45,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -40,8 +58,26 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
+        }
+      ]
+    },
+    {
+      "name": "BeamMP",
+      "notes": "This game has no classic master server. Its public server list is a web API, checked the same way and counted from the API's response.",
+      "masters": [
+        {
+          "host": "backend.beammp.com",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "https://backend.beammp.com/servers-info",
+            "jq": "length"
+          },
+          "status": "online",
+          "servers": 2991,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -57,8 +93,8 @@
             "protocol": 6
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 64
+          "last_seen": "2026-10-24",
+          "servers": 65
         }
       ]
     },
@@ -74,8 +110,8 @@
             "protocol": 118
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 386
+          "last_seen": "2026-10-24",
+          "servers": 371
         }
       ]
     },
@@ -91,8 +127,8 @@
             "protocol": 6
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 1298
+          "last_seen": "2026-10-24",
+          "servers": 1297
         }
       ]
     },
@@ -108,8 +144,8 @@
             "protocol": 22
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 166
+          "last_seen": "2026-10-24",
+          "servers": 158
         }
       ]
     },
@@ -124,8 +160,8 @@
             "port": 2342
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 25
+          "last_seen": "2026-10-24",
+          "servers": 24
         }
       ]
     },
@@ -140,7 +176,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -151,7 +187,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -173,8 +209,26 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
+        }
+      ]
+    },
+    {
+      "name": "DDNet / Teeworlds",
+      "notes": "This game has no classic master server. Its public server list is a web API, checked the same way and counted from the API's response.",
+      "masters": [
+        {
+          "host": "master1.ddnet.org",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "https://master1.ddnet.org/ddnet/15/servers.json",
+            "jq": ".servers | length"
+          },
+          "status": "online",
+          "servers": 1432,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -191,8 +245,8 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 10
+          "last_seen": "2026-10-24",
+          "servers": 7
         },
         {
           "host": "master.333networks.com",
@@ -204,8 +258,8 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 10
+          "last_seen": "2026-10-24",
+          "servers": 7
         },
         {
           "host": "master.errorist.eu",
@@ -217,8 +271,8 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 7
+          "last_seen": "2026-10-24",
+          "servers": 6
         },
         {
           "host": "master.gonespy.com",
@@ -243,8 +297,8 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 7
+          "last_seen": "2026-10-24",
+          "servers": 6
         }
       ]
     },
@@ -260,8 +314,123 @@
             "protocol": 65577
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 22
+          "last_seen": "2026-10-24",
+          "servers": 21
+        }
+      ]
+    },
+    {
+      "name": "Drakan: Order of the Flame",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.errorist.eu",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "status": null,
+          "servers": null,
+          "last_seen": null
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "drakan",
+            "key": "zCt4De"
+          },
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Duke Nukem Forever (2001)",
+      "notes": "The leaked 2001 build, which still has a small multiplayer community.",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "status": "online",
+          "servers": 8,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.errorist.eu",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "status": "online",
+          "servers": 4,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "status": null,
+          "servers": null,
+          "last_seen": null
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "dnf",
+            "key": "      "
+          },
+          "status": "online",
+          "servers": 4,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -278,7 +447,7 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 4
         },
         {
@@ -291,7 +460,7 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 6
         },
         {
@@ -317,7 +486,7 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 3
         }
       ]
@@ -334,7 +503,7 @@
             "port": 28910
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         }
       ]
@@ -352,7 +521,7 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 4
         },
         {
@@ -365,7 +534,7 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 3
         },
         {
@@ -391,7 +560,7 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 3
         }
       ]
@@ -417,7 +586,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -430,7 +599,7 @@
             "key": "y5Ei7C"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         },
         {
@@ -443,7 +612,7 @@
             "key": "y5Ei7C"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         },
         {
@@ -474,7 +643,7 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 40
         },
         {
@@ -487,7 +656,7 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 30
         },
         {
@@ -513,14 +682,32 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 30
         }
       ]
     },
     {
+      "name": "Luanti (Minetest)",
+      "notes": "This game has no classic master server. Its public server list is a web API, checked the same way and counted from the API's response.",
+      "masters": [
+        {
+          "host": "servers.luanti.org",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "https://servers.luanti.org/list",
+            "jq": ".list | length"
+          },
+          "status": "online",
+          "servers": 438,
+          "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
       "name": "Medal of Honor: Allied Assault",
-      "notes": "Covers Spearhead and Breakthrough too. Needs the patched binaries from 333networks.com/instructions/mohaa.",
+      "notes": "Spearhead and Breakthrough have their own entries below.",
       "masters": [
         {
           "host": "master.333networks.com",
@@ -532,8 +719,8 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 262
+          "last_seen": "2026-10-24",
+          "servers": 208
         },
         {
           "host": "master.errorist.eu",
@@ -545,8 +732,8 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 219
+          "last_seen": "2026-10-24",
+          "servers": 184
         },
         {
           "host": "master.gonespy.com",
@@ -571,8 +758,124 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 169
+          "last_seen": "2026-10-24",
+          "servers": 163
+        }
+      ]
+    },
+    {
+      "name": "Medal of Honor: Allied Assault Breakthrough",
+      "notes": "Needs the patched binaries from 333networks.com/instructions/mohaa.",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "status": "online",
+          "servers": 49,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.errorist.eu",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "status": "online",
+          "servers": 37,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "status": null,
+          "servers": null,
+          "last_seen": null
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "status": "online",
+          "servers": 30,
+          "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Medal of Honor: Allied Assault Spearhead",
+      "notes": "Needs the patched binaries from 333networks.com/instructions/mohaa.",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "status": "online",
+          "servers": 73,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.errorist.eu",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "status": "online",
+          "servers": 66,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "status": null,
+          "servers": null,
+          "last_seen": null
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "status": "online",
+          "servers": 57,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -589,7 +892,7 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 2
         },
         {
@@ -602,7 +905,7 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 1
         },
         {
@@ -628,7 +931,7 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 1
         }
       ]
@@ -646,7 +949,7 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         },
         {
@@ -659,7 +962,7 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         },
         {
@@ -685,7 +988,7 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         }
       ]
@@ -703,7 +1006,7 @@
             "protocol": 3
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 18
         },
         {
@@ -716,8 +1019,8 @@
             "protocol": 3
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 30
+          "last_seen": "2026-10-24",
+          "servers": 29
         }
       ]
     },
@@ -732,7 +1035,7 @@
             "port": 15000
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 141
         },
         {
@@ -743,7 +1046,7 @@
             "port": 15000
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 141
         }
       ]
@@ -760,8 +1063,20 @@
             "protocol": 71
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 115
+          "last_seen": "2026-10-24",
+          "servers": 114
+        },
+        {
+          "host": "master.ioquake3.org",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "protocol": 71
+          },
+          "status": "online",
+          "servers": 66,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -778,8 +1093,8 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 34
+          "last_seen": "2026-10-24",
+          "servers": 21
         },
         {
           "host": "master.errorist.eu",
@@ -791,8 +1106,8 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 26
+          "last_seen": "2026-10-24",
+          "servers": 18
         },
         {
           "host": "master.gonespy.com",
@@ -817,8 +1132,26 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 12
+          "last_seen": "2026-10-24",
+          "servers": 6
+        }
+      ]
+    },
+    {
+      "name": "Q3Rally",
+      "masters": [
+        {
+          "host": "dpmaster.deathmask.net",
+          "port": 27950,
+          "probe": {
+            "type": "getservers",
+            "port": 27950,
+            "game": "Q3Rally",
+            "protocol": 71
+          },
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -835,8 +1168,8 @@
             "protocol": 3
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 42
+          "last_seen": "2026-10-24",
+          "servers": 43
         },
         {
           "host": "dpmaster.tchr.no",
@@ -848,8 +1181,8 @@
             "protocol": 3
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 54
+          "last_seen": "2026-10-24",
+          "servers": 58
         }
       ]
     },
@@ -864,8 +1197,8 @@
             "port": 27900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 116
+          "last_seen": "2026-10-24",
+          "servers": 102
         }
       ]
     },
@@ -881,8 +1214,8 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 935
+          "last_seen": "2026-10-24",
+          "servers": 943
         },
         {
           "host": "master0.excessiveplus.net",
@@ -893,8 +1226,8 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 211
+          "last_seen": "2026-10-24",
+          "servers": 213
         },
         {
           "host": "dpmaster.deathmask.net",
@@ -905,8 +1238,8 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 173
+          "last_seen": "2026-10-24",
+          "servers": 174
         },
         {
           "host": "master.maverickservers.com",
@@ -917,8 +1250,8 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 440
+          "last_seen": "2026-10-24",
+          "servers": 445
         },
         {
           "host": "master.quake3arena.com",
@@ -929,8 +1262,8 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 999
+          "last_seen": "2026-10-24",
+          "servers": 980
         }
       ]
     },
@@ -946,8 +1279,8 @@
             "protocol": 131157
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 25
+          "last_seen": "2026-10-24",
+          "servers": 23
         }
       ]
     },
@@ -962,8 +1295,8 @@
             "port": 27000
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 680
+          "last_seen": "2026-10-24",
+          "servers": 688
         },
         {
           "host": "qwmaster.fodquake.net",
@@ -990,8 +1323,8 @@
             "protocol": 60
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 86
+          "last_seen": "2026-10-24",
+          "servers": 83
         },
         {
           "host": "dpmaster.deathmask.net",
@@ -1002,8 +1335,8 @@
             "protocol": 60
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 51
+          "last_seen": "2026-10-24",
+          "servers": 53
         },
         {
           "host": "wolfmaster.s4ndmod.com",
@@ -1014,8 +1347,8 @@
             "protocol": 60
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 113
+          "last_seen": "2026-10-24",
+          "servers": 104
         }
       ]
     },
@@ -1032,8 +1365,8 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 59
+          "last_seen": "2026-10-24",
+          "servers": 58
         },
         {
           "host": "master.errorist.eu",
@@ -1045,7 +1378,7 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 39
         },
         {
@@ -1071,8 +1404,42 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 33
+          "last_seen": "2026-10-24",
+          "servers": 32
+        }
+      ]
+    },
+    {
+      "name": "San Andreas Multiplayer (SA:MP / open.mp)",
+      "notes": "This game has no classic master server. Its public server list is a web API, checked the same way and counted from the API's response.",
+      "masters": [
+        {
+          "host": "api.open.mp",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "https://api.open.mp/servers",
+            "jq": "length"
+          },
+          "status": "online",
+          "servers": 1236,
+          "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Sauerbraten",
+      "masters": [
+        {
+          "host": "master.sauerbraten.org",
+          "port": 28787,
+          "probe": {
+            "type": "cube2",
+            "port": 28787
+          },
+          "status": "online",
+          "servers": 70,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1089,8 +1456,8 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 71
+          "last_seen": "2026-10-24",
+          "servers": 70
         },
         {
           "host": "master.errorist.eu",
@@ -1102,7 +1469,7 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 41
         },
         {
@@ -1128,7 +1495,7 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 41
         }
       ]
@@ -1146,7 +1513,7 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 111
         },
         {
@@ -1159,8 +1526,8 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 75
+          "last_seen": "2026-10-24",
+          "servers": 76
         },
         {
           "host": "master.gonespy.com",
@@ -1185,8 +1552,8 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 71
+          "last_seen": "2026-10-24",
+          "servers": 72
         }
       ]
     },
@@ -1202,8 +1569,26 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 8
+        }
+      ]
+    },
+    {
+      "name": "Soldat",
+      "notes": "This game has no classic master server. Its public server list is a web API, checked the same way and counted from the API's response.",
+      "masters": [
+        {
+          "host": "api.soldat.pl",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "https://api.soldat.pl/v0/servers",
+            "jq": ".Servers | length"
+          },
+          "status": "online",
+          "servers": 60,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1220,8 +1605,8 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 45
+          "last_seen": "2026-10-24",
+          "servers": 44
         },
         {
           "host": "master.errorist.eu",
@@ -1233,7 +1618,7 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 32
         },
         {
@@ -1259,8 +1644,8 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 30
+          "last_seen": "2026-10-24",
+          "servers": 29
         }
       ]
     },
@@ -1276,7 +1661,7 @@
             "protocol": 2004
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 50
         },
         {
@@ -1287,7 +1672,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -1298,7 +1683,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -1320,7 +1705,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         }
       ]
@@ -1339,7 +1724,7 @@
           },
           "status": "online",
           "servers": null,
-          "last_seen": "2026-10-23"
+          "last_seen": "2026-10-24"
         },
         {
           "host": "master.stef2.daggolin.de",
@@ -1352,7 +1737,7 @@
           },
           "status": "online",
           "servers": null,
-          "last_seen": "2026-10-23"
+          "last_seen": "2026-10-24"
         }
       ],
       "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown."
@@ -1369,7 +1754,7 @@
             "protocol": 24
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 29
         },
         {
@@ -1381,7 +1766,7 @@
             "protocol": 24
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 26
         },
         {
@@ -1393,8 +1778,8 @@
             "protocol": 24
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 18
+          "last_seen": "2026-10-24",
+          "servers": 19
         }
       ]
     },
@@ -1410,8 +1795,20 @@
             "protocol": 16
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 36
+        },
+        {
+          "host": "master.jkhub.org",
+          "port": 28060,
+          "probe": {
+            "type": "getservers",
+            "port": 28060,
+            "protocol": 16
+          },
+          "status": "online",
+          "servers": 42,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1427,8 +1824,36 @@
             "protocol": 26
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 256
+          "last_seen": "2026-10-24",
+          "servers": 263
+        },
+        {
+          "host": "master.jk2mv.org",
+          "port": 29060,
+          "probe": {
+            "type": "getservers",
+            "port": 29060,
+            "protocol": 26
+          },
+          "status": "online",
+          "servers": 224,
+          "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Tesseract",
+      "masters": [
+        {
+          "host": "master.tesseract.gg",
+          "port": 41999,
+          "probe": {
+            "type": "cube2",
+            "port": 41999
+          },
+          "status": "online",
+          "servers": 4,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1444,8 +1869,26 @@
             "protocol": 69
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 15
+        }
+      ]
+    },
+    {
+      "name": "Tribes 2",
+      "notes": "TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it automatically once TribesNext is installed.",
+      "masters": [
+        {
+          "host": "master.tribesnext.com",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "http://master.tribesnext.com/list",
+            "pattern": "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+:[0-9]+"
+          },
+          "status": "online",
+          "servers": 35,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1462,8 +1905,8 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 4
+          "last_seen": "2026-10-24",
+          "servers": 0
         },
         {
           "host": "master.errorist.eu",
@@ -1475,8 +1918,8 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 4
+          "last_seen": "2026-10-24",
+          "servers": 0
         },
         {
           "host": "master.gonespy.com",
@@ -1501,7 +1944,7 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         }
       ]
@@ -1519,8 +1962,8 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 89
+          "last_seen": "2026-10-24",
+          "servers": 88
         },
         {
           "host": "master.hypercoop.tk",
@@ -1532,8 +1975,8 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 75
+          "last_seen": "2026-10-24",
+          "servers": 73
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1545,8 +1988,8 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 89
+          "last_seen": "2026-10-24",
+          "servers": 88
         },
         {
           "host": "master.gonespy.com",
@@ -1571,7 +2014,7 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 147
         },
         {
@@ -1584,8 +2027,8 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 96
+          "last_seen": "2026-10-24",
+          "servers": 95
         },
         {
           "host": "master.eatsleeput.com",
@@ -1597,8 +2040,8 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 88
+          "last_seen": "2026-10-24",
+          "servers": 87
         },
         {
           "host": "master.frag-net.com",
@@ -1623,8 +2066,65 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
+        }
+      ]
+    },
+    {
+      "name": "Unreal Tournament 2003",
+      "masters": [
+        {
+          "host": "master.333networks.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.errorist.eu",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
+        },
+        {
+          "host": "master.gonespy.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "status": null,
+          "servers": null,
+          "last_seen": null
+        },
+        {
+          "host": "master.newbiesplayground.net",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut2",
+            "key": "Lw7x0R"
+          },
+          "status": "online",
+          "servers": 0,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1639,7 +2139,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -1661,7 +2161,7 @@
             "port": 28900
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -1672,7 +2172,7 @@
             "port": 28902
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -1683,7 +2183,7 @@
             "port": 28902
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": null
         },
         {
@@ -1712,8 +2212,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 1763
+          "last_seen": "2026-10-24",
+          "servers": 1766
         },
         {
           "host": "master.gonespy.com",
@@ -1738,8 +2238,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 914
+          "last_seen": "2026-10-24",
+          "servers": 896
         },
         {
           "host": "master.oldunreal.com",
@@ -1751,8 +2251,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 914
+          "last_seen": "2026-10-24",
+          "servers": 896
         },
         {
           "host": "master.noccer.de",
@@ -1764,8 +2264,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 915
+          "last_seen": "2026-10-24",
+          "servers": 899
         },
         {
           "host": "master.errorist.eu",
@@ -1777,8 +2277,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 1268
+          "last_seen": "2026-10-24",
+          "servers": 1248
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -1790,8 +2290,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 942
+          "last_seen": "2026-10-24",
+          "servers": 927
         },
         {
           "host": "master.eatsleeput.com",
@@ -1803,8 +2303,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 912
+          "last_seen": "2026-10-24",
+          "servers": 899
         },
         {
           "host": "master.frag-net.com",
@@ -1816,8 +2316,8 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 915
+          "last_seen": "2026-10-24",
+          "servers": 901
         },
         {
           "host": "master.exsurge.net",
@@ -1829,7 +2329,7 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 0
         }
       ]
@@ -1846,8 +2346,8 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 255
+          "last_seen": "2026-10-24",
+          "servers": 238
         },
         {
           "host": "master2.urbanterror.info",
@@ -1858,8 +2358,26 @@
             "protocol": 68
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 255
+          "last_seen": "2026-10-24",
+          "servers": 238
+        }
+      ]
+    },
+    {
+      "name": "Vintage Story",
+      "notes": "This game has no classic master server. Its public server list is a web API, checked the same way and counted from the API's response.",
+      "masters": [
+        {
+          "host": "masterserver.vintagestory.at",
+          "port": null,
+          "probe": {
+            "type": "http",
+            "url": "https://masterserver.vintagestory.at/api/v1/servers/list",
+            "jq": ".data | length"
+          },
+          "status": "online",
+          "servers": 2485,
+          "last_seen": "2026-10-24"
         }
       ]
     },
@@ -1876,7 +2394,7 @@
             "protocol": 22
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 1
         }
       ]
@@ -1894,7 +2412,7 @@
             "protocol": 22
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 23
         },
         {
@@ -1907,7 +2425,7 @@
             "protocol": 22
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 28
         }
       ]
@@ -1925,7 +2443,7 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 17
         },
         {
@@ -1938,7 +2456,7 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 7
         },
         {
@@ -1964,7 +2482,7 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-23",
+          "last_seen": "2026-10-24",
           "servers": 7
         }
       ]
@@ -1981,8 +2499,8 @@
             "protocol": 84
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 444
+          "last_seen": "2026-10-24",
+          "servers": 430
         },
         {
           "host": "wolfmaster.idsoftware.com",
@@ -1993,8 +2511,8 @@
             "protocol": 84
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 66
+          "last_seen": "2026-10-24",
+          "servers": 62
         },
         {
           "host": "master.etlegacy.com",
@@ -2005,8 +2523,8 @@
             "protocol": 84
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 424
+          "last_seen": "2026-10-24",
+          "servers": 418
         }
       ]
     },
@@ -2019,11 +2537,12 @@
           "probe": {
             "type": "getservers",
             "port": 27955,
+            "game": "WorldofPadman",
             "protocol": 71
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 0
+          "last_seen": "2026-10-24",
+          "servers": 1
         }
       ]
     },
@@ -2040,8 +2559,8 @@
             "protocol": 3
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 296
+          "last_seen": "2026-10-24",
+          "servers": 292
         },
         {
           "host": "dpmaster.tchr.no",
@@ -2053,8 +2572,8 @@
             "protocol": 3
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 33
+          "last_seen": "2026-10-24",
+          "servers": 32
         }
       ]
     },
@@ -2069,8 +2588,8 @@
             "port": 15300
           },
           "status": "online",
-          "last_seen": "2026-10-23",
-          "servers": 766
+          "last_seen": "2026-10-24",
+          "servers": 757
         }
       ]
     }
