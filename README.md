@@ -553,9 +553,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 ## Nerf Arena Blast
 
+The NerfArena.net Community Pack (http://www.nerfarena.net/) sets the game to list from master.oldunreal.com and master.333networks.com.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.oldunreal.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |

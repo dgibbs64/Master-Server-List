@@ -2268,6 +2268,20 @@
           "official": false
         },
         {
+          "host": "master.oldunreal.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "nerfarena",
+            "key": "zEh7ir"
+          },
+          "status": "online",
+          "last_seen": "2026-10-24",
+          "servers": 0,
+          "official": false
+        },
+        {
           "host": "master.errorist.eu",
           "port": 27900,
           "probe": {
@@ -2398,7 +2412,8 @@
           "reason": "GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
-      ]
+      ],
+      "notes": "The NerfArena.net Community Pack (http://www.nerfarena.net/) sets the game to list from master.oldunreal.com and master.333networks.com."
     },
     {
       "name": "Nexuiz",
