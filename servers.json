@@ -6543,7 +6543,8 @@
           "port": 27010,
           "probe": {
             "type": "qwquery",
-            "port": 27010
+            "port": 27010,
+            "label": "WON2"
           },
           "official": false,
           "status": "online",
@@ -6555,7 +6556,8 @@
           "port": 27010,
           "probe": {
             "type": "qwquery",
-            "port": 27010
+            "port": 27010,
+            "label": "WON2"
           },
           "official": false,
           "status": "online",
@@ -6567,7 +6569,8 @@
           "port": 27010,
           "probe": {
             "type": "qwquery",
-            "port": 27010
+            "port": 27010,
+            "label": "WON2"
           },
           "official": false,
           "status": "online",
@@ -6579,7 +6582,8 @@
           "port": 27010,
           "probe": {
             "type": "qwquery",
-            "port": 27010
+            "port": 27010,
+            "label": "WON2"
           },
           "official": false,
           "status": "online",
