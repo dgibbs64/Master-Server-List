@@ -4,23 +4,27 @@ import os
 from pathlib import Path
 import socketserver
 import shutil
-import subprocess
+import subprocess  # nosec B404 - Tests execute repository scripts with argument lists.
 import tempfile
 import threading
 import time
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
+BASH = shutil.which("bash")
+TIMEOUT = shutil.which("timeout")
+if not BASH or not TIMEOUT:
+    raise RuntimeError("Probe tests require bash and timeout")
 
 
 class Master(socketserver.ThreadingTCPServer):
     allow_reuse_address = True
     daemon_threads = True
 
-    def __init__(self, mode="list", activate=True):
+    def __init__(self, mode="list", activate=True, host="127.0.0.1", port=0):
         self.mode = mode
         self.requests = []
-        super().__init__(("0.0.0.0", 0), Handler, bind_and_activate=False)
+        super().__init__((host, port), Handler, bind_and_activate=False)
         self.server_bind()
         self.port = self.server_address[1]
         if activate:
@@ -70,7 +74,8 @@ class CheckTests(unittest.TestCase):
             path = Path(folder) / "servers.json"
             path.write_text(json.dumps({"games": [{"name": "Fixture", "masters": masters}]}))
             env = {**os.environ, "MASTER_MIN_INTERVAL": "0", "MASTER_RETRY_DELAY": "0", "ADDRESS_DIR": str(Path(folder) / "addresses"), "NO_PROXY": "*", **settings}
-            process = subprocess.Popen(["timeout", "30", "bash", str(ROOT / "scripts/check.sh"), str(path)], env=env, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
+            # All arguments are fixed executables, repository paths or temporary fixtures.
+            process = subprocess.Popen([TIMEOUT, "30", BASH, str(ROOT / "scripts/check.sh"), str(path)], env=env, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, universal_newlines=True)  # nosec B603
             lines = []
             for line in process.stderr:
                 lines.append(line)
@@ -86,6 +91,9 @@ class CheckTests(unittest.TestCase):
     def test_round_robin_hosts_and_zero_is_online(self):
         server = Master(mode="empty")
         self.addCleanup(server.close)
+        other = Master(mode="empty", host="127.0.0.2", port=server.port)
+        self.addCleanup(other.close)
+        other.requests = server.requests
         masters = [entry(host, server.port, game) for host in ["127.0.0.1", "127.0.0.2"] for game in ["a", "b"]]
         result, _, _, _ = self.run_check(masters)
         self.assertEqual([(host, game) for host, game, _ in server.requests], [("127.0.0.1", "a"), ("127.0.0.2", "a"), ("127.0.0.1", "b"), ("127.0.0.2", "b")])
@@ -151,7 +159,7 @@ class CheckTests(unittest.TestCase):
             path = Path(folder) / "servers.json"
             original = '{"games": []}'
             path.write_text(original)
-            result = subprocess.run(["bash", str(ROOT / "scripts/check.sh"), str(path)], env={**os.environ, "MASTER_MIN_INTERVAL": "bad"}, capture_output=True, text=True, timeout=3)
+            result = subprocess.run([BASH, str(ROOT / "scripts/check.sh"), str(path)], env={**os.environ, "MASTER_MIN_INTERVAL": "bad"}, capture_output=True, universal_newlines=True, timeout=3)  # nosec B603 - Fixed local script and temporary fixture.
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("non-negative integer", result.stderr)
             self.assertEqual(path.read_text(), original)
