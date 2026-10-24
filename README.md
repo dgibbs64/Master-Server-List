@@ -17,6 +17,8 @@ Every master server is checked daily, and where the protocol allows it the check
 | ⚠️ No response | Hostname resolves, but the server did not answer |
 | ❌ No DNS | Hostname no longer resolves |
 
+Masters known to be gone, official or community, are listed under "Retired master servers" for each game so server admins can remove them from their configs. They are not checked. "Shut down" dates come from the linked source. "Not answering since" is the first check that found them dead, so they may have died earlier.
+
 Status as of: 2026-10-24
 
 ## Games
@@ -179,6 +181,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | ✅ Online | 6 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 6 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Doom 3
 
 | Master server | Status | Servers | Last seen |
@@ -193,6 +202,12 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | ✅ Online | 1 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## Duke Nukem Forever (2001)
 
@@ -214,6 +229,12 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.gonespy.com:27900` | ✅ Online | 3 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 3 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+
 ## Halo: Combat Evolved
 
 Patch 1.0.10 points the game at this master, so no config change is needed.
@@ -231,6 +252,14 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 | `master.gonespy.com:27900` | ✅ Online | 3 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 3 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+| `thyrion.hexenworld.org:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname no longer resolves. |
+
 ## HeXen II
 
 Hexen II itself has no master server: multiplayer uses direct IP. Internet play with a server browser uses HeXenWorld.
@@ -238,6 +267,12 @@ Hexen II itself has no master server: multiplayer uses direct IP. Internet play 
 ## HeXenWorld
 
 No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900.
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `thyrion.hexenworld.org:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname no longer resolves. |
 
 ## Iron Storm
 
@@ -248,6 +283,13 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 | `master.gonespy.com:27900` | ✅ Online | 0 | 2026-10-23 |
 | `gsm.qtracker.com` | ✅ Online | - | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Kingpin
 
 | Master server | Status | Servers | Last seen |
@@ -256,6 +298,12 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 | `master.gonespy.com:27900` | ✅ Online | 31 | 2026-10-23 |
 | `master.errorist.eu:27900` | ✅ Online | 30 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 30 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## Luanti (Minetest)
 
@@ -276,6 +324,12 @@ Spearhead and Breakthrough have their own entries below.
 | `master.errorist.eu:27900` | ✅ Online | 184 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 163 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+
 ## Medal of Honor: Allied Assault Breakthrough
 
 Needs the patched binaries from 333networks.com/instructions/mohaa.
@@ -286,6 +340,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | ✅ Online | 37 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 30 | 2026-10-24 |
 | `master.gonespy.com:27900` | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## Medal of Honor: Allied Assault Spearhead
 
@@ -298,6 +358,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.newbiesplayground.net:27900` | ✅ Online | 57 | 2026-10-24 |
 | `master.gonespy.com:27900` | Unchecked | - | Never |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+
 ## Mobile Forces
 
 | Master server | Status | Servers | Last seen |
@@ -307,6 +373,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.gonespy.com:27900` | ✅ Online | 1 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 1 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+
 ## Nerf Arena Blast
 
 | Master server | Status | Servers | Last seen |
@@ -315,6 +387,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | ✅ Online | 0 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 0 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## Nexuiz
 
@@ -346,6 +424,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | ✅ Online | 18 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 6 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+
 ## Q3Rally
 
 | Master server | Status | Servers | Last seen |
@@ -365,6 +449,13 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 |---|---|---|---|
 | `master.quakeservers.net:27900` | ✅ Online | 102 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.q2servers.com:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves but has not answered a check. |
+| `netdome.biz:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves but has not answered a check. |
+
 ## Quake 3
 
 | Master server | Status | Servers | Last seen |
@@ -374,6 +465,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.maverickservers.com:27950` | ✅ Online | 445 | 2026-10-24 |
 | `master0.excessiveplus.net:27950` | ✅ Online | 213 | 2026-10-24 |
 | `dpmaster.deathmask.net:27950` | ✅ Online | 174 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master3.idsoftware.com:27950` | Official | Not answering since 2026-10-23 | Official id Software master. The hostname no longer resolves. |
 
 ## Quake 4
 
@@ -388,6 +485,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.quakeservers.net:27000` | ✅ Online | 688 | 2026-10-24 |
 | `qwmaster.fodquake.net:27000` | ✅ Online | 646 | 2026-10-23 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.quakeworld.nu:27000` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves but has not answered a check. |
+
 ## Return to Castle Wolfenstein
 
 | Master server | Status | Servers | Last seen |
@@ -395,6 +498,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `wolfmaster.s4ndmod.com:27950` | ✅ Online | 104 | 2026-10-24 |
 | `wolfmaster.idsoftware.com:27950` | ✅ Online | 83 | 2026-10-24 |
 | `dpmaster.deathmask.net:27950` | ✅ Online | 53 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `wolfmaster.rtcwmp.com:27950` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves but has not answered a check. |
 
 ## Rune
 
@@ -404,6 +513,13 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | ✅ Online | 39 | 2026-10-24 |
 | `master.gonespy.com:27900` | ✅ Online | 32 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 32 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## San Andreas Multiplayer (SA:MP / open.mp)
 
@@ -428,6 +544,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | ✅ Online | 41 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 41 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Serious Sam: Second Encounter
 
 | Master server | Status | Servers | Last seen |
@@ -436,6 +559,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | ✅ Online | 78 | 2026-10-23 |
 | `master.errorist.eu:27900` | ✅ Online | 76 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 72 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## Smokin' Guns
 
@@ -460,6 +590,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | ✅ Online | 30 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 29 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Soldier of Fortune II
 
 | Master server | Status | Servers | Last seen |
@@ -470,6 +607,12 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | ✅ Online | - | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | - | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Star Trek: Elite Force II
 
 The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown.
@@ -479,6 +622,13 @@ The game needs the community master server patch (or a hosts file entry for ef2m
 | `master.hazardmodding.com:27900` | ✅ Online | - | 2026-10-24 |
 | `master.stef2.daggolin.de:27900` | ✅ Online | - | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `ef2master.activision.com` | Official | Not answering since 2026-10-23 | Official Activision master. The hostname resolves, but no server is known to use it and it cannot be queried. |
+| `ef2master.sfu-server.de` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves, but no server is known to use it and it cannot be queried. |
+
 ## Star Trek: Voyager Elite Force
 
 | Master server | Status | Servers | Last seen |
@@ -487,6 +637,12 @@ The game needs the community master server patch (or a hosts file entry for ef2m
 | `master.stvef.org:27953` | ✅ Online | 26 | 2026-10-24 |
 | `efmaster.tjps.eu:27953` | ✅ Online | 19 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.stef1.ravensoft.com:27953` | Official | Not answering since 2026-10-23 | Official Raven Software master. The hostname resolves but has not answered a check. |
+
 ## Star Wars Jedi Knight II: Jedi Outcast
 
 | Master server | Status | Servers | Last seen |
@@ -494,12 +650,24 @@ The game needs the community master server patch (or a hosts file entry for ef2m
 | `master.jkhub.org:28060` | ✅ Online | 42 | 2026-10-24 |
 | `master.jk2mv.org:28060` | ✅ Online | 36 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `masterjk2.ravensoft.com:28060` | Official | Not answering since 2026-10-23 | Official Raven Software master. The hostname resolves but has not answered a check. |
+
 ## Star Wars Jedi Knight: Jedi Academy
 
 | Master server | Status | Servers | Last seen |
 |---|---|---|---|
 | `master.jkhub.org:29060` | ✅ Online | 263 | 2026-10-24 |
 | `master.jk2mv.org:29060` | ✅ Online | 224 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `masterjk3.ravensoft.com:29060` | Official | Not answering since 2026-10-23 | Official Raven Software master. The hostname resolves but has not answered a check. |
 
 ## Tesseract
 
@@ -530,6 +698,12 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.errorist.eu:27900` | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 0 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+
 ## Unreal
 
 | Master server | Status | Servers | Last seen |
@@ -543,6 +717,15 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.eatsleeput.com:27900` | ✅ Online | 87 | 2026-10-24 |
 | `master.hypercoop.tk:27900` | ✅ Online | 73 | 2026-10-24 |
 | `master.exsurge.net:27900` | ✅ Online | 0 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+| `master.hlkclan.net:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname no longer resolves. |
+| `master2.oldunreal.com:27900` | Community | Not answering since 2026-10-23 | Secondary OldUnreal master. The hostname resolves but has not answered a check. |
 
 ## Unreal Tournament 2003
 
@@ -564,6 +747,14 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `ut2004master.errorist.eu:28902` | ✅ Online | - | 2026-10-24 |
 | `ut2004master.gonespy.com:28902` | ✅ Online | - | 2026-10-23 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `ut2004master1.epicgames.com:28902` | Official | Shut down 2023-01-24 | Epic switched off online services for its older Unreal games. [Source](https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament) |
+| `ut2004master2.epicgames.com:28902` | Official | Shut down 2023-01-24 | Epic switched off online services for its older Unreal games. [Source](https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Unreal Tournament 99
 
 | Master server | Status | Servers | Last seen |
@@ -578,6 +769,16 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.newbiesplayground.net:27900` | ✅ Online | 896 | 2026-10-24 |
 | `master.oldunreal.com:27900` | ✅ Online | 896 | 2026-10-24 |
 | `master.exsurge.net:27900` | ✅ Online | 0 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.mplayer.com:27900` | Official | Shut down 2001 | Mplayer.com closed after its sale to GameSpy. The domain now points elsewhere. [Source](https://en.wikipedia.org/wiki/Mplayer.com) |
+| `unreal.epicgames.com:27900` | Official | Shut down 2023-01-24 | Epic switched off online services for its older Unreal games. [Source](https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+| `master2.oldunreal.com:27900` | Community | Not answering since 2026-10-23 | Secondary OldUnreal master. The hostname resolves but has not answered a check. |
 
 ## Urban Terror
 
@@ -616,6 +817,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | ✅ Online | 7 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | ✅ Online | 7 | 2026-10-24 |
 
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+
 ## Wolfenstein: Enemy Territory
 
 | Master server | Status | Servers | Last seen |
@@ -623,6 +831,14 @@ This game has no classic master server. Its public server list is a web API, che
 | `etmaster.idsoftware.com:27950` | ✅ Online | 430 | 2026-10-24 |
 | `master.etlegacy.com:27950` | ✅ Online | 418 | 2026-10-24 |
 | `wolfmaster.idsoftware.com:27950` | ✅ Online | 62 | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.idsoftware.com:27950` | Official | Not answering since 2026-10-23 | Official id Software master. The hostname no longer resolves. |
+| `master3.idsoftware.com:27950` | Official | Not answering since 2026-10-23 | Official id Software master. The hostname no longer resolves. |
+| `master0.etmaster.net:27950` | Community | Not answering since 2026-10-23 | Community master. The hostname resolves but has not answered a check. |
 
 ## World of Padman
 

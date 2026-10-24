@@ -25,6 +25,8 @@ Every master server is checked daily, and where the protocol allows it the check
 | ⚠️ No response | Hostname resolves, but the server did not answer |
 | ❌ No DNS | Hostname no longer resolves |
 
+Masters known to be gone, official or community, are listed under "Retired master servers" for each game so server admins can remove them from their configs. They are not checked. "Shut down" dates come from the linked source. "Not answering since" is the first check that found them dead, so they may have died earlier.
+
 EOF
 	jq -r '
 		def status_label: {"online": "✅ Online", "dns-only": "❔ DNS only", "no-response": "⚠️ No response", "no-dns": "❌ No DNS"}[. // ""] // "Unchecked";
@@ -41,6 +43,13 @@ EOF
 				"| Master server | Status | Servers | Last seen |",
 				"|---|---|---|---|",
 				(.masters | sort_by([(.status | status_rank), -(.servers // -1)])[] | "| `\(.host)\(if .port then ":\(.port)" else "" end)` | \(.status | status_label) | \(.servers // "-") | \(.last_seen // "Never") |"),
+				""
+			else empty end),
+			(if (.retired // [] | length) > 0 then
+				"### Retired master servers\n",
+				"| Master server | Run by | Gone | Notes |",
+				"|---|---|---|---|",
+				(.retired[] | "| `\(.host)\(if .port then ":\(.port)" else "" end)` | \(if .official then "Official" else "Community" end) | \(if .shutdown then "Shut down \(.shutdown)" else "Not answering since \(.down_since)" end) | \(.reason)\(if .source then " [Source](\(.source))" else "" end) |"),
 				""
 			else empty end))
 	' "${file}" | sed '$ { /^$/d }'

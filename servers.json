@@ -300,6 +300,24 @@
           "last_seen": "2026-10-24",
           "servers": 6
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        }
       ]
     },
     {
@@ -373,6 +391,16 @@
           "status": "online",
           "servers": 1,
           "last_seen": "2026-10-24"
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
     },
@@ -489,6 +517,16 @@
           "last_seen": "2026-10-24",
           "servers": 3
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        }
       ]
     },
     {
@@ -563,6 +601,31 @@
           "last_seen": "2026-10-24",
           "servers": 3
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        },
+        {
+          "host": "thyrion.hexenworld.org",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname no longer resolves."
+        }
       ]
     },
     {
@@ -573,7 +636,16 @@
     {
       "name": "HeXenWorld",
       "masters": [],
-      "notes": "No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900."
+      "notes": "No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900.",
+      "retired": [
+        {
+          "host": "thyrion.hexenworld.org",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname no longer resolves."
+        }
+      ]
     },
     {
       "name": "Iron Storm",
@@ -627,6 +699,24 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": 0
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
         }
       ]
     },
@@ -684,6 +774,16 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 30
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
     },
@@ -761,6 +861,16 @@
           "last_seen": "2026-10-24",
           "servers": 163
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        }
       ]
     },
     {
@@ -818,6 +928,16 @@
           "status": "online",
           "servers": 30,
           "last_seen": "2026-10-24"
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
     },
@@ -877,6 +997,16 @@
           "servers": 57,
           "last_seen": "2026-10-24"
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        }
       ]
     },
     {
@@ -934,6 +1064,16 @@
           "last_seen": "2026-10-24",
           "servers": 1
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        }
       ]
     },
     {
@@ -990,6 +1130,16 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 0
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
     },
@@ -1135,6 +1285,16 @@
           "last_seen": "2026-10-24",
           "servers": 6
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        }
       ]
     },
     {
@@ -1199,6 +1359,22 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 102
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.q2servers.com",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname resolves but has not answered a check."
+        },
+        {
+          "host": "netdome.biz",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname resolves but has not answered a check."
         }
       ]
     },
@@ -1265,6 +1441,15 @@
           "last_seen": "2026-10-24",
           "servers": 980
         }
+      ],
+      "retired": [
+        {
+          "host": "master3.idsoftware.com",
+          "port": 27950,
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official id Software master. The hostname no longer resolves."
+        }
       ]
     },
     {
@@ -1309,6 +1494,15 @@
           "last_seen": "2026-10-23",
           "servers": 646
         }
+      ],
+      "retired": [
+        {
+          "host": "master.quakeworld.nu",
+          "port": 27000,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname resolves but has not answered a check."
+        }
       ]
     },
     {
@@ -1349,6 +1543,15 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 104
+        }
+      ],
+      "retired": [
+        {
+          "host": "wolfmaster.rtcwmp.com",
+          "port": 27950,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname resolves but has not answered a check."
         }
       ]
     },
@@ -1406,6 +1609,24 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 32
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
         }
       ]
     },
@@ -1498,6 +1719,24 @@
           "last_seen": "2026-10-24",
           "servers": 41
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        }
       ]
     },
     {
@@ -1554,6 +1793,24 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 72
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
         }
       ]
     },
@@ -1647,6 +1904,24 @@
           "last_seen": "2026-10-24",
           "servers": 29
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        }
       ]
     },
     {
@@ -1708,6 +1983,16 @@
           "last_seen": "2026-10-24",
           "servers": null
         }
+      ],
+      "retired": [
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        }
       ]
     },
     {
@@ -1740,7 +2025,21 @@
           "last_seen": "2026-10-24"
         }
       ],
-      "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown."
+      "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. They answer queries, but the protocol number EF2 servers register with is unconfirmed, so no server count is shown.",
+      "retired": [
+        {
+          "host": "ef2master.activision.com",
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official Activision master. The hostname resolves, but no server is known to use it and it cannot be queried."
+        },
+        {
+          "host": "ef2master.sfu-server.de",
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname resolves, but no server is known to use it and it cannot be queried."
+        }
+      ]
     },
     {
       "name": "Star Trek: Voyager Elite Force",
@@ -1781,6 +2080,15 @@
           "last_seen": "2026-10-24",
           "servers": 19
         }
+      ],
+      "retired": [
+        {
+          "host": "master.stef1.ravensoft.com",
+          "port": 27953,
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official Raven Software master. The hostname resolves but has not answered a check."
+        }
       ]
     },
     {
@@ -1810,6 +2118,15 @@
           "servers": 42,
           "last_seen": "2026-10-24"
         }
+      ],
+      "retired": [
+        {
+          "host": "masterjk2.ravensoft.com",
+          "port": 28060,
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official Raven Software master. The hostname resolves but has not answered a check."
+        }
       ]
     },
     {
@@ -1838,6 +2155,15 @@
           "status": "online",
           "servers": 224,
           "last_seen": "2026-10-24"
+        }
+      ],
+      "retired": [
+        {
+          "host": "masterjk3.ravensoft.com",
+          "port": 29060,
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official Raven Software master. The hostname resolves but has not answered a check."
         }
       ]
     },
@@ -1946,6 +2272,16 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 0
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
       ]
     },
@@ -2068,6 +2404,39 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 0
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        },
+        {
+          "host": "master.hlkclan.net",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname no longer resolves."
+        },
+        {
+          "host": "master2.oldunreal.com",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Secondary OldUnreal master. The hostname resolves but has not answered a check.",
+          "replaced_by": "master.oldunreal.com"
         }
       ]
     },
@@ -2196,6 +2565,32 @@
           "status": "online",
           "last_seen": "2026-10-23",
           "servers": null
+        }
+      ],
+      "retired": [
+        {
+          "host": "ut2004master1.epicgames.com",
+          "port": 28902,
+          "official": true,
+          "shutdown": "2023-01-24",
+          "reason": "Epic switched off online services for its older Unreal games.",
+          "source": "https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament"
+        },
+        {
+          "host": "ut2004master2.epicgames.com",
+          "port": 28902,
+          "official": true,
+          "shutdown": "2023-01-24",
+          "reason": "Epic switched off online services for its older Unreal games.",
+          "source": "https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
         }
       ]
     },
@@ -2331,6 +2726,48 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 0
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.mplayer.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2001",
+          "reason": "Mplayer.com closed after its sale to GameSpy. The domain now points elsewhere.",
+          "source": "https://en.wikipedia.org/wiki/Mplayer.com"
+        },
+        {
+          "host": "unreal.epicgames.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2023-01-24",
+          "reason": "Epic switched off online services for its older Unreal games.",
+          "source": "https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        },
+        {
+          "host": "master2.oldunreal.com",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Secondary OldUnreal master. The hostname resolves but has not answered a check.",
+          "replaced_by": "master.oldunreal.com"
         }
       ]
     },
@@ -2485,6 +2922,24 @@
           "last_seen": "2026-10-24",
           "servers": 7
         }
+      ],
+      "retired": [
+        {
+          "host": "master.gamespy.com",
+          "port": 27900,
+          "official": true,
+          "shutdown": "2014-05-31",
+          "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
+          "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
+        },
+        {
+          "host": "master.errorist.tk",
+          "port": 27900,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Moved to master.errorist.eu.",
+          "replaced_by": "master.errorist.eu"
+        }
       ]
     },
     {
@@ -2525,6 +2980,29 @@
           "status": "online",
           "last_seen": "2026-10-24",
           "servers": 418
+        }
+      ],
+      "retired": [
+        {
+          "host": "master.idsoftware.com",
+          "port": 27950,
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official id Software master. The hostname no longer resolves."
+        },
+        {
+          "host": "master3.idsoftware.com",
+          "port": 27950,
+          "official": true,
+          "down_since": "2026-10-23",
+          "reason": "Official id Software master. The hostname no longer resolves."
+        },
+        {
+          "host": "master0.etmaster.net",
+          "port": 27950,
+          "official": false,
+          "down_since": "2026-10-23",
+          "reason": "Community master. The hostname resolves but has not answered a check."
         }
       ]
     },
