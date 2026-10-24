@@ -94,6 +94,38 @@ Status as of: 2026-10-24
 - [World of Padman](#world-of-padman)
 - [Xonotic](#xonotic)
 - [Zandronum](#zandronum)
+- [Battlefield 2142](#battlefield-2142)
+- [Battlefield Vietnam](#battlefield-vietnam)
+- [Call of Juarez: Bound in Blood](#call-of-juarez-bound-in-blood)
+- [Chaser](#chaser)
+- [Contract J.A.C.K.](#contract-jack)
+- [Crysis 2](#crysis-2)
+- [Deer Hunter 2004](#deer-hunter-2004)
+- [Deer Hunter 2005](#deer-hunter-2005)
+- [Dirt Track Racing 2](#dirt-track-racing-2)
+- [F1 1999-2000 Compilation](#f1-1999-2000-compilation)
+- [F.E.A.R.](#fear)
+- [F.E.A.R. Perseus Mandate](#fear-perseus-mandate)
+- [FlatOut 2](#flatout-2)
+- [Gore: Ultimate Soldier](#gore-ultimate-soldier)
+- [IGI 2: Covert Strike](#igi-2-covert-strike)
+- [James Bond 007: Nightfire](#james-bond-007-nightfire)
+- [Legends of Might and Magic](#legends-of-might-and-magic)
+- [Line of Sight: Vietnam](#line-of-sight-vietnam)
+- [Need for Speed: Hot Pursuit 2](#need-for-speed-hot-pursuit-2)
+- [No One Lives Forever](#no-one-lives-forever)
+- [No One Lives Forever 2](#no-one-lives-forever-2)
+- [Painkiller](#painkiller)
+- [Saints Row 2](#saints-row-2)
+- [Sniper Elite](#sniper-elite)
+- [Star Trek: Bridge Commander](#star-trek-bridge-commander)
+- [Star Wars: Republic Commando](#star-wars-republic-commando)
+- [THUG Pro](#thug-pro)
+- [Tony Hawk's American Wasteland](#tony-hawks-american-wasteland)
+- [Tony Hawk's Pro Skater 4](#tony-hawks-pro-skater-4)
+- [Tribes: Vengeance](#tribes-vengeance)
+- [Unreal Tournament 3](#unreal-tournament-3)
+- [Vietcong 2](#vietcong-2)
 
 ## Alien Arena
 
@@ -117,6 +149,7 @@ Needs the multiplayer patch from bf1942.org, which points the game at this maste
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.bf1942.org` | Community | ✅ Online | - | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ## BeamMP
 
@@ -131,12 +164,14 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `codmaster.activision.com:20510` | Official | ✅ Online | 65 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ## Call of Duty 2
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `cod2master.activision.com:20710` | Official | ✅ Online | 371 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ## Call of Duty 4: Modern Warfare
 
@@ -164,6 +199,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ✅ Online | - | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ## DDNet / Teeworlds
 
@@ -182,6 +218,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | Community | ✅ Online | 7 | 2026-10-23 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 6 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 6 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -230,6 +267,7 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.333networks.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ✅ Online | 3 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -244,6 +282,7 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `s1.master.hosthpc.com` | Community | ✅ Online | - | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ## Heretic II
 
@@ -253,6 +292,7 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 | `master.errorist.eu:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ✅ Online | 3 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -325,6 +365,7 @@ Spearhead and Breakthrough have their own entries below.
 | `master.333networks.com:27900` | Community | ✅ Online | 208 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 184 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 163 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -515,6 +556,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 39 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ✅ Online | 32 | 2026-10-23 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 32 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -561,6 +603,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.gonespy.com:27900` | Community | ✅ Online | 78 | 2026-10-23 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 76 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 72 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -719,6 +762,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 87 | 2026-10-24 |
 | `master.hypercoop.tk:27900` | Community | ✅ Online | 73 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -737,6 +781,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | Unchecked | - | Never |
+| `utmaster.openspy.net:28902` | Community | Unchecked | - | Never |
 
 ## Unreal Tournament 2004
 
@@ -748,6 +793,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `ut2004master.333networks.com:28902` | Community | ✅ Online | - | 2026-10-24 |
 | `ut2004master.errorist.eu:28902` | Community | ✅ Online | - | 2026-10-24 |
 | `ut2004master.gonespy.com:28902` | Community | ✅ Online | - | 2026-10-23 |
+| `utmaster.openspy.net:28902` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -771,6 +817,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 896 | 2026-10-24 |
 | `master.oldunreal.com:27900` | Community | ✅ Online | 896 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -860,3 +907,259 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.zandronum.com:15300` | Official | ✅ Online | 757 | 2026-10-24 |
+
+## Battlefield 2142
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Battlefield Vietnam
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Call of Juarez: Bound in Blood
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Chaser
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Contract J.A.C.K.
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Crysis 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Deer Hunter 2004
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Deer Hunter 2005
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Dirt Track Racing 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## F1 1999-2000 Compilation
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## F.E.A.R.
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## F.E.A.R. Perseus Mandate
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## FlatOut 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. Covers the retail and Zoom Platform editions, which register under different GameSpy names.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Gore: Ultimate Soldier
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. Covers the original and Special Edition.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## IGI 2: Covert Strike
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## James Bond 007: Nightfire
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Legends of Might and Magic
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Line of Sight: Vietnam
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Need for Speed: Hot Pursuit 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## No One Lives Forever
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## No One Lives Forever 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Painkiller
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Saints Row 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Sniper Elite
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Star Trek: Bridge Commander
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Star Wars: Republic Commando
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## THUG Pro
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. A community mod built on Tony Hawk's Underground 2.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Tony Hawk's American Wasteland
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. Covers the retail game and the reTHAWed community mod.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Tony Hawk's Pro Skater 4
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Tribes: Vengeance
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Unreal Tournament 3
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Vietcong 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
