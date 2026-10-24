@@ -21,9 +21,11 @@ class Master(socketserver.ThreadingTCPServer):
     allow_reuse_address = True
     daemon_threads = True
 
-    def __init__(self, mode="list", activate=True, host="127.0.0.1", port=0):
+    def __init__(self, mode="list", activate=True, host="127.0.0.1", port=0, push=False):
         self.mode = mode
+        self.push = push
         self.requests = []
+        self.raw_requests = []
         super().__init__((host, port), Handler, bind_and_activate=False)
         self.server_bind()
         self.port = self.server_address[1]
@@ -44,6 +46,9 @@ class Master(socketserver.ThreadingTCPServer):
 class Handler(socketserver.BaseRequestHandler):
     def handle(self):
         self.request.settimeout(3)
+        if self.server.push:
+            self.request.sendall(b"\\basic\\\\secure\\" + self.server.mode)
+            return
         self.request.sendall(b"\\basic\\\\secure\\ABCDEF")
         data = b""
         try:
@@ -55,8 +60,11 @@ class Handler(socketserver.BaseRequestHandler):
         except (TimeoutError, ConnectionError):
             return
         game = data.split(b"\\gamename\\")[1].split(b"\\")[0].decode()
+        self.server.raw_requests.append(data)
         self.server.requests.append((self.request.getsockname()[0], game, time.monotonic()))
-        if self.server.mode == "reject":
+        if isinstance(self.server.mode, bytes):
+            self.request.sendall(self.server.mode)
+        elif self.server.mode == "reject":
             self.request.sendall(b"\\fatal\\1\\error\\Validation error")
         elif self.server.mode == "empty":
             self.request.sendall(b"\\final\\")
@@ -163,6 +171,29 @@ class CheckTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("non-negative integer", result.stderr)
             self.assertEqual(path.read_text(), original)
+
+    def test_encrypted_lists_are_counted_and_indexed(self):
+        fixture = ROOT / "tests/fixtures/vietcong-tk-enctype2.bin"
+        server = Master(mode=fixture.read_bytes())
+        self.addCleanup(server.close)
+        master = entry("127.0.0.1", server.port, "vietcong")
+        master["probe"].update(key="bq98mE", format="enctype2")
+        result, _, index, addresses = self.run_check([master])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 57))
+        self.assertIn(b"\\list\\cmp\\gamename\\", server.raw_requests[0])
+        self.assertEqual(len(index.splitlines()), 1)
+        self.assertEqual(len(next(iter(addresses.values())).splitlines()), 57)
+        self.assertIn("143.177.195.34:15425\n", next(iter(addresses.values())))
+
+    def test_pushed_encrypted_list_does_not_consume_cipher_bytes_as_challenge(self):
+        fixture = ROOT / "tests/fixtures/vietcong-tk-enctype2.bin"
+        server = Master(mode=fixture.read_bytes(), push=True)
+        self.addCleanup(server.close)
+        master = entry("127.0.0.1", server.port, "vietcong")
+        master["probe"].update(key="bq98mE", format="enctype2", push=True)
+        result, _, _, addresses = self.run_check([master])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 57))
+        self.assertEqual(len(next(iter(addresses.values())).splitlines()), 57)
 
     def test_empty_catalogue(self):
         result, _, index, addresses = self.run_check([])

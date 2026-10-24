@@ -182,7 +182,7 @@ Needs the multiplayer patch from bf1942.org, which points the game at this maste
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 81 | 2026-10-24 |
-| `master.bf1942.org` | Community | ✅ Online | - | 2026-10-24 |
+| `master.bf1942.org` | Community | ✅ Online | 80 | 2026-10-24 |
 
 ### Retired master servers
 
@@ -1433,13 +1433,13 @@ crysiswarsmp.com runs the replacement GameSpy service for Crysis Wars, with mast
 
 ## Vietcong
 
-Two community masters replace GameSpy for Vietcong. Players point master.gamespy.com at one in the Windows hosts file: vietcong1.de (https://www.vietcong1.de/en/alternative-server-list/) uses 46.28.109.117, and vietcong.tk runs 51.68.46.73. Both answer with GameSpy's encrypted list format, so only their port is checked and there is no count yet.
+Two community masters replace GameSpy for Vietcong. Players point master.gamespy.com at one in the Windows hosts file: vietcong1.de (https://www.vietcong1.de/en/alternative-server-list/) uses 46.28.109.117, and vietcong.tk runs 51.68.46.73. Both stream a GameSpy Enctype 2 server list on connection; checks decrypt and validate the complete list.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `51.68.46.73:28900` | Community | ✅ Online | 57 | 2026-10-24 |
+| `46.28.109.117:28900` | Community | ✅ Online | 55 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 55 | 2026-10-24 |
-| `51.68.46.73:28900` | Community | ✅ Online | - | 2026-10-24 |
-| `46.28.109.117:28900` | Community | ✅ Online | - | 2026-10-24 |
 
 ## Red Eclipse
 
