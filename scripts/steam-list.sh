@@ -5,7 +5,7 @@ appid="$1"
 addresses="${2:-}"
 url="${STEAM_API_URL:-https://api.steampowered.com/IGameServersService/GetServerList/v1/}"
 cap="${STEAM_CAP:-10000}"
-splits=('\noplayers\1' '\linux\1' '\secure\1' '\dedicated\1')
+splits=('\noplayers\1' '\linux\1' '\secure\1' '\dedicated\1' '\password\1' '\full\1')
 reply="$(mktemp)"
 found="$(mktemp)"
 trap 'rm -f "${reply}" "${found}"' EXIT

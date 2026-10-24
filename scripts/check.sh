@@ -246,7 +246,7 @@ probe_once() {
 			echo "skip||no-api-key"
 		else
 			rc=0
-			count="$(timeout 300 "${here}/steam-list.sh" "${appid}" "${addrfile:-}")" || rc=$?
+			count="$(timeout 600 "${here}/steam-list.sh" "${appid}" "${addrfile:-}")" || rc=$?
 			case "${rc}" in
 			0) echo "online|${count}" ;;
 			3) echo "online|${count}|partial-count" ;;
