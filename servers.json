@@ -2548,8 +2548,19 @@
           "last_seen": "2026-10-24",
           "servers": 23,
           "official": true
+        },
+        {
+          "host": "master.quakehub.net",
+          "port": 27650,
+          "probe": {
+            "type": "idtech4",
+            "port": 27650,
+            "protocol": 131157
+          },
+          "official": false
         }
-      ]
+      ],
+      "notes": "master.quakehub.net runs the open-source quakehub-q4master (https://github.com/booskibro/quakehub-q4master) and relays client authorisation to id's master, so connecting still works. Players set it with seta net_master0, the only slot the client reads for its server list; server operators use net_master1 to net_master4."
     },
     {
       "name": "QuakeWorld",
