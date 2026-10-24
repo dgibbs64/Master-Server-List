@@ -17,7 +17,7 @@ jobs:
         run: shellcheck scripts/*.sh
 
       - name: Validate servers.json
-        run: jq -e '.games | type == "array" and all(.[]; (.name | type == "string") and all(.masters[]; (.host | type == "string") and (.official | type == "boolean" or . == null) and (.probe.type | IN("tcp", "gamespy", "getservers", "q2query", "qwquery", "idtech4", "zandronum", "odamex", "chocolatedoom", "cube2", "http", "dns")) and (if .probe.type == "http" then (.probe.url | type == "string") and ((.probe.jq // .probe.pattern) | type == "string") else true end)) and all(.retired // [] | .[]; (.host | type == "string") and (.official | type == "boolean") and (.reason | type == "string") and ((.shutdown // .down_since) | type == "string" and test("^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"))))' servers.json
+        run: jq -e '.games | type == "array" and all(.[]; (.name | type == "string") and all(.masters[]; (.host | type == "string") and (.official | type == "boolean" or . == null) and (.probe.type | IN("tcp", "gamespy", "getservers", "q2query", "qwquery", "idtech4", "zandronum", "odamex", "chocolatedoom", "cube2", "tribes1", "http", "dns")) and (if .probe.type == "http" then (.probe.url | type == "string") and ((.probe.jq // .probe.pattern) | type == "string") else true end)) and all(.retired // [] | .[]; (.host | type == "string") and (.official | type == "boolean") and (.reason | type == "string") and ((.shutdown // .down_since) | type == "string" and test("^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"))))' servers.json
 
       - name: Check README is up to date
         run: |
