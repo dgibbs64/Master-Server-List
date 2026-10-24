@@ -217,12 +217,14 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `codmaster.activision.com:20510` | Official | ✅ Online | 136 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 130 | 2026-10-25 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 
 ## Call of Duty 2
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 524 | 2026-10-25 |
 | `cod2master.activision.com:20710` | Official | ✅ Online | 467 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 
@@ -295,6 +297,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 6 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 6 | 2026-10-24 |
 | `master.noccer.de:27900` | Community | ✅ Online | 6 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 1 | 2026-10-25 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `master.openspy.net:27900` | Community | ⚠️ No response | - | 2026-10-24 |
 
@@ -324,6 +327,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.noccer.de:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 1 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 1 | 2026-10-25 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
 
 ### Retired master servers
@@ -361,6 +365,7 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.noccer.de:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 3 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 1 | 2026-10-25 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -491,6 +496,7 @@ Spearhead and Breakthrough have their own entries below.
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 203 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 183 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 147 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 3 | 2026-10-25 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -796,6 +802,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 73 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 73 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 71 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 3 | 2026-10-25 |
 | `master.openspy.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -832,6 +839,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.noccer.de:27900` | Community | ✅ Online | 29 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 29 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 29 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 28 | 2026-10-25 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -951,6 +959,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.noccer.de:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 4 | 2026-10-25 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -975,6 +984,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.333networks.com:27900` | Community | ✅ Online | 84 | 2026-10-24 |
 | `master.hypercoop.tk:27900` | Community | ✅ Online | 74 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 60 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 8 | 2026-10-25 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
@@ -996,6 +1006,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `utmaster.openspy.net:28902` | Community | ✅ Online | 6 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 1 | 2026-10-25 |
 | `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
@@ -1329,11 +1340,12 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 ## No One Lives Forever 2
 
-OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+Clients and servers need OpenSpy's patch or a hosts file change to use OpenSpy; the game's guide is linked from https://openspy.net/supported-games. qtracker's gsm.qtracker.com also lists the game.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 5 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 1 | 2026-10-25 |
 
 ## Painkiller
 
@@ -1468,11 +1480,12 @@ Two community masters replace GameSpy for Vietcong. Players point master.gamespy
 
 ## Daikatana
 
-Only master.maraakate.org is known to list Daikatana servers. master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.
+master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where its count comes from. qtracker's gsm.qtracker.com also lists Daikatana.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.maraakate.org:27900` | Community | ✅ Online | 13 | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | 0 | 2026-10-25 |
 
 ## SiN
 
