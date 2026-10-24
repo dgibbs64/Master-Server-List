@@ -338,7 +338,7 @@ class CheckTests(unittest.TestCase):
         ]
         api = SteamApi(body=steam_filter_api(servers))
         self.addCleanup(api.close)
-        result, _, _, addresses = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url, STEAM_CAP="2")
+        result, _, _, addresses = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url, STEAM_CAP="2", STEAM_SPLIT_AT="2")
         self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 5))
         self.assertNotIn("check_error", result[0])
         self.assertEqual(next(iter(addresses.values())).splitlines(), [s["addr"] for s in servers])
@@ -350,7 +350,7 @@ class CheckTests(unittest.TestCase):
         servers = [{"addr": "192.0.2.%d:27015" % n} for n in range(1, 4)]
         api = SteamApi(body=steam_filter_api(servers))
         self.addCleanup(api.close)
-        result, _, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url, STEAM_CAP="2")
+        result, _, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url, STEAM_CAP="2", STEAM_SPLIT_AT="2")
         self.assertEqual((result[0]["status"], result[0]["servers"], result[0]["check_error"]), ("online", 2, "partial-count"))
 
     def test_steam_rejected_key_is_no_response(self):

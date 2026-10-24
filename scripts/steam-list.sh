@@ -5,6 +5,7 @@ appid="$1"
 addresses="${2:-}"
 url="${STEAM_API_URL:-https://api.steampowered.com/IGameServersService/GetServerList/v1/}"
 cap="${STEAM_CAP:-10000}"
+split_at="${STEAM_SPLIT_AT:-$((cap * 95 / 100))}"
 splits=('\noplayers\1' '\linux\1' '\secure\1' '\dedicated\1' '\password\1' '\full\1')
 reply="$(mktemp)"
 found="$(mktemp)"
@@ -26,7 +27,7 @@ collect() {
 	fi
 	returned="$(jq '.response.servers // [] | length' "${reply}")"
 	jq -r '.response.servers[]?.addr // empty' "${reply}" >>"${found}"
-	((returned >= cap)) || return 0
+	((returned >= split_at)) || return 0
 	if ((depth < ${#splits[@]})); then
 		collect "${filter}${splits[depth]}" $((depth + 1))
 		collect "${filter}\\nor\\1${splits[depth]}" $((depth + 1))
