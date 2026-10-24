@@ -131,6 +131,8 @@ Status as of: 2026-10-24
 - [Crysis Wars](#crysis-wars)
 - [Vietcong](#vietcong)
 - [Red Eclipse](#red-eclipse)
+- [Daikatana](#daikatana)
+- [SiN](#sin)
 
 ## Alien Arena
 
@@ -348,6 +350,7 @@ Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to
 | `master.noccer.de:27900` | Community | Unchecked | - | Never |
 | `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
 | `master.frag-net.com:27900` | Community | Unchecked | - | Never |
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -359,11 +362,19 @@ Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to
 
 ## HeXen II
 
-Hexen II itself has no master server: multiplayer uses direct IP. Internet play with a server browser uses HeXenWorld.
+Only master.maraakate.org is known to list HeXen II servers. It is a GameSpy-compatible master run by Maraakate, and publishes its list at http://maraakate.org/gamespy/, which is where the count comes from. The original HexenWorld master at hexenworld.org no longer resolves.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
 
 ## HeXenWorld
 
-No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900.
+Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-compatible master run by Maraakate, and publishes its list at http://maraakate.org/gamespy/, which is where the count comes from. The original HexenWorld master at hexenworld.org no longer resolves.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -374,11 +385,13 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 
 ## Iron Storm
 
+qtracker's website is gone, but gsm.qtracker.com still answers GameSpy list requests, if not every time.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
-| `gsm.qtracker.com` | Community | ✅ Online | - | 2026-10-24 |
+| `gsm.qtracker.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -389,6 +402,8 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## Kingpin
+
+master.kingpin.info answers Quake II style queries and lists each server's query port, which is the game port plus 10, so its addresses are not merged with the other masters'.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -401,6 +416,9 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 | `master.noccer.de:27900` | Community | Unchecked | - | Never |
 | `master.eatsleeput.com:27900` | Community | Unchecked | - | Never |
 | `master.frag-net.com:27900` | Community | Unchecked | - | Never |
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
+| `gsm.qtracker.com:27900` | Community | Unchecked | - | Never |
+| `master.kingpin.info:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -590,9 +608,13 @@ dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces
 
 ## Quake 2
 
+master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.quakeservers.net:27900` | Community | ✅ Online | 104 | 2026-10-24 |
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
+| `master.itbacon.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -629,10 +651,13 @@ master.quakehub.net runs the open-source quakehub-q4master (https://github.com/b
 
 ## QuakeWorld
 
+master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.quakeservers.net:27000` | Community | ⚠️ No response | - | 2026-10-24 |
 | `qwmaster.fodquake.net:27000` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -975,6 +1000,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.openspy.net:27900` | Community | ✅ Online | 512 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `gsm.qtracker.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -1199,7 +1225,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 ## IGI 2: Covert Strike
 
-OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. The HcSpy master network (https://igi2multiplayer.pages.dev), used through its HcLauncheR, also serves IGI 2. It does not publish a master hostname or an open server list, so it cannot be checked here.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -1382,3 +1408,19 @@ The community master is run by vietcong.tk and has no hostname. Its GameSpy key 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `play.redeclipse.net:28800` | Official | ✅ Online | 13 | 2026-10-24 |
+
+## Daikatana
+
+Only master.maraakate.org is known to list Daikatana servers. master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |
+
+## SiN
+
+Only master.maraakate.org is known to list SiN servers. master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.maraakate.org:27900` | Community | Unchecked | - | Never |

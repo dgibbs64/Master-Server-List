@@ -206,7 +206,7 @@ if [[ -n "${ADDRESS_DIR:-}" ]]; then
 fi
 while IFS= read -r entry; do
 	addrfile=""
-	if [[ -n "${ADDRESS_DIR:-}" ]]; then
+	if [[ -n "${ADDRESS_DIR:-}" ]] && [[ "$(jq -r '.[1].addresses' <<<"${entry}")" != "false" ]]; then
 		addrfile="${ADDRESS_DIR}/$(printf '%s' "${entry}" | sha1sum | cut -c1-16).txt"
 		rm -f "${addrfile}"
 		printf '%s\t%s\n' "${entry}" "${addrfile}" >>"${ADDRESS_DIR}/index.tsv"

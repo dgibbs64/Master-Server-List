@@ -1141,6 +1141,17 @@
             "key": "2iuCAS"
           },
           "official": false
+        },
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "heretic2",
+            "key": "2iuCAS"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1171,13 +1182,37 @@
     },
     {
       "name": "HeXen II",
-      "notes": "Hexen II itself has no master server: multiplayer uses direct IP. Internet play with a server browser uses HeXenWorld.",
-      "masters": []
+      "notes": "Only master.maraakate.org is known to list HeXen II servers. It is a GameSpy-compatible master run by Maraakate, and publishes its list at http://maraakate.org/gamespy/, which is where the count comes from. The original HexenWorld master at hexenworld.org no longer resolves.",
+      "masters": [
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "http://maraakate.org/gamespy/hexen2.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
     },
     {
       "name": "HeXenWorld",
-      "masters": [],
-      "notes": "No public master server is known. hexenworld.org, which ran the last one, no longer resolves. Hammer of Thyrion (uHexen2) ships hwmaster for anyone wanting to host one; its default port is 26900.",
+      "masters": [
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "http://maraakate.org/gamespy/hexenworld.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ],
+      "notes": "Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-compatible master run by Maraakate, and publishes its list at http://maraakate.org/gamespy/, which is where the count comes from. The original HexenWorld master at hexenworld.org no longer resolves.",
       "retired": [
         {
           "host": "master.hexenworld.org",
@@ -1199,10 +1234,12 @@
       "masters": [
         {
           "host": "gsm.qtracker.com",
-          "port": null,
+          "port": 27900,
           "probe": {
-            "type": "tcp",
-            "port": 28900
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ironstorm",
+            "key": "y5Ei7C"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -1269,7 +1306,8 @@
           "reason": "Moved to master.errorist.eu.",
           "replaced_by": "master.errorist.eu"
         }
-      ]
+      ],
+      "notes": "qtracker's website is gone, but gsm.qtracker.com still answers GameSpy list requests, if not every time."
     },
     {
       "name": "Kingpin",
@@ -1387,6 +1425,38 @@
             "key": "QFWxY2"
           },
           "official": false
+        },
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
+          },
+          "official": false
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "kingpin",
+            "key": "QFWxY2"
+          },
+          "official": false
+        },
+        {
+          "host": "master.kingpin.info",
+          "port": 27900,
+          "probe": {
+            "type": "q2query",
+            "port": 27900,
+            "addresses": false
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -1398,7 +1468,8 @@
           "reason": "GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com.",
           "source": "https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month"
         }
-      ]
+      ],
+      "notes": "master.kingpin.info answers Quake II style queries and lists each server's query port, which is the game port plus 10, so its addresses are not merged with the other masters'."
     },
     {
       "name": "Luanti (Minetest)",
@@ -2422,6 +2493,26 @@
           "last_seen": "2026-10-24",
           "servers": 104,
           "official": false
+        },
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "http://maraakate.org/gamespy/quake2.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
+            "label": "GameSpy"
+          },
+          "official": false
+        },
+        {
+          "host": "master.itbacon.com",
+          "port": 27900,
+          "probe": {
+            "type": "q2query",
+            "port": 27900
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2439,7 +2530,8 @@
           "down_since": "2026-10-23",
           "reason": "Community master. The hostname resolves but has not answered a check."
         }
-      ]
+      ],
+      "notes": "master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from."
     },
     {
       "name": "Quake 3",
@@ -2588,6 +2680,17 @@
           "last_seen": "2026-10-23",
           "servers": null,
           "official": false
+        },
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "http://maraakate.org/gamespy/quakeworld.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -2598,7 +2701,8 @@
           "down_since": "2026-10-23",
           "reason": "Community master. The hostname resolves but has not answered a check."
         }
-      ]
+      ],
+      "notes": "master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from."
     },
     {
       "name": "Return to Castle Wolfenstein",
@@ -4525,6 +4629,17 @@
           "status": "online",
           "servers": 1773,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "gsm.qtracker.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "ut",
+            "key": "Z5Nfb0"
+          },
+          "official": false
         }
       ],
       "retired": [
@@ -5322,7 +5437,7 @@
     },
     {
       "name": "IGI 2: Covert Strike",
-      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. The HcSpy master network (https://igi2multiplayer.pages.dev), used through its HcLauncheR, also serves IGI 2. It does not publish a master hostname or an open server list, so it cannot be checked here.",
       "masters": [
         {
           "host": "master.openspy.net",
@@ -5850,6 +5965,40 @@
           "status": "online",
           "servers": 13,
           "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Daikatana",
+      "notes": "Only master.maraakate.org is known to list Daikatana servers. master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.",
+      "masters": [
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "http://maraakate.org/gamespy/daikatana.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
+            "label": "GameSpy"
+          },
+          "official": false
+        }
+      ]
+    },
+    {
+      "name": "SiN",
+      "notes": "Only master.maraakate.org is known to list SiN servers. master.maraakate.org is a GameSpy-compatible master for GameSpy 3D style browsers, run by Maraakate. It publishes its lists at http://maraakate.org/gamespy/, which is where the count comes from.",
+      "masters": [
+        {
+          "host": "master.maraakate.org",
+          "port": 27900,
+          "probe": {
+            "type": "http",
+            "url": "http://maraakate.org/gamespy/sin.txt",
+            "pattern": "[0-9]{1,3}(\\.[0-9]{1,3}){3}:[0-9]{1,5}",
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     }
