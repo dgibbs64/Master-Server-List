@@ -327,12 +327,12 @@ The leaked 2001 build, which still has a small multiplayer community.
 
 ## Halo: Combat Evolved
 
-Patch 1.0.10 points the game at this master, so no config change is needed.
+Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to this master: the server list comes from s1.master.hosthpc.com, servers report to s1.ms01.hosthpc.com, and NAT negotiation uses natneg1 and natneg2.hosthpc.com. The Chimera client mod uses the same hosts by default. The list uses GameSpy's encrypted browsing protocol, so only its port is checked and there is no server count.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
-| `s1.master.hosthpc.com` | Community | ✅ Online | - | 2026-10-24 |
+| `s1.master.hosthpc.com` | Official | ✅ Online | - | 2026-10-24 |
 
 ## Heretic II
 
