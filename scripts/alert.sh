@@ -5,18 +5,20 @@ previous=$1
 current=$2
 label="master-down"
 today=$(date -u +%Y-%m-%d)
+recent=$(date -u -d "7 days ago" +%Y-%m-%d)
 
 transitions() {
-	jq -r --slurpfile prev "$previous" '
+	jq -r --slurpfile prev "$previous" --arg recent "$recent" '
+		def down: . == "no-response" or . == "no-dns";
 		def bysocket:
-			[.games[] | .name as $g | .masters[] | {socket: (if .port then "\(.host):\(.port)" else .host end), status, game: $g}]
+			[.games[] | .name as $g | .masters[] | {socket: (if .port then "\(.host):\(.port)" else .host end), status, last_seen, game: $g}]
 			| group_by(.socket)
-			| map({key: .[0].socket, value: {online: any(.[]; .status == "online"), status: (map(.status) | first), games: (map(.game) | unique | join(", "))}})
+			| map({key: .[0].socket, value: {online: any(.[]; .status == "online"), status: (map(.status) | first), last_seen: (map(.last_seen // "") | max), games: (map(.game) | unique | join(", "))}})
 			| from_entries;
 		($prev[0] | bysocket) as $p
 		| bysocket | to_entries[]
-		| select($p[.key].online == true and (.value.status == "no-response" or .value.status == "no-dns"))
-		| [.key, .value.status, .value.games] | @tsv
+		| select($p[.key] and ($p[.key].online | not) and ($p[.key].status | down) and (.value.online | not) and (.value.status | down) and .value.last_seen >= $recent)
+		| [.key, .value.status, .value.last_seen, .value.games] | @tsv
 	' "$current"
 }
 
@@ -28,12 +30,12 @@ gh label create "$label" --color B60205 --description "A master server stopped a
 
 open_issues=$(gh issue list --label "$label" --state open --limit 200 --json number,title --jq '.[] | [.number, (.title | sub("^Master down: "; ""))] | @tsv')
 
-while IFS=$'\t' read -r socket status games; do
+while IFS=$'\t' read -r socket status last_seen games; do
 	[ -n "$socket" ] || continue
 	if grep -qxF "$socket" <(cut -f2 <<<"$open_issues"); then
 		continue
 	fi
-	gh issue create --label "$label" --title "Master down: $socket" --body "\`$socket\` answered the previous check but not the one on $today (status: \`$status\`).
+	gh issue create --label "$label" --title "Master down: $socket" --body "\`$socket\` has failed two checks in a row, the latest on $today (status: \`$status\`). It last answered on $last_seen.
 
 Games: $games
 
