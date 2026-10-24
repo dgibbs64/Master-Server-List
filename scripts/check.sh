@@ -102,6 +102,10 @@ addresses_http() {
 	fi
 }
 
+addresses_steam() {
+	jq -r '.response.servers[]?.addr // empty' "${reply}"
+}
+
 save_addresses() {
 	[[ -n "${addrfile:-}" ]] || return 0
 	"$@" | sort -u >"${addrfile}" || true
@@ -160,7 +164,7 @@ addresses_tribes1() {
 }
 
 probe_once() {
-	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc format="${11:-text}" push="${12:-false}"
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc format="${11:-text}" push="${12:-false}" appid="${13:-}"
 	case "${type}" in
 	tcp)
 		# shellcheck disable=SC2016 # Positional arguments expand in the child shell.
@@ -240,6 +244,16 @@ probe_once() {
 	tribes1)
 		udp_query "${host}" "${port}" "\x10\x03\xff\x00\x01\x02" && save_addresses addresses_tribes1 && echo "online|$(addresses_tribes1 | sort -u | wc -l)"
 		;;
+	steam)
+		if [[ -z "${STEAM_API_KEY:-}" ]]; then
+			echo "skip||no-api-key"
+		elif printf '%s' "${STEAM_API_KEY}" | curl -fsS --max-time 30 -A "Master-Server-List checker" -G -o "${reply}" --data-urlencode "key@-" --data-urlencode "filter=\\appid\\${appid}" --data-urlencode "limit=${STEAM_LIMIT:-50000}" "${STEAM_API_URL:-https://api.steampowered.com/IGameServersService/GetServerList/v1/}" 2>/dev/null && jq -e '.response | type == "object"' "${reply}" >/dev/null 2>&1; then
+			save_addresses addresses_steam
+			echo "online|$(addresses_steam | sort -u | wc -l)"
+		else
+			echo "no-response||query-failed"
+		fi
+		;;
 	esac
 	return 0
 }
@@ -279,7 +293,7 @@ for attempt in 1 2 3; do
 		waiting=()
 		earliest=0
 		for entry in "${queue[@]}"; do
-			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern, .format, .push) | . // "" | tostring' <<<"${entry}")
+			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern, .format, .push, .appid) | . // "" | tostring' <<<"${entry}")
 			host="${fields[0]}"
 			endpoint="${host}:${fields[2]}"
 			if [[ -z "${rate_keys[${host}]:-}" ]]; then
@@ -309,7 +323,7 @@ for attempt in 1 2 3; do
 					fi
 				fi
 				IFS='|' read -r status servers error < <(probe "${fields[@]}")
-				next_host["${rate_key}"]=$((SECONDS + min_interval))
+				[[ "${status}" == skip ]] || next_host["${rate_key}"]=$((SECONDS + min_interval))
 				if [[ "${error}" == connection-failed ]]; then transport_down["${endpoint}"]=1; fi
 			fi
 			printf '%-12s %6s  %s %s %s attempt=%s/3%s%s\n' "${status}" "${servers}" "${host}" "${fields[1]}" "${fields[5]}" "${attempt}" "${error:+ reason=${error}}" "$(if [[ "${cached}" == true ]]; then printf ' cached-endpoint-failure'; fi)" >&2
@@ -333,9 +347,11 @@ jq --argjson results "${results}" --arg today "${today}" '
 	.checked = $today
 	| .games[].masters[] |= (
 		$results[[.host, .probe] | tojson] as $r
-		| .status = $r.status
+		| if $r.status == "skip" then . else
+		.status = $r.status
 		| .servers = (if .probe.count == false then null else $r.servers end)
 		| if $r.error != "" then .check_error = $r.error else del(.check_error) end
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)
+		end
 	)' "${file}" >"${file}.tmp"
 mv "${file}.tmp" "${file}"

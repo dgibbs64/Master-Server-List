@@ -6875,6 +6875,230 @@
           "last_seen": "2026-10-24"
         }
       ]
+    },
+    {
+      "name": "7 Days to Die",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 251570,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 251570)."
+    },
+    {
+      "name": "ARK: Survival Evolved",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 346110,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 346110)."
+    },
+    {
+      "name": "Arma 3",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 107410,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 107410)."
+    },
+    {
+      "name": "Counter-Strike",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 10,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 10)."
+    },
+    {
+      "name": "Counter-Strike 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 730,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 730)."
+    },
+    {
+      "name": "Counter-Strike: Source",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 240,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 240)."
+    },
+    {
+      "name": "DayZ",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 221100,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 221100)."
+    },
+    {
+      "name": "Garry's Mod",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 4000,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4000)."
+    },
+    {
+      "name": "Left 4 Dead 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 550,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 550)."
+    },
+    {
+      "name": "Project Zomboid",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 108600,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 108600)."
+    },
+    {
+      "name": "Rust",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 252490,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 252490)."
+    },
+    {
+      "name": "Team Fortress 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 440,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440)."
+    },
+    {
+      "name": "Unturned",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 304930,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 304930)."
+    },
+    {
+      "name": "Valheim",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 892970,
+            "label": "Steam"
+          },
+          "official": true
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 892970)."
     }
   ]
 }
