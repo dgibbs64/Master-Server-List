@@ -62,10 +62,31 @@ jobs:
           git pull --rebase
           git push
 
+      - name: Record history
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          dir="$RUNNER_TEMP/history"
+          if git fetch -q origin history; then
+            git worktree add -q -B history "$dir" FETCH_HEAD
+          else
+            git worktree add -q --orphan -b history "$dir"
+          fi
+          ./scripts/history.sh servers.json "$dir/history.json"
+          cd "$dir"
+          git add history.json
+          git commit -qm "Record master status for $(date -u +%F)"
+          git push -q origin history
+
       - name: Build site
         run: |
           mkdir -p _site
           cp site/* servers.json _site/
+          if git fetch -q origin history; then
+            git show FETCH_HEAD:history.json > _site/history.json
+          fi
 
       - uses: actions/configure-pages@v6
 
