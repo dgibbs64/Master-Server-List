@@ -141,6 +141,8 @@ Status as of: 2026-10-24
 - [Skyrim Together Reborn](#skyrim-together-reborn)
 - [Renegade X](#renegade-x)
 - [Brickadia](#brickadia)
+- [Halo: Custom Edition](#halo-custom-edition)
+- [Battlefield 2](#battlefield-2)
 
 ## Alien Arena
 
@@ -337,7 +339,7 @@ The leaked 2001 build, which still has a small multiplayer community.
 
 ## Halo: Combat Evolved
 
-Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to this master: the server list comes from s1.master.hosthpc.com, servers report to s1.ms01.hosthpc.com, and NAT negotiation uses natneg1 and natneg2.hosthpc.com. The Chimera client mod uses the same hosts by default. The list uses GameSpy's encrypted browsing protocol, so only its port is checked and there is no server count.
+Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to this master: the server list comes from s1.master.hosthpc.com, servers report to s1.ms01.hosthpc.com, and NAT negotiation uses natneg1 and natneg2.hosthpc.com. The Chimera client mod uses the same hosts by default. Retail Halo lists under the GameSpy name halor; Custom Edition has its own entry.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -393,7 +395,7 @@ Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-c
 
 ## Iron Storm
 
-qtracker's website is gone, but gsm.qtracker.com still answers GameSpy list requests, if not every time.
+qtracker's website is gone, but gsm.qtracker.com still serves GameSpy lists. Its encrypted list port answers reliably where the plain one often does not.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -1527,3 +1529,19 @@ Brickadia's own API lists public servers. Servers connect through Epic Online Se
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `brickadia.com` | Official | ✅ Online | 57 | 2026-10-24 |
+
+## Halo: Custom Edition
+
+The free multiplayer expansion for Halo PC lists under the GameSpy name halom on the same master Bungie's patch 1.0.10 set up for retail Halo.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `s1.master.hosthpc.com` | Official | Unchecked | - | Never |
+
+## Battlefield 2
+
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |

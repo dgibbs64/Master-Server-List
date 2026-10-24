@@ -183,6 +183,11 @@ probe_once() {
 				echo "online|${count}"
 			fi
 			;;
+		enctypex)
+			if count="$(timeout 30 "${ENCTYPEX:-${here}/enctypex}" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}" 2>/dev/null)"; then
+				echo "online|${count}"
+			fi
+			;;
 		getservers)
 			udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && save_addresses addresses_getservers && echo "online|$(count_getservers)"
 			;;
