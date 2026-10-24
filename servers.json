@@ -69,10 +69,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"bfield1942\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "bfield1942",
+            "key": "HpWx9z",
             "label": "GameSpy"
           },
           "official": false,
@@ -129,10 +129,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"callofduty\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "callofduty",
+            "key": "K3dV7n",
             "label": "GameSpy"
           },
           "official": false,
@@ -162,10 +162,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"callofduty2\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "callofduty2",
+            "key": "DSpIxw",
             "label": "GameSpy"
           },
           "official": false,
@@ -1040,14 +1040,17 @@
     },
     {
       "name": "Halo: Combat Evolved",
-      "notes": "Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to this master: the server list comes from s1.master.hosthpc.com, servers report to s1.ms01.hosthpc.com, and NAT negotiation uses natneg1 and natneg2.hosthpc.com. The Chimera client mod uses the same hosts by default. The list uses GameSpy's encrypted browsing protocol, so only its port is checked and there is no server count.",
+      "notes": "Bungie's patch 1.0.10 (May 2014) moved Halo PC and Custom Edition off GameSpy to this master: the server list comes from s1.master.hosthpc.com, servers report to s1.ms01.hosthpc.com, and NAT negotiation uses natneg1 and natneg2.hosthpc.com. The Chimera client mod uses the same hosts by default. Retail Halo lists under the GameSpy name halor; Custom Edition has its own entry.",
       "masters": [
         {
           "host": "s1.master.hosthpc.com",
           "port": null,
           "probe": {
-            "type": "tcp",
-            "port": 28910
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "halor",
+            "key": "e4Rd9J",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -1058,10 +1061,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"halor\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "halor",
+            "key": "e4Rd9J",
             "label": "GameSpy"
           },
           "official": false,
@@ -1317,10 +1320,11 @@
           "host": "gsm.qtracker.com",
           "port": 27900,
           "probe": {
-            "type": "gamespy",
-            "port": 28900,
+            "type": "enctypex",
+            "port": 28910,
             "gamename": "ironstorm",
-            "key": "y5Ei7C"
+            "key": "y5Ei7C",
+            "label": "GameSpy"
           },
           "status": "online",
           "last_seen": "2026-10-24",
@@ -1388,7 +1392,7 @@
           "replaced_by": "master.errorist.eu"
         }
       ],
-      "notes": "qtracker's website is gone, but gsm.qtracker.com still answers GameSpy list requests, if not every time."
+      "notes": "qtracker's website is gone, but gsm.qtracker.com still serves GameSpy lists. Its encrypted list port answers reliably where the plain one often does not."
     },
     {
       "name": "Kingpin",
@@ -1537,10 +1541,11 @@
           "host": "gsm.qtracker.com",
           "port": 27900,
           "probe": {
-            "type": "gamespy",
-            "port": 28900,
+            "type": "enctypex",
+            "port": 28910,
             "gamename": "kingpin",
-            "key": "QFWxY2"
+            "key": "QFWxY2",
+            "label": "GameSpy"
           },
           "official": false,
           "status": "no-response",
@@ -4940,10 +4945,11 @@
           "host": "gsm.qtracker.com",
           "port": 27900,
           "probe": {
-            "type": "gamespy",
-            "port": 28900,
+            "type": "enctypex",
+            "port": 28910,
             "gamename": "ut",
-            "key": "Z5Nfb0"
+            "key": "Z5Nfb0",
+            "label": "GameSpy"
           },
           "official": false,
           "status": "no-response",
@@ -5520,10 +5526,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"bfvietnam\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "bfvietnam",
+            "key": "h2P9dJ",
             "label": "GameSpy"
           },
           "official": false,
@@ -5562,10 +5568,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"chaser\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "chaser",
+            "key": "Pe4W2B",
             "label": "GameSpy"
           },
           "official": false,
@@ -5583,10 +5589,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"contractjack\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "contractjack",
+            "key": "h3K8f2",
             "label": "GameSpy"
           },
           "official": false,
@@ -5604,10 +5610,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"capricorn\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "capricorn",
+            "key": "8TTq4M",
             "label": "GameSpy"
           },
           "official": false,
@@ -5625,10 +5631,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"dh2004\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "dh2004",
+            "key": "E8j4fP",
             "label": "GameSpy"
           },
           "official": false,
@@ -5646,10 +5652,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"dh2005\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "dh2005",
+            "key": "qW56m4",
             "label": "GameSpy"
           },
           "official": false,
@@ -5667,10 +5673,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"dtr2\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "dtr2",
+            "key": "MIq1wW",
             "label": "GameSpy"
           },
           "official": false,
@@ -5688,10 +5694,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"f1comp\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "f1comp",
+            "key": "g7W1P8",
             "label": "GameSpy"
           },
           "official": false,
@@ -5709,10 +5715,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"fear\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "fear",
+            "key": "n3V8cj",
             "label": "GameSpy"
           },
           "official": false,
@@ -5730,10 +5736,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"fearxp2\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "fearxp2",
+            "key": "rDAg9r",
             "label": "GameSpy"
           },
           "official": false,
@@ -5793,10 +5799,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"projectigi2r\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "projectigi2r",
+            "key": "j4F9cY",
             "label": "GameSpy"
           },
           "official": false,
@@ -5814,10 +5820,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"jbnightfire\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "jbnightfire",
+            "key": "S9j3L2",
             "label": "GameSpy"
           },
           "official": false,
@@ -5835,10 +5841,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"legendsmm\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "legendsmm",
+            "key": "5Kbawl",
             "label": "GameSpy"
           },
           "official": false,
@@ -5856,10 +5862,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"vietnamso\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "vietnamso",
+            "key": "E8d3Bo",
             "label": "GameSpy"
           },
           "official": false,
@@ -5877,10 +5883,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"nfs6\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "nfs6",
+            "key": "ZIr1wX",
             "label": "GameSpy"
           },
           "official": false,
@@ -5898,10 +5904,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"nolf\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "nolf",
+            "key": "Jn3Ab4",
             "label": "GameSpy"
           },
           "official": false,
@@ -5919,10 +5925,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"nolf2\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "nolf2",
+            "key": "g3Fo6x",
             "label": "GameSpy"
           },
           "official": false,
@@ -5940,10 +5946,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"painkiller\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "painkiller",
+            "key": "k7F4d2",
             "label": "GameSpy"
           },
           "official": false,
@@ -5961,10 +5967,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"srow2pc\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "srow2pc",
+            "key": "odvimE",
             "label": "GameSpy"
           },
           "official": false,
@@ -5982,10 +5988,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"sniperelpc\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "sniperelpc",
+            "key": "hP58dm",
             "label": "GameSpy"
           },
           "official": false,
@@ -6003,10 +6009,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"bcommander\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "bcommander",
+            "key": "Nm3aZ9",
             "label": "GameSpy"
           },
           "official": false,
@@ -6024,10 +6030,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"swrcommando\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "swrcommando",
+            "key": "y2s8Fh",
             "label": "GameSpy"
           },
           "official": false,
@@ -6087,10 +6093,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"thps4pc\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "thps4pc",
+            "key": "L3C8s9",
             "label": "GameSpy"
           },
           "official": false,
@@ -6108,10 +6114,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"tribesv\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "tribesv",
+            "key": "y3D28k",
             "label": "GameSpy"
           },
           "official": false,
@@ -6150,10 +6156,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"vietcong2\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "vietcong2",
+            "key": "zX2pq6",
             "label": "GameSpy"
           },
           "official": false,
@@ -6185,10 +6191,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"swat4\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "swat4",
+            "key": "tG3j8c",
             "label": "GameSpy"
           },
           "official": false,
@@ -6220,10 +6226,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"crysis\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "crysis",
+            "key": "ZvZDcL",
             "label": "GameSpy"
           },
           "official": false,
@@ -6255,10 +6261,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"crysiswars\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "crysiswars",
+            "key": "zKbZiM",
             "label": "GameSpy"
           },
           "official": false,
@@ -6300,10 +6306,10 @@
           "host": "master.openspy.net",
           "port": 27900,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"vietcong\")) | .servers] | add // 0",
-            "listing": false,
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "vietcong",
+            "key": "bq98mE",
             "label": "GameSpy"
           },
           "official": false,
@@ -6631,6 +6637,41 @@
           "status": "online",
           "servers": 57,
           "last_seen": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Halo: Custom Edition",
+      "notes": "The free multiplayer expansion for Halo PC lists under the GameSpy name halom on the same master Bungie's patch 1.0.10 set up for retail Halo.",
+      "masters": [
+        {
+          "host": "s1.master.hosthpc.com",
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "halom",
+            "key": "e4Rd9J",
+            "label": "GameSpy"
+          },
+          "official": true
+        }
+      ]
+    },
+    {
+      "name": "Battlefield 2",
+      "notes": "OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.",
+      "masters": [
+        {
+          "host": "master.openspy.net",
+          "port": 27900,
+          "probe": {
+            "type": "enctypex",
+            "port": 28910,
+            "gamename": "battlefield2",
+            "key": "hW6m9a",
+            "label": "GameSpy"
+          },
+          "official": false
         }
       ]
     }

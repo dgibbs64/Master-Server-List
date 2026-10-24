@@ -32,6 +32,10 @@ jobs:
         if: github.event_name != 'push'
         run: sudo apt-get install -y netcat-openbsd gawk
 
+      - name: Build enctypex helper
+        if: github.event_name != 'push'
+        run: gcc -std=c11 -O2 -Wall -Wextra -Werror -o scripts/enctypex scripts/enctypex.c
+
       - name: Check master servers
         if: github.event_name != 'push'
         env:
