@@ -1167,7 +1167,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 ## F.E.A.R.
 
-OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+OpenSpy is the only master listed for this game so far. Multiplayer works with the openspy-client patch (https://github.com/anzz1/openspy-client) plus fearservmod (https://github.com/Vityacv/fearservmod), which also fixes client and server bugs. The free F.E.A.R. Combat registers under the same name, so its servers are counted here.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -1175,7 +1175,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 ## F.E.A.R. Perseus Mandate
 
-OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+OpenSpy is the only master listed for this game so far. Multiplayer works with the openspy-client patch (https://github.com/anzz1/openspy-client) plus fearservmod (https://github.com/Vityacv/fearservmod), which also adds a co-op mode.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
