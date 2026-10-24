@@ -5920,7 +5920,7 @@
     },
     {
       "name": "Vietcong",
-      "notes": "The community master is run by vietcong.tk and has no hostname. Its GameSpy key is unconfirmed, so it is checked by port only.",
+      "notes": "Two community masters replace GameSpy for Vietcong. Players point master.gamespy.com at one in the Windows hosts file: vietcong1.de (https://www.vietcong1.de/en/alternative-server-list/) uses 46.28.109.117, and vietcong.tk runs 51.68.46.73. Both answer with GameSpy's encrypted list format, so only their port is checked and there is no count yet.",
       "masters": [
         {
           "host": "51.68.46.73",
@@ -5933,6 +5933,15 @@
           "status": "online",
           "servers": null,
           "last_seen": "2026-10-24"
+        },
+        {
+          "host": "46.28.109.117",
+          "port": 28900,
+          "probe": {
+            "type": "tcp",
+            "port": 28900
+          },
+          "official": false
         },
         {
           "host": "master.openspy.net",
