@@ -1471,7 +1471,7 @@ Point the game at the community masters by pasting $Server::MasterAddressN0 into
 
 ## Unreal Tournament 4 (pre-alpha)
 
-UT4MasterServer (https://github.com/timiimit/UT4MasterServer) is an open-source replacement for Epic's backend, with accounts at https://ut4.timiimit.com. The count comes from its public matchmaking list.
+UT4MasterServer (https://github.com/timiimit/UT4MasterServer) is an open-source replacement for Epic's backend, with accounts at https://ut4.timiimit.com. The count comes from its public matchmaking list. Its API is behind Cloudflare, which answers requests from GitHub's runners with a browser challenge, so the daily check here shows no response even while the master is up. Check https://ut4.timiimit.com for its live status.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
