@@ -91,10 +91,6 @@ addresses_http() {
 	fi
 }
 
-addresses_steam() {
-	jq -r '.response.servers[]?.addr // empty' "${reply}"
-}
-
 save_addresses() {
 	[[ -n "${addrfile:-}" ]] || return 0
 	"$@" | sort -u >"${addrfile}" || true
@@ -248,11 +244,14 @@ probe_once() {
 	steam)
 		if [[ -z "${STEAM_API_KEY:-}" ]]; then
 			echo "skip||no-api-key"
-		elif printf '%s' "${STEAM_API_KEY}" | curl -fsS --max-time 30 -A "Master-Server-List checker" -G -o "${reply}" --data-urlencode "key@-" --data-urlencode "filter=\\appid\\${appid}" --data-urlencode "limit=${STEAM_LIMIT:-50000}" "${STEAM_API_URL:-https://api.steampowered.com/IGameServersService/GetServerList/v1/}" 2>/dev/null && jq -e '.response | type == "object"' "${reply}" >/dev/null 2>&1; then
-			save_addresses addresses_steam
-			echo "online|$(addresses_steam | sort -u | wc -l)"
 		else
-			echo "no-response||query-failed"
+			rc=0
+			count="$(timeout 300 "${here}/steam-list.sh" "${appid}" "${addrfile:-}")" || rc=$?
+			case "${rc}" in
+			0) echo "online|${count}" ;;
+			3) echo "online|${count}|partial-count" ;;
+			*) echo "no-response||query-failed" ;;
+			esac
 		fi
 		;;
 	esac

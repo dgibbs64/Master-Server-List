@@ -95,8 +95,9 @@ class SteamApi(http.server.ThreadingHTTPServer):
 
 class SteamHandler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):
-        self.server.queries.append(urllib.parse.parse_qs(urllib.parse.urlsplit(self.path).query))
-        body = json.dumps(self.server.body).encode()
+        query = urllib.parse.parse_qs(urllib.parse.urlsplit(self.path).query)
+        self.server.queries.append(query)
+        body = json.dumps(self.server.body(query) if callable(self.server.body) else self.server.body).encode()
         self.send_response(self.server.status)
         self.send_header("Content-Type", "application/json")
         self.send_header("Content-Length", str(len(body)))
@@ -132,6 +133,31 @@ class QuakeHandler(socketserver.BaseRequestHandler):
 
 def quake_entry(port, protocol):
     return {"host": "127.0.0.1", "port": port, "probe": {"type": "getservers", "port": port, "protocol": protocol}, "status": "no-response", "last_seen": "2020-01-01"}
+
+
+def steam_filter_api(servers):
+    def matches(server, filter_text):
+        parts = filter_text.split("\\")[1:]
+        pairs = list(zip(parts[0::2], parts[1::2]))
+        negate = 0
+        for key, value in pairs:
+            if key == "nor":
+                negate = int(value)
+                continue
+            hit = key == "appid" or bool(server.get(key)) == (value == "1")
+            if negate:
+                negate -= 1
+                hit = not hit
+            if not hit:
+                return False
+        return True
+
+    def respond(query):
+        limit = int(query["limit"][0])
+        found = [s for s in servers if matches(s, query["filter"][0])]
+        return {"response": {"servers": [{"addr": s["addr"]} for s in found[:limit]]}}
+
+    return respond
 
 
 def steam_entry(appid=730):
@@ -301,6 +327,31 @@ class CheckTests(unittest.TestCase):
         self.assertEqual(result[0], steam_entry())
         self.assertEqual(api.queries, [])
         self.assertIn("no-api-key", log)
+
+    def test_capped_steam_list_is_split_until_complete(self):
+        servers = [
+            {"addr": "192.0.2.1:27015", "noplayers": 1, "linux": 1, "dedicated": 1},
+            {"addr": "192.0.2.2:27015", "noplayers": 1, "linux": 1},
+            {"addr": "192.0.2.3:27015", "noplayers": 1},
+            {"addr": "192.0.2.4:27015", "linux": 1},
+            {"addr": "192.0.2.5:27015"},
+        ]
+        api = SteamApi(body=steam_filter_api(servers))
+        self.addCleanup(api.close)
+        result, _, _, addresses = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url, STEAM_CAP="2")
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 5))
+        self.assertNotIn("check_error", result[0])
+        self.assertEqual(next(iter(addresses.values())).splitlines(), [s["addr"] for s in servers])
+        filters = [q["filter"][0] for q in api.queries]
+        self.assertIn("\\appid\\730\\noplayers\\1", filters)
+        self.assertIn("\\appid\\730\\nor\\1\\noplayers\\1", filters)
+
+    def test_steam_list_still_capped_after_every_split_is_partial(self):
+        servers = [{"addr": "192.0.2.%d:27015" % n} for n in range(1, 4)]
+        api = SteamApi(body=steam_filter_api(servers))
+        self.addCleanup(api.close)
+        result, _, _, _ = self.run_check([steam_entry()], STEAM_API_KEY="test-key", STEAM_API_URL=api.url, STEAM_CAP="2")
+        self.assertEqual((result[0]["status"], result[0]["servers"], result[0]["check_error"]), ("online", 2, "partial-count"))
 
     def test_steam_rejected_key_is_no_response(self):
         api = SteamApi(status=403, body={})
