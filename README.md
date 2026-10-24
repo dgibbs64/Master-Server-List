@@ -126,6 +126,11 @@ Status as of: 2026-10-24
 - [Tribes: Vengeance](#tribes-vengeance)
 - [Unreal Tournament 3](#unreal-tournament-3)
 - [Vietcong 2](#vietcong-2)
+- [SWAT 4](#swat-4)
+- [Crysis](#crysis)
+- [Crysis Wars](#crysis-wars)
+- [Vietcong](#vietcong)
+- [Red Eclipse](#red-eclipse)
 
 ## Alien Arena
 
@@ -150,6 +155,12 @@ Needs the multiplayer patch from bf1942.org, which points the game at this maste
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.bf1942.org` | Community | ✅ Online | - | 2026-10-24 |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master.bf1942.eu` | Community | Not answering since 2026-10-24 | Community master from bf1942.eu. The hostname resolves but did not answer a check. |
 
 ## BeamMP
 
@@ -178,6 +189,13 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `cod4master.activision.com:20810` | Official | ✅ Online | 1285 | 2026-10-24 |
+| `master.cod.pm:20810` | Community | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `cod4master.cod4x.ovh:20810` | Community | Not answering since 2026-10-24 | CoD4x community master. The hostname resolves to 0.0.0.0. |
 
 ## Call of Duty: United Offensive
 
@@ -200,6 +218,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## DDNet / Teeworlds
 
@@ -219,12 +244,14 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 6 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## Doom 3
@@ -241,6 +268,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -258,6 +286,7 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ## Global Operations
 
@@ -268,6 +297,7 @@ The leaked 2001 build, which still has a small multiplayer community.
 | `master.333networks.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -293,6 +323,7 @@ Patch 1.0.10 points the game at this master, so no config change is needed.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -314,6 +345,7 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
+| `master.hexenworld.org` | Community | Not answering since 2026-10-24 | Community master. The hostname no longer resolves. |
 | `thyrion.hexenworld.org:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname no longer resolves. |
 
 ## Iron Storm
@@ -340,6 +372,7 @@ No public master server is known. hexenworld.org, which ran the last one, no lon
 | `master.errorist.eu:27900` | Community | ✅ Online | 30 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 30 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -366,12 +399,14 @@ Spearhead and Breakthrough have their own entries below.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 184 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `mohmaster.2015.com` | Official | Not answering since 2026-10-24 | Official master from developer 2015, Inc. The hostname no longer resolves. |
 
 ## Medal of Honor: Allied Assault Breakthrough
 
@@ -383,6 +418,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 36 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 32 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -400,6 +436,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 64 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 61 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -415,12 +452,14 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 1 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## Nerf Arena Blast
 
@@ -430,12 +469,14 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 
 ## Nexuiz
 
@@ -466,6 +507,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.errorist.eu:27900` | Community | ✅ Online | 27 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 25 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -508,6 +550,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.maverickservers.com:27950` | Community | ✅ Online | 443 | 2026-10-24 |
 | `master0.excessiveplus.net:27950` | Community | ✅ Online | 213 | 2026-10-24 |
 | `dpmaster.deathmask.net:27950` | Community | ✅ Online | 187 | 2026-10-24 |
+| `master.huxxer.de:27950` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -557,13 +600,17 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 32 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 5 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `runemaster.humanhead.com` | Official | Not answering since 2026-10-24 | Official Human Head master. The hostname no longer resolves. |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
+| `master.telefragged.com` | Community | Not answering since 2026-10-24 | Community master. The hostname resolves but did not answer a check. |
 
 ## San Andreas Multiplayer (SA:MP / open.mp)
 
@@ -587,6 +634,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 41 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 41 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -604,6 +652,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 80 | 2026-10-24 |
 | `master.openspy.net:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -634,6 +683,7 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 32 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 29 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -651,11 +701,13 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
+| `master.sof2.ravensoft.com:20110` | Official | Not answering since 2026-10-24 | Official Raven Software master. The hostname resolves but did not answer a check. |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## Star Trek: Elite Force II
@@ -694,6 +746,7 @@ The game needs the community master server patch (or a hosts file entry for ef2m
 |---|---|---|---|---|
 | `master.jkhub.org:28060` | Community | ✅ Online | 43 | 2026-10-24 |
 | `master.jk2mv.org:28060` | Community | ✅ Online | 37 | 2026-10-24 |
+| `master.ouned.de:28060` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -742,6 +795,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.errorist.eu:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 4 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -763,12 +817,16 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.openspy.net:27900` | Community | ✅ Online | 23 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master-de.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
+| `master-uk.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 | `master.hlkclan.net:27900` | Community | Not answering since 2026-10-23 | Community master. The hostname no longer resolves. |
 | `master2.oldunreal.com:27900` | Community | Not answering since 2026-10-23 | Secondary OldUnreal master. The hostname resolves but has not answered a check. |
@@ -782,6 +840,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | Never |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ## Unreal Tournament 2004
 
@@ -794,6 +853,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `ut2004master.errorist.eu:28902` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `ut2004master.gonespy.com:28902` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -818,6 +878,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 | `master.openspy.net:27900` | Community | ✅ Online | 355 | 2026-10-24 |
 | `master.exsurge.net:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
@@ -825,7 +886,10 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 | `master.mplayer.com:27900` | Official | Shut down 2001 | Mplayer.com closed after its sale to GameSpy. The domain now points elsewhere. [Source](https://en.wikipedia.org/wiki/Mplayer.com) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 | `unreal.epicgames.com:27900` | Official | Shut down 2023-01-24 | Epic switched off online services for its older Unreal games. [Source](https://www.gamingonlinux.com/2022/12/epic-games-are-killing-off-a-bunch-of-classics-like-unreal-tournament) |
+| `master-de.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
+| `master-uk.unrealarchive.org:27900` | Community | Not answering since 2026-10-24 | Unreal Archive master. The hostname no longer resolves. master-au.unrealarchive.org is still online. |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 | `master2.oldunreal.com:27900` | Community | Not answering since 2026-10-23 | Secondary OldUnreal master. The hostname resolves but has not answered a check. |
 
@@ -849,6 +913,13 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `dpmaster.deathmask.net:27950` | - | ✅ Online | 1 | 2026-10-24 |
+| `master1.forbidden.gg:27950` | - | Unchecked | - | Never |
+
+### Retired master servers
+
+| Master server | Run by | Gone | Notes |
+|---|---|---|---|
+| `master1.icy.gg:27950` | Community | Not answering since 2026-10-24 | Community master. The hostname no longer resolves. |
 
 ## Warsow
 
@@ -865,12 +936,14 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.errorist.eu:27900` | Community | ✅ Online | 7 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 7 | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
+| `master.fragaholic.com:27900` | Community | Unchecked | - | Never |
 
 ### Retired master servers
 
 | Master server | Run by | Gone | Notes |
 |---|---|---|---|
 | `master.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy ended all hosted services. Games also used per-game hosts under master.gamespy.com. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
+| `master0.gamespy.com:27900` | Official | Shut down 2014-05-31 | GameSpy master that Unreal Engine 1 games list by default. GameSpy ended all hosted services. [Source](https://www.pcgamer.com/au/gamespy-multiplayer-service-shutting-down-next-month) |
 | `master.errorist.tk:27900` | Community | Not answering since 2026-10-23 | Moved to master.errorist.eu. |
 
 ## Wolfenstein: Enemy Territory
@@ -894,6 +967,7 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.worldofpadman.net:27955` | Official | ✅ Online | 1 | 2026-10-24 |
+| `master.worldofpadman.com:27955` | Official | Unchecked | - | Never |
 
 ## Xonotic
 
@@ -1030,7 +1104,7 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 
 ## James Bond 007: Nightfire
 
-OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games.
+OpenSpy is the only master listed for this game so far. Clients and servers need OpenSpy's patch or a hosts file change; the game's guide is linked from https://openspy.net/supported-games. master.nightfirepc.com, the Nightfire community domain, points at OpenSpy.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -1163,3 +1237,45 @@ OpenSpy is the only master listed for this game so far. Clients and servers need
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.openspy.net:27900` | Community | ✅ Online | 2 | 2026-10-24 |
+
+## SWAT 4
+
+Needs the swat4stats Engine.dll patch, which points the game at master.swat4stats.com.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.swat4stats.com:27900` | Community | Unchecked | - | Never |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Crysis
+
+CryMP replaces the GameSpy master. Its client points the game at m.crymp.org.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `m.crymp.org:27900` | Community | Unchecked | - | Never |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Crysis Wars
+
+master.g.jedi95.us is the community master used by crysiswarsmp.com.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `master.g.jedi95.us:28910` | Community | Unchecked | - | Never |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Vietcong
+
+The community master is run by vietcong.tk and has no hostname. Its GameSpy key is unconfirmed, so it is checked by port only.
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `51.68.46.73:28900` | Community | Unchecked | - | Never |
+| `master.openspy.net:27900` | Community | Unchecked | - | Never |
+
+## Red Eclipse
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `play.redeclipse.net:28800` | Official | Unchecked | - | Never |
