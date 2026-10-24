@@ -42,6 +42,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           ADDRESS_DIR: ${{ runner.temp }}/addresses
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: ./scripts/check.sh
 
       - name: Build server list
