@@ -620,9 +620,12 @@ dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces
 
 ## Quake 4
 
+master.quakehub.net runs the open-source quakehub-q4master (https://github.com/booskibro/quakehub-q4master) and relays client authorisation to id's master, so connecting still works. Players set it with seta net_master0, the only slot the client reads for its server list; server operators use net_master1 to net_master4.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `q4master.idsoftware.com:27650` | Official | ✅ Online | 23 | 2026-10-24 |
+| `master.quakehub.net:27650` | Community | Unchecked | - | Never |
 
 ## QuakeWorld
 
