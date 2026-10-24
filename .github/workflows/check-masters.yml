@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -34,6 +35,15 @@ jobs:
       - name: Check master servers
         if: github.event_name != 'push'
         run: ./scripts/check.sh
+
+      - name: Open or close master-down issues
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git show HEAD:servers.json > "$RUNNER_TEMP/previous.json"
+          ./scripts/alert.sh "$RUNNER_TEMP/previous.json" servers.json
 
       - name: Commit status changes
         if: github.event_name != 'push'
