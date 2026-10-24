@@ -8,11 +8,11 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes, so its server counts are from that day. Each check's status and count is also kept for 180 days in `history.json` on the `history` branch, published at https://dgibbs64.github.io/Master-Server-List/history.json. Where a master returns its full list, the addresses are merged per game, with duplicates removed, into https://dgibbs64.github.io/Master-Server-List/servers-list.json, which also gives each game's count of unique servers.
+Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes, so its server counts are from that day. Checks are interleaved between hosts, with a 30-second cooldown shared by hostnames resolving to the same IPv4 address. Failed checks are retried in two later passes, with minimum delays of 30 and 60 seconds. A refused TCP connection is rechecked once per pass rather than once per game. These are conservative pacing settings, not a claim about any provider's rate limit. `MASTER_MIN_INTERVAL` and `MASTER_RETRY_DELAY` override the cooldown and retry base delay in seconds. When a check fails, `check_error` records whether DNS, the connection, GameSpy validation, or the list response failed. Each check's status and count is also kept for 180 days in `history.json` on the `history` branch, published at https://dgibbs64.github.io/Master-Server-List/history.json. Where a master returns its full list, the addresses are merged per game, with duplicates removed, into https://dgibbs64.github.io/Master-Server-List/servers-list.json, which also gives each game's count of unique servers.
 
 | Status | Meaning |
 |---|---|
-| ✅ Online | Answered a master server query |
+| ✅ Online | Passed its configured check; TCP-only checks confirm connectivity, not a game list |
 | ❔ DNS only | Hostname resolves, but there is no query check for this protocol yet |
 | ⚠️ No response | Hostname resolves, but the server did not answer |
 | ❌ No DNS | Hostname no longer resolves |
@@ -222,6 +222,8 @@ This game has no classic master server. Its public server list is a web API, che
 | `master.chocolate-doom.org:2342` | Official | ✅ Online | 25 | 2026-10-24 |
 
 ## Clive Barker's Undying
+
+These are GameSpy services. Entries labelled TCP check only confirm connectivity; they do not validate an Undying server-list request.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
@@ -811,14 +813,14 @@ This game has no classic master server. Its public server list is a web API, che
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.1fxmod.org:20110` | Community | ✅ Online | 49 | 2026-10-24 |
-| `master.333networks.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.errorist.eu:27900` | Community | ✅ Online | - | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.errorist.eu:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 0 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 
 ### Retired master servers
@@ -973,18 +975,20 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 
 ## Unreal Tournament 2004
 
+Port 28900 is GameSpy; port 28902 is the native UT2004 master service. TCP-only entries confirm connectivity without validating a game list.
+
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `utmaster.openspy.net:28902` | Community | ✅ Online | 501 | 2026-10-24 |
-| `master.333networks.com:27900` | Community | ✅ Online | - | 2026-10-24 |
+| `master.333networks.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master.fragaholic.com:27900` | Community | ✅ Online | 4 | 2026-10-24 |
+| `master-au.unrealarchive.org:27900` | Community | ✅ Online | 3 | 2026-10-24 |
+| `master.noccer.de:27900` | Community | ✅ Online | 3 | 2026-10-24 |
+| `master.eatsleeput.com:27900` | Community | ✅ Online | 3 | 2026-10-24 |
+| `master.frag-net.com:27900` | Community | ✅ Online | 3 | 2026-10-24 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `ut2004master.333networks.com:28902` | Community | ✅ Online | - | 2026-10-24 |
 | `ut2004master.errorist.eu:28902` | Community | ✅ Online | - | 2026-10-24 |
-| `master.fragaholic.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master-au.unrealarchive.org:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.noccer.de:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.eatsleeput.com:27900` | Community | ✅ Online | - | 2026-10-24 |
-| `master.frag-net.com:27900` | Community | ✅ Online | - | 2026-10-24 |
 | `master.gonespy.com:27900` | Community | ⚠️ No response | - | 2026-10-23 |
 | `ut2004master.gonespy.com:28902` | Community | ⚠️ No response | - | 2026-10-23 |
 

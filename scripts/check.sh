@@ -4,6 +4,16 @@ set -euo pipefail
 file="${1:-servers.json}"
 today="$(date -u +%F)"
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+min_interval="${MASTER_MIN_INTERVAL:-30}"
+retry_delay="${MASTER_RETRY_DELAY:-30}"
+for value in "${min_interval}" "${retry_delay}"; do
+	[[ "${value}" =~ ^[0-9]+$ && ${#value} -le 5 ]] || {
+		echo "Probe intervals must be non-negative integer seconds" >&2
+		exit 1
+	}
+done
+min_interval=$((10#${min_interval}))
+retry_delay=$((10#${retry_delay}))
 reply="$(mktemp)"
 trap 'rm -f "${reply}"' EXIT
 
@@ -150,91 +160,102 @@ addresses_tribes1() {
 }
 
 probe_once() {
-	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count
+	local host="$1" type="$2" port="$3" game="$4" protocol="$5" gamename="$6" key="$7" url="$8" jqexpr="$9" pattern="${10}" count rc
 	case "${type}" in
-		tcp)
-			timeout 5 bash -c "exec 3<>/dev/tcp/${host}/${port}" 2>/dev/null && echo "online|"
-			;;
-		cube2)
-			{
-				printf 'list\n'
-				sleep 3
-			} | timeout 8 nc "${host}" "${port}" >"${reply}" 2>/dev/null || true
-			if [[ -s "${reply}" ]]; then
-				save_addresses addresses_cube2
-				echo "online|$(grep -c '^addserver' "${reply}" || true)"
+	tcp)
+		# shellcheck disable=SC2016 # Positional arguments expand in the child shell.
+		if timeout 5 bash -c 'exec 3<>"/dev/tcp/$1/$2"' _ "${host}" "${port}" 2>/dev/null; then
+			echo "online|"
+		else
+			echo "no-response||connection-failed"
+		fi
+		;;
+	cube2)
+		{
+			printf 'list\n'
+			sleep 3
+		} | timeout 8 nc "${host}" "${port}" >"${reply}" 2>/dev/null || true
+		if [[ -s "${reply}" ]]; then
+			save_addresses addresses_cube2
+			echo "online|$(grep -c '^addserver' "${reply}" || true)"
+		fi
+		;;
+	http)
+		if curl -fsSL --max-time 25 -A "Master-Server-List checker" -o "${reply}" "${url}" 2>/dev/null; then
+			count=""
+			if [[ -n "${jqexpr}" ]]; then
+				count="$(jq -r "${jqexpr}" "${reply}" 2>/dev/null)" || count=""
+			elif [[ -n "${pattern}" ]]; then
+				count="$({ grep -aoE "${pattern}" "${reply}" || true; } | wc -l)"
 			fi
-			;;
-		http)
-			if curl -fsSL --max-time 25 -A "Master-Server-List checker" -o "${reply}" "${url}" 2>/dev/null; then
-				count=""
-				if [[ -n "${jqexpr}" ]]; then
-					count="$(jq -r "${jqexpr}" "${reply}" 2>/dev/null)" || count=""
-				elif [[ -n "${pattern}" ]]; then
-					count="$({ grep -aoE "${pattern}" "${reply}" || true; } | wc -l)"
-				fi
-				[[ "${count}" =~ ^[0-9]+$ ]] || count=""
-				save_addresses addresses_http
-				echo "online|${count}"
-			fi
-			;;
-		gamespy)
-			if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}" 2>/dev/null)"; then
-				echo "online|${count}"
-			fi
-			;;
-		enctypex)
-			if count="$(timeout 30 "${ENCTYPEX:-${here}/enctypex}" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}" 2>/dev/null)"; then
-				echo "online|${count}"
-			fi
-			;;
-		getservers)
-			udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && save_addresses addresses_getservers && echo "online|$(count_getservers)"
-			;;
-		q2query)
-			udp_query "${host}" "${port}" "query" && save_addresses addresses_packed 12 && echo "online|$(count_packed 12)"
-			;;
-		qwquery)
-			udp_query "${host}" "${port}" "c\n" && save_addresses addresses_packed 6 && echo "online|$(count_packed 6)"
-			;;
-		idtech4)
-			udp_query "${host}" "${port}" "\xff\xffgetServers\x00$(int32le "${protocol}")\x00\x00\x00\x00" && save_addresses addresses_packed 10 && echo "online|$(count_packed 10)"
-			;;
-		zandronum)
-			udp_query "${host}" "${port}" "\xff\x7c\x5d\x56\x00\x02\x00" && echo "online|$(count_zandronum)"
-			;;
-		odamex)
-			udp_query "${host}" "${port}" "\xa3\xdb\x0b\x00" && echo "online|$(count_odamex)"
-			;;
-		chocolatedoom)
-			udp_query "${host}" "${port}" "\x00\x02" && echo "online|$(count_chocolatedoom)"
-			;;
-		tribes1)
-			udp_query "${host}" "${port}" "\x10\x03\xff\x00\x01\x02" && save_addresses addresses_tribes1 && echo "online|$(addresses_tribes1 | sort -u | wc -l)"
-			;;
+			[[ "${count}" =~ ^[0-9]+$ ]] || count=""
+			save_addresses addresses_http
+			echo "online|${count}"
+		fi
+		;;
+	gamespy)
+		if count="$(timeout 20 "${here}/gamespy-list.sh" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}")"; then
+			echo "online|${count}"
+		else
+			rc=$?
+			case "${rc}" in
+			2) echo "no-response||connection-failed" ;;
+			3) echo "no-response||challenge-incomplete" ;;
+			4) echo "no-response||validation-rejected" ;;
+			5) echo "no-response||incomplete-response" ;;
+			124) echo "no-response||timeout" ;;
+			*) echo "no-response||query-failed" ;;
+			esac
+		fi
+		;;
+	enctypex)
+		if count="$(timeout 30 "${ENCTYPEX:-${here}/enctypex}" "${host}" "${port}" "${gamename}" "${key}" "${addrfile:-}" 2>/dev/null)"; then
+			echo "online|${count}"
+		else
+			rc=$?
+			if [[ "${rc}" == 124 ]]; then echo "no-response||timeout"; else echo "no-response||query-failed"; fi
+		fi
+		;;
+	getservers)
+		udp_query "${host}" "${port}" "\xff\xff\xff\xffgetservers ${game:+${game} }${protocol} full empty" && save_addresses addresses_getservers && echo "online|$(count_getservers)"
+		;;
+	q2query)
+		udp_query "${host}" "${port}" "query" && save_addresses addresses_packed 12 && echo "online|$(count_packed 12)"
+		;;
+	qwquery)
+		udp_query "${host}" "${port}" "c\n" && save_addresses addresses_packed 6 && echo "online|$(count_packed 6)"
+		;;
+	idtech4)
+		udp_query "${host}" "${port}" "\xff\xffgetServers\x00$(int32le "${protocol}")\x00\x00\x00\x00" && save_addresses addresses_packed 10 && echo "online|$(count_packed 10)"
+		;;
+	zandronum)
+		udp_query "${host}" "${port}" "\xff\x7c\x5d\x56\x00\x02\x00" && echo "online|$(count_zandronum)"
+		;;
+	odamex)
+		udp_query "${host}" "${port}" "\xa3\xdb\x0b\x00" && echo "online|$(count_odamex)"
+		;;
+	chocolatedoom)
+		udp_query "${host}" "${port}" "\x00\x02" && echo "online|$(count_chocolatedoom)"
+		;;
+	tribes1)
+		udp_query "${host}" "${port}" "\x10\x03\xff\x00\x01\x02" && save_addresses addresses_tribes1 && echo "online|$(addresses_tribes1 | sort -u | wc -l)"
+		;;
 	esac
 	return 0
 }
 
 probe() {
-	local host="$1" type="$2" result attempt
-	if ! resolves "${host}"; then
-		echo "no-dns|"
+	local result
+	if ! resolves "$1"; then
+		echo "no-dns||dns-resolution-failed"
 		return
 	fi
-	if [[ "${type}" == "dns" ]]; then
+	if [[ "$2" == "dns" ]]; then
 		echo "dns-only|"
 		return
 	fi
-	for attempt in 1 2 3; do
-		result="$(probe_once "$@")"
-		if [[ -n "${result}" ]]; then
-			echo "${result}"
-			return
-		fi
-		[[ "${attempt}" -lt 3 ]] && sleep $((attempt * 3))
-	done
-	echo "no-response|"
+	result="$(probe_once "$@")"
+	echo "${result:-no-response||no-reply}"
 }
 
 results='{}'
@@ -242,18 +263,71 @@ if [[ -n "${ADDRESS_DIR:-}" ]]; then
 	mkdir -p "${ADDRESS_DIR}"
 	: >"${ADDRESS_DIR}/index.tsv"
 fi
-while IFS= read -r entry; do
-	addrfile=""
-	if [[ -n "${ADDRESS_DIR:-}" ]] && [[ "$(jq -r '.[1].addresses' <<<"${entry}")" != "false" ]]; then
-		addrfile="${ADDRESS_DIR}/$(printf '%s' "${entry}" | sha1sum | cut -c1-16).txt"
-		rm -f "${addrfile}"
-		printf '%s\t%s\n' "${entry}" "${addrfile}" >>"${ADDRESS_DIR}/index.tsv"
-	fi
-	mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern) | . // "" | tostring' <<<"${entry}")
-	IFS='|' read -r status servers < <(probe "${fields[@]}")
-	printf '%-12s %6s  %s\n' "${status}" "${servers}" "${fields[0]} ${fields[1]} ${fields[2]} ${fields[3]}${fields[5]} ${fields[4]}" >&2
-	results="$(jq --arg k "${entry}" --arg s "${status}" --arg n "${servers}" '. + {($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end)}}' <<<"${results}")"
-done < <(jq -c '[.games[].masters[] | [.host, .probe]] | unique[]' "${file}")
+# Interleave hosts so one master does not receive a burst of game queries.
+mapfile -t pending < <(jq -c '
+	[.games[].masters[] | [.host, .probe]] | unique | group_by(.[0]) as $groups
+	| range(0; ([$groups[] | length] | max // 0)) as $i
+	| $groups[] | .[$i] // empty
+' "${file}")
+declare -A next_host=() retry_after=() transport_down=() address_indexed=() rate_keys=()
+for attempt in 1 2 3; do
+	# Failures are retried only after the rest of the pass has been checked.
+	queue=("${pending[@]}")
+	pending=()
+	transport_down=()
+	while ((${#queue[@]})); do
+		waiting=()
+		earliest=0
+		for entry in "${queue[@]}"; do
+			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, .protocol, .gamename, .key, .url, .jq, .pattern) | . // "" | tostring' <<<"${entry}")
+			host="${fields[0]}"
+			endpoint="${host}:${fields[2]}"
+			if [[ -z "${rate_keys[${host}]:-}" ]]; then
+				ip="$(getent ahostsv4 "${host}" | awk 'NR==1 {print $1}')" || true
+				rate_keys["${host}"]="${ip:-${host}}"
+			fi
+			rate_key="${rate_keys[${host}]}"
+			cached=false
+			if [[ ("${fields[1]}" == gamespy || "${fields[1]}" == tcp) && -n "${transport_down[${endpoint}]:-}" ]]; then
+				# A refused connection is shared by every game on this endpoint.
+				status=no-response servers="" error=connection-failed cached=true
+			else
+				due="${retry_after[${entry}]:-0}"
+				((${next_host[${rate_key}]:-0} > due)) && due="${next_host[${rate_key}]}"
+				if ((SECONDS < due)); then
+					waiting+=("${entry}")
+					if ((earliest == 0 || due < earliest)); then earliest="${due}"; fi
+					continue
+				fi
+				addrfile=""
+				if [[ -n "${ADDRESS_DIR:-}" ]] && [[ "$(jq -r '.[1].addresses' <<<"${entry}")" != false ]]; then
+					addrfile="${ADDRESS_DIR}/$(printf '%s' "${entry}" | sha1sum | cut -c1-16).txt"
+					rm -f "${addrfile}"
+					if [[ -z "${address_indexed[${entry}]:-}" ]]; then
+						printf '%s\t%s\n' "${entry}" "${addrfile}" >>"${ADDRESS_DIR}/index.tsv"
+						address_indexed["${entry}"]=1
+					fi
+				fi
+				IFS='|' read -r status servers error < <(probe "${fields[@]}")
+				next_host["${rate_key}"]=$((SECONDS + min_interval))
+				if [[ "${error}" == connection-failed ]]; then transport_down["${endpoint}"]=1; fi
+			fi
+			printf '%-12s %6s  %s %s %s attempt=%s/3%s%s\n' "${status}" "${servers}" "${host}" "${fields[1]}" "${fields[5]}" "${attempt}" "${error:+ reason=${error}}" "$(if [[ "${cached}" == true ]]; then printf ' cached-endpoint-failure'; fi)" >&2
+			results="$(jq --arg k "${entry}" --arg s "${status}" --arg n "${servers}" --arg e "${error}" '. + {($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end), error: $e}}' <<<"${results}")"
+			if [[ "${status}" == no-response || "${status}" == no-dns ]] && ((attempt < 3)); then
+				pending+=("${entry}")
+				retry_after["${entry}"]=$((SECONDS + attempt * retry_delay))
+			fi
+		done
+		queue=("${waiting[@]}")
+		if ((${#queue[@]})); then
+			pause=$((earliest - SECONDS))
+			((pause > 0)) || pause=1
+			sleep "${pause}"
+		fi
+	done
+	((${#pending[@]})) || break
+done
 
 jq --argjson results "${results}" --arg today "${today}" '
 	.checked = $today
@@ -261,6 +335,7 @@ jq --argjson results "${results}" --arg today "${today}" '
 		$results[[.host, .probe] | tojson] as $r
 		| .status = $r.status
 		| .servers = (if .probe.count == false then null else $r.servers end)
+		| if $r.error != "" then .check_error = $r.error else del(.check_error) end
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)
 	)' "${file}" >"${file}.tmp"
 mv "${file}.tmp" "${file}"

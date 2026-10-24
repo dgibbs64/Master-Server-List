@@ -16,11 +16,11 @@ Since GameSpy servers went offline in May 2014 there have been many master serve
 
 ## Status
 
-Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes, so its server counts are from that day. Each check's status and count is also kept for 180 days in `history.json` on the `history` branch, published at https://dgibbs64.github.io/Master-Server-List/history.json. Where a master returns its full list, the addresses are merged per game, with duplicates removed, into https://dgibbs64.github.io/Master-Server-List/servers-list.json, which also gives each game's count of unique servers.
+Every master server is checked daily, and where the protocol allows it the check also counts how many servers the master lists. Live status and counts are at https://ismygameserver.online/masters, which reads `servers.json` from https://dgibbs64.github.io/Master-Server-List/servers.json. This README is updated when a status changes, so its server counts are from that day. Checks are interleaved between hosts, with a 30-second cooldown shared by hostnames resolving to the same IPv4 address. Failed checks are retried in two later passes, with minimum delays of 30 and 60 seconds. A refused TCP connection is rechecked once per pass rather than once per game. These are conservative pacing settings, not a claim about any provider's rate limit. `MASTER_MIN_INTERVAL` and `MASTER_RETRY_DELAY` override the cooldown and retry base delay in seconds. When a check fails, `check_error` records whether DNS, the connection, GameSpy validation, or the list response failed. Each check's status and count is also kept for 180 days in `history.json` on the `history` branch, published at https://dgibbs64.github.io/Master-Server-List/history.json. Where a master returns its full list, the addresses are merged per game, with duplicates removed, into https://dgibbs64.github.io/Master-Server-List/servers-list.json, which also gives each game's count of unique servers.
 
 | Status | Meaning |
 |---|---|
-| ✅ Online | Answered a master server query |
+| ✅ Online | Passed its configured check; TCP-only checks confirm connectivity, not a game list |
 | ❔ DNS only | Hostname resolves, but there is no query check for this protocol yet |
 | ⚠️ No response | Hostname resolves, but the server did not answer |
 | ❌ No DNS | Hostname no longer resolves |
