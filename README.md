@@ -8,7 +8,7 @@ Official and community master servers for multiplayer games, including replaceme
 
 ## Status
 
-Masters are checked daily. This README is a snapshot, updated when a status changes; counts may be older than the latest check.
+Masters are checked daily. This README is a snapshot, updated when a status changes or a rotated master is checked; counts may be older than the latest check.
 
 | Status | Meaning |
 |---|---|
@@ -26,7 +26,7 @@ Masters are checked daily. This README is a snapshot, updated when a status chan
 - [Server addresses](https://dgibbs64.github.io/Master-Server-List/servers-list.json): merged per game with duplicates removed, where supported.
 - [History](https://dgibbs64.github.io/Master-Server-List/history.json): 180 days of results, stored on the `history` branch.
 
-Each IPv4 address has its own queue, and up to 16 addresses are checked at once. Queries to one address are at least 10 seconds apart, or longer where a master sets `interval` (seconds) because it throttles quick queries. Failures get two later retries, delayed at least 30 and 60 seconds. Refused TCP endpoints are checked once per pass. Override timing with `MASTER_MIN_INTERVAL` and `MASTER_RETRY_DELAY` (seconds) and parallelism with `MASTER_WORKERS`; `check_error` records failure reasons. Pacing does not guarantee a response or establish a provider's rate limit.
+Each IPv4 address has its own queue, and up to 16 addresses are checked at once. Queries to one address are at least 10 seconds apart, or longer where a master sets `interval` (seconds) because it throttles quick queries. A master that sets `per_run` gets at most that many queries per run: its entries take turns, longest since `last_checked` first, and the rest keep their previous status until their turn. Failures get two later retries, delayed at least 30 and 60 seconds. Refused TCP endpoints are checked once per pass. Override timing with `MASTER_MIN_INTERVAL` and `MASTER_RETRY_DELAY` (seconds) and parallelism with `MASTER_WORKERS`; `check_error` records failure reasons. Pacing does not guarantee a response or establish a provider's rate limit.
 
 </details>
 

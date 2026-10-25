@@ -157,7 +157,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -211,7 +211,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -670,7 +670,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -863,7 +863,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1171,7 +1171,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1480,7 +1480,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1706,7 +1706,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1915,7 +1915,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -3728,7 +3728,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -3933,7 +3933,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -4547,7 +4547,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -4763,7 +4763,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -4990,7 +4990,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -5385,7 +5385,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -6414,7 +6414,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -6858,7 +6858,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
-          "interval": 30,
+          "per_run": 2,
           "probe": {
             "type": "enctypex",
             "port": 28910,

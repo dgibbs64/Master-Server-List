@@ -277,9 +277,9 @@ probe() {
 }
 
 check_group() {
-	local queue_file="$1" result_file="$2" gap="$3" attempt entry host endpoint cached due addrfile status servers error pause earliest
+	local queue_file="$1" result_file="$2" gap="$3" budget="$4" attempt entry host endpoint cached due addrfile status servers error pause earliest
 	local -a pending queue waiting fields
-	local -A retry_after=() transport_down=() address_indexed=()
+	local -A retry_after=() transport_down=() address_indexed=() probed=()
 	local next_query=0
 	reply="$(mktemp)"
 	collected="$(mktemp)"
@@ -300,6 +300,8 @@ check_group() {
 				if [[ ("${fields[1]}" == gamespy || "${fields[1]}" == tcp) && -n "${transport_down[${endpoint}]:-}" ]]; then
 					# A refused connection is shared by every game on this endpoint.
 					status=no-response servers="" error=connection-failed cached=true
+				elif [[ "${budget}" == 0 ]]; then
+					status=skip servers="" error=budget-spent
 				else
 					due="${retry_after[${entry}]:-0}"
 					((next_query > due)) && due="${next_query}"
@@ -319,10 +321,12 @@ check_group() {
 					fi
 					IFS='|' read -r status servers error < <(probe "${fields[@]}")
 					[[ "${status}" == skip ]] || next_query=$((SECONDS + gap))
+					if [[ -n "${budget}" && "${status}" != skip ]]; then budget=$((budget - 1)); fi
+					probed["${entry}"]=1
 					if [[ "${error}" == connection-failed ]]; then transport_down["${endpoint}"]=1; fi
 				fi
 				printf '%-12s %6s  %s %s %s attempt=%s/3%s%s\n' "${status}" "${servers}" "${host}" "${fields[1]}" "${fields[5]}" "${attempt}" "${error:+ reason=${error}}" "$(if [[ "${cached}" == true ]]; then printf ' cached-endpoint-failure'; fi)" >&2
-				jq -nc --arg k "${entry}" --arg s "${status}" --arg n "${servers}" --arg e "${error}" '{($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end), error: $e}}' >>"${result_file}"
+				[[ "${error}" == budget-spent && -n "${probed[${entry}]:-}" ]] || jq -nc --arg k "${entry}" --arg s "${status}" --arg n "${servers}" --arg e "${error}" '{($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end), error: $e}}' >>"${result_file}"
 				if [[ "${status}" == no-response || "${status}" == no-dns ]] && ((attempt < 3)); then
 					pending+=("${entry}")
 					retry_after["${entry}"]=$((SECONDS + attempt * retry_delay))
@@ -345,12 +349,16 @@ if [[ -n "${ADDRESS_DIR:-}" ]]; then
 	mkdir -p "${ADDRESS_DIR}"
 	: >"${ADDRESS_DIR}/index.tsv"
 fi
-declare -A rate_keys=() host_gaps=() queue_gaps=()
+declare -A rate_keys=() host_gaps=() queue_gaps=() host_budgets=() queue_budgets=()
 jq -r '[.games[].masters[] | select(.interval) | [.host, .interval]] | group_by(.[0])[] | [.[0][0], (map(.[1]) | max)] | @tsv' "${file}" >"${work}/gaps"
 while IFS=$'\t' read -r host gap; do
 	host_gaps["${host}"]="${gap}"
 done <"${work}/gaps"
-jq -c '[.games[].masters[] | [.host, .probe]] | unique[]' "${file}" >"${work}/entries"
+jq -r '[.games[].masters[] | select(.per_run) | [.host, .per_run]] | group_by(.[0])[] | [.[0][0], (map(.[1]) | min)] | @tsv' "${file}" >"${work}/budgets"
+while IFS=$'\t' read -r host budget; do
+	host_budgets["${host}"]="${budget}"
+done <"${work}/budgets"
+jq -c '[.games[].masters[] | {k: [.host, .probe], c: (.last_checked // "")}] | group_by(.k) | map({k: .[0].k, c: (map(.c) | min)}) | sort_by(.c)[] | .k' "${file}" >"${work}/entries"
 while IFS= read -r entry; do
 	host="$(jq -r '.[0]' <<<"${entry}")"
 	if [[ -z "${rate_keys[${host}]:-}" ]]; then
@@ -361,6 +369,10 @@ while IFS= read -r entry; do
 	gap="${host_gaps[${host}]:-${min_interval}}"
 	((gap > ${queue_gaps[${queue_file}]:-${min_interval}})) || gap="${queue_gaps[${queue_file}]:-${min_interval}}"
 	queue_gaps["${queue_file}"]="${gap}"
+	budget="${host_budgets[${host}]:-}"
+	if [[ -n "${budget}" ]]; then
+		if [[ -z "${queue_budgets[${queue_file}]:-}" ]] || ((budget < queue_budgets[${queue_file}])); then queue_budgets["${queue_file}"]="${budget}"; fi
+	fi
 	printf '%s\n' "${entry}" >>"${queue_file}"
 done <"${work}/entries"
 for queue_file in "${!queue_gaps[@]}"; do
@@ -372,7 +384,7 @@ while IFS= read -r queue_file; do
 		wait -n || true
 		running=$((running - 1))
 	fi
-	check_group "${queue_file}" "${queue_file%.queue}.result" "${queue_gaps[${queue_file}]}" &
+	check_group "${queue_file}" "${queue_file%.queue}.result" "${queue_gaps[${queue_file}]}" "${queue_budgets[${queue_file}]:-}" &
 	running=$((running + 1))
 done <"${work}/order"
 wait
@@ -390,6 +402,7 @@ jq --slurpfile results "${work}/results.json" --arg today "${today}" '
 		| .servers = (if .probe.count == false then null else $r.servers end)
 		| if $r.error != "" then .check_error = $r.error else del(.check_error) end
 		| .last_seen = (if .status == "online" then $today else (.last_seen // null) end)
+		| .last_checked = $today
 		end
 	)' "${file}" >"${file}.tmp"
 mv "${file}.tmp" "${file}"
