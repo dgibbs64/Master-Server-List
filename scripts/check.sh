@@ -4,8 +4,13 @@ set -euo pipefail
 file="${1:-servers.json}"
 today="$(date -u +%F)"
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-min_interval="${MASTER_MIN_INTERVAL:-30}"
+min_interval="${MASTER_MIN_INTERVAL:-10}"
 retry_delay="${MASTER_RETRY_DELAY:-30}"
+workers="${MASTER_WORKERS:-16}"
+[[ "${workers}" =~ ^[1-9][0-9]{0,2}$ ]] || {
+	echo "MASTER_WORKERS must be a whole number from 1 to 999" >&2
+	exit 1
+}
 for value in "${min_interval}" "${retry_delay}"; do
 	[[ "${value}" =~ ^[0-9]+$ && ${#value} -le 5 ]] || {
 		echo "Probe intervals must be non-negative integer seconds" >&2
@@ -14,9 +19,8 @@ for value in "${min_interval}" "${retry_delay}"; do
 done
 min_interval=$((10#${min_interval}))
 retry_delay=$((10#${retry_delay}))
-reply="$(mktemp)"
-collected="$(mktemp)"
-trap 'rm -f "${reply}" "${collected}"' EXIT
+work="$(mktemp -d)"
+trap 'rm -rf "${work}"' EXIT
 
 resolves() {
 	local addr
@@ -272,82 +276,106 @@ probe() {
 	echo "${result:-no-response||no-reply}"
 }
 
-results='{}'
+check_group() {
+	local queue_file="$1" result_file="$2" attempt entry host endpoint cached due addrfile status servers error pause earliest
+	local -a pending queue waiting fields
+	local -A retry_after=() transport_down=() address_indexed=()
+	local next_query=0
+	reply="$(mktemp)"
+	collected="$(mktemp)"
+	mapfile -t pending <"${queue_file}"
+	for attempt in 1 2 3; do
+		# Failures are retried only after the rest of the pass has been checked.
+		queue=("${pending[@]}")
+		pending=()
+		transport_down=()
+		while ((${#queue[@]})); do
+			waiting=()
+			earliest=0
+			for entry in "${queue[@]}"; do
+				mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, (.protocol | if type == "array" then map(tostring) | join(" ") else . end), .gamename, .key, .url, .jq, .pattern, .format, .push, .appid) | . // "" | tostring' <<<"${entry}")
+				host="${fields[0]}"
+				endpoint="${host}:${fields[2]}"
+				cached=false
+				if [[ ("${fields[1]}" == gamespy || "${fields[1]}" == tcp) && -n "${transport_down[${endpoint}]:-}" ]]; then
+					# A refused connection is shared by every game on this endpoint.
+					status=no-response servers="" error=connection-failed cached=true
+				else
+					due="${retry_after[${entry}]:-0}"
+					((next_query > due)) && due="${next_query}"
+					if ((SECONDS < due)); then
+						waiting+=("${entry}")
+						if ((earliest == 0 || due < earliest)); then earliest="${due}"; fi
+						continue
+					fi
+					addrfile=""
+					if [[ -n "${ADDRESS_DIR:-}" ]] && [[ "$(jq -r '.[1].addresses' <<<"${entry}")" != false ]]; then
+						addrfile="${ADDRESS_DIR}/$(printf '%s' "${entry}" | sha1sum | cut -c1-16).txt"
+						rm -f "${addrfile}"
+						if [[ -z "${address_indexed[${entry}]:-}" ]]; then
+							printf '%s\t%s\n' "${entry}" "${addrfile}" >>"${ADDRESS_DIR}/index.tsv"
+							address_indexed["${entry}"]=1
+						fi
+					fi
+					IFS='|' read -r status servers error < <(probe "${fields[@]}")
+					[[ "${status}" == skip ]] || next_query=$((SECONDS + min_interval))
+					if [[ "${error}" == connection-failed ]]; then transport_down["${endpoint}"]=1; fi
+				fi
+				printf '%-12s %6s  %s %s %s attempt=%s/3%s%s\n' "${status}" "${servers}" "${host}" "${fields[1]}" "${fields[5]}" "${attempt}" "${error:+ reason=${error}}" "$(if [[ "${cached}" == true ]]; then printf ' cached-endpoint-failure'; fi)" >&2
+				jq -nc --arg k "${entry}" --arg s "${status}" --arg n "${servers}" --arg e "${error}" '{($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end), error: $e}}' >>"${result_file}"
+				if [[ "${status}" == no-response || "${status}" == no-dns ]] && ((attempt < 3)); then
+					pending+=("${entry}")
+					retry_after["${entry}"]=$((SECONDS + attempt * retry_delay))
+				fi
+			done
+			queue=("${waiting[@]}")
+			if ((${#queue[@]})); then
+				pause=$((earliest - SECONDS))
+				((pause > 0)) || pause=1
+				sleep "${pause}"
+			fi
+		done
+		((${#pending[@]})) || break
+	done
+	rm -f "${reply}" "${collected}"
+	: >"${queue_file%.queue}.done"
+}
+
 if [[ -n "${ADDRESS_DIR:-}" ]]; then
 	mkdir -p "${ADDRESS_DIR}"
 	: >"${ADDRESS_DIR}/index.tsv"
 fi
-# Interleave hosts so one master does not receive a burst of game queries.
-mapfile -t pending < <(jq -c '
-	[.games[].masters[] | [.host, .probe]] | unique | group_by(.[0]) as $groups
-	| range(0; ([$groups[] | length] | max // 0)) as $i
-	| $groups[] | .[$i] // empty
-' "${file}")
-declare -A next_host=() retry_after=() transport_down=() address_indexed=() rate_keys=()
-for attempt in 1 2 3; do
-	# Failures are retried only after the rest of the pass has been checked.
-	queue=("${pending[@]}")
-	pending=()
-	transport_down=()
-	while ((${#queue[@]})); do
-		waiting=()
-		earliest=0
-		for entry in "${queue[@]}"; do
-			mapfile -t fields < <(jq -r '.[0], (.[1] | .type, .port, .game, (.protocol | if type == "array" then map(tostring) | join(" ") else . end), .gamename, .key, .url, .jq, .pattern, .format, .push, .appid) | . // "" | tostring' <<<"${entry}")
-			host="${fields[0]}"
-			endpoint="${host}:${fields[2]}"
-			if [[ -z "${rate_keys[${host}]:-}" ]]; then
-				ip="$(getent ahostsv4 "${host}" | awk 'NR==1 {print $1}')" || true
-				rate_keys["${host}"]="${ip:-${host}}"
-			fi
-			rate_key="${rate_keys[${host}]}"
-			cached=false
-			if [[ ("${fields[1]}" == gamespy || "${fields[1]}" == tcp) && -n "${transport_down[${endpoint}]:-}" ]]; then
-				# A refused connection is shared by every game on this endpoint.
-				status=no-response servers="" error=connection-failed cached=true
-			else
-				due="${retry_after[${entry}]:-0}"
-				((${next_host[${rate_key}]:-0} > due)) && due="${next_host[${rate_key}]}"
-				if ((SECONDS < due)); then
-					waiting+=("${entry}")
-					if ((earliest == 0 || due < earliest)); then earliest="${due}"; fi
-					continue
-				fi
-				addrfile=""
-				if [[ -n "${ADDRESS_DIR:-}" ]] && [[ "$(jq -r '.[1].addresses' <<<"${entry}")" != false ]]; then
-					addrfile="${ADDRESS_DIR}/$(printf '%s' "${entry}" | sha1sum | cut -c1-16).txt"
-					rm -f "${addrfile}"
-					if [[ -z "${address_indexed[${entry}]:-}" ]]; then
-						printf '%s\t%s\n' "${entry}" "${addrfile}" >>"${ADDRESS_DIR}/index.tsv"
-						address_indexed["${entry}"]=1
-					fi
-				fi
-				IFS='|' read -r status servers error < <(probe "${fields[@]}")
-				[[ "${status}" == skip ]] || next_host["${rate_key}"]=$((SECONDS + min_interval))
-				if [[ "${error}" == connection-failed ]]; then transport_down["${endpoint}"]=1; fi
-			fi
-			printf '%-12s %6s  %s %s %s attempt=%s/3%s%s\n' "${status}" "${servers}" "${host}" "${fields[1]}" "${fields[5]}" "${attempt}" "${error:+ reason=${error}}" "$(if [[ "${cached}" == true ]]; then printf ' cached-endpoint-failure'; fi)" >&2
-			results="$(jq --arg k "${entry}" --arg s "${status}" --arg n "${servers}" --arg e "${error}" '. + {($k): {status: $s, servers: (if $n == "" then null else ($n | tonumber) end), error: $e}}' <<<"${results}")"
-			if [[ "${status}" == no-response || "${status}" == no-dns ]] && ((attempt < 3)); then
-				pending+=("${entry}")
-				retry_after["${entry}"]=$((SECONDS + attempt * retry_delay))
-			fi
-		done
-		queue=("${waiting[@]}")
-		if ((${#queue[@]})); then
-			pause=$((earliest - SECONDS))
-			((pause > 0)) || pause=1
-			sleep "${pause}"
-		fi
-	done
-	((${#pending[@]})) || break
-done
+declare -A rate_keys=()
+jq -c '[.games[].masters[] | [.host, .probe]] | unique[]' "${file}" >"${work}/entries"
+while IFS= read -r entry; do
+	host="$(jq -r '.[0]' <<<"${entry}")"
+	if [[ -z "${rate_keys[${host}]:-}" ]]; then
+		ip="$(getent ahostsv4 "${host}" | awk 'NR==1 {print $1}')" || true
+		rate_keys["${host}"]="${ip:-${host}}"
+	fi
+	printf '%s\n' "${entry}" >>"${work}/$(printf '%s' "${rate_keys[${host}]}" | sha1sum | cut -c1-16).queue"
+done <"${work}/entries"
+find "${work}" -name '*.queue' -exec wc -l {} + | awk '$2 != "total" { print $1 "\t" $2 }' | sort -rn | cut -f2 >"${work}/order"
+running=0
+while IFS= read -r queue_file; do
+	if ((running >= workers)); then
+		wait -n || true
+		running=$((running - 1))
+	fi
+	check_group "${queue_file}" "${queue_file%.queue}.result" &
+	running=$((running + 1))
+done <"${work}/order"
+wait
+while IFS= read -r queue_file; do
+	[[ -e "${queue_file%.queue}.done" ]] || echo "Checks for $(jq -r '.[0]' "${queue_file}" | sort -u | paste -sd, -) did not finish; they keep their previous status" >&2
+done <"${work}/order"
+find "${work}" -name '*.result' -exec cat {} + | jq -s 'add // {}' >"${work}/results.json"
 
-jq --argjson results "${results}" --arg today "${today}" '
+jq --slurpfile results "${work}/results.json" --arg today "${today}" '
 	.checked = $today
 	| .games[].masters[] |= (
-		$results[[.host, .probe] | tojson] as $r
-		| if $r.status == "skip" then . else
+		$results[0][[.host, .probe] | tojson] as $r
+		| if $r == null or $r.status == "skip" then . else
 		.status = $r.status
 		| .servers = (if .probe.count == false then null else $r.servers end)
 		| if $r.error != "" then .check_error = $r.error else del(.check_error) end
