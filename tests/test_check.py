@@ -188,16 +188,30 @@ class CheckTests(unittest.TestCase):
             addresses = {name.name: name.read_text() for name in (Path(folder) / "addresses").glob("*.txt")}
             return json.loads(path.read_text())["games"][0]["masters"], "".join(lines), index, addresses
 
-    def test_round_robin_hosts_and_zero_is_online(self):
+    def test_hosts_are_checked_in_parallel_and_zero_is_online(self):
         server = Master(mode="empty")
         self.addCleanup(server.close)
         other = Master(mode="empty", host="127.0.0.2", port=server.port)
         self.addCleanup(other.close)
         other.requests = server.requests
         masters = [entry(host, server.port, game) for host in ["127.0.0.1", "127.0.0.2"] for game in ["a", "b"]]
-        result, _, _, _ = self.run_check(masters)
-        self.assertEqual([(host, game) for host, game, _ in server.requests], [("127.0.0.1", "a"), ("127.0.0.2", "a"), ("127.0.0.1", "b"), ("127.0.0.2", "b")])
+        result, _, _, _ = self.run_check(masters, MASTER_MIN_INTERVAL="2")
+        by_host = {host: [(game, at) for h, game, at in server.requests if h == host] for host in ["127.0.0.1", "127.0.0.2"]}
+        self.assertEqual({host: [game for game, _ in seen] for host, seen in by_host.items()}, {"127.0.0.1": ["a", "b"], "127.0.0.2": ["a", "b"]})
+        self.assertLess(abs(by_host["127.0.0.1"][0][1] - by_host["127.0.0.2"][0][1]), 1.0)
+        self.assertTrue(all(seen[1][1] - seen[0][1] >= 1.5 for seen in by_host.values()))
         self.assertTrue(all(m["status"] == "online" and m["servers"] == 0 and "check_error" not in m for m in result))
+
+    def test_one_worker_still_checks_every_host(self):
+        server = Master(mode="empty")
+        self.addCleanup(server.close)
+        other = Master(mode="empty", host="127.0.0.2", port=server.port)
+        self.addCleanup(other.close)
+        other.requests = server.requests
+        masters = [entry(host, server.port, "a") for host in ["127.0.0.1", "127.0.0.2"]]
+        result, _, _, _ = self.run_check(masters, MASTER_WORKERS="1")
+        self.assertEqual(sorted(host for host, _, _ in server.requests), ["127.0.0.1", "127.0.0.2"])
+        self.assertTrue(all(m["status"] == "online" for m in result))
 
     def test_later_pass_recovers_cached_endpoint_and_indexes_both_lists(self):
         server = Master(activate=False)
@@ -262,6 +276,16 @@ class CheckTests(unittest.TestCase):
             result = subprocess.run([BASH, str(ROOT / "scripts/check.sh"), str(path)], env={**os.environ, "MASTER_MIN_INTERVAL": "bad"}, capture_output=True, universal_newlines=True, timeout=3)  # nosec B603 - Fixed local script and temporary fixture.
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("non-negative integer", result.stderr)
+            self.assertEqual(path.read_text(), original)
+
+    def test_invalid_worker_count_does_not_modify_the_catalogue(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "servers.json"
+            original = '{"games": []}'
+            path.write_text(original)
+            result = subprocess.run([BASH, str(ROOT / "scripts/check.sh"), str(path)], env={**os.environ, "MASTER_WORKERS": "0"}, capture_output=True, universal_newlines=True, timeout=3)  # nosec B603 - Fixed local script and temporary fixture.
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("MASTER_WORKERS", result.stderr)
             self.assertEqual(path.read_text(), original)
 
     def test_encrypted_lists_are_counted_and_indexed(self):
