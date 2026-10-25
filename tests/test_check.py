@@ -215,6 +215,40 @@ class CheckTests(unittest.TestCase):
         self.assertGreaterEqual(times["127.0.0.1"][1] - times["127.0.0.1"][0], 1.5)
         self.assertLess(times["127.0.0.2"][1] - times["127.0.0.2"][0], 1.0)
 
+    def test_per_run_budget_checks_the_longest_unchecked_first(self):
+        server = Master(mode="empty")
+        self.addCleanup(server.close)
+        checked = {"a": "2026-01-03", "b": "2026-01-02", "c": None, "d": "2026-01-01"}
+        masters = []
+        for game, when in checked.items():
+            master = dict(entry("127.0.0.1", server.port, game), per_run=2)
+            if when:
+                master["last_checked"] = when
+            masters.append(master)
+        result, log, _, _ = self.run_check(masters)
+        self.assertEqual(sorted(game for _, game, _ in server.requests), ["c", "d"])
+        today = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+        by_game = {m["probe"]["gamename"]: m for m in result}
+        self.assertEqual((by_game["c"]["status"], by_game["c"]["last_checked"]), ("online", today))
+        self.assertEqual((by_game["d"]["status"], by_game["d"]["last_checked"]), ("online", today))
+        self.assertEqual(by_game["a"], masters[0])
+        self.assertEqual(by_game["b"], masters[1])
+        self.assertIn("budget-spent", log)
+
+    def test_failed_queries_and_retries_use_the_budget(self):
+        server = Master(mode="reject")
+        self.addCleanup(server.close)
+        masters = [dict(entry("127.0.0.1", server.port, game), per_run=2) for game in ["a", "b", "c"]]
+        result, _, _, _ = self.run_check(masters)
+        self.assertEqual(len(server.requests), 2)
+        self.assertEqual(sum("last_checked" in m for m in result), 2)
+
+    def test_checked_entries_record_the_date(self):
+        server = Master(mode="empty")
+        self.addCleanup(server.close)
+        result, _, _, _ = self.run_check([entry("127.0.0.1", server.port, "a")])
+        self.assertEqual(result[0]["last_checked"], datetime.datetime.now(datetime.timezone.utc).date().isoformat())
+
     def test_one_worker_still_checks_every_host(self):
         server = Master(mode="empty")
         self.addCleanup(server.close)
