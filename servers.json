@@ -157,6 +157,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -210,6 +211,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -411,6 +413,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -610,6 +613,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -666,6 +670,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -801,6 +806,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -857,6 +863,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -960,6 +967,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -1106,6 +1114,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -1162,6 +1171,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1313,6 +1323,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -1468,6 +1479,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1621,6 +1633,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -1691,6 +1704,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -1842,6 +1856,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -1898,6 +1913,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -2006,6 +2022,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -2149,6 +2166,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -2291,6 +2309,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -2455,6 +2474,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -2720,6 +2740,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -3275,6 +3296,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -3481,6 +3503,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -3645,6 +3668,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -3701,6 +3725,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -3848,6 +3873,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -3904,6 +3930,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -4029,6 +4056,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -4458,6 +4486,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -4514,6 +4543,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -4615,6 +4645,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -4727,6 +4758,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -4895,6 +4927,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -4951,6 +4984,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -5085,6 +5119,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -5259,6 +5294,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -5343,6 +5379,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -5663,6 +5700,7 @@
         {
           "host": "master-au.unrealarchive.org",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "gamespy",
             "port": 28900,
@@ -6370,6 +6408,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,
@@ -6813,6 +6852,7 @@
         {
           "host": "gsm.qtracker.com",
           "port": 27900,
+          "interval": 30,
           "probe": {
             "type": "enctypex",
             "port": 28910,

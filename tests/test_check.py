@@ -202,6 +202,19 @@ class CheckTests(unittest.TestCase):
         self.assertTrue(all(seen[1][1] - seen[0][1] >= 1.5 for seen in by_host.values()))
         self.assertTrue(all(m["status"] == "online" and m["servers"] == 0 and "check_error" not in m for m in result))
 
+    def test_master_interval_slows_only_that_host(self):
+        server = Master(mode="empty")
+        self.addCleanup(server.close)
+        other = Master(mode="empty", host="127.0.0.2", port=server.port)
+        self.addCleanup(other.close)
+        other.requests = server.requests
+        slow = [dict(entry("127.0.0.1", server.port, game), interval=2) for game in ["a", "b"]]
+        fast = [entry("127.0.0.2", server.port, game) for game in ["a", "b"]]
+        self.run_check(slow + fast, MASTER_MIN_INTERVAL="0")
+        times = {host: [at for h, _, at in server.requests if h == host] for host in ["127.0.0.1", "127.0.0.2"]}
+        self.assertGreaterEqual(times["127.0.0.1"][1] - times["127.0.0.1"][0], 1.5)
+        self.assertLess(times["127.0.0.2"][1] - times["127.0.0.2"][0], 1.0)
+
     def test_one_worker_still_checks_every_host(self):
         server = Master(mode="empty")
         self.addCleanup(server.close)
