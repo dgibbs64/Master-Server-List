@@ -5058,9 +5058,9 @@
           "host": "ut2004master.333networks.com",
           "port": 28902,
           "probe": {
-            "type": "tcp",
+            "type": "ut2004",
             "port": 28902,
-            "label": "UT2004 (TCP check only)"
+            "label": "UT2004"
           },
           "status": "online",
           "last_seen": "2026-10-25",
@@ -5071,9 +5071,9 @@
           "host": "ut2004master.errorist.eu",
           "port": 28902,
           "probe": {
-            "type": "tcp",
+            "type": "ut2004",
             "port": 28902,
-            "label": "UT2004 (TCP check only)"
+            "label": "UT2004"
           },
           "status": "online",
           "last_seen": "2026-10-25",
@@ -5084,9 +5084,9 @@
           "host": "ut2004master.gonespy.com",
           "port": 28902,
           "probe": {
-            "type": "tcp",
+            "type": "ut2004",
             "port": 28902,
-            "label": "UT2004 (TCP check only)"
+            "label": "UT2004"
           },
           "status": "no-response",
           "last_seen": "2026-10-23",
@@ -5098,11 +5098,9 @@
           "host": "utmaster.openspy.net",
           "port": 28902,
           "probe": {
-            "type": "http",
-            "url": "https://openspy-website.nyc3.digitaloceanspaces.com/servers.json",
-            "jq": "[.[] | select(.gamename | IN(\"ut2004\")) | .servers] | add // 0",
-            "listing": false,
-            "label": "GameSpy"
+            "type": "ut2004",
+            "port": 28902,
+            "label": "UT2004"
           },
           "official": false,
           "status": "online",
@@ -5207,7 +5205,7 @@
           "replaced_by": "master.errorist.eu"
         }
       ],
-      "notes": "Port 28900 is GameSpy; port 28902 is the native UT2004 master service. TCP-only entries confirm connectivity without validating a game list."
+      "notes": "Port 28900 is GameSpy; port 28902 is the native UT2004 master service, checked with a UT2004 client handshake and server-list request."
     },
     {
       "name": "Unreal Tournament 99",

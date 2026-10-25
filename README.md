@@ -1019,7 +1019,7 @@ TribesNext runs the master and authentication for Tribes 2. Servers heartbeat it
 
 ## Unreal Tournament 2004
 
-Port 28900 is GameSpy; port 28902 is the native UT2004 master service. TCP-only entries confirm connectivity without validating a game list.
+Port 28900 is GameSpy; port 28902 is the native UT2004 master service, checked with a UT2004 client handshake and server-list request.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|

@@ -3,6 +3,7 @@ import http.server
 import json
 import os
 from pathlib import Path
+import socket
 import socketserver
 import shutil
 import subprocess  # nosec B404 - Tests execute repository scripts with argument lists.
@@ -162,6 +163,57 @@ def steam_filter_api(servers):
 
 def steam_entry(appid=730):
     return {"host": "127.0.0.1", "port": None, "probe": {"type": "steam", "appid": appid}, "status": "online", "last_seen": "2020-01-01", "servers": 5}
+
+
+def ut_string(text):
+    return bytes([len(text) + 1]) + text.encode() + b"\0"
+
+
+def ut_frame(payload):
+    return len(payload).to_bytes(4, "little") + payload
+
+
+class UT2004Master(socketserver.ThreadingTCPServer):
+    allow_reuse_address = True
+    daemon_threads = True
+
+    def __init__(self, servers, approve=True):
+        self.servers = servers
+        self.approve = approve
+        self.requests = []
+        super().__init__(("127.0.0.1", 0), UT2004Handler)
+        threading.Thread(target=self.serve_forever, daemon=True).start()
+
+    def close(self):
+        self.shutdown()
+        self.server_close()
+
+
+class UT2004Handler(socketserver.BaseRequestHandler):
+    def read_frame(self):
+        size = int.from_bytes(self.request.recv(4, socket.MSG_WAITALL), "little")
+        return self.request.recv(size, socket.MSG_WAITALL)
+
+    def handle(self):
+        self.request.settimeout(3)
+        self.request.sendall(ut_frame(ut_string("CHALLENGE")))
+        self.server.requests.append(self.read_frame())
+        if not self.server.approve:
+            self.request.sendall(ut_frame(ut_string("DENIED")))
+            return
+        self.request.sendall(ut_frame(ut_string("APPROVED") + (3).to_bytes(4, "little")))
+        self.read_frame()
+        self.request.sendall(ut_frame(ut_string("VERIFIED")))
+        self.server.requests.append(self.read_frame())
+        self.request.sendall(ut_frame(len(self.server.servers).to_bytes(4, "little") + b"\1"))
+        for ip, port in self.server.servers:
+            entry = bytes(int(part) for part in ip.split(".")) + port.to_bytes(2, "little") + (port + 1).to_bytes(2, "little")
+            entry += ut_string("Server") + ut_string("DM-Rankin") + ut_string("xDeathMatch") + bytes([2, 16]) + (32).to_bytes(4, "little") + ut_string("Skilled")
+            self.request.sendall(ut_frame(entry))
+
+
+def ut2004_entry(port):
+    return {"host": "127.0.0.1", "port": port, "probe": {"type": "ut2004", "port": port, "label": "UT2004"}, "status": "no-response", "last_seen": "2020-01-01"}
 
 
 def entry(host, port, game):
@@ -446,6 +498,28 @@ class CheckTests(unittest.TestCase):
         result, _, _, _ = self.run_check([quake_entry(master.server_address[1], 68)])
         self.assertEqual(master.versions, [68])
         self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 1))
+
+    def test_ut2004_list_is_counted_by_unique_address(self):
+        master = UT2004Master([("192.0.2.1", 7777), ("192.0.2.2", 7787), ("192.0.2.1", 7777)])
+        self.addCleanup(master.close)
+        result, _, _, addresses = self.run_check([ut2004_entry(master.server_address[1])])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 2))
+        self.assertNotIn("check_error", result[0])
+        self.assertEqual(next(iter(addresses.values())), "192.0.2.1:7777\n192.0.2.2:7787\n")
+        self.assertIn(ut_string("UT2K4CLIENT"), master.requests[0])
+        self.assertEqual(master.requests[1], b"\0\0")
+
+    def test_ut2004_empty_list_is_online_with_zero(self):
+        master = UT2004Master([])
+        self.addCleanup(master.close)
+        result, _, _, _ = self.run_check([ut2004_entry(master.server_address[1])])
+        self.assertEqual((result[0]["status"], result[0]["servers"]), ("online", 0))
+
+    def test_ut2004_denied_client_is_a_validation_failure(self):
+        master = UT2004Master([("192.0.2.1", 7777)], approve=False)
+        self.addCleanup(master.close)
+        result, _, _, _ = self.run_check([ut2004_entry(master.server_address[1])])
+        self.assertEqual((result[0]["status"], result[0]["check_error"]), ("no-response", "validation-rejected"))
 
     def test_empty_catalogue(self):
         result, _, index, addresses = self.run_check([])
