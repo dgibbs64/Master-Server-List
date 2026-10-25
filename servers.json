@@ -109,7 +109,7 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 3108,
+          "servers": 3127,
           "last_seen": "2026-10-25",
           "official": true
         }
@@ -136,7 +136,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 137,
+          "servers": 193,
           "official": true
         },
         {
@@ -190,7 +190,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 485,
+          "servers": 472,
           "official": true
         },
         {
@@ -221,7 +221,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 514,
+          "servers": 523,
           "last_seen": "2026-10-25"
         }
       ]
@@ -244,7 +244,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 1378,
+          "servers": 1391,
           "official": true
         },
         {
@@ -262,7 +262,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 977,
+          "servers": 971,
           "last_seen": "2026-10-25"
         }
       ],
@@ -293,7 +293,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 177,
+          "servers": 170,
           "official": true
         }
       ]
@@ -310,7 +310,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 25,
+          "servers": 24,
           "official": true
         }
       ]
@@ -330,7 +330,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 3,
+          "servers": 2,
           "official": false
         },
         {
@@ -345,7 +345,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 3,
+          "servers": 2,
           "official": false
         },
         {
@@ -407,7 +407,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
+          "servers": 2,
           "last_seen": "2026-10-25"
         },
         {
@@ -425,7 +425,7 @@
           "status": "no-response",
           "servers": null,
           "last_seen": "2026-10-24",
-          "check_error": "challenge-incomplete"
+          "check_error": "incomplete-response"
         },
         {
           "host": "master.noccer.de",
@@ -501,7 +501,7 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1467,
+          "servers": 1471,
           "last_seen": "2026-10-25",
           "official": true
         }
@@ -521,7 +521,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 6,
+          "servers": 8,
           "official": false
         },
         {
@@ -535,7 +535,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 6,
+          "servers": 7,
           "official": false
         },
         {
@@ -549,7 +549,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 6,
+          "servers": 7,
           "official": false
         },
         {
@@ -607,7 +607,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 6,
+          "servers": 8,
           "last_seen": "2026-10-25"
         },
         {
@@ -636,7 +636,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 6,
+          "servers": 7,
           "last_seen": "2026-10-25"
         },
         {
@@ -724,7 +724,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 22,
+          "servers": 21,
           "official": true
         }
       ]
@@ -903,7 +903,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -917,7 +917,7 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -961,7 +961,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25"
         },
         {
@@ -976,7 +976,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25"
         },
         {
@@ -990,7 +990,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25"
         },
         {
@@ -1004,7 +1004,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25"
         },
         {
@@ -1018,7 +1018,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
+          "servers": 4,
           "last_seen": "2026-10-25"
         }
       ]
@@ -1180,9 +1180,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 1,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ],
       "retired": [
@@ -1487,10 +1488,11 @@
             "key": "y5Ei7C",
             "label": "GameSpy"
           },
-          "status": "online",
+          "status": "no-response",
           "last_seen": "2026-10-25",
-          "servers": 0,
-          "official": false
+          "servers": null,
+          "official": false,
+          "check_error": "query-failed"
         },
         {
           "host": "master.333networks.com",
@@ -1698,7 +1700,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
+          "servers": 41,
           "last_seen": "2026-10-25"
         },
         {
@@ -1758,7 +1760,7 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 448,
+          "servers": 445,
           "last_seen": "2026-10-25",
           "official": true
         }
@@ -1779,7 +1781,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 196,
+          "servers": 192,
           "official": false
         },
         {
@@ -1793,7 +1795,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 199,
+          "servers": 185,
           "official": false
         },
         {
@@ -1822,7 +1824,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 167,
+          "servers": 193,
           "official": false
         },
         {
@@ -1836,7 +1838,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 134,
+          "servers": 130,
           "last_seen": "2026-10-25"
         },
         {
@@ -1850,7 +1852,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 197,
+          "servers": 195,
           "last_seen": "2026-10-25"
         },
         {
@@ -1865,7 +1867,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 195,
+          "servers": 179,
           "last_seen": "2026-10-25"
         },
         {
@@ -1879,7 +1881,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 199,
+          "servers": 188,
           "last_seen": "2026-10-25"
         },
         {
@@ -1893,7 +1895,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 200,
+          "servers": 188,
           "last_seen": "2026-10-25"
         },
         {
@@ -1907,7 +1909,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 194,
+          "servers": 190,
           "last_seen": "2026-10-25"
         },
         {
@@ -1922,9 +1924,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ],
       "retired": [
@@ -1958,7 +1961,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 32,
+          "servers": 34,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -1972,7 +1975,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 31,
+          "servers": 35,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -2001,7 +2004,7 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 30,
+          "servers": 33,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -2016,7 +2019,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 35,
           "last_seen": "2026-10-25"
         },
         {
@@ -2031,7 +2034,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 30,
+          "servers": 33,
           "last_seen": "2026-10-25"
         },
         {
@@ -2045,7 +2048,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 31,
+          "servers": 34,
           "last_seen": "2026-10-25"
         },
         {
@@ -2059,7 +2062,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 33,
           "last_seen": "2026-10-25"
         },
         {
@@ -2073,7 +2076,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 32,
+          "servers": 34,
           "last_seen": "2026-10-25"
         }
       ],
@@ -2102,7 +2105,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 68,
+          "servers": 65,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -2116,7 +2119,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 68,
+          "servers": 66,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -2145,7 +2148,7 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 60,
+          "servers": 65,
           "last_seen": "2026-10-25",
           "official": false
         },
@@ -2160,7 +2163,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 68,
+          "servers": 65,
           "last_seen": "2026-10-25"
         },
         {
@@ -2175,7 +2178,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 75,
+          "servers": 73,
           "last_seen": "2026-10-25"
         },
         {
@@ -2189,7 +2192,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 67,
+          "servers": 65,
           "last_seen": "2026-10-25"
         },
         {
@@ -2203,7 +2206,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 67,
+          "servers": 66,
           "last_seen": "2026-10-25"
         },
         {
@@ -2217,7 +2220,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 68,
+          "servers": 65,
           "last_seen": "2026-10-25"
         }
       ],
@@ -2656,7 +2659,7 @@
             "label": "OpenArena"
           },
           "status": "online",
-          "servers": 68,
+          "servers": 69,
           "last_seen": "2026-10-25",
           "official": false
         }
@@ -2677,7 +2680,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 25,
+          "servers": 18,
           "official": false
         },
         {
@@ -2691,7 +2694,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 19,
+          "servers": 17,
           "official": false
         },
         {
@@ -2720,7 +2723,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 4,
+          "servers": 24,
           "official": false
         },
         {
@@ -2734,7 +2737,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 24,
+          "servers": 19,
           "last_seen": "2026-10-25"
         },
         {
@@ -2749,7 +2752,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 18,
+          "servers": 17,
           "last_seen": "2026-10-25"
         },
         {
@@ -2763,7 +2766,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 19,
+          "servers": 17,
           "last_seen": "2026-10-25"
         },
         {
@@ -2777,7 +2780,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 24,
+          "servers": 17,
           "last_seen": "2026-10-25"
         },
         {
@@ -2791,7 +2794,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 23,
+          "servers": 21,
           "last_seen": "2026-10-25"
         }
       ],
@@ -2856,7 +2859,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 42,
+          "servers": 41,
           "official": false
         },
         {
@@ -2889,7 +2892,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 106,
+          "servers": 111,
           "official": false
         },
         {
@@ -2903,7 +2906,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 428,
+          "servers": 435,
           "last_seen": "2026-10-25"
         },
         {
@@ -2971,7 +2974,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 234,
+          "servers": 235,
           "official": false
         },
         {
@@ -2988,7 +2991,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 193,
+          "servers": 194,
           "official": false
         },
         {
@@ -3022,7 +3025,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 1066,
+          "servers": 1072,
           "official": true
         },
         {
@@ -3157,7 +3160,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 87,
+          "servers": 102,
           "official": true
         },
         {
@@ -3174,7 +3177,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 52,
+          "servers": 72,
           "official": false
         },
         {
@@ -3191,7 +3194,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 135,
+          "servers": 191,
           "official": false
         }
       ],
@@ -3440,7 +3443,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 41,
+          "servers": 42,
           "official": false
         },
         {
@@ -3454,7 +3457,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 41,
+          "servers": 42,
           "official": false
         },
         {
@@ -3483,7 +3486,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 41,
+          "servers": 42,
           "official": false
         },
         {
@@ -3497,7 +3500,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 42,
+          "servers": 43,
           "last_seen": "2026-10-25"
         },
         {
@@ -3512,7 +3515,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 42,
+          "servers": 43,
           "last_seen": "2026-10-25"
         },
         {
@@ -3526,7 +3529,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 42,
+          "servers": 43,
           "last_seen": "2026-10-25"
         },
         {
@@ -3540,7 +3543,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 42,
+          "servers": 43,
           "last_seen": "2026-10-25"
         },
         {
@@ -3554,7 +3557,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 42,
+          "servers": 43,
           "last_seen": "2026-10-25"
         }
       ],
@@ -3591,7 +3594,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 81,
+          "servers": 82,
           "official": false
         },
         {
@@ -3634,7 +3637,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 71,
+          "servers": 82,
           "official": false
         },
         {
@@ -3662,7 +3665,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 81,
+          "servers": 82,
           "last_seen": "2026-10-25"
         },
         {
@@ -3705,7 +3708,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 80,
+          "servers": 81,
           "last_seen": "2026-10-25"
         },
         {
@@ -3939,9 +3942,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 28,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ],
       "retired": [
@@ -3977,7 +3981,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 49,
+          "servers": 50,
           "official": false
         },
         {
@@ -4323,7 +4327,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 271,
+          "servers": 268,
           "official": false
         },
         {
@@ -4385,7 +4389,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 15,
+          "servers": 11,
           "official": true
         }
       ]
@@ -4466,7 +4470,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 0,
+          "servers": 4,
           "official": false
         },
         {
@@ -4552,9 +4556,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 4,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ],
       "retired": [
@@ -4710,7 +4715,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 60,
+          "servers": 61,
           "last_seen": "2026-10-25"
         },
         {
@@ -4767,9 +4772,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 8,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ],
       "retired": [
@@ -4993,9 +4999,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 1,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ]
     },
@@ -5099,7 +5106,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 494,
+          "servers": 501,
           "last_seen": "2026-10-25"
         },
         {
@@ -5127,10 +5134,9 @@
             "key": "y5rP9m"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": "2026-10-24",
-          "check_error": "challenge-incomplete"
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-25"
         },
         {
           "host": "master.noccer.de",
@@ -5217,7 +5223,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 889,
+          "servers": 900,
           "official": false
         },
         {
@@ -5246,7 +5252,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 888,
+          "servers": 900,
           "official": false
         },
         {
@@ -5260,7 +5266,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 888,
+          "servers": 900,
           "official": false
         },
         {
@@ -5274,7 +5280,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 887,
+          "servers": 898,
           "official": false
         },
         {
@@ -5288,7 +5294,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 889,
+          "servers": 899,
           "official": false
         },
         {
@@ -5303,7 +5309,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 886,
+          "servers": 896,
           "official": false
         },
         {
@@ -5317,7 +5323,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 889,
+          "servers": 896,
           "official": false
         },
         {
@@ -5331,7 +5337,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 889,
+          "servers": 896,
           "official": false
         },
         {
@@ -5359,7 +5365,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 525,
+          "servers": 522,
           "last_seen": "2026-10-25"
         },
         {
@@ -5373,7 +5379,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 890,
+          "servers": 900,
           "last_seen": "2026-10-25"
         },
         {
@@ -5388,9 +5394,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 390,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         },
         {
           "host": "lists.gameserverlister.com",
@@ -5403,7 +5410,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 767,
+          "servers": 763,
           "last_seen": "2026-10-25"
         }
       ],
@@ -5501,7 +5508,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 244,
+          "servers": 245,
           "official": true
         },
         {
@@ -5515,7 +5522,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 244,
+          "servers": 245,
           "official": true
         }
       ]
@@ -5708,10 +5715,9 @@
             "key": "RSSSpA"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": "2026-10-24",
-          "check_error": "challenge-incomplete"
+          "status": "online",
+          "servers": 9,
+          "last_seen": "2026-10-25"
         },
         {
           "host": "master.noccer.de",
@@ -5800,7 +5806,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 452,
+          "servers": 447,
           "official": true
         },
         {
@@ -5817,7 +5823,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 66,
+          "servers": 67,
           "official": true
         },
         {
@@ -5834,7 +5840,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 428,
+          "servers": 422,
           "official": false
         }
       ],
@@ -5913,7 +5919,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 293,
+          "servers": 300,
           "official": false
         },
         {
@@ -5928,7 +5934,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 31,
+          "servers": 33,
           "official": false
         },
         {
@@ -5943,7 +5949,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 240,
+          "servers": 241,
           "last_seen": "2026-10-25"
         }
       ],
@@ -5961,7 +5967,7 @@
           },
           "status": "online",
           "last_seen": "2026-10-25",
-          "servers": 738,
+          "servers": 726,
           "official": true
         }
       ]
@@ -6024,7 +6030,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
+          "servers": 4,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6234,7 +6240,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
+          "servers": 6,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6276,7 +6282,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 10,
+          "servers": 9,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6297,7 +6303,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 13,
+          "servers": 14,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6318,7 +6324,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 4,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6460,7 +6466,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
+          "servers": 6,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6544,7 +6550,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
+          "servers": 11,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6565,7 +6571,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
+          "servers": 5,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6586,7 +6592,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1,
+          "servers": 2,
           "last_seen": "2026-10-25"
         }
       ]
@@ -6669,7 +6675,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 50,
+          "servers": 51,
           "last_seen": "2026-10-25"
         },
         {
@@ -6777,7 +6783,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 54,
+          "servers": 52,
           "last_seen": "2026-10-25"
         },
         {
@@ -6861,9 +6867,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "online",
-          "servers": 0,
-          "last_seen": "2026-10-25"
+          "status": "no-response",
+          "servers": null,
+          "last_seen": "2026-10-25",
+          "check_error": "query-failed"
         }
       ]
     },
@@ -7015,7 +7022,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
+          "servers": 61,
           "last_seen": "2026-10-25"
         },
         {
@@ -7028,7 +7035,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
+          "servers": 61,
           "last_seen": "2026-10-25"
         },
         {
@@ -7041,7 +7048,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
+          "servers": 62,
           "last_seen": "2026-10-25"
         },
         {
@@ -7054,7 +7061,7 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
+          "servers": 62,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7099,7 +7106,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 181,
+          "servers": 183,
           "last_seen": "2026-10-25"
         }
       ]
@@ -7153,7 +7160,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 46,
+          "servers": 47,
           "last_seen": "2026-10-25"
         }
       ]
@@ -7173,7 +7180,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 258,
+          "servers": 257,
           "last_seen": "2026-10-25"
         }
       ]
@@ -7212,7 +7219,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 17087,
+          "servers": 17105,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7231,7 +7238,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 22336,
+          "servers": 22352,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7250,7 +7257,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 3872,
+          "servers": 3859,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7269,7 +7276,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 86602,
+          "servers": 84810,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7288,7 +7295,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 37062,
+          "servers": 36992,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7307,7 +7314,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 39926,
+          "servers": 38911,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7326,7 +7333,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 45332,
+          "servers": 45134,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7345,7 +7352,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 5474,
+          "servers": 5499,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7364,7 +7371,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 16718,
+          "servers": 16791,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7383,7 +7390,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 22734,
+          "servers": 23096,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7402,7 +7409,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 11667,
+          "servers": 11713,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7421,7 +7428,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 2185,
+          "servers": 2203,
           "last_seen": "2026-10-25"
         }
       ],
@@ -7459,7 +7466,7 @@
           },
           "official": true,
           "status": "online",
-          "servers": 24156,
+          "servers": 24523,
           "last_seen": "2026-10-25"
         }
       ],
