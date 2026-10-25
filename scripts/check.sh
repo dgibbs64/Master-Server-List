@@ -277,7 +277,7 @@ probe() {
 }
 
 check_group() {
-	local queue_file="$1" result_file="$2" attempt entry host endpoint cached due addrfile status servers error pause earliest
+	local queue_file="$1" result_file="$2" gap="$3" attempt entry host endpoint cached due addrfile status servers error pause earliest
 	local -a pending queue waiting fields
 	local -A retry_after=() transport_down=() address_indexed=()
 	local next_query=0
@@ -318,7 +318,7 @@ check_group() {
 						fi
 					fi
 					IFS='|' read -r status servers error < <(probe "${fields[@]}")
-					[[ "${status}" == skip ]] || next_query=$((SECONDS + min_interval))
+					[[ "${status}" == skip ]] || next_query=$((SECONDS + gap))
 					if [[ "${error}" == connection-failed ]]; then transport_down["${endpoint}"]=1; fi
 				fi
 				printf '%-12s %6s  %s %s %s attempt=%s/3%s%s\n' "${status}" "${servers}" "${host}" "${fields[1]}" "${fields[5]}" "${attempt}" "${error:+ reason=${error}}" "$(if [[ "${cached}" == true ]]; then printf ' cached-endpoint-failure'; fi)" >&2
@@ -345,7 +345,11 @@ if [[ -n "${ADDRESS_DIR:-}" ]]; then
 	mkdir -p "${ADDRESS_DIR}"
 	: >"${ADDRESS_DIR}/index.tsv"
 fi
-declare -A rate_keys=()
+declare -A rate_keys=() host_gaps=() queue_gaps=()
+jq -r '[.games[].masters[] | select(.interval) | [.host, .interval]] | group_by(.[0])[] | [.[0][0], (map(.[1]) | max)] | @tsv' "${file}" >"${work}/gaps"
+while IFS=$'\t' read -r host gap; do
+	host_gaps["${host}"]="${gap}"
+done <"${work}/gaps"
 jq -c '[.games[].masters[] | [.host, .probe]] | unique[]' "${file}" >"${work}/entries"
 while IFS= read -r entry; do
 	host="$(jq -r '.[0]' <<<"${entry}")"
@@ -353,16 +357,22 @@ while IFS= read -r entry; do
 		ip="$(getent ahostsv4 "${host}" | awk 'NR==1 {print $1}')" || true
 		rate_keys["${host}"]="${ip:-${host}}"
 	fi
-	printf '%s\n' "${entry}" >>"${work}/$(printf '%s' "${rate_keys[${host}]}" | sha1sum | cut -c1-16).queue"
+	queue_file="${work}/$(printf '%s' "${rate_keys[${host}]}" | sha1sum | cut -c1-16).queue"
+	gap="${host_gaps[${host}]:-${min_interval}}"
+	((gap > ${queue_gaps[${queue_file}]:-${min_interval}})) || gap="${queue_gaps[${queue_file}]:-${min_interval}}"
+	queue_gaps["${queue_file}"]="${gap}"
+	printf '%s\n' "${entry}" >>"${queue_file}"
 done <"${work}/entries"
-find "${work}" -name '*.queue' -exec wc -l {} + | awk '$2 != "total" { print $1 "\t" $2 }' | sort -rn | cut -f2 >"${work}/order"
+for queue_file in "${!queue_gaps[@]}"; do
+	printf '%s\t%s\n' "$(($(wc -l <"${queue_file}") * (queue_gaps[${queue_file}] + 1)))" "${queue_file}"
+done | sort -rn | cut -f2 >"${work}/order"
 running=0
 while IFS= read -r queue_file; do
 	if ((running >= workers)); then
 		wait -n || true
 		running=$((running - 1))
 	fi
-	check_group "${queue_file}" "${queue_file%.queue}.result" &
+	check_group "${queue_file}" "${queue_file%.queue}.result" "${queue_gaps[${queue_file}]}" &
 	running=$((running + 1))
 done <"${work}/order"
 wait
