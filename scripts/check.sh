@@ -245,6 +245,21 @@ probe_once() {
 	tribes1)
 		udp_query "${host}" "${port}" "\x10\x03\xff\x00\x01\x02" && save_addresses addresses_tribes1 && echo "online|$(addresses_tribes1 | sort -u | wc -l)"
 		;;
+	ut2004)
+		: >"${collected}"
+		rc=0
+		timeout 60 "${UT2004_LIST:-${here}/ut2004-list}" "${host}" "${port}" "${collected}" >/dev/null || rc=$?
+		case "${rc}" in
+		0)
+			save_addresses cat "${collected}"
+			echo "online|$(sort -u "${collected}" | grep -c . || true)"
+			;;
+		2) echo "no-response||connection-failed" ;;
+		4) echo "no-response||validation-rejected" ;;
+		124) echo "no-response||timeout" ;;
+		*) echo "no-response||query-failed" ;;
+		esac
+		;;
 	steam)
 		if [[ -z "${STEAM_API_KEY:-}" ]]; then
 			echo "skip||no-api-key"
