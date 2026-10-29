@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "games": [
     {
       "name": "Alien Arena",
@@ -13,10 +13,10 @@
             "label": "Alien Arena"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 13,
+          "last_seen": "2026-10-29",
+          "servers": 14,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master2.alienarena.org",
@@ -27,10 +27,10 @@
             "label": "Alien Arena"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 12,
+          "last_seen": "2026-10-29",
+          "servers": 13,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -48,9 +48,9 @@
           },
           "status": "online",
           "servers": 45,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -70,10 +70,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 79,
+          "last_seen": "2026-10-29",
+          "servers": 81,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -87,9 +87,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 79,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 81,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -114,10 +114,10 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 3150,
-          "last_seen": "2026-10-28",
+          "servers": 3192,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -141,10 +141,10 @@
             "label": "Call of Duty"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 129,
+          "last_seen": "2026-10-29",
+          "servers": 128,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -159,8 +159,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -198,10 +198,10 @@
             "label": "Call of Duty 2"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 473,
+          "last_seen": "2026-10-29",
+          "servers": 474,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -216,8 +216,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -255,10 +255,10 @@
             "label": "Call of Duty 4: Modern Warfare"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 1160,
+          "last_seen": "2026-10-29",
+          "servers": 1149,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.cod.pm",
@@ -275,9 +275,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 910,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 906,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -306,10 +306,10 @@
             "label": "Call of Duty: United Offensive"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 184,
+          "last_seen": "2026-10-29",
+          "servers": 170,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -324,10 +324,10 @@
             "port": 2342
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 26,
+          "last_seen": "2026-10-29",
+          "servers": 24,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -345,10 +345,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 2,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -361,10 +361,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 2,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -377,10 +377,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 2,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -397,7 +397,7 @@
           "servers": null,
           "official": false,
           "check_error": "incomplete-response",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -412,8 +412,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -428,8 +428,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -447,7 +447,7 @@
           "servers": null,
           "last_seen": "2026-10-24",
           "check_error": "incomplete-response",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -464,7 +464,7 @@
           "servers": null,
           "last_seen": "2026-10-24",
           "check_error": "incomplete-response",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -481,7 +481,7 @@
           "servers": null,
           "last_seen": "2026-10-24",
           "check_error": "incomplete-response",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -498,7 +498,7 @@
           "servers": null,
           "last_seen": "2026-10-24",
           "check_error": "incomplete-response",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -526,10 +526,10 @@
             "jq": ".servers | length"
           },
           "status": "online",
-          "servers": 1408,
-          "last_seen": "2026-10-28",
+          "servers": 1421,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -546,10 +546,10 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.333networks.com",
@@ -561,10 +561,10 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -576,10 +576,10 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -591,10 +591,10 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -606,10 +606,10 @@
             "key": "Av3M99"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -625,7 +625,7 @@
           "servers": null,
           "last_seen": "2026-10-24",
           "check_error": "validation-rejected",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -639,8 +639,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -655,8 +655,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -670,8 +670,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -685,8 +685,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -700,8 +700,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -760,10 +760,10 @@
             "protocol": 65577
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 21,
+          "last_seen": "2026-10-29",
+          "servers": 20,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -781,9 +781,9 @@
           },
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -796,9 +796,9 @@
           },
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -811,9 +811,9 @@
           },
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -826,9 +826,9 @@
           },
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -842,8 +842,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -858,8 +858,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -873,8 +873,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -888,8 +888,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -903,8 +903,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -950,9 +950,9 @@
           },
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -965,9 +965,9 @@
           },
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -980,9 +980,9 @@
           },
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -994,10 +994,10 @@
             "key": "      "
           },
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
+          "servers": 4,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -1011,8 +1011,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -1027,8 +1027,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -1042,8 +1042,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -1057,8 +1057,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -1072,8 +1072,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -1090,10 +1090,10 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -1105,10 +1105,10 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -1120,10 +1120,10 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1135,10 +1135,10 @@
             "key": "AdN3L9"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -1152,8 +1152,8 @@
           "official": false,
           "status": "online",
           "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -1167,8 +1167,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -1183,8 +1183,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -1198,8 +1198,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -1213,8 +1213,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -1228,8 +1228,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -1276,10 +1276,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 75,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -1294,8 +1294,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -1312,10 +1312,10 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 3,
+          "last_seen": "2026-10-29",
+          "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -1327,10 +1327,10 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 3,
+          "last_seen": "2026-10-29",
+          "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -1342,10 +1342,10 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 3,
+          "last_seen": "2026-10-29",
+          "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1357,10 +1357,10 @@
             "key": "2iuCAS"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 3,
+          "last_seen": "2026-10-29",
+          "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -1373,9 +1373,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 3,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -1388,9 +1388,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -1404,9 +1404,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -1419,9 +1419,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -1434,9 +1434,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -1449,9 +1449,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.maraakate.org",
@@ -1464,9 +1464,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -1511,8 +1511,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -1531,8 +1531,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Only master.maraakate.org is known to list HeXenWorld servers. It is a GameSpy-compatible master run by Maraakate, and publishes its list at http://maraakate.org/gamespy/, which is where the count comes from. The original HexenWorld master at hexenworld.org no longer resolves.",
@@ -1570,7 +1570,8 @@
           "last_seen": "2026-10-25",
           "servers": null,
           "official": false,
-          "check_error": "query-failed"
+          "check_error": "query-failed",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.333networks.com",
@@ -1582,10 +1583,10 @@
             "key": "y5Ei7C"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -1597,10 +1598,10 @@
             "key": "y5Ei7C"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -1612,10 +1613,10 @@
             "key": "y5Ei7C"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -1651,10 +1652,10 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 32,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -1666,10 +1667,10 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 32,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -1681,10 +1682,10 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 32,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1696,10 +1697,10 @@
             "key": "QFWxY2"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 32,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -1713,8 +1714,8 @@
           "official": false,
           "status": "online",
           "servers": 32,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -1729,8 +1730,8 @@
           "official": false,
           "status": "online",
           "servers": 32,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -1744,8 +1745,8 @@
           "official": false,
           "status": "online",
           "servers": 32,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -1759,8 +1760,8 @@
           "official": false,
           "status": "online",
           "servers": 32,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -1774,8 +1775,8 @@
           "official": false,
           "status": "online",
           "servers": 32,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.maraakate.org",
@@ -1788,9 +1789,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 38,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 39,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -1804,10 +1805,10 @@
             "label": "GameSpy"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": "2026-10-24",
-          "check_error": "query-failed"
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.kingpin.info",
@@ -1821,8 +1822,8 @@
           "official": false,
           "status": "online",
           "servers": 39,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -1850,10 +1851,10 @@
             "jq": ".list | length"
           },
           "status": "online",
-          "servers": 433,
-          "last_seen": "2026-10-28",
+          "servers": 451,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -1871,10 +1872,10 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 202,
+          "last_seen": "2026-10-29",
+          "servers": 200,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -1886,10 +1887,10 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 205,
+          "last_seen": "2026-10-29",
+          "servers": 199,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -1901,10 +1902,10 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 207,
+          "last_seen": "2026-10-29",
+          "servers": 203,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -1916,10 +1917,10 @@
             "key": "M5Fdwc"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 172,
+          "last_seen": "2026-10-29",
+          "servers": 195,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -1932,9 +1933,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 137,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 141,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -1947,9 +1948,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 203,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 202,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -1963,9 +1964,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 201,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 188,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -1978,9 +1979,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 208,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 204,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -1993,9 +1994,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 205,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 196,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -2007,11 +2008,10 @@
             "key": "M5Fdwc"
           },
           "official": false,
-          "status": "no-response",
-          "servers": null,
-          "last_seen": "2026-10-27",
-          "last_checked": "2026-10-28",
-          "check_error": "challenge-incomplete"
+          "status": "online",
+          "servers": 195,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -2062,10 +2062,10 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 38,
-          "last_seen": "2026-10-28",
+          "servers": 37,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -2077,10 +2077,10 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 38,
-          "last_seen": "2026-10-28",
+          "servers": 36,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -2092,10 +2092,10 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 37,
-          "last_seen": "2026-10-28",
+          "servers": 34,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2107,10 +2107,10 @@
             "key": "y32FDc"
           },
           "status": "online",
-          "servers": 30,
-          "last_seen": "2026-10-28",
+          "servers": 33,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -2123,9 +2123,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 38,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 37,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -2139,9 +2139,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 37,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 35,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -2154,9 +2154,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 38,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 37,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -2169,9 +2169,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 36,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 34,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -2184,9 +2184,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 38,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 37,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -2214,10 +2214,10 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 64,
-          "last_seen": "2026-10-28",
+          "servers": 65,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -2229,10 +2229,10 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 65,
-          "last_seen": "2026-10-28",
+          "servers": 67,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -2244,10 +2244,10 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 66,
-          "last_seen": "2026-10-28",
+          "servers": 67,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2259,10 +2259,10 @@
             "key": "h2P1c9"
           },
           "status": "online",
-          "servers": 61,
-          "last_seen": "2026-10-28",
+          "servers": 66,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -2275,9 +2275,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 64,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 65,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -2291,9 +2291,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 71,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 73,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -2306,9 +2306,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 64,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -2321,9 +2321,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 66,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 68,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -2336,9 +2336,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 63,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 64,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -2365,10 +2365,10 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 1,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -2380,10 +2380,10 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 1,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -2395,10 +2395,10 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 1,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2410,10 +2410,10 @@
             "key": "g3H6eR"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 1,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -2427,8 +2427,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -2443,8 +2443,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -2458,8 +2458,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -2473,8 +2473,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -2488,8 +2488,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -2524,10 +2524,10 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.oldunreal.com",
@@ -2539,10 +2539,10 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -2554,10 +2554,10 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -2569,10 +2569,10 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2584,10 +2584,10 @@
             "key": "zEh7ir"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -2601,8 +2601,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -2617,8 +2617,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -2632,8 +2632,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -2647,8 +2647,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -2662,8 +2662,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -2700,10 +2700,10 @@
             "label": "Nexuiz"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 18,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "dpmaster.tchr.no",
@@ -2719,7 +2719,7 @@
           "last_seen": "2026-10-27",
           "servers": null,
           "official": false,
-          "last_checked": "2026-10-28",
+          "last_checked": "2026-10-29",
           "check_error": "no-reply"
         },
         {
@@ -2735,8 +2735,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
@@ -2752,10 +2752,10 @@
             "port": 15000
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 140,
+          "last_seen": "2026-10-29",
+          "servers": 139,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master2.odamex.net",
@@ -2765,10 +2765,10 @@
             "port": 15000
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 140,
+          "last_seen": "2026-10-29",
+          "servers": 139,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -2785,10 +2785,10 @@
             "label": "OpenArena"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 112,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.ioquake3.org",
@@ -2800,10 +2800,10 @@
             "label": "OpenArena"
           },
           "status": "online",
-          "servers": 65,
-          "last_seen": "2026-10-28",
+          "servers": 69,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "dpmaster.deathmask.net is OpenArena's built-in default master (sv_master1). It is run by a community admin, not by the OpenArena project."
@@ -2821,10 +2821,10 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 11,
+          "last_seen": "2026-10-29",
+          "servers": 29,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -2836,10 +2836,10 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 11,
+          "last_seen": "2026-10-29",
+          "servers": 31,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -2851,10 +2851,10 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 13,
+          "last_seen": "2026-10-29",
+          "servers": 27,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -2866,10 +2866,10 @@
             "key": "yw3R9c"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 4,
+          "last_seen": "2026-10-29",
+          "servers": 26,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -2882,9 +2882,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 28,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -2898,9 +2898,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 28,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -2913,9 +2913,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 28,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -2928,9 +2928,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 12,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 28,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -2943,9 +2943,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 10,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 26,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -2974,9 +2974,9 @@
           },
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -2994,10 +2994,10 @@
             "label": "Quake (DarkPlaces)"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 27,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "dpmaster.tchr.no",
@@ -3013,7 +3013,7 @@
           "last_seen": "2026-10-27",
           "servers": null,
           "official": false,
-          "last_checked": "2026-10-28",
+          "last_checked": "2026-10-29",
           "check_error": "no-reply"
         },
         {
@@ -3029,8 +3029,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
@@ -3046,10 +3046,10 @@
             "port": 27900
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 105,
+          "last_seen": "2026-10-29",
+          "servers": 109,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.maraakate.org",
@@ -3062,9 +3062,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 423,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 421,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.itbacon.com",
@@ -3075,9 +3075,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 26,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 25,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -3114,10 +3114,10 @@
             ]
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 979,
+          "last_seen": "2026-10-29",
+          "servers": 996,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master0.excessiveplus.net",
@@ -3132,10 +3132,10 @@
             ]
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 238,
+          "last_seen": "2026-10-29",
+          "servers": 231,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "dpmaster.deathmask.net",
@@ -3150,10 +3150,10 @@
             ]
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 200,
+          "last_seen": "2026-10-29",
+          "servers": 188,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.maverickservers.com",
@@ -3168,10 +3168,10 @@
             ]
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 481,
+          "last_seen": "2026-10-29",
+          "servers": 486,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.quake3arena.com",
@@ -3186,10 +3186,10 @@
             ]
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 1063,
+          "last_seen": "2026-10-29",
+          "servers": 1093,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.huxxer.de",
@@ -3206,8 +3206,8 @@
           "official": false,
           "status": "online",
           "servers": 85,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -3232,10 +3232,10 @@
             "protocol": 131157
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 21,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.quakehub.net",
@@ -3247,9 +3247,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 16,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 17,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "master.quakehub.net runs the open-source quakehub-q4master (https://github.com/booskibro/quakehub-q4master) and relays client authorisation to id's master, so connecting still works. Players set it with seta net_master0, the only slot the client reads for its server list; server operators use net_master1 to net_master4."
@@ -3269,7 +3269,7 @@
           "servers": null,
           "official": false,
           "check_error": "no-reply",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "qwmaster.fodquake.net",
@@ -3283,7 +3283,7 @@
           "servers": null,
           "official": false,
           "check_error": "no-reply",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.maraakate.org",
@@ -3296,9 +3296,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 679,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 680,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -3328,10 +3328,10 @@
             "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 93,
+          "last_seen": "2026-10-29",
+          "servers": 94,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "dpmaster.deathmask.net",
@@ -3346,10 +3346,10 @@
             "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 56,
+          "last_seen": "2026-10-29",
+          "servers": 53,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "wolfmaster.s4ndmod.com",
@@ -3364,10 +3364,10 @@
             "label": "Return to Castle Wolfenstein"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 143,
+          "last_seen": "2026-10-29",
+          "servers": 138,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -3393,10 +3393,10 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 30,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -3408,10 +3408,10 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 30,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -3423,10 +3423,10 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 30,
+          "last_seen": "2026-10-29",
+          "servers": 32,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3438,10 +3438,10 @@
             "key": "BnA4a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 30,
+          "last_seen": "2026-10-29",
+          "servers": 32,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -3455,8 +3455,8 @@
           "official": false,
           "status": "online",
           "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -3470,8 +3470,8 @@
           "official": false,
           "status": "online",
           "servers": 30,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -3486,8 +3486,8 @@
           "official": false,
           "status": "online",
           "servers": 30,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -3501,8 +3501,8 @@
           "official": false,
           "status": "online",
           "servers": 30,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -3515,9 +3515,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 30,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 32,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -3530,9 +3530,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 30,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 32,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -3587,10 +3587,10 @@
             "jq": "length"
           },
           "status": "online",
-          "servers": 1247,
-          "last_seen": "2026-10-28",
+          "servers": 1275,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -3605,10 +3605,10 @@
             "port": 28787
           },
           "status": "online",
-          "servers": 68,
-          "last_seen": "2026-10-28",
+          "servers": 67,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -3625,10 +3625,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 40,
+          "last_seen": "2026-10-29",
+          "servers": 41,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -3640,10 +3640,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 40,
+          "last_seen": "2026-10-29",
+          "servers": 41,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -3655,10 +3655,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 40,
+          "last_seen": "2026-10-29",
+          "servers": 41,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3670,10 +3670,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 40,
+          "last_seen": "2026-10-29",
+          "servers": 41,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -3686,9 +3686,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 41,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -3703,8 +3703,8 @@
           "official": false,
           "status": "online",
           "servers": 41,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -3717,9 +3717,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 41,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -3732,9 +3732,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 41,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -3748,8 +3748,8 @@
           "official": false,
           "status": "online",
           "servers": 41,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -3784,10 +3784,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 87,
+          "last_seen": "2026-10-29",
+          "servers": 76,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -3799,10 +3799,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 90,
+          "last_seen": "2026-10-29",
+          "servers": 74,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -3814,10 +3814,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 90,
+          "last_seen": "2026-10-29",
+          "servers": 76,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -3829,10 +3829,10 @@
             "key": "AKbna4"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 74,
+          "last_seen": "2026-10-29",
+          "servers": 75,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -3846,8 +3846,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -3860,9 +3860,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 87,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 77,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -3876,9 +3876,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 89,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 76,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -3891,9 +3891,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 90,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 74,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -3906,9 +3906,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 89,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 76,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -3921,9 +3921,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 83,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 74,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -3974,10 +3974,10 @@
             "label": "Smokin' Guns"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 8,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -3994,10 +3994,10 @@
             "jq": ".Servers | length"
           },
           "status": "online",
-          "servers": 57,
-          "last_seen": "2026-10-28",
+          "servers": 60,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -4014,10 +4014,10 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 27,
+          "last_seen": "2026-10-29",
+          "servers": 26,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -4029,10 +4029,10 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 27,
+          "last_seen": "2026-10-29",
+          "servers": 26,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -4044,10 +4044,10 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 27,
+          "last_seen": "2026-10-29",
+          "servers": 26,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4059,10 +4059,10 @@
             "key": "iVn3a3"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 27,
+          "last_seen": "2026-10-29",
+          "servers": 26,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -4075,9 +4075,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 27,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 26,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -4091,9 +4091,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 27,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 26,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -4106,9 +4106,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 27,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 26,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -4121,9 +4121,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 27,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 26,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -4136,9 +4136,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 27,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 26,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -4190,10 +4190,10 @@
             "label": "Soldier of Fortune II"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 49,
+          "last_seen": "2026-10-29",
+          "servers": 48,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.333networks.com",
@@ -4205,10 +4205,10 @@
             "key": "F8vZed"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -4220,10 +4220,10 @@
             "key": "F8vZed"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -4236,10 +4236,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4252,10 +4252,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -4269,8 +4269,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -4285,8 +4285,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -4300,8 +4300,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -4315,8 +4315,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -4330,8 +4330,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -4366,9 +4366,9 @@
           },
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.stef2.daggolin.de",
@@ -4381,9 +4381,9 @@
           },
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "ef2master.sfu-server.de",
@@ -4396,9 +4396,9 @@
           },
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "The game needs the community master server patch (or a hosts file entry for ef2master.activision.com) to use these masters. EF2 masters listen on UDP 29250 and answer getservers with protocol 66. master.hazardmodding.com and master.stef2.daggolin.de are the same master at 51.75.78.236; ef2master.sfu-server.de is the SFU clan's master.",
@@ -4424,10 +4424,10 @@
             "label": "Star Trek: Voyager Elite Force"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 29,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.stvef.org",
@@ -4439,10 +4439,10 @@
             "label": "Star Trek: Voyager Elite Force"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 28,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "efmaster.tjps.eu",
@@ -4454,10 +4454,10 @@
             "label": "Star Trek: Voyager Elite Force"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 18,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -4486,10 +4486,10 @@
             "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 61,
+          "last_seen": "2026-10-29",
+          "servers": 60,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.jkhub.org",
@@ -4504,10 +4504,10 @@
             "label": "Star Wars Jedi Knight II: Jedi Outcast"
           },
           "status": "online",
-          "servers": 74,
-          "last_seen": "2026-10-28",
+          "servers": 73,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.ouned.de",
@@ -4523,9 +4523,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 61,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 60,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -4554,10 +4554,10 @@
             "label": "Star Wars Jedi Knight: Jedi Academy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 269,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.jk2mv.org",
@@ -4572,10 +4572,10 @@
             "label": "Star Wars Jedi Knight: Jedi Academy"
           },
           "status": "online",
-          "servers": 6,
-          "last_seen": "2026-10-28",
+          "servers": 5,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -4600,9 +4600,9 @@
           },
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -4619,10 +4619,10 @@
             "label": "Tremulous"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 11,
+          "last_seen": "2026-10-29",
+          "servers": 12,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -4639,10 +4639,10 @@
             "pattern": "[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+:[0-9]+"
           },
           "status": "online",
-          "servers": 26,
-          "last_seen": "2026-10-28",
+          "servers": 30,
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -4659,10 +4659,10 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -4674,10 +4674,10 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -4689,10 +4689,10 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4704,10 +4704,10 @@
             "key": "RWd3BG"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 0,
+          "last_seen": "2026-10-29",
+          "servers": 4,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -4721,8 +4721,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -4737,8 +4737,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -4752,8 +4752,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -4767,8 +4767,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -4782,8 +4782,8 @@
           "official": false,
           "status": "online",
           "servers": 4,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -4827,10 +4827,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 86,
+          "last_seen": "2026-10-29",
+          "servers": 85,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.hypercoop.tk",
@@ -4842,10 +4842,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 71,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -4857,10 +4857,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 86,
+          "last_seen": "2026-10-29",
+          "servers": 85,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -4872,10 +4872,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 85,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -4887,10 +4887,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 85,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -4903,10 +4903,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 86,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -4918,10 +4918,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 85,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -4933,10 +4933,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 86,
+          "last_seen": "2026-10-29",
+          "servers": 85,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.exsurge.net",
@@ -4948,10 +4948,10 @@
             "key": "DAncRK"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -4964,9 +4964,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 59,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -4980,8 +4980,8 @@
           "official": false,
           "status": "online",
           "servers": 84,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -4995,8 +4995,8 @@
           "official": false,
           "status": "online",
           "servers": 85,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.333networks.com",
@@ -5010,8 +5010,8 @@
           "official": false,
           "status": "online",
           "servers": 84,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -5108,9 +5108,9 @@
           },
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -5123,9 +5123,9 @@
           },
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -5138,9 +5138,9 @@
           },
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -5153,9 +5153,9 @@
           },
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "utmaster.openspy.net",
@@ -5169,9 +5169,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -5185,8 +5185,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -5201,8 +5201,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -5216,8 +5216,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -5231,8 +5231,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -5246,8 +5246,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -5281,10 +5281,10 @@
             "key": "y5rP9m"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -5297,10 +5297,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -5313,10 +5313,10 @@
             "label": "GameSpy"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 3,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "ut2004master.333networks.com",
@@ -5327,10 +5327,10 @@
             "label": "UT2004"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 608,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "ut2004master.errorist.eu",
@@ -5341,10 +5341,10 @@
             "label": "UT2004"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 579,
+          "last_seen": "2026-10-29",
+          "servers": 583,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "ut2004master.gonespy.com",
@@ -5355,10 +5355,10 @@
             "label": "UT2004"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 566,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "utmaster.openspy.net",
@@ -5370,9 +5370,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 607,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 609,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -5386,8 +5386,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -5402,8 +5402,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -5417,8 +5417,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -5432,8 +5432,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -5447,8 +5447,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -5492,10 +5492,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 894,
+          "last_seen": "2026-10-29",
+          "servers": 915,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -5507,10 +5507,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 895,
+          "last_seen": "2026-10-29",
+          "servers": 918,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -5522,10 +5522,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 893,
+          "last_seen": "2026-10-29",
+          "servers": 917,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.oldunreal.com",
@@ -5537,10 +5537,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 893,
+          "last_seen": "2026-10-29",
+          "servers": 917,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -5552,10 +5552,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 893,
+          "last_seen": "2026-10-29",
+          "servers": 916,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -5567,10 +5567,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 895,
+          "last_seen": "2026-10-29",
+          "servers": 916,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -5583,10 +5583,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 891,
+          "last_seen": "2026-10-29",
+          "servers": 914,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -5598,10 +5598,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 892,
+          "last_seen": "2026-10-29",
+          "servers": 915,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -5613,10 +5613,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 894,
+          "last_seen": "2026-10-29",
+          "servers": 916,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.exsurge.net",
@@ -5628,10 +5628,10 @@
             "key": "Z5Nfb0"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 0,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -5644,9 +5644,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 521,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 529,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -5659,9 +5659,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 894,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 915,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -5691,9 +5691,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 761,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 774,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -5789,10 +5789,10 @@
             "label": "Urban Terror"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 248,
+          "last_seen": "2026-10-29",
+          "servers": 250,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master2.urbanterror.info",
@@ -5804,10 +5804,10 @@
             "label": "Urban Terror"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 248,
+          "last_seen": "2026-10-29",
+          "servers": 250,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -5824,10 +5824,10 @@
             "jq": ".data | length"
           },
           "status": "online",
-          "servers": 2503,
-          "last_seen": "2026-10-28",
+          "servers": 2477,
+          "last_seen": "2026-10-29",
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -5848,10 +5848,10 @@
             "label": "Warfork"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 90,
+          "last_seen": "2026-10-29",
+          "servers": 87,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master1.forbidden.gg",
@@ -5867,9 +5867,9 @@
             "label": "Warfork"
           },
           "status": "online",
-          "servers": 90,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 87,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -5896,10 +5896,10 @@
             "label": "Warsow"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 23,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "dpmaster.tchr.no",
@@ -5915,7 +5915,7 @@
           "last_seen": "2026-10-27",
           "servers": null,
           "official": false,
-          "last_checked": "2026-10-28",
+          "last_checked": "2026-10-29",
           "check_error": "no-reply"
         }
       ]
@@ -5933,10 +5933,10 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 8,
+          "last_seen": "2026-10-29",
+          "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.errorist.eu",
@@ -5948,10 +5948,10 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 8,
+          "last_seen": "2026-10-29",
+          "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.gonespy.com",
@@ -5963,10 +5963,10 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 8,
+          "last_seen": "2026-10-29",
+          "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.newbiesplayground.net",
@@ -5978,10 +5978,10 @@
             "key": "RSSSpA"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 8,
+          "last_seen": "2026-10-29",
+          "servers": 6,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.fragaholic.com",
@@ -5994,9 +5994,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master-au.unrealarchive.org",
@@ -6010,9 +6010,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.noccer.de",
@@ -6025,9 +6025,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.eatsleeput.com",
@@ -6040,9 +6040,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.frag-net.com",
@@ -6055,9 +6055,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 8,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -6103,10 +6103,10 @@
             "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 461,
+          "last_seen": "2026-10-29",
+          "servers": 466,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "wolfmaster.idsoftware.com",
@@ -6121,10 +6121,10 @@
             "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 72,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.etlegacy.com",
@@ -6139,10 +6139,10 @@
             "label": "Wolfenstein: Enemy Territory"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 357,
+          "last_seen": "2026-10-29",
+          "servers": 365,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -6183,10 +6183,10 @@
             "label": "World of Padman"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
+          "last_seen": "2026-10-29",
           "servers": 6,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.worldofpadman.com",
@@ -6201,8 +6201,8 @@
           "official": true,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Servers on World of Padman 1.7 report protocol 72, which is what these masters are checked with. https://worldofpadman.net/en/servers/ shows the same servers."
@@ -6221,10 +6221,10 @@
             "label": "Xonotic"
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 305,
+          "last_seen": "2026-10-29",
+          "servers": 295,
           "official": false,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "dpmaster.tchr.no",
@@ -6240,7 +6240,7 @@
           "last_seen": "2026-10-27",
           "servers": null,
           "official": false,
-          "last_checked": "2026-10-28",
+          "last_checked": "2026-10-29",
           "check_error": "no-reply"
         },
         {
@@ -6255,9 +6255,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 247,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 238,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "dpmaster.deathmask.net, dpmaster.tchr.no and dpm.dpmaster.org are the DarkPlaces engine's built-in default masters. Each is run by a community admin, not by the game's project."
@@ -6273,10 +6273,10 @@
             "port": 15300
           },
           "status": "online",
-          "last_seen": "2026-10-28",
-          "servers": 783,
+          "last_seen": "2026-10-29",
+          "servers": 793,
           "official": true,
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6297,8 +6297,8 @@
           "official": false,
           "status": "online",
           "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6318,9 +6318,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 10,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6341,8 +6341,8 @@
           "official": false,
           "status": "online",
           "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6363,8 +6363,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6385,8 +6385,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6407,8 +6407,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6429,8 +6429,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6451,8 +6451,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6473,8 +6473,8 @@
           "official": false,
           "status": "online",
           "servers": 6,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6495,8 +6495,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6517,8 +6517,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6539,8 +6539,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6561,8 +6561,8 @@
           "official": false,
           "status": "online",
           "servers": 8,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6583,8 +6583,8 @@
           "official": false,
           "status": "online",
           "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6605,8 +6605,8 @@
           "official": false,
           "status": "online",
           "servers": 9,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6626,9 +6626,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 10,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6649,8 +6649,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6671,8 +6671,8 @@
           "official": false,
           "status": "online",
           "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6693,8 +6693,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6715,8 +6715,8 @@
           "official": false,
           "status": "online",
           "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6737,8 +6737,8 @@
           "official": false,
           "status": "online",
           "servers": 5,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -6775,8 +6775,8 @@
           "official": false,
           "status": "online",
           "servers": 13,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6796,9 +6796,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 4,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6819,8 +6819,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6841,8 +6841,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6863,8 +6863,8 @@
           "official": false,
           "status": "online",
           "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6884,9 +6884,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 9,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 6,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6906,9 +6906,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 1,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 0,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6928,9 +6928,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 1,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6950,9 +6950,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 7,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6972,9 +6972,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 40,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 39,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -6995,8 +6995,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7015,9 +7015,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 46,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 47,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -7031,9 +7031,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 43,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 44,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7052,9 +7052,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 11,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 12,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -7069,8 +7069,8 @@
           "official": false,
           "status": "online",
           "servers": 2,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7089,9 +7089,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 20,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 18,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -7106,8 +7106,8 @@
           "official": false,
           "status": "online",
           "servers": 0,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7129,9 +7129,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 56,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 49,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "46.28.109.117",
@@ -7147,9 +7147,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 54,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 49,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master.openspy.net",
@@ -7163,9 +7163,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 54,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 49,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7182,8 +7182,8 @@
           "official": true,
           "status": "online",
           "servers": 14,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7203,8 +7203,8 @@
           "official": false,
           "status": "online",
           "servers": 13,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "gsm.qtracker.com",
@@ -7241,8 +7241,8 @@
           "official": false,
           "status": "online",
           "servers": 3,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7261,7 +7261,7 @@
           "status": "no-response",
           "servers": null,
           "last_seen": "2026-10-27",
-          "last_checked": "2026-10-28",
+          "last_checked": "2026-10-29",
           "check_error": "no-reply"
         },
         {
@@ -7276,7 +7276,7 @@
           "servers": null,
           "last_seen": null,
           "check_error": "no-reply",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         },
         {
           "host": "t1m1.tribes0.com",
@@ -7290,7 +7290,7 @@
           "servers": null,
           "last_seen": null,
           "check_error": "no-reply",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -7361,7 +7361,7 @@
           "servers": null,
           "last_seen": null,
           "check_error": "no-reply",
-          "last_checked": "2026-10-28"
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7379,9 +7379,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 65,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master2.won2.steamlessproject.nl",
@@ -7393,9 +7393,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 62,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 65,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master3.won2.steamlessproject.nl",
@@ -7407,9 +7407,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 64,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 67,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         },
         {
           "host": "master4.won2.steamlessproject.nl",
@@ -7421,9 +7421,9 @@
           },
           "official": false,
           "status": "online",
-          "servers": 64,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 67,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "retired": [
@@ -7449,9 +7449,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 292,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 296,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7468,9 +7468,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 178,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 183,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7487,9 +7487,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 92,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 90,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7507,8 +7507,8 @@
           "official": true,
           "status": "online",
           "servers": 9,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7525,9 +7525,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 46,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 45,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7546,9 +7546,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 231,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 249,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7569,8 +7569,8 @@
           "official": false,
           "status": "online",
           "servers": 118,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ]
     },
@@ -7587,9 +7587,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 16663,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 16683,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 251570)."
@@ -7607,9 +7607,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 20617,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 20046,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 346110)."
@@ -7627,9 +7627,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 3856,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 3858,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 107410)."
@@ -7647,9 +7647,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 96946,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 85856,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 10)."
@@ -7667,9 +7667,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 37073,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 37972,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 730)."
@@ -7687,9 +7687,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 25755,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 35126,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 240)."
@@ -7707,9 +7707,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 44849,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 44810,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 221100)."
@@ -7727,9 +7727,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 5552,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 5683,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4000)."
@@ -7747,9 +7747,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 17228,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 17385,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 550)."
@@ -7767,9 +7767,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 20812,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 20790,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 108600)."
@@ -7787,9 +7787,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 11636,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 11687,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 252490)."
@@ -7807,9 +7807,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 2239,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 2251,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440)."
@@ -7827,9 +7827,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 1732,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 1718,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 304930)."
@@ -7847,9 +7847,9 @@
           },
           "official": true,
           "status": "online",
-          "servers": 22452,
-          "last_seen": "2026-10-28",
-          "last_checked": "2026-10-28"
+          "servers": 22331,
+          "last_seen": "2026-10-29",
+          "last_checked": "2026-10-29"
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 892970)."
