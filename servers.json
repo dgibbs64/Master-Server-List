@@ -7721,6 +7721,46 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 251570)."
     },
     {
+      "name": "Action: Source",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 977050,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 977050)."
+    },
+    {
+      "name": "American Truck Simulator",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 270880,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 865,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 270880)."
+    },
+    {
       "name": "ARK: Survival Evolved",
       "masters": [
         {
@@ -7759,6 +7799,166 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 107410)."
+    },
+    {
+      "name": "Barotrauma",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 602960,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 266,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 602960)."
+    },
+    {
+      "name": "Base Defense",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 632730,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 632730)."
+    },
+    {
+      "name": "Black Mesa",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 362890,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 49,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 362890)."
+    },
+    {
+      "name": "Blade Symphony",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 225600,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 225600)."
+    },
+    {
+      "name": "BrainBread 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 346330,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 13,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 346330)."
+    },
+    {
+      "name": "Colony Survival",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 366090,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 3,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 366090)."
+    },
+    {
+      "name": "Conan Exiles",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 440900,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440900)."
+    },
+    {
+      "name": "Core Keeper",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 1621690,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 3062,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1621690)."
     },
     {
       "name": "Counter-Strike",
@@ -7801,6 +8001,26 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 730)."
     },
     {
+      "name": "Counter-Strike: Condition Zero",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 80,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 445,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 80)."
+    },
+    {
       "name": "Counter-Strike: Source",
       "masters": [
         {
@@ -7819,6 +8039,86 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 240)."
+    },
+    {
+      "name": "Day of Defeat",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 30,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 166,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 30)."
+    },
+    {
+      "name": "Day of Defeat: Source",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 300,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 191,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 300)."
+    },
+    {
+      "name": "Day of Dragons",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 1088090,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 72,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1088090)."
+    },
+    {
+      "name": "Day of Infamy",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 447820,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 35,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 447820)."
     },
     {
       "name": "DayZ",
@@ -7841,6 +8141,126 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 221100)."
     },
     {
+      "name": "Deathmatch Classic",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 40,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 31,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 40)."
+    },
+    {
+      "name": "Double Action: Boogaloo",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 317360,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 8,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 317360)."
+    },
+    {
+      "name": "Dystopia",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 17580,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 11,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17580)."
+    },
+    {
+      "name": "Empires",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 17740,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 13,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17740)."
+    },
+    {
+      "name": "Euro Truck Simulator 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 227300,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 1707,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 227300)."
+    },
+    {
+      "name": "Fistful of Frags",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 265630,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 98,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 265630)."
+    },
+    {
       "name": "Garry's Mod",
       "masters": [
         {
@@ -7859,6 +8279,206 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4000)."
+    },
+    {
+      "name": "Half-Life 2: Deathmatch",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 320,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 282,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 320)."
+    },
+    {
+      "name": "Half-Life Deathmatch: Source",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 360,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 24,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 360)."
+    },
+    {
+      "name": "Half-Life: Deathmatch",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 70,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 1534,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 70)."
+    },
+    {
+      "name": "Half-Life: Opposing Force",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 50,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 39,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 50)."
+    },
+    {
+      "name": "HumanitZ",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 1766060,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 5,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1766060)."
+    },
+    {
+      "name": "Insurgency: Sandstorm",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 581320,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 557,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 581320)."
+    },
+    {
+      "name": "Jabroni Brawl: Episode 3",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 869480,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 12,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 869480)."
+    },
+    {
+      "name": "Just Cause 2: Multiplayer Mod",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 259080,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 7,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 259080)."
+    },
+    {
+      "name": "Killing Floor",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 1250,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 474,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1250)."
+    },
+    {
+      "name": "Killing Floor 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 232090,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 1350,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 232090)."
     },
     {
       "name": "Left 4 Dead 2",
@@ -7881,6 +8501,166 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 550)."
     },
     {
+      "name": "Natural Selection 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 4920,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 69,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4920)."
+    },
+    {
+      "name": "No More Room in Hell",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 224260,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 331,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 224260)."
+    },
+    {
+      "name": "NS2: Combat",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 310110,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 310110)."
+    },
+    {
+      "name": "Nuclear Dawn",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 17710,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 7,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17710)."
+    },
+    {
+      "name": "Pirates, Vikings, and Knights II",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 17570,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 35,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17570)."
+    },
+    {
+      "name": "Post Scriptum",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 736220,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 37,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 736220)."
+    },
+    {
+      "name": "Project CARS",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 234630,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 2,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 234630)."
+    },
+    {
+      "name": "Project CARS 2",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 378860,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 24,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 378860)."
+    },
+    {
       "name": "Project Zomboid",
       "masters": [
         {
@@ -7899,6 +8679,46 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 108600)."
+    },
+    {
+      "name": "Quake Live",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 282440,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 963,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 282440)."
+    },
+    {
+      "name": "Ricochet",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 60,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 17,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 60)."
     },
     {
       "name": "Rust",
@@ -7921,6 +8741,86 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 252490)."
     },
     {
+      "name": "Soulmask",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 2646460,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 2185,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 2646460)."
+    },
+    {
+      "name": "Squad",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 393380,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 1,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 393380)."
+    },
+    {
+      "name": "Survive the Nights",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 541300,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 56,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 541300)."
+    },
+    {
+      "name": "Sven Co-op",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 225840,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 410,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 225840)."
+    },
+    {
       "name": "Team Fortress 2",
       "masters": [
         {
@@ -7939,6 +8839,66 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440)."
+    },
+    {
+      "name": "Team Fortress 2 Classified",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 3545060,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 122,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 3545060)."
+    },
+    {
+      "name": "Team Fortress Classic",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 20,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 161,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 20)."
+    },
+    {
+      "name": "The Front",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 2285150,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 63,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 2285150)."
     },
     {
       "name": "Unturned",
@@ -7979,6 +8939,26 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 892970)."
+    },
+    {
+      "name": "Zombie Panic! Source",
+      "masters": [
+        {
+          "host": "api.steampowered.com",
+          "port": null,
+          "probe": {
+            "type": "steam",
+            "appid": 17500,
+            "label": "Steam"
+          },
+          "official": true,
+          "status": "online",
+          "servers": 27,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        }
+      ],
+      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17500)."
     }
   ]
 }
