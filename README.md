@@ -158,19 +158,68 @@ Status as of: 2026-11-14
 - [Halo: Custom Edition](#halo-custom-edition)
 - [Battlefield 2](#battlefield-2)
 - [7 Days to Die](#7-days-to-die)
+- [Action: Source](#action-source)
+- [American Truck Simulator](#american-truck-simulator)
 - [ARK: Survival Evolved](#ark-survival-evolved)
 - [Arma 3](#arma-3)
+- [Barotrauma](#barotrauma)
+- [Base Defense](#base-defense)
+- [Black Mesa](#black-mesa)
+- [Blade Symphony](#blade-symphony)
+- [BrainBread 2](#brainbread-2)
+- [Colony Survival](#colony-survival)
+- [Conan Exiles](#conan-exiles)
+- [Core Keeper](#core-keeper)
 - [Counter-Strike](#counter-strike)
 - [Counter-Strike 2](#counter-strike-2)
+- [Counter-Strike: Condition Zero](#counter-strike-condition-zero)
 - [Counter-Strike: Source](#counter-strike-source)
+- [Day of Defeat](#day-of-defeat)
+- [Day of Defeat: Source](#day-of-defeat-source)
+- [Day of Dragons](#day-of-dragons)
+- [Day of Infamy](#day-of-infamy)
 - [DayZ](#dayz)
+- [Deathmatch Classic](#deathmatch-classic)
+- [Double Action: Boogaloo](#double-action-boogaloo)
+- [Dystopia](#dystopia)
+- [Empires](#empires)
+- [Euro Truck Simulator 2](#euro-truck-simulator-2)
+- [Fistful of Frags](#fistful-of-frags)
 - [Garry's Mod](#garrys-mod)
+- [Half-Life 2: Deathmatch](#half-life-2-deathmatch)
+- [Half-Life Deathmatch: Source](#half-life-deathmatch-source)
+- [Half-Life: Deathmatch](#half-life-deathmatch)
+- [Half-Life: Opposing Force](#half-life-opposing-force)
+- [HumanitZ](#humanitz)
+- [Insurgency: Sandstorm](#insurgency-sandstorm)
+- [Jabroni Brawl: Episode 3](#jabroni-brawl-episode-3)
+- [Just Cause 2: Multiplayer Mod](#just-cause-2-multiplayer-mod)
+- [Killing Floor](#killing-floor)
+- [Killing Floor 2](#killing-floor-2)
 - [Left 4 Dead 2](#left-4-dead-2)
+- [Natural Selection 2](#natural-selection-2)
+- [No More Room in Hell](#no-more-room-in-hell)
+- [NS2: Combat](#ns2-combat)
+- [Nuclear Dawn](#nuclear-dawn)
+- [Pirates, Vikings, and Knights II](#pirates-vikings-and-knights-ii)
+- [Post Scriptum](#post-scriptum)
+- [Project CARS](#project-cars)
+- [Project CARS 2](#project-cars-2)
 - [Project Zomboid](#project-zomboid)
+- [Quake Live](#quake-live)
+- [Ricochet](#ricochet)
 - [Rust](#rust)
+- [Soulmask](#soulmask)
+- [Squad](#squad)
+- [Survive the Nights](#survive-the-nights)
+- [Sven Co-op](#sven-co-op)
 - [Team Fortress 2](#team-fortress-2)
+- [Team Fortress 2 Classified](#team-fortress-2-classified)
+- [Team Fortress Classic](#team-fortress-classic)
+- [The Front](#the-front)
 - [Unturned](#unturned)
 - [Valheim](#valheim)
+- [Zombie Panic! Source](#zombie-panic-source)
 
 </details>
 
@@ -1609,6 +1658,22 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 16442 | 2026-11-14 |
 
+## Action: Source
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 977050).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 1 | 2026-11-14 |
+
+## American Truck Simulator
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 270880).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 865 | 2026-11-14 |
+
 ## ARK: Survival Evolved
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 346110).
@@ -1624,6 +1689,70 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 3896 | 2026-11-14 |
+
+## Barotrauma
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 602960).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 266 | 2026-11-14 |
+
+## Base Defense
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 632730).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 3 | 2026-11-14 |
+
+## Black Mesa
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 362890).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 49 | 2026-11-14 |
+
+## Blade Symphony
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 225600).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 3 | 2026-11-14 |
+
+## BrainBread 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 346330).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 13 | 2026-11-14 |
+
+## Colony Survival
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 366090).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 3 | 2026-11-14 |
+
+## Conan Exiles
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440900).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 2 | 2026-11-14 |
+
+## Core Keeper
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1621690).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 3062 | 2026-11-14 |
 
 ## Counter-Strike
 
@@ -1641,6 +1770,14 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 40737 | 2026-11-14 |
 
+## Counter-Strike: Condition Zero
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 80).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 445 | 2026-11-14 |
+
 ## Counter-Strike: Source
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 240).
@@ -1648,6 +1785,38 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 31930 | 2026-11-14 |
+
+## Day of Defeat
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 30).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 166 | 2026-11-14 |
+
+## Day of Defeat: Source
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 300).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 191 | 2026-11-14 |
+
+## Day of Dragons
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1088090).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 72 | 2026-11-14 |
+
+## Day of Infamy
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 447820).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 35 | 2026-11-14 |
 
 ## DayZ
 
@@ -1657,6 +1826,54 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 49202 | 2026-11-14 |
 
+## Deathmatch Classic
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 40).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 31 | 2026-11-14 |
+
+## Double Action: Boogaloo
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 317360).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 8 | 2026-11-14 |
+
+## Dystopia
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17580).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 11 | 2026-11-14 |
+
+## Empires
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17740).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 13 | 2026-11-14 |
+
+## Euro Truck Simulator 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 227300).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 1707 | 2026-11-14 |
+
+## Fistful of Frags
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 265630).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 98 | 2026-11-14 |
+
 ## Garry's Mod
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4000).
@@ -1664,6 +1881,86 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 5464 | 2026-11-14 |
+
+## Half-Life 2: Deathmatch
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 320).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 282 | 2026-11-14 |
+
+## Half-Life Deathmatch: Source
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 360).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 24 | 2026-11-14 |
+
+## Half-Life: Deathmatch
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 70).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 1534 | 2026-11-14 |
+
+## Half-Life: Opposing Force
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 50).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 39 | 2026-11-14 |
+
+## HumanitZ
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1766060).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 5 | 2026-11-14 |
+
+## Insurgency: Sandstorm
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 581320).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 557 | 2026-11-14 |
+
+## Jabroni Brawl: Episode 3
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 869480).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 12 | 2026-11-14 |
+
+## Just Cause 2: Multiplayer Mod
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 259080).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 7 | 2026-11-14 |
+
+## Killing Floor
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1250).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 474 | 2026-11-14 |
+
+## Killing Floor 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 232090).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 1350 | 2026-11-14 |
 
 ## Left 4 Dead 2
 
@@ -1673,6 +1970,70 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 17955 | 2026-11-14 |
 
+## Natural Selection 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 4920).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 69 | 2026-11-14 |
+
+## No More Room in Hell
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 224260).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 331 | 2026-11-14 |
+
+## NS2: Combat
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 310110).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 2 | 2026-11-14 |
+
+## Nuclear Dawn
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17710).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 7 | 2026-11-14 |
+
+## Pirates, Vikings, and Knights II
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17570).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 35 | 2026-11-14 |
+
+## Post Scriptum
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 736220).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 37 | 2026-11-14 |
+
+## Project CARS
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 234630).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 2 | 2026-11-14 |
+
+## Project CARS 2
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 378860).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 24 | 2026-11-14 |
+
 ## Project Zomboid
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 108600).
@@ -1680,6 +2041,22 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 21151 | 2026-11-14 |
+
+## Quake Live
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 282440).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 963 | 2026-11-14 |
+
+## Ricochet
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 60).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 17 | 2026-11-14 |
 
 ## Rust
 
@@ -1689,6 +2066,38 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 11685 | 2026-11-14 |
 
+## Soulmask
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 2646460).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 2185 | 2026-11-14 |
+
+## Squad
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 393380).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 1 | 2026-11-14 |
+
+## Survive the Nights
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 541300).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 56 | 2026-11-14 |
+
+## Sven Co-op
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 225840).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 410 | 2026-11-14 |
+
 ## Team Fortress 2
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440).
@@ -1696,6 +2105,30 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 2284 | 2026-11-14 |
+
+## Team Fortress 2 Classified
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 3545060).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 122 | 2026-11-14 |
+
+## Team Fortress Classic
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 20).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 161 | 2026-11-14 |
+
+## The Front
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 2285150).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 63 | 2026-11-14 |
 
 ## Unturned
 
@@ -1712,3 +2145,11 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 20473 | 2026-11-14 |
+
+## Zombie Panic! Source
+
+Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 17500).
+
+| Master server | Run by | Status | Servers | Last seen |
+|---|---|---|---|---|
+| `api.steampowered.com` | Official | ✅ Online | 27 | 2026-11-14 |
