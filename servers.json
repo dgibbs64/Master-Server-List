@@ -2045,6 +2045,21 @@
           "servers": 242,
           "last_seen": "2026-11-14",
           "last_checked": "2026-11-14"
+        },
+        {
+          "host": "master.gametir.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaa",
+            "key": "M5Fdwc"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 256,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
         }
       ],
       "retired": [
@@ -2218,6 +2233,21 @@
           "servers": 44,
           "last_seen": "2026-11-14",
           "last_checked": "2026-11-14"
+        },
+        {
+          "host": "master.gametir.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaab",
+            "key": "y32FDc"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 45,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
         }
       ],
       "retired": [
@@ -2383,6 +2413,21 @@
           "official": false,
           "status": "online",
           "servers": 62,
+          "last_seen": "2026-11-14",
+          "last_checked": "2026-11-14"
+        },
+        {
+          "host": "master.gametir.com",
+          "port": 27900,
+          "probe": {
+            "type": "gamespy",
+            "port": 28900,
+            "gamename": "mohaas",
+            "key": "h2P1c9"
+          },
+          "official": false,
+          "status": "online",
+          "servers": 63,
           "last_seen": "2026-11-14",
           "last_checked": "2026-11-14"
         }
