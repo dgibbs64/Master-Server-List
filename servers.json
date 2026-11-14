@@ -7921,26 +7921,6 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 366090)."
     },
     {
-      "name": "Conan Exiles",
-      "masters": [
-        {
-          "host": "api.steampowered.com",
-          "port": null,
-          "probe": {
-            "type": "steam",
-            "appid": 440900,
-            "label": "Steam"
-          },
-          "official": true,
-          "status": "online",
-          "servers": 2,
-          "last_seen": "2026-11-14",
-          "last_checked": "2026-11-14"
-        }
-      ],
-      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440900)."
-    },
-    {
       "name": "Core Keeper",
       "masters": [
         {
@@ -8621,46 +8601,6 @@
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 736220)."
     },
     {
-      "name": "Project CARS",
-      "masters": [
-        {
-          "host": "api.steampowered.com",
-          "port": null,
-          "probe": {
-            "type": "steam",
-            "appid": 234630,
-            "label": "Steam"
-          },
-          "official": true,
-          "status": "online",
-          "servers": 2,
-          "last_seen": "2026-11-14",
-          "last_checked": "2026-11-14"
-        }
-      ],
-      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 234630)."
-    },
-    {
-      "name": "Project CARS 2",
-      "masters": [
-        {
-          "host": "api.steampowered.com",
-          "port": null,
-          "probe": {
-            "type": "steam",
-            "appid": 378860,
-            "label": "Steam"
-          },
-          "official": true,
-          "status": "online",
-          "servers": 24,
-          "last_seen": "2026-11-14",
-          "last_checked": "2026-11-14"
-        }
-      ],
-      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 378860)."
-    },
-    {
       "name": "Project Zomboid",
       "masters": [
         {
@@ -8759,26 +8699,6 @@
         }
       ],
       "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 2646460)."
-    },
-    {
-      "name": "Squad",
-      "masters": [
-        {
-          "host": "api.steampowered.com",
-          "port": null,
-          "probe": {
-            "type": "steam",
-            "appid": 393380,
-            "label": "Steam"
-          },
-          "official": true,
-          "status": "online",
-          "servers": 1,
-          "last_seen": "2026-11-14",
-          "last_checked": "2026-11-14"
-        }
-      ],
-      "notes": "Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 393380)."
     },
     {
       "name": "Survive the Nights",
