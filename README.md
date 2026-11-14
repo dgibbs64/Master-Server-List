@@ -487,6 +487,7 @@ Spearhead and Breakthrough have their own entries below.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `master.x-null.net:27900` | Community | ✅ Online | 242 | 2026-11-14 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 214 | 2026-11-14 |
 | `master.333networks.com:27900` | Community | ✅ Online | 213 | 2026-11-14 |
 | `master.noccer.de:27900` | Community | ✅ Online | 212 | 2026-11-14 |
@@ -512,6 +513,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `master.x-null.net:27900` | Community | ✅ Online | 44 | 2026-11-14 |
 | `master.333networks.com:27900` | Community | ✅ Online | 39 | 2026-11-14 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 39 | 2026-11-14 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 39 | 2026-11-14 |
@@ -537,6 +539,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master-au.unrealarchive.org:27900` | Community | ✅ Online | 66 | 2026-11-14 |
 | `master.gonespy.com:27900` | Community | ✅ Online | 62 | 2026-11-14 |
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 62 | 2026-11-14 |
+| `master.x-null.net:27900` | Community | ✅ Online | 62 | 2026-11-14 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 61 | 2026-11-14 |
 | `master.333networks.com:27900` | Community | ✅ Online | 60 | 2026-11-14 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 60 | 2026-11-14 |
