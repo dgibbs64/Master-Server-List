@@ -168,7 +168,6 @@ Status as of: 2026-11-14
 - [Blade Symphony](#blade-symphony)
 - [BrainBread 2](#brainbread-2)
 - [Colony Survival](#colony-survival)
-- [Conan Exiles](#conan-exiles)
 - [Core Keeper](#core-keeper)
 - [Counter-Strike](#counter-strike)
 - [Counter-Strike 2](#counter-strike-2)
@@ -203,14 +202,11 @@ Status as of: 2026-11-14
 - [Nuclear Dawn](#nuclear-dawn)
 - [Pirates, Vikings, and Knights II](#pirates-vikings-and-knights-ii)
 - [Post Scriptum](#post-scriptum)
-- [Project CARS](#project-cars)
-- [Project CARS 2](#project-cars-2)
 - [Project Zomboid](#project-zomboid)
 - [Quake Live](#quake-live)
 - [Ricochet](#ricochet)
 - [Rust](#rust)
 - [Soulmask](#soulmask)
-- [Squad](#squad)
 - [Survive the Nights](#survive-the-nights)
 - [Sven Co-op](#sven-co-op)
 - [Team Fortress 2](#team-fortress-2)
@@ -1738,14 +1734,6 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 3 | 2026-11-14 |
 
-## Conan Exiles
-
-Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 440900).
-
-| Master server | Run by | Status | Servers | Last seen |
-|---|---|---|---|---|
-| `api.steampowered.com` | Official | ✅ Online | 2 | 2026-11-14 |
-
 ## Core Keeper
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 1621690).
@@ -2018,22 +2006,6 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 37 | 2026-11-14 |
 
-## Project CARS
-
-Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 234630).
-
-| Master server | Run by | Status | Servers | Last seen |
-|---|---|---|---|---|
-| `api.steampowered.com` | Official | ✅ Online | 2 | 2026-11-14 |
-
-## Project CARS 2
-
-Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 378860).
-
-| Master server | Run by | Status | Servers | Last seen |
-|---|---|---|---|---|
-| `api.steampowered.com` | Official | ✅ Online | 24 | 2026-11-14 |
-
 ## Project Zomboid
 
 Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 108600).
@@ -2073,14 +2045,6 @@ Listed by Steam's master server and checked through the Steam Web API (GetServer
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `api.steampowered.com` | Official | ✅ Online | 2185 | 2026-11-14 |
-
-## Squad
-
-Listed by Steam's master server and checked through the Steam Web API (GetServerList, filtered by app ID 393380).
-
-| Master server | Run by | Status | Servers | Last seen |
-|---|---|---|---|---|
-| `api.steampowered.com` | Official | ✅ Online | 1 | 2026-11-14 |
 
 ## Survive the Nights
 
