@@ -487,6 +487,7 @@ Spearhead and Breakthrough have their own entries below.
 
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
+| `master.gametir.com:27900` | Community | ✅ Online | 248 | 2026-11-14 |
 | `master.x-null.net:27900` | Community | ✅ Online | 242 | 2026-11-14 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 214 | 2026-11-14 |
 | `master.333networks.com:27900` | Community | ✅ Online | 213 | 2026-11-14 |
@@ -514,6 +515,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | Master server | Run by | Status | Servers | Last seen |
 |---|---|---|---|---|
 | `master.x-null.net:27900` | Community | ✅ Online | 44 | 2026-11-14 |
+| `master.gametir.com:27900` | Community | ✅ Online | 44 | 2026-11-14 |
 | `master.333networks.com:27900` | Community | ✅ Online | 39 | 2026-11-14 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 39 | 2026-11-14 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 39 | 2026-11-14 |
@@ -523,6 +525,7 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.frag-net.com:27900` | Community | ✅ Online | 38 | 2026-11-14 |
 | `master.gonespy.com:27900` | Community | ✅ Online | 37 | 2026-11-14 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 37 | 2026-11-14 |
+| `master.openspy.net:27900` | Community | ✅ Online | 33 | 2026-11-14 |
 
 ### Retired master servers
 
@@ -541,10 +544,12 @@ Needs the patched binaries from 333networks.com/instructions/mohaa.
 | `master.eatsleeput.com:27900` | Community | ✅ Online | 62 | 2026-11-14 |
 | `master.x-null.net:27900` | Community | ✅ Online | 62 | 2026-11-14 |
 | `master.errorist.eu:27900` | Community | ✅ Online | 61 | 2026-11-14 |
+| `master.gametir.com:27900` | Community | ✅ Online | 61 | 2026-11-14 |
 | `master.333networks.com:27900` | Community | ✅ Online | 60 | 2026-11-14 |
 | `master.fragaholic.com:27900` | Community | ✅ Online | 60 | 2026-11-14 |
 | `master.noccer.de:27900` | Community | ✅ Online | 60 | 2026-11-14 |
 | `master.frag-net.com:27900` | Community | ✅ Online | 60 | 2026-11-14 |
+| `master.openspy.net:27900` | Community | ✅ Online | 58 | 2026-11-14 |
 | `master.newbiesplayground.net:27900` | Community | ✅ Online | 57 | 2026-11-14 |
 
 ### Retired master servers
